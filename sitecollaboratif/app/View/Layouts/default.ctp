@@ -56,6 +56,7 @@
 	  	</div>
 	  </div>
 	</div>
+</br>
 
 	<?php echo $this->element('recherche'); ?>
 
@@ -103,11 +104,13 @@
 	<?php echo $this->element('newsletter'); ?>
 	<div class="container marketing">
 
-	<!-- Container (Pricing Section) -->
+</br></br>
+
 <div id="pricing" class="container-fluid">
   <div class="text-center">
     <h2>ABONNEMENTS</h2>
     <h4>Choisir un forfait</h4>
+	</br>
   </div>
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
@@ -171,15 +174,9 @@
 
 	  <footer>
 		<p>&copy; 2016 Aix-Marseille-Universite. &middot;</p>
-		<?php echo $this->element('sql_dump'); ?>
 	  </footer>
 
 	</div>
-	<?php
-		echo $this->Html->script('/js/jquery-1.12.0.min.js');
-		echo $this->Html->script('/js/bootstrap.min.js');
-		echo $this->Html->script('/js/app.js');
-		//echo $this->Html->script('/js/cakebootstrap.js');
-	?>
+	
 </body>
 </html>
