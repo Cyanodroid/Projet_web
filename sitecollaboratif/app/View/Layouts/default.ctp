@@ -54,18 +54,7 @@
 			<?php echo $this->fetch('content'); ?>
 			<?php echo $this->Session->flash(); ?>
 	  	</div>
-
-	  	<div class="span12 span-loader">
-	  		<?php 
-		  		echo $this->Html->image(
-		  			'ajax-loader.gif',
-		  			array('id'=>'indicator-busy')
-		  		);
-	 	 	?>
-	  	</div>
-	  	
 	  </div>
-
 	</div>
 
 	<?php echo $this->element('recherche'); ?>
