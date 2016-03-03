@@ -1,9 +1,7 @@
 <?php
 	class PostsController extends AppController {
-
 		var $name = "Posts";
 		var $uses = array('Post', 'Comment', 'User');
-		
 
 		// création d'une pagination
 		var $paginate = array(
@@ -112,7 +110,7 @@
 	        // on redirige l'utilisateur d'où il vient
 	        return $this->redirect($this->referer());
 	    }
-	    
+
 	    // fonction rechercher
 		function resultSearch() {
 			// choix du layout pour l'affichage
@@ -124,7 +122,6 @@
 	       	// on va balancer le tout à la view
 	        $this->set('articles', $query);
 	        $this->render('index');
-
 	    }
 
 	  	public function admin_index() {
