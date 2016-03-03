@@ -1,5 +1,5 @@
 <?php
-require(APP . 'Lib' . DS . 'MyExceptions.php');
+CakePlugin::load('chat');
 
 // Setup a 'default' cache configuration for use in the application.
 Cache::config('default', array('engine' => 'File'));
@@ -44,6 +44,3 @@ CakeLog::config('error', array(
 Configure::write('Site_Contact', array(
 	'mail' => 'xxx.xxx@gmail.com'
 ));
-
-define('SERVER_NAME', $_SERVER['SERVER_NAME']);
-CakePlugin::load('WebSocket');
