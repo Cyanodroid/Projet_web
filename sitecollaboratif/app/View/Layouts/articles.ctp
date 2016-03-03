@@ -45,6 +45,8 @@
 <body>
 	<?php echo $this->element('menu'); ?>
 	
+	<?php echo $this->element('carousel'); ?>
+
 	<div class="container marketing">
 	  <div class="row">
 		<?php echo $this->Flash->render(); ?>

@@ -1,6 +1,5 @@
-
-<h1 style="margin-top: 45px;">Panneau de contrôle</h1>
-<ul class="nav nav-pills nav-stacked" style="margin-top: 45px;">
+<h1>Panneau de contrôle</h1>
+<ul class="nav nav-pills nav-stacked">
 	<li <?php if ($this->request->action == 'account'): ?> class="active" <?php endif; ?> >
 		<?= $this->Html->link('Mon compte', array('controller'=>'users', 'action'=>'account')); ?>
 	</li>
