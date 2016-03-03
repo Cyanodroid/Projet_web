@@ -1,6 +1,7 @@
 <?php $this->layout = 'articles'; ?>
 <?php echo $this->Session->flash(); ?>
 <div class="col-lg-8">
+</br></br></br></br>
 	<?php echo "<h1>".$a['Post']['title']."</h1>" ?>
     <p><?php echo $a['Categories']['title']; ?></p>
 
@@ -56,6 +57,7 @@
 	<!--nocache-->
 </div>
 <div class="col-lg-4">
+    </br></br></br></br>
 	<p>&nbsp;</p>
         <div class="col-sm-4">
         	<button class="button share_twitter" data-url="http://www.site-collaboratif.fr/" style="background-color:#55ACEE">
