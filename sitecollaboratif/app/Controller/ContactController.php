@@ -26,7 +26,7 @@
 			        	// création du mail
 			        	App::uses('CakeEmail', 'Network/Email');
 						$email = new CakeEmail('gmail');
-						$email->to('nicolas.grellety@gmail.com') // à qui ? 
+						$email->to(Configure::read('Site_Contact.mail')) // à qui ? 
 							  ->from($this->request->data['Contact']['email']) // par qui ?
 							  ->subject('Un utilisateur du site "Site collaboratif" vous a contacté') // sujet du mail
 							  ->emailFormat('html') // le format à utiliser

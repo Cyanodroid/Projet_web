@@ -1,7 +1,9 @@
+<?php $this->layout = 'default2'; ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script src="/socket.io/socket.io.js"></script>
 <script>
 	var socket = io.connect('http://localhost:8080');
+
 
 	// lorsque l'on se connecte au serveur, on demande le pseudo de l'utilisateur 
 	socket.on('connect', function(){

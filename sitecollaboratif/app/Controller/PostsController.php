@@ -1,7 +1,7 @@
 <?php
 	class PostsController extends AppController {
 		var $name = "Posts";
-		var $uses = array('Post', 'Comment');
+		var $uses = array('Post', 'Comment', 'User');
 
 		// création d'une pagination
 		var $paginate = array(
@@ -20,7 +20,7 @@
 		// fin test
 
 		// page index (page d'accueil quoi)
-		function index() {
+		public function index() {
 			// récupération des posts
 			$query = $this->paginate('Post');
 		/*	$query = $this->Post->find('all', array(
@@ -31,7 +31,7 @@
 		}
 
 		// lorsque l'on demande 'en savoir plus' sur l'article avec l'id $id
-		function voir($id) {
+		public function voir($id) {
 			// choix du layout
 			$this->layout = 'articles';
 			// on recherche dans la DB l'article en question
@@ -81,7 +81,7 @@
 			$query = $this->Post->find('first', array(
 				'conditions' => array('Post.id' => $id)
 				));
-
+			//debug($query);
 			// on 'set' le tout et on balance à la view
 			$this->set('a', $query);
 			$this->set('c', $comments);
@@ -123,5 +123,64 @@
 	        $this->set('articles', $query);
 	        $this->render('index');
 	    }
+
+	  	public function admin_index() {
+	  		$this->layout = "default2";
+	  		$articles = $this->Post->find('all', array(
+	  			'conditions'=>array('Post.users_id'=>$this->Auth->user('id'))
+	  		));
+	  		$this->set(compact('articles'));
+	  	}
+
+	  	public function admin_edit($id = null) {
+	  		$this->layout = "default2";
+	  		$cat = $this->Post->Categories->find('list', array(
+		  			'recursive'=>-1,
+		  			'fields'=>array('id', 'title')
+		  	));
+
+		  	$this->set('cats', $cat);
+
+	  		if (!empty($this->request->data)) {
+	  			if ($this->Post->validates()) {
+		  			$this->request->data['Post']['users_id'] = $this->Auth->user('id');
+
+		  			//debug($this->request->data);
+		  			$this->Post->create($this->request->data);
+		  			if ($this->Post->save($this->request->data, true, array())) {
+
+			  			if (!empty($this->request->data['Post']['imageart']['tmp_name'])) {
+
+							$directory = IMAGES . 'articles' . DS;
+							debug($directory);
+							if (!file_exists($directory)) {
+								mkdir($directory, 0777);
+							}
+
+							move_uploaded_file($this->request->data['Post']['imageart']['tmp_name'], $directory . DS . $this->Post->id . '.jpg');
+
+							$this->Post->saveField('image', 1);
+						}
+
+		  				$this->request->data = array();
+		  				$this->Session->setFlash("Votre article vient d'être publié !", "success");
+		  				$this->redirect(array('action'=>'admin_index'));
+		  			} else {
+		  				$this->Session->setFlash("Erreur : votre article n'a pas pu être publié", "error");
+		  			}
+	  			} else {
+	  				$this->Session->setFlash("Erreur : vos champs de sont pas valides", "error");
+	  			}
+	  		} else if ($id) {
+	  			$this->request->data = $this->Post->findById($id); 
+	  		}
+	  	}
+
+	  	public function admin_delete($id) {
+	  		if ($this->Post->delete($id)) {
+	  			$this->Session->setFlash("Votre article vient d'être supprimé !", "success");
+	  			$this->redirect($this->referer());
+	  		} 
+	  	}
 	}
 ?>
