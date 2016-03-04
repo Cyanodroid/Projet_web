@@ -2,8 +2,8 @@
 	$this->layout = 'default2';
 	echo $this->Session->flash();
 	?>
-	<section class="contact">
-		<h1>Nous contacter</h1>
+	<section class="contact" >
+		<h1 style="margin-top : 15%;">Nous contacter</h1>
 		<?php 
 		echo $this->Form->create('Contact');
 		echo $this->Form->input('name', array('label'=>"Votre nom", 'required', 'class'=>'left'));
