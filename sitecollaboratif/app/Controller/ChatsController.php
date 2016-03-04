@@ -6,7 +6,7 @@
 			if (!$this->Auth->user('id')) {
 				throw new NotFoundException();
 			}
-			
+
 			$this->layout = 'default2';
 
 			$room = $this->Chat->Rooms->find('all', array(
@@ -27,3 +27,4 @@
 		  	$this->set('rooms', $room);
 		}
 	}
+	
