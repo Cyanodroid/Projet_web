@@ -1,5 +1,5 @@
 <?php
 	class Chat extends AppModel {
-		var $name = 'Chat';
+		var $name = 'Chats';
 	}
 ?>
