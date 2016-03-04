@@ -14,7 +14,7 @@
 			<div class="carousel-caption">
 			  <h1>Lorem ipsum.</h1>
 			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			  <p><a class="btn btn-lg btn-primary" href="#" role="button"><?php echo __("En savoir plus"); ?></a></p>
+			  <p><a class="btn btn-lg btn-primary" href="#" role="button">En savoir plus</a></p>
 			</div>
 		  </div>
 		</div>
@@ -24,7 +24,7 @@
 			<div class="carousel-caption">
 			  <h1>Lorem ipsum.</h1>
 			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			  <p><a class="btn btn-lg btn-primary" href="#" role="button"><?php echo __("En savoir plus"); ?></a></p>
+			  <p><a class="btn btn-lg btn-primary" href="#" role="button">En savoir plus</a></p>
 			</div>
 		  </div>
 		</div>
@@ -34,7 +34,7 @@
 			<div class="carousel-caption">
 			  <h1>Lorem ipsum.</h1>
 			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			  <p><a class="btn btn-lg btn-primary" href="#" role="button"><?php echo __("En savoir plus"); ?></a></p>
+			  <p><a class="btn btn-lg btn-primary" href="#" role="button">En savoir plus</a></p>
 			</div>
 		  </div>
 		</div>
