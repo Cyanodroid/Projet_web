@@ -1,8 +1,9 @@
 <?php $this->layout = 'default2'; ?>
 <?php echo $this->Session->Flash(); ?>
 <div class="row">
-	<div class="col-lg-8">
-		<h1>Mon compte</h1>
+	<div class="col-lg-6" style="margin-left:60px;">
+	</br>
+		<h1 >Mon compte</h1>
 		<p>&nbsp;</p>
 		<div class="row">
 			<div class="col-lg-2">
@@ -11,7 +12,7 @@
             <?php endif ?>
             
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-6" style="margin-left:20px;">
 				<?php 
 				echo $this->Form->create('User', array('type'=>'file'));
 					echo $this->Form->input('avatarf', array('type'=>'file', 'label'=>'Avatar (.jpg)'));

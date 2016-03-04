@@ -38,7 +38,7 @@
 		echo $this->Html->css('/css/carousel.css');
 		echo $this->Html->css('/css/styles.css');
 		echo $this->Html->css('http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300');
-		echo $this->Html->css('/css/bootstrap.min.css');
+		echo $this->Html->css('/css/bootstrap.css');
 	?>
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
@@ -54,19 +54,9 @@
 			<?php echo $this->fetch('content'); ?>
 			<?php echo $this->Session->flash(); ?>
 	  	</div>
-
-	  	<div class="span12 span-loader">
-	  		<?php 
-		  		echo $this->Html->image(
-		  			'ajax-loader.gif',
-		  			array('id'=>'indicator-busy')
-		  		);
-	 	 	?>
-	  	</div>
-	  	
 	  </div>
-
 	  <hr class="featurette-divider">
+
 	</div>
 
 	<?php echo $this->element('recherche'); ?>
@@ -114,11 +104,13 @@
 	<?php echo $this->element('newsletter'); ?>
 	<div class="container marketing">
 
+	</br></br>
 	<div class="row">
 		<div class="span12 span-abo">
 			<h1>Nos formules</h1>
 		</div>
 
+</br>
 		<div class="col-lg-4 abo">
 			<div class="abo-border">
 				<div class="title-block">
@@ -172,7 +164,6 @@
 
 	  <footer>
 		<p>&copy; 2016 Aix-Marseille-Universite. &middot;</p>
-		<?php echo $this->element('sql_dump'); ?>
 	  </footer>
 
 	</div>

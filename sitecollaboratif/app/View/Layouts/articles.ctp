@@ -38,22 +38,21 @@
 		echo $this->Html->css('/css/carousel.css');
 		echo $this->Html->css('/css/styles.css');
 		echo $this->Html->css('http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300');
-		echo $this->Html->css('/css/bootstrap.min.css');
+		echo $this->Html->css('/css/bootstrap.css');
 	?>
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 	<?php echo $this->element('menu'); ?>
 	
-	<?php echo $this->element('carousel'); ?>
-
+	</br></br></br>
 	<div class="container marketing">
 	  <div class="row">
 		<?php echo $this->Flash->render(); ?>
 		<?php echo $this->fetch('content'); ?>
 		<?php echo $this->Session->flash(); ?>
 	  </div>
-
+	  </br></br>
 	  <hr class="featurette-divider">
 
 	  <footer>

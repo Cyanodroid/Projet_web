@@ -1,7 +1,8 @@
 <?php $this->layout = 'default2'; ?>
-<div class="row">
+</br>
+<div class="row" style="margin-left: 40%; margin-top: 20%;">
 
-    <div class="span12">
+    <div class="span12" >
         <h1>Se connecter</h1>
 
         <?= $this->Form->create('User'); ?>

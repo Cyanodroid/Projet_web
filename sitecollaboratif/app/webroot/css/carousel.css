@@ -102,8 +102,9 @@ body {
     margin-top: 20px;
   }
   .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
   }
   .navbar-wrapper .navbar {
     padding-right: 0;
