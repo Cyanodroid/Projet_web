@@ -174,6 +174,7 @@
 
 	  <footer>
 		<p>&copy; 2016 Aix-Marseille-Universite. &middot;</p>
+		<?php echo $this->element('sql_dump'); ?>
 	  </footer>
 
 	</div>

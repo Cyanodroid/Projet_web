@@ -32,15 +32,11 @@
 			<div id="menu1" class="tab-pane fade">
 				<table class="table table-striped">
 				    <tbody>
-				    	<tr>
-				        	<td>Général</td>
-				      	</tr>
-				      	<tr>
-				        	<td>Programmation en C</td>
-				      	</tr>
-				      	<tr>
-				        	<td>Programmation en Java</td>
-				      	</tr>
+				    	<?php foreach ($rooms as $r): ?> 
+					    	<tr>
+					        	<td><?= $r['Rooms']['name']; ?></td>
+					      	</tr>
+				      	 <?php endforeach ?>
 				    </tbody>
 			    </table>
 			</div>
