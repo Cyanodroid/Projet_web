@@ -1,1 +1,1 @@
-<h1>Salut</h1>
+<?php echo $this->Element('chat'); ?>
