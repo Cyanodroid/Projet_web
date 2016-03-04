@@ -33,7 +33,7 @@
 				<table class="table table-striped">
 				    <tbody>
 				    	<tr>
-				        	<td>Générale</td>
+				        	<td>Général</td>
 				      	</tr>
 				      	<tr>
 				        	<td>Programmation en C</td>
@@ -49,7 +49,7 @@
 
 	<div class="col-md-8" style="height: 500px;">
 		<div style="text-align: center;">
-			<h2>Générale</h3>
+			<h2>Général</h3>
 			<hr>
 		</div>
 		<div class="chat-message" id="chat-message" style="background-color: #FFF; height: 70%;">
