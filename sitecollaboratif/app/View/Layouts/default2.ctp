@@ -43,9 +43,9 @@
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-	<div style="margin-bottom: 48px">
-		<?php echo $this->element('menu'); ?>
-	</div
+	<?php echo $this->element('menu'); ?>
+	
+	<?php echo $this->element('carousel'); ?>
 
 	<div class="container marketing">
 	  <div class="row">

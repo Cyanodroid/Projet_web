@@ -12,10 +12,10 @@ foreach ($articles as $a): ?>
 <div class="span12" style="text-align:center;">
 	<?php 
 	echo $this->Paginator->numbers(array(
-		'before'=>'<ul class="">',
-		'separator'=>' / ',
+		'before'=>'<ul class="pagination pagination-lg">',
+		'separator'=>'',
 		'currentClass'=>'active',
-		'tag'=>'',
+		'tag'=>'li',
 		'after'=>'</ul>'
 		)
 	);
