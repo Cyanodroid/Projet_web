@@ -26,5 +26,8 @@
 
 		  	$this->set('rooms', $room);
 		}
+
+		public function changer_salle($id) {
+			
+		}
 	}
-	
