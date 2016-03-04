@@ -235,19 +235,6 @@
 			if (!$this->Auth->user('id')) {
 				throw new NotFoundException();
 			}
-
-			if(!empty($this->request->data)){
-				$duration = $this->request->data['duration'];
-				$uid = $this->Auth->user('id'); 
-				if(Configure::read("Site.prices.$duration")){
-					$price = number_format(Configure::read("Site.prices.$duration"),2);
-					$this->loadModel('Transaction');
-					$url = $this->Transaction->requestPaypal($price, "Compte premium $duration mois", "action=subscribe&uid=$uid&duration=$duration");
-					if($url){
-						$this->redirect($url);
-					}
-				}
-			}
 		}
 
 	}

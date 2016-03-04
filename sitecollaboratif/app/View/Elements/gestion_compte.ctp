@@ -1,4 +1,3 @@
-
 <h1 style="margin-top: 25%;">Panneau de contrôle</h1>
 <ul class="nav nav-pills nav-stacked" style="margin-top: 45px;">
 	<li <?php if ($this->request->action == 'account'): ?> class="active"  <?php endif; ?> >
@@ -13,10 +12,8 @@
 		</li>
 	<?php else: ?>
 		<li>
-			<?php echo $this->Html->link("S'abonner", array('action'=>'subscribe')); ?>
+			<?php echo $this->Html->link("S'abonner", array('controller'=>'Users', 'action'=>'subscribe')); ?>
 		</li>
 	<?php endif; ?>
 
 </ul>
-
-<?php echo $this->Session->read('Auth.User.groups_id'); ?>
