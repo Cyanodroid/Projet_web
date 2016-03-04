@@ -17,7 +17,6 @@
 			),
 		);
 
-
 		public function afterSave($created, $options = array()) {
 		}
 	}

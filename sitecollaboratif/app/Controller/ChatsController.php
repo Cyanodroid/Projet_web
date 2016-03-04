@@ -9,8 +9,6 @@
 		  			'fields'=>array('id', 'name')
 		  	));
 
-		  	debug($room);
-
 		  	$this->set('rooms', $room);
 		}
 	}
