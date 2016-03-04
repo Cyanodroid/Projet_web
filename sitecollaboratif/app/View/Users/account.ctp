@@ -2,7 +2,7 @@
 <?php echo $this->Session->Flash(); ?>
 <div class="row">
 	<div class="col-lg-6" style="margin-left:60px;">
-	</br>
+	</br></br></br></br>
 		<h1 >Mon compte</h1>
 		<p>&nbsp;</p>
 		<div class="row">
@@ -12,7 +12,7 @@
             <?php endif ?>
             
 			</div>
-			<div class="col-lg-6" style="margin-left:20px;">
+			<div class="col-lg-6" style="margin-left:30px;">
 				<?php 
 				echo $this->Form->create('User', array('type'=>'file'));
 					echo $this->Form->input('avatarf', array('type'=>'file', 'label'=>'Avatar (.jpg)'));
