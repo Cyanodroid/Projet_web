@@ -5,7 +5,7 @@
 		var $belongsTo = 'Rooms';
 
 		public $validate = array(
-			'message'=>array(
+			'contenu'=>array(
 				'rule'=>'notBlank'
 			)
 		);

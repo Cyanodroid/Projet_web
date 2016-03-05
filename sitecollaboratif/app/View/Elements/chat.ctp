@@ -52,9 +52,9 @@
 			
 		</div>
 
-		<?php echo $this->Form->create('Chats', array('url'=>array('controller'=>'Chats', 'action'=>''))); ?>
+		<?php echo $this->Form->create('Chats', array('url'=>array('controller'=>'Chats', 'action'=>'envoyer_msg', $cr['Rooms']['id']))); ?>
 		<div class="input-group">
-			<?php echo $this->Form->input('message', array('label'=>"",'id'=>'messsage', 'class'=>'form-control', 'placeholder'=>'Votre message', 'autocomplete'=>'off')); ?>
+			<?php echo $this->Form->input('contenu', array('label'=>"",'id'=>'messsage', 'class'=>'form-control', 'placeholder'=>'Votre message', 'autocomplete'=>'off')); ?>
 			<span class="input-group-btn">
 				<?php echo $this->Form->button("Envoyer", array('class'=>'btn btn-default')); ?>
 			</span>
