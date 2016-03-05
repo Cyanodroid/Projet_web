@@ -31,6 +31,7 @@
 				);
 
 				$current_cpt = $old['Rooms']['nb_users'] - 1;
+				if ($current_cpt < 0) $current_cpt = 0;
 				$this->Chat->Rooms->id = $current_id;
 				$this->Chat->Rooms->saveField('nb_users', $current_cpt);
 
