@@ -34,7 +34,7 @@
 				    <tbody>
 				    	<?php foreach ($rooms as $r): ?> 
 					    	<tr>
-								<?php echo "<td>".$this->Html->link($r['Rooms']['name'], array('action'=>'index', $r['Rooms']['id']), $cr['Rooms']['id'])."</td>" ?>
+								<?php echo "<td>".$this->Html->link($r['Rooms']['name'], array('action'=>'index', 'id'=>$r['Rooms']['id'], 'current_id'=>$cr['Rooms']['id']))."</td>"; ?>
 					      	</tr>
 				      	 <?php endforeach ?>
 				    </tbody>

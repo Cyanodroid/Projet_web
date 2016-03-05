@@ -4,6 +4,8 @@
 
 		public function index($id = null, $current_id = null) {
 			$this->layout = 'default2';
+
+			//debug($this->request->params);
 			if (!$this->Auth->user('id')) {
 				throw new NotFoundException();
 			}

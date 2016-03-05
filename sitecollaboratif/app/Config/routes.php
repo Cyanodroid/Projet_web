@@ -26,6 +26,14 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'posts', 'action' => 'index')); // on donne la page d'accueil
+
+	Router::connect('/Chats/:id-:current_id', 
+		array('controller'=>'Chats', 'action'=>'index'),
+		array(
+			'pass'=>array('id', 'current_id'),
+			'id'=>'[0-9]+'
+		)
+	);
 /**
 /**
  * Load all plugin routes. See the CakePlugin documentation on
