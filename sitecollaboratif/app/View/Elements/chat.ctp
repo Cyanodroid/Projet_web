@@ -48,8 +48,15 @@
 			<?php echo '<h2>'.$cr['Rooms']['name'].'</h2>'; ?>
 			<hr>
 		</div>
-		<div class="chat-message" id="chat-message" style="background-color: #FFF; height: 70%;">
-			
+		<div class="chat-message" id="chat-message" style="background-color: #FFF; height: 70%; overflow-y: scroll;">
+			<!-- <?php debug($msg); ?> -->
+			<?php foreach ($msg as $m ): ?>
+				<div class="chat-message-content">
+					<?php echo '<b>'.$m['Users']['username'].': </b>'; ?>
+					<?php echo '<p>'.$m['Chat']['contenu'].'</p>'; ?>
+					<br/>
+				</div>
+			<?php endforeach; ?>
 		</div>
 
 		<?php echo $this->Form->create('Chats', array('url'=>array('controller'=>'Chats', 'action'=>'envoyer_msg', $cr['Rooms']['id']))); ?>

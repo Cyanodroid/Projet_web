@@ -22,8 +22,15 @@
 
 				$room = $this->Chat->Rooms->find('all');
 
+				$msg = $this->Chat->find('all', array(
+					'conditions'=>array('Chat.rooms_id'=>$r['Rooms']['id']),
+					//'limit'=>10
+					)
+				);
+
 				$this->set('rooms', $room);
 				$this->set('cr', $r);
+				$this->set('msg', $msg);
 			} else if ($id && $current_id) {
 				$old = $this->Chat->Rooms->find('first', array(
 					'conditions'=>array('Rooms.id'=>$current_id)
@@ -46,8 +53,15 @@
 
 				$room = $this->Chat->Rooms->find('all');
 
+				$msg = $this->Chat->find('all', array(
+					'conditions'=>array('Chat.rooms_id'=>$id),
+					//'limit'=>10
+					)
+				);
+
 				$this->set('rooms', $room);
 				$this->set('cr', $r);
+				$this->set('msg', $msg);
 			}
 		}
 
