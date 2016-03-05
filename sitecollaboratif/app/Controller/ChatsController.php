@@ -3,6 +3,7 @@
 		var $name = 'Chats';
 
 		public function index($id = null, $current_id = null) {
+			$this->layout = 'default2';
 			if (!$this->Auth->user('id')) {
 				throw new NotFoundException();
 			}
@@ -21,7 +22,7 @@
 
 				$this->set('rooms', $room);
 				$this->set('cr', $r);
-			} else {
+			} else if ($id && $current_id) {
 				$old = $this->Chat->Rooms->find('first', array(
 					'conditions'=>array('Rooms.id'=>$current_id)
 					)
