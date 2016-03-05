@@ -2,32 +2,48 @@
 	class ChatsController extends AppController {
 		var $name = 'Chats';
 
-		public function index() {
+		public function index($id = null, $current_id = null) {
 			if (!$this->Auth->user('id')) {
 				throw new NotFoundException();
 			}
 
-			$this->layout = 'default2';
+			if ($id == null) {
+				$r = $this->Chat->Rooms->find('first', array(
+					'conditions' => array('Rooms.name'=>'Général')
+					)
+				);
 
-			$room = $this->Chat->Rooms->find('all', array(
-		  			'fields'=>array('id', 'name')
-		  	));
+				$cpt = $r['Rooms']['nb_users'] + 1;
+				$this->Chat->Rooms->id = $r['Rooms']['id'];
+				$this->Chat->Rooms->saveField('nb_users', $cpt);
 
-			// on va rechercher la salle de tchat "général" pour augmenter le nombre d'utilisateurs connectés
-		  	$general = $this->Chat->Rooms->find('first', array(
-		  		'conditions'=>array('Rooms.name' => 'Général'),
-		  		'fields'=>array('id', 'nb_users')
-		  	));
+				$room = $this->Chat->Rooms->find('all');
 
-		  	$nb_connected = $general['Rooms']['nb_users'] + 1;
+				$this->set('rooms', $room);
+				$this->set('cr', $r);
+			} else {
+				$old = $this->Chat->Rooms->find('first', array(
+					'conditions'=>array('Rooms.id'=>$current_id)
+					)
+				);
 
-		  	$this->Chat->Rooms->id = $general['Rooms']['id'];
-		  	$this->Chat->Rooms->saveField('nb_users', $nb_connected);
+				$current_cpt = $old['Rooms']['nb_users'] - 1;
+				$this->Chat->Rooms->id = $current_id;
+				$this->Chat->Rooms->saveField('nb_users', $current_cpt);
 
-		  	$this->set('rooms', $room);
-		}
+				$r = $this->Chat->Rooms->find('first', array(
+					'conditions'=>array('Rooms.id'=>$id)
+					)
+				);
 
-		public function changer_salle($id) {
-			
+				$cpt = $r['Rooms']['nb_users'] + 1;
+				$this->Chat->Rooms->id = $id;
+				$this->Chat->Rooms->saveField('nb_users', $cpt);
+
+				$room = $this->Chat->Rooms->find('all');
+
+				$this->set('rooms', $room);
+				$this->set('cr', $r);
+			}
 		}
 	}

@@ -34,7 +34,7 @@
 				    <tbody>
 				    	<?php foreach ($rooms as $r): ?> 
 					    	<tr>
-								<?php echo "<td>".$this->Html->link($r['Rooms']['name'], array('action'=>'changer_salle', $r['Rooms']['id']))."</td>" ?>
+								<?php echo "<td>".$this->Html->link($r['Rooms']['name'], array('action'=>'index', $r['Rooms']['id']), $cr['Rooms']['id'])."</td>" ?>
 					      	</tr>
 				      	 <?php endforeach ?>
 				    </tbody>
@@ -45,7 +45,7 @@
 
 	<div class="col-md-8" style="height: 500px;">
 		<div style="text-align: center;">
-			<h2>Général</h3>
+			<?php echo '<h2>'.$cr['Rooms']['name'].'</h2>'; ?>
 			<hr>
 		</div>
 		<div class="chat-message" id="chat-message" style="background-color: #FFF; height: 70%;">
