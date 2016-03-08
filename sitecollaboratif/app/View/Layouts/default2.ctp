@@ -35,7 +35,6 @@
 	?>
 	<title><?php echo $this->fetch('title'); ?></title>
 	<?php
-		echo $this->Html->css('/css/carousel.css');
 		echo $this->Html->css('/css/styles.css');
 		echo $this->Html->css('http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300');
 		echo $this->Html->css('/css/bootstrap.css');
