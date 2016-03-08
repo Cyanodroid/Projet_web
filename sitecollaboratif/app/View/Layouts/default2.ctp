@@ -35,9 +35,9 @@
 	?>
 	<title><?php echo $this->fetch('title'); ?></title>
 	<?php
+		echo $this->Html->css('/css/bootstrap.css');
 		echo $this->Html->css('/css/styles.css');
 		echo $this->Html->css('http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300');
-		echo $this->Html->css('/css/bootstrap.css');
 	?>
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
@@ -63,7 +63,6 @@
 		echo $this->Html->script('/js/jquery-1.12.0.min.js');
 		echo $this->Html->script('/js/bootstrap.min.js');
 		echo $this->Html->script('/js/app.js');
-		//echo $this->Html->script('/js/cakebootstrap.js');
 	?>
 </body>
 </html>

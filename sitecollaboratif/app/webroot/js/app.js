@@ -1,23 +1,25 @@
 $(document).ready(function(){
-	$('body').append('<p class="pull-right"><a href="#">Haut</a></p>');
+	// $('body').append('<p class="pull-right"><a href="#">Haut</a></p>');
+	$('body').append('<a href="#" class="to-the-top"><i class="fa fa-arrow-up"></i></a>');
 
-	$('.pull-right').css({
+	$('.to-the-top').css({
 		'position'				:	'fixed',
-		'right'					:	'20px',
-		'bottom'				:	'50px',
+		'right'					:	'0',
+		'bottom'				:	'0',
 		'display'				:	'none',
-		'padding'				:	'20px',
+		'padding'				:	'13px',
 		'background'			:	'#222',
 		'opacity'				:	'0.9',
+		'color'                 :   '#fff',
 		'z-index'				:	'2000'
 	});
 
 	$(window).scroll(function(){
 		posScroll = $(document).scrollTop();
 		if(posScroll >=600) 
-			$('.pull-right').fadeIn(600);
+			$('.to-the-top').fadeIn(600);
 		else
-			$('.pull-right').fadeOut(600);
+			$('.to-the-top').fadeOut(600);
 	});
 });
 
@@ -30,11 +32,4 @@ $(function() {
 			$('.indicator-busy').fadeIn();
 		})
 	});
-});
-
-$('.slider').slick({
-      dots: true,
-      autoplay: true,
-      autoplaySpeed: 8000,
-      mobileFirst: true,
 });
