@@ -16,7 +16,7 @@
 		          <h3>Arnault</h3>
 		        </div>
 		        <div class="panel-body">
-		        	<img class="avatar" src="/img/avatars/arno.jpg"></img>
+		        	<?php echo $this->Html->image('avatars/arno.jpg', array('class'=>'avatar')); ?>
 		        </div>
 		        <div class="panel-footer">
 		        	<p>Notre grand et beau designer, souverain du CSS.</p>
@@ -29,7 +29,7 @@
 		          <h3>Claire</h3>
 		        </div>
 		        <div class="panel-body">
-		        	<img class="avatar" src="/img/avatars/clay.jpg"></img>
+		        	<?php echo $this->Html->image('avatars/clay.jpg', array('class'=>'avatar')); ?>
 		        </div>
 		        <div class="panel-footer">
 		        	<p>Celle qui fait les bêtises sur Github mais pas que.</p>
@@ -42,7 +42,7 @@
 		          <h3>Nicolas</h3>
 		        </div>
 		        <div class="panel-body">
-		        	<img class="avatar" src="/img/avatars/nico.jpg"></img>
+		        	<?php echo $this->Html->image('avatars/nico.jpg', array('class'=>'avatar')); ?>
 		        </div>
 		        <div class="panel-footer">
 		        	<p>Le troll qui voulait à tout prix utiliser CakePhp.</p>
@@ -55,7 +55,7 @@
 		          <h3>Thomas</h3>
 		        </div>
 		        <div class="panel-body">
-		        	<img class="avatar" src="/img/avatars/simi.jpg"></img>
+		        	<?php echo $this->Html->image('avatars/simi.jpg', array('class'=>'avatar')); ?>
 		        </div>
 		        <div class="panel-footer">
 		        	<p>Galérien en dev web mais cuisinier hors-pair.</p>
