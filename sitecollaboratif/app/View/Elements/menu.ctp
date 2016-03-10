@@ -1,7 +1,6 @@
 <!-- on va créer un element comme ça on a juste à le call dans le layout -->
 <div class="navbar-wrapper">
 	  <div class="container">
-
 		<nav class="navbar navbar-inverse navbar-static-top">
 		  <div class="container">
 			<div class="navbar-header">
@@ -18,7 +17,7 @@
 				<li><a href="#about">Articles</a></li>
 				<li><?php echo $this->Html->link('Tchat', array('controller'=>'Chats', 'action'=>'index', 'admin'=>false)); ?></li> 
 				<li><?php echo $this->Html->link('Archives', '/archives'); ?></li>
-				<li><?php echo $this->Html->link('FAQ', array('controller'=>'FAQ', 'action'=>'index', 'admin'=>false)); ?></li>
+				<li><?php echo $this->Html->link('FAQ', '/faq'); ?></li>
 				<li><?php echo $this->Html->link('Contact', '/contact'); ?></li>
 				<?php if ($this->Session->read('Auth.User.id')): ?>
 					<li><?= $this->Html->link("Mon compte", array('controller'=>'users', 'action'=>'account', 'admin'=>false)); ?></li>

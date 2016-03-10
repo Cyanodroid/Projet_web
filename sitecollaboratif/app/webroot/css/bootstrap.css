@@ -1806,6 +1806,9 @@ pre code {
   .col-sm-4 {
     width: 33.33333333%;
   }
+  .col-sm-4B {
+    width: 25%;
+  }
   .col-sm-3 {
     width: 25%;
   }
