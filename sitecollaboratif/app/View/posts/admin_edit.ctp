@@ -1,5 +1,6 @@
 <?php echo $this->Session->Flash(); ?>
-<div class="row">
+<div class="row" style="margin-top:70px;">
+	<h1>Poster un article</h1>
 	<div class="span12">
 		
 			<?= $this->Form->create('Post', array('type'=>'file')); ?>
