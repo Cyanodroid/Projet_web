@@ -6,7 +6,7 @@
 	<?php for ($i = 0 ; $i < 3 ; $i++) {
 		if ($i % 2 == 0) {
 			echo "<div class='col-md-7'>";
-			echo "<h3 class='section-heading'>".$random_articles[$i]['Post']['title']."</h3>";
+			echo "<h3 class='section-heading'>".$this->Html->link($random_articles[$i]['Post']['title'], array('controller'=>'Posts', 'action'=>'voir', $random_articles[$i]['Post']['id']))."</h3>";
 			echo "<p class='lead' style='text-align:justify;'>".$this->Text->truncate($random_articles[$i]['Post']['contenu'], 200, array('ellipsis'=>'...', 'exact'=>false))."</p>";
 			echo "</div>";
 			echo "<div class='col-md-5'>";
@@ -16,7 +16,7 @@
 		} else {
 			echo "<div class='row featurette'>";
 			echo "<div class='col-md-7 col-md-push-4'>";
-			echo "<h3 class='section-heading'>".$random_articles[$i]['Post']['title']."</h3>";
+			echo "<h3 class='section-heading'>".$this->Html->link($random_articles[$i]['Post']['title'], array('controller'=>'Posts', 'action'=>'voir', $random_articles[$i]['Post']['id']))."</h3>";
 			echo "<p class='lead' style='text-align:justify;'>".$this->Text->truncate($random_articles[$i]['Post']['contenu'], 200, array('ellipsis'=>'...', 'exact'=>false))."</p>";
 			echo "</div>";
 			echo "<div class='col-md-5 col-md-pull-7'>";
