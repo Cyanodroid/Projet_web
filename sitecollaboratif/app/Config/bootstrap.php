@@ -40,5 +40,5 @@ CakeLog::config('error', array(
 ));
 
 Configure::write('Site_Contact', array(
-	'mail' => 'xxx.xxx@gmail.com'
+	'mail' => 'site.collaboratif.test@gmail.com'
 ));

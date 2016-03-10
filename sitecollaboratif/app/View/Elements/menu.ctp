@@ -14,7 +14,7 @@
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 			  <ul class="nav navbar-nav navbar-right">
-				<li><a href="#about">Articles</a></li>
+				<li><?php echo $this->Html->link('Articles', '/articles'); ?></li>
 				<li><?php echo $this->Html->link('Tchat', array('controller'=>'Chats', 'action'=>'index', 'admin'=>false)); ?></li> 
 				<li><?php echo $this->Html->link('Archives', '/archives'); ?></li>
 				<li><?php echo $this->Html->link('FAQ', '/faq'); ?></li>
