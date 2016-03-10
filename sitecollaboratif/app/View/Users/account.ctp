@@ -15,12 +15,15 @@
 			<div class="col-lg-6" style="margin-left:30px;">
 				<?php 
 				echo $this->Form->create('User', array('type'=>'file'));
-					echo $this->Form->input('avatarf', array('type'=>'file', 'label'=>'Avatar (.jpg)'));
+					echo $this->Form->input('avatarf', array('type'=>'file', 'label'=>'Avatar (.jpg)', 'required'=>false));
 					echo "<br/>";
 					echo $this->Form->input('username', array('label'=>"Nom d'utilisateur", 'disabled'=>true, 'class'=>'form-control', 
 						'value'=>$this->Session->read('Auth.User.username')));
+					echo "<br/>";
+					echo $this->Form->input('password', array('type' => 'password', 'label' => "Modifiez votre mot de passe", 'class'=>'form-control'));
+           			echo "<br/>";
 					echo $this->Form->input('password2', array('type' => 'password', 'label' => "Confirmer Mot de passe", 'class'=>'form-control'));
-           				 "<br/>";
+           			echo "<br/>";
 					echo $this->Form->input('mail', array('label' => 'Email', 'class'=>'form-control')) ;
 
 					echo "<br/>";
