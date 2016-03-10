@@ -45,14 +45,14 @@
 		function sendNewsleter(){
 			var $name='newsList';
 			$this->Newsletter->find('all','fields'=>array('email'));
-			 
+			debug('newList');
 			App::uses('CakeEmail', 'Network/Email');
 			$email=new CakeEmail('gmail') 
 			->from('site.collabotif@gmail.com') // par qui ?
 							  ->subject('Newsletter du ') // sujet du mail
 							  ->emailFormat('html') // le format à utiliser
 							  ->template('newsletter') // le template à utiliser
-							  ->viewVars() // les arg qu'on passe à notre template
+							  ->viewVars($this->request->data['Post']['Title']) // les arg qu'on passe à notre template
 							  ->send(); // envoi du mail
 
 
