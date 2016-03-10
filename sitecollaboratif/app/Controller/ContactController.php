@@ -1,4 +1,4 @@
-<?php
+²<?php
 	class ContactController extends AppController {
 
 		public $components = array('Session', 'Security');

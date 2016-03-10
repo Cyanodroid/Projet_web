@@ -1,8 +1,6 @@
 <?php 
 	class User extends AppModel {
 
-		var $belongsTo = 'Group'; // plusieurs posts vers une cat
-
 		public $virtualFields = array(
 			'premium' => 'User.end_subscription > NOW()'
 		);
