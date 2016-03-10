@@ -25,6 +25,11 @@
 			$query = $this->paginate('Post');
 			// on les "set" dans 'articles' ... regarder la view index.ctp pour comprendre
 			$this->set('articles', $query);
+			$this->set('random_articles', $this->Post->find('all', array( 
+			   'conditions' => array('Post.image' => 1), 
+			   'order' => 'rand()',
+			   'limit' => 3,
+			)));
 		}
 
 		// lorsque l'on demande 'en savoir plus' sur l'article avec l'id $id
