@@ -1,5 +1,5 @@
 <?php $this->layout = 'default2'; ?>
-<div class="row" style="margin-top: 70px;">
+<div class="row" style="margin-top: 10%;">
 
     <div class="span12">
         <h1>S'inscrire</h1>

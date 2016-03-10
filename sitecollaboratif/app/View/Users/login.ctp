@@ -1,6 +1,6 @@
 <?php $this->layout = 'default2'; ?>
 </br>
-<div class="row" style="margin-left: 40%; margin-top: 20%;">
+<div class="row" style="margin-left: 40%; margin-top: 15%;">
 
     <div class="span12" >
         <h1>Se connecter</h1>

@@ -3,7 +3,7 @@
 	echo $this->Session->flash();
 	?>
 	<section class="contact" >
-		<h1 style="margin-top : 15%;">Nous contacter</h1>
+		<h1 style="margin-top : 10%;">Nous contacter</h1>
 		<?php 
 		echo $this->Form->create('Contact');
 		echo $this->Form->input('name', array('label'=>"Votre nom", 'required', 'class'=>'left'));

@@ -3,7 +3,7 @@
 	echo $this->Session->flash();
 ?>
 <div class="span12" style="text-align:center;">
-	<h1 style="margin-top : 15%;">FAQ</h1>
+	<h1 style="margin-top : 10%;">FAQ</h1>
 	<div id="pricing" class="container-fluid">
 		<div class="text-center">
 		    <h2>Nos développeurs :</h2>

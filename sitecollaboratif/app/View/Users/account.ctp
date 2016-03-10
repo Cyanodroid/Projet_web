@@ -1,9 +1,9 @@
 <?php $this->layout = 'default2'; ?>
 <?php echo $this->Session->Flash(); ?>
-<div class="row">
-	<div class="col-lg-6" style="margin-left:10%;">
-	</br></br></br></br>
-		<h1 >Mon compte</h1>
+<div class="row" >
+	<h1 style="margin-top: 10%">Mon compte</h1>
+	<div class="col-lg-6">
+		
 		<p>&nbsp;</p>
 		<div class="row">
 			<div class="col-lg-2">
@@ -33,7 +33,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-4">
+	<div class="col-lg-6" style="margin-top: -13%">
 	<?php echo $this->element('gestion_compte'); ?>
 	</div>
 </div>
