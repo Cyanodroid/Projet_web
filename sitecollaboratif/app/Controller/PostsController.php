@@ -23,13 +23,7 @@
 		public function index() {
 			// récupération des posts
 			$query = $this->paginate('Post');
-			
-			$this->set('random_articles', $this->Post->find('all', array( 
-			   'conditions' => array('Post.image' => 1), 
-			   'order' => 'rand()',
-			   'limit' => 3,
-			)));
-
+			// on les "set" dans 'articles' ... regarder la view index.ctp pour comprendre
 			$this->set('articles', $query);
 		}
 
