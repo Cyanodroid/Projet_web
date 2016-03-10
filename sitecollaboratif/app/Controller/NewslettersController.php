@@ -42,8 +42,9 @@
 	    		}
 			}
 		}
-		function sendNewsleter(){
-			var $name='newsList';
+
+		function sendNewsleter() {
+			/*$name='newsList';
 			$this->Newsletter->find('all','fields'=>array('email'));
 			debug('newList');
 			App::uses('CakeEmail', 'Network/Email');
@@ -54,9 +55,8 @@
 							  ->template('newsletter') // le template à utiliser
 							  ->viewVars($this->request->data['Post']['Title']) // les arg qu'on passe à notre template
 							  ->send(); // envoi du mail
-
-
-
-
+*/
 		}
-	 }
+	
+
+	}
