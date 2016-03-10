@@ -28,6 +28,9 @@
 					)
 				);
 
+				// récupération des utilisateurs connectés
+				//$u = 
+
 				$this->set('rooms', $room);
 				$this->set('cr', $r);
 				$this->set('msg', $msg);
