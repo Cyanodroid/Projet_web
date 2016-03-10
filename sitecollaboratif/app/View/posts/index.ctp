@@ -1,3 +1,4 @@
+<?php $count = 0?>
 <div class="col-xs-12">
 <?php foreach ($articles as $a): ?>
 	<div class="col-lg-4">
@@ -10,6 +11,7 @@
 </div>
 <div class="span12" style="text-align:center;">
 	<?php 
+	if($count < 2)
 	echo $this->Paginator->numbers(array(
 		'before'=>'<ul class="">',
 		'separator'=>' / ',
@@ -17,5 +19,5 @@
 		'tag'=>'',
 		'after'=>'</ul>'
 		));
-	?>
+	$count++;?>
 </div>
