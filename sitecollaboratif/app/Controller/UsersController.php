@@ -29,9 +29,10 @@
            				'username'=>$this->request->data['User']['username'],
            				'password'=>$this->Auth->password($this->request->data['User']['password']),
            				'mail'	  =>$this->request->data['User']['mail'],
-           				'token'   =>$token
+           				'token'   =>$token,
            				));
            			// on enregistre dans la DB
+           			
            			$this->User->save();
            			// amélioration possible : supprimer les comptes avec 'active'=>0 au bout de x temps
 
