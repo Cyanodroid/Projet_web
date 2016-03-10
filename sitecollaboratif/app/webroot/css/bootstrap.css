@@ -1806,6 +1806,9 @@ pre code {
   .col-sm-4 {
     width: 33.33333333%;
   }
+  .col-sm-4B {
+    width: 25%;
+  }
   .col-sm-3 {
     width: 25%;
   }
@@ -4081,6 +4084,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs.nav-justified > .dropdown .dropdown-menu {
   top: auto;
   left: auto;
+  background-color: #101010;
 }
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li {
@@ -4146,6 +4150,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-justified > .dropdown .dropdown-menu {
   top: auto;
   left: auto;
+  background-color: #101010;
 }
 @media (min-width: 768px) {
   .nav-justified > li {
@@ -4186,6 +4191,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
 }
 .nav-tabs .dropdown-menu {
+  background-color: #101010;
   margin-top: -1px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -4362,20 +4368,23 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: transparent;
+    background-color: #101010;;
     border: 0;
     -webkit-box-shadow: none;
             box-shadow: none;
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
+    background-color: #101010;
     padding: 5px 15px 5px 25px;
   }
   .navbar-nav .open .dropdown-menu > li > a {
+    background-color: #101010;
     line-height: 20px;
   }
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #101010;
     background-image: none;
   }
 }
@@ -4474,11 +4483,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav > li > .dropdown-menu {
+  background-color: #101010;
   margin-top: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+  background-color: #101010;
   margin-bottom: 0;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -4582,19 +4593,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333;
-    background-color: transparent;
+    background-color: #101010;;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
-    background-color: #e7e7e7;
+    background-color: #101010;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #ccc;
-    background-color: transparent;
+    background-color: #101010;
   }
 }
 .navbar-default .navbar-link {

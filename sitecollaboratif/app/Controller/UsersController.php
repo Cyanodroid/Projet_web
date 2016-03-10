@@ -184,6 +184,7 @@
 		// gestion des informations du compte par l'utilisateur
 		public function account() {
 			// choix du layout
+			debug ($this->request->data);
 			$this->layout = 'default2';
 			// si l'utilisateur appuie sur "modifier"
 			if (!empty($this->request->data)) {
@@ -198,7 +199,7 @@
 					// enregistrement dans la DB
 					$this->User->save($this->request->data, true, array());
 
-					// vérification de la présente d'un avatar					
+					// vérification de la présence d'un avatar					
 					if (!empty($this->request->data['User']['avatarf']['tmp_name'])) {
 						// création du chemin (ou récupération)
 						// supposons qu'il y ait beaucoup d'utilisateur, on va mettre les images dans des 
@@ -214,6 +215,12 @@
 						// on modifie la colonne "avatar" de la tables users pour mettre la valeur 1
 						$this->User->saveField('avatar', 1);
 					}
+					$this->User->id = $this->Auth->user('id');
+					$this->User->saveField(array(
+           				'password'=>$this->Auth->password($this->request->data['User']['password']),
+           				'mail'	  =>$this->request->data['User']['mail'],
+           				'token'   =>$token
+           				));
 
 					// on recharge les informations
 					$user = $this->User->read();
