@@ -38,12 +38,36 @@
 						    "index/",
 						    array('escape' => false)
 						);?></li>
-				  	<li><a href="#"><img src="/img/internationalisation/flag_icons/png/fr.png"></img></a></li>
-				    <li><a href="#"><img src="/img/internationalisation/flag_icons/png/gb.png"></img></a></li>
-					<li><a href="#"><img src="/img/internationalisation/flag_icons/png/es.png"></img></a></li>
-					<li><a href="#"><img src="/img/internationalisation/flag_icons/png/de.png"></img></a></li>
-					<li><a href="#"><img src="/img/internationalisation/flag_icons/png/dz.png"></img></a></li>
-					<li><a href="#"><img src="/img/internationalisation/flag_icons/png/jp.png"></img></a></li>
+					  <li><?php
+						echo $this->Html->link(
+						    $this->Html->image("internationalisation/flag_icons/png/gb.png", array("alt" => "Langue")),
+						    "index/",
+						    array('escape' => false)
+						);?></li>
+						<li><?php
+						echo $this->Html->link(
+						    $this->Html->image("internationalisation/flag_icons/png/es.png", array("alt" => "Langue")),
+						    "index/",
+						    array('escape' => false)
+						);?></li>
+					  <li><?php
+						echo $this->Html->link(
+						    $this->Html->image("internationalisation/flag_icons/png/de.png", array("alt" => "Langue")),
+						    "index/",
+						    array('escape' => false)
+						);?></li>
+						<li><?php
+						echo $this->Html->link(
+						    $this->Html->image("internationalisation/flag_icons/png/dz.png", array("alt" => "Langue")),
+						    "index/",
+						    array('escape' => false)
+						);?></li>
+					  <li><?php
+						echo $this->Html->link(
+						    $this->Html->image("internationalisation/flag_icons/png/jp.png", array("alt" => "Langue")),
+						    "index/",
+						    array('escape' => false)
+						);?></li>
 				  </ul>
 				</li>
 			  </ul>
