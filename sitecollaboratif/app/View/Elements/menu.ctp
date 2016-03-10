@@ -32,6 +32,12 @@
 						<span class="caret"></span>
 					</button>
 				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+  					  <li><?php
+						echo $this->Html->link(
+						    $this->Html->image("internationalisation/flag_icons/png/fr.png", array("alt" => "Langue")),
+						    "index/",
+						    array('escape' => false)
+						);?></li>
 				  	<li><a href="#"><img src="/img/internationalisation/flag_icons/png/fr.png"></img></a></li>
 				    <li><a href="#"><img src="/img/internationalisation/flag_icons/png/gb.png"></img></a></li>
 					<li><a href="#"><img src="/img/internationalisation/flag_icons/png/es.png"></img></a></li>
