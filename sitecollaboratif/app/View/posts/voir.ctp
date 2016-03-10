@@ -7,7 +7,7 @@
     <p><span class="glyphicon glyphicon-time"></span> <?= $this->Time->timeAgoInWords($a['Post']['date_post']); ?></p>
     <hr>
     <?php if ($a['Post']['image'] == 1): ?>
-        <?php echo $this->Html->image('articles/'.$a['Post']['id'].'.jpg', array('height'=>300, 'width'=>900)); ?>
+        <?php echo $this->Html->image('/img/articles/'.$a['Post']['id'].'.jpg', array('height'=>400, 'width'=>750)); ?>
     <?php else: ?>
         <img class="img-responsive" src="http://placehold.it/900x300" alt="">
     <?php endif ?>
