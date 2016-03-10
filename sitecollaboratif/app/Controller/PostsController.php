@@ -6,7 +6,7 @@
 		// création d'une pagination
 		var $paginate = array(
 			'Post'=> array( // sur les posts
-				'fields'=>array('id', 'title', 'contenu'), // où l'on récupère que ces trois champs
+				'fields'=>array('id', 'title', 'contenu', 'categories_id'), // où l'on récupère que ces trois champs
 				'limit'=>3, // on fixe une limite
 				'order'=> array( // on les organise du plus récent au plus vieux
 					'Post.date_post'=> 'desc'
