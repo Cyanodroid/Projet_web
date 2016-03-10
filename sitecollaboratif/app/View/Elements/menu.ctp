@@ -17,6 +17,8 @@
 			  <ul class="nav navbar-nav navbar-right">
 				<li><a href="#about">Articles</a></li>
 				<li><?php echo $this->Html->link('Tchat', array('controller'=>'Chats', 'action'=>'index', 'admin'=>false)); ?></li> 
+				<li><?php echo $this->Html->link('Archives', '/archives'); ?></li>
+				<li><?php echo $this->Html->link('FAQ', array('controller'=>'FAQ', 'action'=>'index', 'admin'=>false)); ?></li>
 				<li><?php echo $this->Html->link('Contact', '/contact'); ?></li>
 				<?php if ($this->Session->read('Auth.User.id')): ?>
 					<li><?= $this->Html->link("Mon compte", array('controller'=>'users', 'action'=>'account', 'admin'=>false)); ?></li>
@@ -24,6 +26,20 @@
 				<?php else: ?>
 					<li><?= $this->Html->link("Se connecter", array('controller'=>'users', 'action'=>'login')); ?></li>
 				<?php endif ?>
+				<li>
+					<button class="btnLang" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    <?php echo __("Langue"); ?>
+						<span class="caret"></span>
+					</button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+				  	<li><a href="#"><img src="/img/internationalisation/flag_icons/png/fr.png"></img></a></li>
+				    <li><a href="#"><img src="/img/internationalisation/flag_icons/png/gb.png"></img></a></li>
+					<li><a href="#"><img src="/img/internationalisation/flag_icons/png/es.png"></img></a></li>
+					<li><a href="#"><img src="/img/internationalisation/flag_icons/png/de.png"></img></a></li>
+					<li><a href="#"><img src="/img/internationalisation/flag_icons/png/dz.png"></img></a></li>
+					<li><a href="#"><img src="/img/internationalisation/flag_icons/png/jp.png"></img></a></li>
+				  </ul>
+				</li>
 			  </ul>
 			</div>
 		  </div>
