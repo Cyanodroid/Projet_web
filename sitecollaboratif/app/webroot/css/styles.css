@@ -280,3 +280,9 @@ svg {
   }
 }
 
+/* perso le style du debug cake */
+.cake-debug-output {
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 99999;
+}

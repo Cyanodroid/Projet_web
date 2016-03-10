@@ -19,7 +19,7 @@
 					echo "<br/>";
 					echo $this->Form->input('username', array('label'=>"Nom d'utilisateur", 'disabled'=>true, 'class'=>'form-control', 
 						'value'=>$this->Session->read('Auth.User.username')));
-					echo $this->Form->input('password', array('label'=>"Mot de passe", 'disabled'=>false, 'class'=>'form-control'));
+					echo $this->Form->input('password', array('label'=>"Mot de passe", 'class'=>'form-control'));
 					echo $this->Form->input('password2', array('type' => 'password', 'label' => "Confirmer Mot de passe", 'class'=>'form-control'));
            				 "<br/>";
 					echo $this->Form->input('mail', array('label' => 'Email', 'class'=>'form-control')) ;
