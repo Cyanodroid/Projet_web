@@ -1,6 +1,6 @@
 <?php echo $this->Session->Flash(); ?>
 <!-- <?php debug($articles); ?> -->
-<div class="row">
+<div class="row" style="margin-top:70px;">
 	<h1>Panneau de contrôle</h1>
 	<div class="span12">
 		<?php echo $this->Html->link('<i class="fa fa-plus"></i>&nbsp;Publier un article', array('action'=>'admin_edit'), array('class'=> 'btn btn-primary', 'escape'=>false)) ?>
