@@ -1,4 +1,4 @@
-<h1 style="margin-top: 25%;">Panneau de contrôle</h1>
+<h1 style="margin-top: 20%;">Panneau de contrôle</h1>
 <ul class="nav nav-pills nav-stacked" style="margin-top: 45px;">
 	<li <?php if ($this->request->action == 'account'): ?> class="active"  <?php endif; ?> >
 		<?= $this->Html->link('Mon compte', array('controller'=>'users', 'action'=>'account')); ?>
