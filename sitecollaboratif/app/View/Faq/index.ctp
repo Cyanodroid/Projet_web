@@ -58,7 +58,7 @@
 		        	<img class="avatar" src="/img/avatars/simi.jpg"></img>
 		        </div>
 		        <div class="panel-footer">
-		        	<p>Galérien en dev web mais cuisinier hors-pair.</p>
+		        	<p>Le galérien en dev web mais cuisinier hors-pair.</p>
 		        </div>
 		      </div>      
 		    </div>  
