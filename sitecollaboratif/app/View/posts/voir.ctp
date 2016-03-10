@@ -14,7 +14,7 @@
 	
     <hr>
 	
-	<?php echo "<p>".$a['Post']['contenu']."</p>"; ?>
+	<?php echo nl2br($a['Post']['contenu']); ?>
 
 	<hr>
 

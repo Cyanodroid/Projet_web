@@ -58,21 +58,6 @@
 	  </div>
 	</div>
 	
-	</br>
-
-	<?php echo $this->element('recherche'); ?>
-
-	</br></br></br>
-
-	<?php echo $this->element('random_articles'); ?>
-
-	<?php echo $this->element('newsletter'); ?>
-	
-	<div class="container marketing">
-		</br></br>
-		<?php echo $this->element('prices'); ?>
-	</div>
-
 	<footer>
 		<p>&copy; 2016 Aix-Marseille-Universite. &middot;</p>
 		<?php echo $this->element('sql_dump'); ?>
