@@ -23,7 +23,7 @@
 		public function index() {
 			// récupération des posts
 			$query = $this->paginate('Post');
-		/*	$query = $this->Post->find('all', array(
+			/*	$query = $this->Post->find('all', array(
 				'fields' => array('id', 'title', 'contenu')
 			));*/
 			// on les "set" dans 'articles' ... regarder la view index.ctp pour comprendre

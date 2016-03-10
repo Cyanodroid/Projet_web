@@ -1,6 +1,5 @@
 <div class="col-xs-12">
-<?php 
-foreach ($articles as $a): ?>
+<?php foreach ($articles as $a): ?>
 	<div class="col-lg-4">
         <?php echo $this->Html->image('/img/categories/'.$a['Post']['categories_id'].'.jpg', array('height'=>140, 'width'=>140, 'class'=>'img-circle')); ?>
 	    <?php echo "<h2>".$a['Post']['title']."</h2>"; ?>
@@ -17,7 +16,6 @@ foreach ($articles as $a): ?>
 		'currentClass'=>'active',
 		'tag'=>'',
 		'after'=>'</ul>'
-		)
-	);
-?>
+		));
+	?>
 </div>
