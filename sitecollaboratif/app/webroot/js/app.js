@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	// $('body').append('<p class="pull-right"><a href="#">Haut</a></p>');
 	$('body').append('<a href="#" class="to-the-top"><i class="fa fa-arrow-up"></i></a>');
 
 	$('.to-the-top').css({
@@ -33,3 +32,9 @@ $(function() {
 		})
 	});
 });
+
+var tchat_scroll = document.getElementById('chat-message');
+tchat_scroll.scrollTop = tchat_scroll.scrollHeight;
+
+var focus_message = document.getElementById('chat-messsage-input');
+focus_message.focus();
