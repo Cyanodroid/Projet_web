@@ -51,3 +51,4 @@ sitecollaboratif/app/View/Elements/menu.ctp
 sitecollaboratif/app/View/Elements/recherche.ctp
 =======
 >>>>>>> parent of 109a44e... ajout drapeaux et menu langues
+sitecollaboratif/app/Config/email.php
