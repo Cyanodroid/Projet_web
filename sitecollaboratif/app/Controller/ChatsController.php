@@ -81,9 +81,23 @@
 					)
 				);
 
+				// on place l'utilisateur dans la salle
+				$current_user['Users']['rooms_id'] = $r['Rooms']['id'];
+
+				$this->Chat->Users->id = $this->Auth->user('id');
+				$this->Chat->Users->saveField('rooms_id', $current_user['Users']['rooms_id']);
+
+				// récupération des utilisateurs connectés
+				$users = $this->Chat->Users->find('all', array(
+					'fields'=>array('id', 'username', 'groups_id', 'avatar', 'rooms_id'),
+					'conditions'=>array('Users.rooms_id'=>$r['Rooms']['id'])
+					)
+				);
+
 				$this->set('rooms', $room);
 				$this->set('cr', $r);
 				$this->set('msg', $msg);
+				$this->set('users_list', $users);
 			}
 		}
 
