@@ -28,12 +28,6 @@
 
 				$room = $this->Chat->Rooms->find('all');
 
-				$msg = $this->Chat->find('all', array(
-					'conditions'=>array('Chat.rooms_id'=>$r['Rooms']['id']),
-					//'limit'=>10
-					)
-				);
-
 				// on place l'utilisateur dans la salle
 				$current_user['Users']['rooms_id'] = $r['Rooms']['id'];
 
@@ -49,7 +43,6 @@
 
 				$this->set('rooms', $room);
 				$this->set('cr', $r);
-				$this->set('msg', $msg);
 				$this->set('users_list', $users);
 				
 			} else if ($id && $current_id) {
@@ -74,12 +67,6 @@
 
 				$room = $this->Chat->Rooms->find('all');
 
-				$msg = $this->Chat->find('all', array(
-					'conditions'=>array('Chat.rooms_id'=>$id),
-					//'limit'=>10
-					)
-				);
-
 				// on place l'utilisateur dans la salle
 				$current_user['Users']['rooms_id'] = $r['Rooms']['id'];
 
@@ -95,7 +82,6 @@
 
 				$this->set('rooms', $room);
 				$this->set('cr', $r);
-				$this->set('msg', $msg);
 				$this->set('users_list', $users);
 			}
 		}
@@ -112,10 +98,10 @@
 			$this->redirect($this->referer());
 		}
 
-		public function ajaxProcessing($id = null) {
+		public function ajaxProcessing($id = null, $current_id = null) {
 
 			if ($this->request->is('ajax')) {
-
+	
 				if ($id == null) {
 
 					$r = $this->Chat->Rooms->find('first', array(
@@ -123,9 +109,15 @@
 						)
 					);
 
-
 					$msg = $this->Chat->find('all', array(
 						'conditions'=>array('Chat.rooms_id'=> $r['Rooms']['id'])
+						)
+					);
+
+					$this->set('msg', $msg);
+				} else if ($id) {
+					$msg = $this->Chat->find('all', array(
+						'conditions'=>array('Chat.rooms_id'=> $id)
 						)
 					);
 

@@ -30,7 +30,11 @@ function ajaxCall() {
 		return false;
 	}
 
-	var url = '/Projet_web/sitecollaboratif/Chats/ajaxProcessing';
+	var current_url = $(location).attr('href');
+	var params = current_url.substring(current_url.lastIndexOf("/")+1);
+	var id = params.slice(0, 1);
+
+	var url = '/Projet_web/sitecollaboratif/Chats/ajaxProcessing' + '/' + id;
 
 	$.get(url, function(data, status) {
 			$('#chat-message').empty().append(data);
