@@ -52,19 +52,17 @@
 		</div>
 		<div class="chat-message" id="chat-message" style="background-color: #FFF; height: 70%; overflow-y: scroll;">
 			<div class="chat-message-content" id="chat-message-content">
-				
 				<?php echo $this->Html->image('/img/ajax-loader.gif', array('class'=>'center-block')); ?>
-
 			</div>
 		</div>
-
-		<?php echo $this->Form->create('Chats', array('url'=>array('controller'=>'Chats', 'action'=>'envoyer_msg', $cr['Rooms']['id']))); ?>
-		<div class="input-group">
-			<?php echo $this->Form->input('contenu', array('label'=>"",'id'=>'chat-messsage-input', 'class'=>'form-control', 'placeholder'=>'Votre message', 'autocomplete'=>'off')); ?>
-			<span class="input-group-btn">
-				<?php echo $this->Form->button("Envoyer", array('class'=>'btn btn-default tchat-button', 'onclick'=>'EnvoyerMSG()')); ?>
-			</span>
-		</div>
-		<?php echo $this->Form->end(); ?>	
+		
+		<form id="chat-form-control">
+			<div class="input-group">
+				<input id="chat-messsage-input" class="form-control" placeholder="Votre message" autocomplete="off"/>
+				<span class="input-group-btn">
+					<input type="submit" onclick="EnvoyerMSG();" class="btn btn-default tchat-button" value="Envoyer"/>
+				</span>
+			</div>
+		</form>
 	</div>
 </div>

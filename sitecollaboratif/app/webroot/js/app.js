@@ -62,21 +62,21 @@ function EnvoyerMSG() {
 	if (isNaN(id))
 		id = 1;
 
-	var value = $('#chat-messsage-input').val();
-	
-	$.ajax({
-		type: "POST",
-		url : '/Projet_web/sitecollaboratif/Chats/envoyer_msg',
-		data: {
-			id: id,
-			msg: value
-		},
-		success : function(data) {
-			$('html').empty().append(data);
-		},
-		error : function() {
-			alert("error");
-		}
-	});
+	$('#chat-form-control').submit(function(evt) {
+		evt.preventDefault();
+		$.ajax({
+		    url: '/Projet_web/sitecollaboratif/Chats/envoyer_msg/' + id + '/' + $('#chat-messsage-input').val(),
+		    data: {
+		    	id: id,
+		        msg: $('#chat-messsage-input').val()
+		    },
+		});
 
+	  	$('#chat-messsage-input').val('');
+	  	$('#chat-messsage-input').focus();
+
+		return false;
+	});
 }
+
+
