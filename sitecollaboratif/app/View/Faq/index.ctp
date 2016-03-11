@@ -45,7 +45,7 @@
 		        	<?php echo $this->Html->image('avatars/nico.jpg', array('class'=>'avatar')); ?>
 		        </div>
 		        <div class="panel-footer">
-		        	<p>Le troll qui voulait à tout prix utiliser CakePhp !</p>
+		        	<p>Le troll qui voulait à tout prix utiliser CakePhp.</p>
 		        </div>
 		      </div>      
 		    </div>  

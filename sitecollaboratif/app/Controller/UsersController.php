@@ -243,10 +243,38 @@
 		}
 
 		// abonnement premium non fonctionnel
-		function subscribe() {
+		public function subscribe() {
 			if (!$this->Auth->user('id')) {
 				throw new NotFoundException();
 			}
+		}
+
+		public function candidate() {
+			$this->layout = 'default2';
+			if (!empty($this->request->data)) {
+				$u = $this->User->find('first', array(
+					'fields'=>array('username', 'mail'),
+					'conditions'=>array(
+						'id'=>$this->Auth->user('id')
+					)
+				));
+
+				$this->request->data['User']['mail']     = $u['User']['mail'];
+				$this->request->data['User']['username'] = $u['User']['username'];
+
+				App::uses('CakeEmail', 'Network/Email');
+				$email = new CakeEmail('gmail');
+				$email->to(Configure::read('Site_Contact.mail')) // à qui ? 
+					  ->from($this->request->data['User']['mail']) // par qui ?
+					  ->subject('Un utilisateur du site "Site collaboratif" a envoyé sa candidature') // sujet du mail
+					  ->emailFormat('html') // le format à utiliser
+					  ->template('candidature') // le template à utiliser
+					  ->viewVars($this->request->data['User']) // les arg qu'on passe à notre template
+					  ->send(); // envoi du mail
+
+				$this->Session->setFlash("Votre candidature a bien été envoyée", 'success');
+				$this->redirect($this->referer());
+			}		
 		}
 
 	}

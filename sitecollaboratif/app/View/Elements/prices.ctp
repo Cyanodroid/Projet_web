@@ -58,7 +58,7 @@
         <div class="panel-footer">
           <h3>Bénévolat</h3>
           <h4>Rédaction d'articles</h4>
-          <?php echo $this->Html->link("Souscrire", array('controller'=>'users', 'action'=>'subscribe'), array('class'=>'btn btn-primary')); ?>
+          <?php echo $this->Html->link("Postuler", array('controller'=>'users', 'action'=>'candidate'), array('class'=>'btn btn-primary')); ?>
         </div>
       </div>     
     </div>   
