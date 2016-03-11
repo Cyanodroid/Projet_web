@@ -8,12 +8,10 @@
 		<form>
 		  	<p>
 		    	Catégorie d'article :
-		    	<!--
-		    	<?php foreach ($categories as $b): ?>
-					<input type="radio"></input> 
-		    		<label>$b['categories']['title']</label>
-				<?php endforeach ?>
-				-->
+		    	<?php foreach ($categories as $c): ?>
+		    		<input type="radio"></input> 
+		    		<label><?= $c['Categories']['title']; ?></label>
+		    	<?php endforeach ?>
 		   	</p>
 		</form>
 	</div>
