@@ -20,11 +20,11 @@
 					echo $this->Form->input('username', array('label'=>"Nom d'utilisateur", 'disabled'=>true, 'class'=>'form-control', 
 						'value'=>$this->Session->read('Auth.User.username')));
 					echo "<br/>";
-					echo $this->Form->input('password', array('type' => 'password', 'label' => "Modifiez votre mot de passe", 'class'=>'form-control'));
+					echo $this->Form->input('password', array('type' => 'password', 'label' => "Modifiez votre mot de passe", 'class'=>'form-control', 'required'=>false));
            			echo "<br/>";
-					echo $this->Form->input('password2', array('type' => 'password', 'label' => "Confirmer Mot de passe", 'class'=>'form-control'));
+					echo $this->Form->input('password2', array('type' => 'password', 'label' => "Confirmer Mot de passe", 'class'=>'form-control', 'required'=>false));
            			echo "<br/>";
-					echo $this->Form->input('mail', array('label' => 'Email', 'class'=>'form-control')) ;
+					echo $this->Form->input('mail', array('label' => 'Email', 'class'=>'form-control', 'required'=>false)) ;
 
 					echo "<br/>";
 					echo $this->Form->button('Modifier', array('class'=>"btn btn-lg btn-primary"));
