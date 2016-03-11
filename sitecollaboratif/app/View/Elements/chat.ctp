@@ -18,14 +18,16 @@
 			<div id="home" class="tab-pane fade in active">
 				<table class="table table-striped">
 				    <tbody>
+				    	<?php foreach ($users_list as $u): ?>
 				    	<tr>
 				        	<td>
-				        		<?php if ($this->Session->read('Auth.User.avatar')): ?>
-					        		<?= $this->Html->image($this->Session->read('Auth.User.avatari'), array('class'=>'chat-avatar')); ?>
+				        		<?php if ($u['Users']['avatar'] == 1): ?>
+					        		<?= $this->Html->image('/img/avatars/'. ceil($u['Users']['id'] / 1000) . '/' . $u['Users']['id'] . '.jpg', array('class'=>'chat-avatar')); ?>
 					    		<?php endif ?>
 				        	</td>
-				        	<td><?= $this->Session->read('Auth.User.username'); ?></td>
+				        	<td><?= $u['Users']['username']; ?></td>
 				      	</tr>
+				      <?php endforeach; ?>
 				    </tbody>
 			    </table>
 			</div>

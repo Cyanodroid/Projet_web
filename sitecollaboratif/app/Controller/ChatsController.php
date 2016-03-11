@@ -10,6 +10,13 @@
 				throw new NotFoundException();
 			}
 
+			// récupère l'utilisateur
+			$current_user = $this->Chat->Users->find('first', array(
+				'fields'=>array('id', 'username', 'groups_id', 'avatar', 'rooms_id'),
+				'conditions'=>array('id'=>$this->Auth->user('id')),
+				)
+			);
+
 			if ($id == null) {
 				$r = $this->Chat->Rooms->find('first', array(
 					'conditions' => array('Rooms.name'=>'Général')
@@ -28,12 +35,24 @@
 					)
 				);
 
+				// on place l'utilisateur dans la salle
+				$current_user['Users']['rooms_id'] = $r['Rooms']['id'];
+
+				$this->Chat->Users->id = $this->Auth->user('id');
+				$this->Chat->Users->saveField('rooms_id', $current_user['Users']['rooms_id']);
+
 				// récupération des utilisateurs connectés
-				//$u = 
+				$users = $this->Chat->Users->find('all', array(
+					'fields'=>array('id', 'username', 'groups_id', 'avatar', 'rooms_id'),
+					'conditions'=>array('Users.rooms_id'=>$r['Rooms']['id'])
+					)
+				);
 
 				$this->set('rooms', $room);
 				$this->set('cr', $r);
 				$this->set('msg', $msg);
+				$this->set('users_list', $users);
+				
 			} else if ($id && $current_id) {
 				$old = $this->Chat->Rooms->find('first', array(
 					'conditions'=>array('Rooms.id'=>$current_id)
