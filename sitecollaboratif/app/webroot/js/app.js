@@ -22,19 +22,21 @@ $(document).ready(function(){
 	});
 });
 
-$(function() {
-	$('.ajax').click(function() {
-		$('.indicator-busy').fadeIn();
+setInterval(ajaxCall, 1000);
 
-		$.get($(this).attr('href'), {}, function(data) {
-			$('#content').empty().append(data);
-			$('.indicator-busy').fadeIn();
-		})
+function ajaxCall() {
+
+	var url = '/Projet_web/sitecollaboratif/Chats/ajaxProcessing';
+
+	$.get(url, function(data, status) {
+			$('#chat-message').empty().append(data);
 	});
-});
 
-var tchat_scroll = document.getElementById('chat-message');
-tchat_scroll.scrollTop = tchat_scroll.scrollHeight;
+	var tchat_scroll = document.getElementById('chat-message');
+	tchat_scroll.scrollTop = tchat_scroll.scrollHeight;
 
-var focus_message = document.getElementById('chat-messsage-input');
-focus_message.focus();
+	var focus_message = document.getElementById('chat-messsage-input');
+	focus_message.focus();
+		
+	return false;
+}

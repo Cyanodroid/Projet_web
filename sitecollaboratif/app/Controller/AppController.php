@@ -50,6 +50,10 @@ class AppController extends Controller {
 
 		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter');
 
+		if ($this->request->is('ajax')) {
+			$this->layout = null;
+		}
+
 		
 		if (isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'admin') {
 			/*if ($this->Auth->user('groups_id') != 1) {

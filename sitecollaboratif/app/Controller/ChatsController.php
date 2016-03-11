@@ -112,4 +112,26 @@
 			}
 			$this->redirect($this->referer());
 		}
+
+		public function ajaxProcessing($id = null) {
+
+			if ($this->request->is('ajax')) {
+
+				if ($id == null) {
+
+					$r = $this->Chat->Rooms->find('first', array(
+						'conditions' => array('Rooms.name'=>'Général')
+						)
+					);
+
+
+					$msg = $this->Chat->find('all', array(
+						'conditions'=>array('Chat.rooms_id'=> $r['Rooms']['id'])
+						)
+					);
+
+					$this->set('msg', $msg);
+				}
+			}
+		}
 	}
