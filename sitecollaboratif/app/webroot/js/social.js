@@ -18,7 +18,7 @@
         e.preventDefault();
         var url = this.getAttribute('data-url');
         var shareUrl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(document.title) +
-            "&via=Sitte_Collaboratif_fr" +
+            "&via=Site_Collaboratif_fr" +
             "&url=" + encodeURIComponent(url);
         popupCenter(shareUrl, "Partager sur Twitter");
     });
