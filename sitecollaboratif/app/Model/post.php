@@ -13,7 +13,7 @@
 			),
 			'imageart'=>array(
 				'rule'=> array('sizeimg', 150, 150),
-				'message'=> "Le format et/ou la taille sont invalids"
+				'message'=> "Le format et/ou la taille sont invalides"
 			),
 		);
 

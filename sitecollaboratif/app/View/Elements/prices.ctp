@@ -4,40 +4,18 @@
     <h4>Choisir un forfait</h4>
 	</br>
   </div>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Basique</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>20</strong> Lorem</p>
-          <p><strong>15</strong> Ipsum</p>
-          <p><strong>5</strong> Dolor</p>
-          <p><strong>2</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>10€</h3>
-          <h4>par mois</h4>
-          <?php echo $this->Html->link("Souscrire", array('controller'=>'users', 'action'=>'subscribe'), array('class'=>'btn btn-primary')); ?>
-        </div>
-      </div>      
-    </div>     
+  <div class="row slideanim">     
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
           <h1>Premium</h1>
         </div>
         <div class="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <p><strong>Devenez un de nos membres premium !</strong></p>
+          <p>Passez prioritaire sur le tchat et téléchargez les PDF des cours.</p>
         </div>
         <div class="panel-footer">
-          <h3>20€</h3>
+          <h3>Seulement 5€</h3>
           <h4>par mois</h4>
           <?php echo $this->Html->link("Souscrire", array('controller'=>'users', 'action'=>'subscribe'), array('class'=>'btn btn-primary')); ?>
         </div>
@@ -49,11 +27,8 @@
           <h1>Modération</h1>
         </div>
         <div class="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <p><strong>Vous souhaitez participer à la vie du site ?</strong></p>
+          <p>Candidatez et choisissez de devenir rédacteur ou modérateur de notre tchat !</p>
         </div>
         <div class="panel-footer">
           <h3>Bénévolat</h3>
