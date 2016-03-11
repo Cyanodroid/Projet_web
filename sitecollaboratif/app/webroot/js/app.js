@@ -26,6 +26,10 @@ setInterval(ajaxCall, 1000);
 
 function ajaxCall() {
 
+	if (typeof $('#chat-message').val() === "undefined") {
+		return false;
+	}
+
 	var url = '/Projet_web/sitecollaboratif/Chats/ajaxProcessing';
 
 	$.get(url, function(data, status) {
@@ -40,3 +44,4 @@ function ajaxCall() {
 		
 	return false;
 }
+
