@@ -16,7 +16,7 @@
 							echo "</div>";
 							echo "</br></br></br></br>";
 							echo "<div class='col-lg-5 col-lg-offset-2 col-sm-6'>";
-								echo $this->Html->image('/img/articles/'.$random_articles[$i]['Post']['id'].'.jpg', array('class'=>'featurette-image img-responsive center-block', 'width'=>'300px', 'heigth'=>'300px'));
+								echo $this->Html->image('/img/articles/'.$random_articles[$i]['Post']['id'].'.jpg', array('class'=>'featurette-image img-responsive center-block img-rounded', 'width'=>'300px', 'heigth'=>'300px'));
 							echo "</div>";
 						echo "</div>";
 					echo "</div>";
@@ -36,7 +36,7 @@
 						
 						echo "<div class='col-lg-5 col-sm-pull-6  col-sm-6'>";
 							echo "</br></br></br></br>";
-							echo $this->Html->image('/img/articles/'.$random_articles[$i]['Post']['id'].'.jpg', array('class'=>'featurette-image img-responsive center-block', 'width'=>'300px', 'heigth'=>'300px'));
+							echo $this->Html->image('/img/articles/'.$random_articles[$i]['Post']['id'].'.jpg', array('class'=>'featurette-image img-responsive center-block img-rounded', 'width'=>'300px', 'heigth'=>'300px'));
 						echo "</div>";
 
 					echo "</div>";

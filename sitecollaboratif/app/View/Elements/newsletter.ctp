@@ -1,7 +1,7 @@
 <!-- on va créer un element comme ça on a juste à le call dans le layout -->
 <!-- affiche les messages flash -->
 <?php echo $this->Session->flash(); ?>  
-<section>
+<section style="margin-left:-50%; margin-right:-50%;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
