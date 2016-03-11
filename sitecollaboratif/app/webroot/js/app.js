@@ -33,6 +33,9 @@ function ajaxCall() {
 	var current_url = $(location).attr('href');
 	var params = current_url.substring(current_url.lastIndexOf("/")+1);
 	var id = params.slice(0, 1);
+	
+	if (isNaN(id))
+		id = 1;
 
 	var url = '/Projet_web/sitecollaboratif/Chats/ajaxProcessing' + '/' + id;
 
@@ -55,6 +58,9 @@ function EnvoyerMSG() {
 	var current_url = $(location).attr('href');
 	var params = current_url.substring(current_url.lastIndexOf("/")+1);
 	var id = params.slice(0, 1);
+
+	if (isNaN(id))
+		id = 1;
 
 	var value = $('#chat-messsage-input').val();
 	
