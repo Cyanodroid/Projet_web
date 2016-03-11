@@ -34,6 +34,14 @@
 			'id'=>'[0-9]+'
 		)
 	);
+
+		Router::connect('/Chats/:id-:current_id', 
+		array('controller'=>'Chats', 'action'=>'envoyer_msg'),
+		array(
+			'pass'=>array('id', 'msg'),
+			'id'=>'[0-9]+'
+		)
+	);
 	
 /**
 /**

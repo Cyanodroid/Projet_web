@@ -86,16 +86,28 @@
 			}
 		}
 
-		public function envoyer_msg($id) {
-			if (!empty($this->request->data)) {
-				if ($this->Chat->validates()) {
-					$this->request->data['Chats']['rooms_id'] = $id;
-					$this->request->data['Chats']['users_id'] = $this->Auth->user('id');
-					$this->Chat->create($this->request->data['Chats'], true, array());
-					$this->Chat->save($this->request->data['Chats']);
+		public function envoyer_msg($id, $msg = null) {
+			$this->autoRender = false;
+			debug($this->request->params);
+
+			if ($this->request->is('ajax')) {
+				echo "bonjour";
+			}
+
+			
+			/*$this->layout = null;
+
+			if ($this->request->is('post') || $this->request->is('put')) {
+				if (!empty($this->request->data)) {
+					if ($this->Chat->validates()) {
+						$this->request->data['Chats']['rooms_id'] = $id;
+						$this->request->data['Chats']['users_id'] = $this->Auth->user('id');
+						$this->Chat->create($this->request->data['Chats'], true, array());
+						$this->Chat->save($this->request->data['Chats']);
+					}
 				}
 			}
-			$this->redirect($this->referer());
+			exit();*/
 		}
 
 		public function ajaxProcessing($id = null, $current_id = null) {

@@ -49,3 +49,28 @@ function ajaxCall() {
 	return false;
 }
 
+
+function EnvoyerMSG() {
+
+	var current_url = $(location).attr('href');
+	var params = current_url.substring(current_url.lastIndexOf("/")+1);
+	var id = params.slice(0, 1);
+
+	var value = $('#chat-messsage-input').val();
+	
+	$.ajax({
+		type: "POST",
+		url : '/Projet_web/sitecollaboratif/Chats/envoyer_msg',
+		data: {
+			id: id,
+			msg: value
+		},
+		success : function(data) {
+			$('html').empty().append(data);
+		},
+		error : function() {
+			alert("error");
+		}
+	});
+
+}

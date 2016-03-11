@@ -62,10 +62,9 @@
 		<div class="input-group">
 			<?php echo $this->Form->input('contenu', array('label'=>"",'id'=>'chat-messsage-input', 'class'=>'form-control', 'placeholder'=>'Votre message', 'autocomplete'=>'off')); ?>
 			<span class="input-group-btn">
-				<?php echo $this->Form->button("Envoyer", array('class'=>'btn btn-default')); ?>
+				<?php echo $this->Form->button("Envoyer", array('class'=>'btn btn-default tchat-button', 'onclick'=>'EnvoyerMSG()')); ?>
 			</span>
 		</div>
-		<?php echo $this->Form->end(); ?>
-		
+		<?php echo $this->Form->end(); ?>	
 	</div>
 </div>
