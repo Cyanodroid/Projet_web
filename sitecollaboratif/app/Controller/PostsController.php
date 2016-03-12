@@ -181,5 +181,15 @@
 	  			$this->redirect($this->referer());
 	  		} 
 	  	}
+
+
+	  	public function export_to_pdf() {
+	  		Configure::write('debug', 0);
+	  		$this->response->type('pdf');
+	  		$this->layout = "pdf";
+	  	}
+
+
+
 	}
 ?>
