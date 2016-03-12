@@ -66,3 +66,12 @@
 		</form>
 	</div>
 </div>
+
+<form id="mail-button-control">
+	<div class="input-group">
+		<span class="input-group-btn">
+			<input type="submit" onclick="EnvoyerMAIL();" class="btn btn-default" value="Envoyer un mail"/>
+		</span>
+	</div>
+</form>
+

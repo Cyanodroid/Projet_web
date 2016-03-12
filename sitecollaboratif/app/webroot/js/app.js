@@ -80,3 +80,23 @@ function EnvoyerMSG() {
 }
 
 
+function EnvoyerMAIL() {
+	var current_url = $(location).attr('href');
+	var params = current_url.substring(current_url.lastIndexOf("/")+1);
+	var id = params.slice(0, 1);
+
+	if (isNaN(id))
+		id = 1;
+
+	$('#mail-button-control').submit(function(evt) {
+		evt.preventDefault();
+
+		$.ajax({
+		    url: '/Projet_web/sitecollaboratif/Chats/envoyer_mail/',
+		    data: {
+		    	id: id,
+		    },
+		});
+		return false;
+	});
+}

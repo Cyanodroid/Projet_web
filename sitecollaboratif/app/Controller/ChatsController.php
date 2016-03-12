@@ -132,4 +132,28 @@
 				}
 			}
 		}
+
+		public function envoyer_mail($id) {
+
+			$this->autoRender = false;
+
+			$room = $this->Chat->Romms->find('first', array(
+				'conditions'=>array('id'=>$id)
+				)
+			);
+
+			debug($room);
+			die();
+
+
+			App::uses('CakeEmail', 'Network/Email');
+			$email = new CakeEmail('gmail');
+			$email->to(Configure::read('Site_Contact.mail')) // à qui ? 
+				  ->from($this->Session->read('Auth.User.mail')) // par qui ?
+				  ->subject('Un utilisateur du site "Site collaboratif" a posé une question sur le tchat') // sujet du mail
+				  ->emailFormat('html') // le format à utiliser
+				  ->template('contact') // le template à utiliser
+				  ->viewVars($this->request->data['Contact']) // les arg qu'on passe à notre template
+				  ->send(); // envoi du mail
+		}
 	}
