@@ -48,7 +48,7 @@ class AppController extends Controller {
 	public function beforeFilter() {
 		parent::beforeFilter();
 
-		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter');
+		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir');
 
 		if ($this->request->is('ajax')) {
 			$this->layout = null;
