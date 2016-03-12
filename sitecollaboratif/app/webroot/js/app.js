@@ -92,10 +92,7 @@ function EnvoyerMAIL() {
 		evt.preventDefault();
 
 		$.ajax({
-		    url: '/Projet_web/sitecollaboratif/Chats/envoyer_mail/',
-		    data: {
-		    	id: id,
-		    },
+		    url: '/Projet_web/sitecollaboratif/Chats/envoyer_mail/' + id,
 		});
 		return false;
 	});

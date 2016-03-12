@@ -42,14 +42,6 @@
 			'id'=>'[0-9]+'
 		)
 	);
-
-	Router::connect('/Chats/:id', 
-		array('controller'=>'Chats', 'action'=>'envoyer_mail'),
-		array(
-			'pass'=>array('id'),
-			'id'=>'[0-9]+'
-		)
-	);	
 /**
 /**
  * Load all plugin routes. See the CakePlugin documentation on
