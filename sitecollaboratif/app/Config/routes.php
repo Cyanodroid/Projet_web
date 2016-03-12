@@ -41,8 +41,7 @@
 			'pass'=>array('id', 'msg'),
 			'id'=>'[0-9]+'
 		)
-	);
-	
+	);	
 /**
 /**
  * Load all plugin routes. See the CakePlugin documentation on
