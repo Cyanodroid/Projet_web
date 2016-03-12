@@ -100,6 +100,8 @@
 				$this->Chat->create($data['Chats'], true, array());
 				$this->Chat->save($data['Chats']);
 
+				// app/tmp/debug.log
+				CakeLog::write('info', 'Utilisateur : ' . $this->Auth->user('id') . ' dit : '. $msg);
 			}
 		}
 
