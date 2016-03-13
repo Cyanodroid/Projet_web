@@ -277,4 +277,32 @@
 			}		
 		}
 
+		public function paypal_success() {
+			App::uses('CakeEmail', 'Network/Email');
+			$email = new CakeEmail('gmail');
+			$email->to(Configure::read('Site_Contact.mail')) // à qui ? $this->Auth->user('mail')
+				  ->from(Configure::read('Site_Contact.mail')) // par qui ?
+				  ->subject('Votre abonnement a été pris en compte') // sujet du mail
+				  ->emailFormat('html') // le format à utiliser
+				  ->template('paypal_success') // le template à utiliser
+				  ->send(); // envoi du mail
+
+			$this->Session->setFlash("Votre abonnement a été pris en compte", 'success');
+			$this->redirect('/');
+		}
+
+		public function paypal_cancel() {
+			App::uses('CakeEmail', 'Network/Email');
+			$email = new CakeEmail('gmail');
+			$email->to(Configure::read('Site_Contact.mail')) // à qui ? $this->Auth->user('mail')
+				  ->from(Configure::read('Site_Contact.mail')) // par qui ?
+				  ->subject('Votre demande a été annulée') // sujet du mail
+				  ->emailFormat('html') // le format à utiliser
+				  ->template('paypal_cancel') // le template à utiliser
+				  ->send(); // envoi du mail
+
+			$this->Session->setFlash("Votre demande a été annulée", 'success');
+			$this->redirect('/');
+		}
+
 	}
