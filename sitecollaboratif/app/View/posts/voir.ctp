@@ -79,4 +79,7 @@
                 <svg><use xlink:href="../../app/webroot/img/sprite.svg#gplus"></use></svg>
             </button>
         </div>
+         <div class="col-sm-4">
+            <?php echo $this->Html->link('<i class="fa fa-rss-square fa-4x"></i>', array('controller'=>'posts', 'action'=>'flux_rss.rss'), array('escape'=>false)); ?>
+        </div>
 </div>
