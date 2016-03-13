@@ -237,6 +237,8 @@
 				}
 			} else {
 				// sinon on se contente d'afficher les informations de l'utilisateur
+				$user = $this->User->findById($this->Auth->user('id'));
+				$this->set('user', $user);
 				$this->User->id = $this->Auth->user('id');
 				$this->request->data = $this->User->read();
 			}
@@ -319,6 +321,31 @@
 
 			$this->Session->setFlash("Votre demande a été annulée", 'success');
 			$this->redirect('/');
+		}
+
+		public function admin_index() {
+			$this->layout = "default2";
+			$users = $this->User->find('all', array(
+				'fields'=>array('id', 'username', 'mail', 'groups_id')
+				)
+			);
+	  		$this->set(compact('users'));
+		}
+
+		public function admin_edit($id) {
+			$this->layout = "default2";
+
+			$user = $this->User->findById($id);
+			$this->set('user', $user);
+
+			if (!empty($this->request->data)) {
+				$this->User->id = $id;
+				$this->User->saveField('groups_id', $this->request->data['User']['groups_id']);
+				$this->User->saveField('end_subscription', $this->request->data['User']['end_subscription']);
+				$this->Session->setFlash("Opération effectuée", 'success');
+
+				$this->redirect(array('action'=>'admin_index'));
+			}
 		}
 
 	}

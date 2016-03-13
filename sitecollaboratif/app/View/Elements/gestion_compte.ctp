@@ -3,9 +3,12 @@
 	<li <?php if ($this->request->action == 'account'): ?> class="active"  <?php endif; ?> >
 		<?= $this->Html->link('Mon compte', array('controller'=>'users', 'action'=>'account')); ?>
 	</li>
-	<?php if ($this->Session->read('Auth.User.groups_id') == 1 || $this->Session->read('Auth.User.groups_id') == null): ?>
+	<?php if ($user['User']['groups_id'] == 1): ?>
 		<li>
 			<?php echo $this->Html->link("Panneau de contrôle", array('controller'=>'admin/posts')); ?>
+		</li>
+		<li>
+			<?php echo $this->Html->link("Gestion des utilisateurs", array('controller'=>'admin/users')) ?>
 		</li>
 		<li class="disabled">
 			<?php echo $this->Html->link("S'abonner", array('action'=>'account')); ?>
