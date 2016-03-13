@@ -184,8 +184,14 @@
 
 	  	public function create_pdf($id) {
 	  		$this->layout = "pdf";
+
+	  		$article = $this->Post->findById($id);
+
+
 	  		$this->Session->setFlash("Vous pouvez dès à présent télécharger votre pdf !", "success");
+
 	  		$this->set('id', $id);
+	  		$this->set(compact('article'));
 	  		$this->render('/Pdf/pdf_view');
 	  		$this->redirect($this->referer());
 	  	}
@@ -193,11 +199,6 @@
 	  	public function show_pdf($id) {
 
 		    $this->viewClass = 'Media';
-
-	  		if (!file_exists(APP . 'files/pdf/' . $id . 'pdf')) {
-	  			$this->Session->setFlash("Avant de pouvoir télécharger votre article, vous devez d'abord l'exporter", "error");
-	  			$this->redirect(array('action'=>'voir', $id));
-	  		}
 		 
 		    $params = array(
 		        'id' => $id.'.pdf',
