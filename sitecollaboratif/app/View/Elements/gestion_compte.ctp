@@ -20,16 +20,5 @@
 		<li>
 			<?php echo $this->Html->link("S'abonner", array('controller'=>'Users', 'action'=>'subscribe')); ?>
 		</li>
-		<li>
-			<?php echo $this->Form->create('Newsletter', array('url'=>array('controller'=>'newslettersSender', 'action'=>'sendNewsleter'))); ?>
-				<div class="input-group">
-							
-					<span class="input-group-btn">
-						<?php echo $this->Form->button("Spam Newsletter", array('class'=>'btn btn-default')); ?>
-					</span>
-				</div>
-			<?php echo $this->Form->end(); ?>
-			<li/>
 	<?php endif; ?>
-
 </ul>

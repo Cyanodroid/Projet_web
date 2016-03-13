@@ -55,7 +55,7 @@
 
 			App::uses('CakeEmail', 'Network/Email');
 			$email = new CakeEmail('gmail');
-			$email->to($emails_list) // à qui ? $this->Auth->user('mail')
+			$email->to($emails_list) // à qui ?
 				  ->from(Configure::read('Site_Contact.mail')) // par qui ?
 				  ->subject('Newsletter de la semaine') // sujet du mail
 				  ->emailFormat('html') // le format à utiliser
