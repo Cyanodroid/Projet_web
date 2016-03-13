@@ -17,6 +17,9 @@
 	<?php echo nl2br($a['Post']['contenu']); ?>
 
 	<hr>
+    <i class="fa fa-file-pdf-o"></i> &nbsp; <?php echo $this->Html->link('Exporter au format PDF', array('controller'=>'posts', 'action'=>'create_pdf', 'escape'=>false)); ?><br/><br/>
+    <i class="fa fa-download"></i> &nbsp; <?php echo $this->Html->link('Télécharger le PDF', array('controller'=>'posts', 'action'=>'show_pdf')); ?>
+    <hr>
 
 	<div class="well">
         <h4>Publiez un commentaire :</h4>
@@ -72,5 +75,4 @@
                 <svg><use xlink:href="../../app/webroot/img/sprite.svg#gplus"></use></svg>
             </button>
         </div>
-        <?php echo $this->Html->link('Exporter', array('controller'=>'posts', 'action'=>'create_pdf')); ?>
 </div>

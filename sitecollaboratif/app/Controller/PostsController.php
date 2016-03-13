@@ -184,8 +184,24 @@
 
 	  	public function create_pdf() {
 	  		$this->layout = "pdf";
-	  		$this->render('/Pdf/pdf_view');
+	  		$this->Session->setFlash("Vous pouvez dès à présent télécharger votre pdf !", "success");
+	  		$this->redirect($this->referer());
 	  	}
+
+	  	public function show_pdf() {
+ 
+		    $this->viewClass = 'Media';
+		 
+		    $params = array(
+		        'id' => 'test.pdf',
+		        'name' => 'test' ,
+		        'download' => false,
+		        'extension' => 'pdf',
+		        'path' => APP . 'files/pdf' . DS
+		    );
+		 
+			$this->set($params);
+		}
 
 	}
 ?>
