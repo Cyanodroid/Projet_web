@@ -1,0 +1,1 @@
+L'utilisateur <strong><?= $username; ?></strong>, ayant comment identifiant : <strong><?= $id; ?></strong> vient de s'abonner, merci de mettre son compte à jour au plus vite.<br/>

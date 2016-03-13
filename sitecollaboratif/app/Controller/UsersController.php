@@ -278,6 +278,13 @@
 		}
 
 		public function paypal_success() {
+
+			$user = $this->User->find('first', array(
+				'conditions'=>array('id'=>$this->Auth->user('id')),
+				'fields'=>array('id', 'username')
+				)
+			);
+
 			App::uses('CakeEmail', 'Network/Email');
 			$email = new CakeEmail('gmail');
 			$email->to(Configure::read('Site_Contact.mail')) // à qui ? $this->Auth->user('mail')
@@ -285,6 +292,15 @@
 				  ->subject('Votre abonnement a été pris en compte') // sujet du mail
 				  ->emailFormat('html') // le format à utiliser
 				  ->template('paypal_success') // le template à utiliser
+				  ->send(); // envoi du mail
+
+			$admin_email = new CakeEmail('gmail');
+			$admin_email->to(Configure::read('Site_Contact.mail')) // à qui ? $this->Auth->user('mail')
+				  ->from(Configure::read('Site_Contact.mail')) // par qui ?
+				  ->subject("[URGENT] Un utilisateur vient de s'abonner") // sujet du mail
+				  ->emailFormat('html') // le format à utiliser
+				  ->template('admin_paypal_success') // le template à utiliser
+				  ->viewVars(array('username'=>$user['User']['username'], 'id'=>$user['User']['id'])) // les arg qu'on passe à notre template
 				  ->send(); // envoi du mail
 
 			$this->Session->setFlash("Votre abonnement a été pris en compte", 'success');
