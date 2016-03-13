@@ -223,6 +223,5 @@
 
 			$this->set(compact('posts'));
 		}
-
 	}
 ?>
