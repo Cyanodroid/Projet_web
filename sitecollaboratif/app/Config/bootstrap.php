@@ -7,22 +7,6 @@ Configure::write('Dispatcher.filters', array(
 	'CacheDispatcher'
 ));
 
-// mode développement
-Configure::write('Paypal', array(
-	'mail'=>'xxxxx@paypal.com', // verifier l'email pour éviter les faux paiements !!!
-	'USER'=>'xxxxxapi1.paypal.com',
-	'PSW'=>'xxxxxx',
-	'SIGNATURE'=>'xxxxxxx',
-	'sandbox'=> 'sandbox.' // savoir si on est en test mode ou pas 
-	)
-);
-
-Configure::write('Site', array(
-	'prices'=>array(
-		1=>10,
-		3=>25,
-		6=>50)));
-
 /**
  * Configures default file logging options
  */
