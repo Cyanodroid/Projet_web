@@ -1,4 +1,6 @@
-<?php 
+<?php
+	App::uses('File', 'Utility');
+
 	class ChatsController extends AppController {
 		var $name = 'Chats';
 
@@ -99,9 +101,9 @@
 
 				$this->Chat->create($data['Chats'], true, array());
 				$this->Chat->save($data['Chats']);
-
-				// app/tmp/debug.log
-				CakeLog::write('info', 'Utilisateur : ' . $this->Auth->user('id') . ' dit : '. $msg);
+				
+				// app/tmp/$id.log
+				CakeLog::write($id, 'Utilisateur : ' . $this->Auth->user('username') . ' dit : '. $msg);
 			}
 		}
 
@@ -134,26 +136,23 @@
 		}
 
 		public function envoyer_mail($id) {
-
 			$this->autoRender = false;
 
-			$room = $this->Chat->Romms->find('first', array(
-				'conditions'=>array('id'=>$id)
-				)
-			);
+			
+			if ($this->request->is('ajax')) {
 
-			debug($room);
-			die();
+				$room = $this->Chat->Rooms->findById($id);
 
+				$directory = 'C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log';
 
-			App::uses('CakeEmail', 'Network/Email');
-			$email = new CakeEmail('gmail');
-			$email->to(Configure::read('Site_Contact.mail')) // à qui ? 
-				  ->from($this->Session->read('Auth.User.mail')) // par qui ?
-				  ->subject('Un utilisateur du site "Site collaboratif" a posé une question sur le tchat') // sujet du mail
-				  ->emailFormat('html') // le format à utiliser
-				  ->template('contact') // le template à utiliser
-				  ->viewVars($this->request->data['Contact']) // les arg qu'on passe à notre template
-				  ->send(); // envoi du mail
+				App::uses('CakeEmail', 'Network/Email');
+				$email = new CakeEmail('gmail');
+				$email->to(Configure::read('Site_Contact.mail')) // à qui ? 
+					  ->from(Configure::read('Site_Contact.mail')) // par qui ?
+					  ->subject('Un utilisateur du site "Site collaboratif" a posé une question sur le tchat') // sujet du mail
+					  ->emailFormat('html') // le format à utiliser
+					  ->attachments($directory)
+					  ->send(); // envoi du mail
+			}
 		}
 	}

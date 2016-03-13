@@ -69,7 +69,7 @@ function EnvoyerMSG() {
 		    data: {
 		    	id: id,
 		        msg: $('#chat-messsage-input').val()
-		    },
+		    }
 		});
 
 	  	$('#chat-messsage-input').val('');
@@ -93,6 +93,15 @@ function EnvoyerMAIL() {
 
 		$.ajax({
 		    url: '/Projet_web/sitecollaboratif/Chats/envoyer_mail/' + id,
+		    data: {
+		    	id: id
+		    },
+		    success : function() {
+		    	alert("Votre question a été envoyée");
+		    },
+		    error : function(status) {
+		    	alert("Une erreur est survenue lors de l'envoi");
+		    }
 		});
 		return false;
 	});
