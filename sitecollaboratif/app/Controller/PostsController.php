@@ -182,14 +182,10 @@
 	  		} 
 	  	}
 
-
-	  	public function export_to_pdf() {
-	  		Configure::write('debug', 0);
-	  		$this->response->type('pdf');
+	  	public function create_pdf() {
 	  		$this->layout = "pdf";
+	  		$this->render('/Pdf/pdf_view');
 	  	}
-
-
 
 	}
 ?>

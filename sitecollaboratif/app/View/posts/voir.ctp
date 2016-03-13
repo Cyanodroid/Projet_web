@@ -72,5 +72,5 @@
                 <svg><use xlink:href="../../app/webroot/img/sprite.svg#gplus"></use></svg>
             </button>
         </div>
-        <?php echo $this->Html->link('Exporter', array('controller'=>'posts', 'action'=>'export_to_pdf')); ?>
+        <?php echo $this->Html->link('Exporter', array('controller'=>'posts', 'action'=>'create_pdf')); ?>
 </div>
