@@ -1,7 +1,7 @@
 <?php
 	class Newsletter extends AppModel {
 		var $name = 'Newsletter';
-		var $hasOne ='Users'; // d'où le Newsletter->Users
+		var $hasOne ='User'; // d'où le Newsletter->User
 		
 		public $validate = array(
 

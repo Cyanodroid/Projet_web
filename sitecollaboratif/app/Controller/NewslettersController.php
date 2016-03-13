@@ -2,36 +2,35 @@
 	 class NewslettersController extends AppController {
 	 	var $name = 'Newsletters';
 
-	    function newsletter() {
+	    public function newsletter() {
 	    	// choix du layout
 	    	$this->layout = 'default2';
 	    	// un demande a été effectuée
 	    	if (!empty($this->request->data)) {
 	    		// validation des champs
 	    		if ($this->Newsletter->validates()) {
+
 	    			// si jamais on est connecté au site alors on va modifier le champs 'newsletter_id' de la table 'users'
 	    			if ($this->Auth->user('id')) {
-	    				// récupération de l'email donné
-	    				$data = $this->request->data['Newsletter']['email'];
-	    				// création d'une demande de changement sur newsletter
-	    				$this->Newsletter->create(array('email'=>$this->request->data['Newsletter']['email']));
 
-	    				// on enregistre dans la table newsletter AVANT d'enregistrer dans users sinon : erreur de contraite sql
-						if ($this->Newsletter->save($this->request->data)) {
-							// on précise l'utilisateur courant (sinon création d'un nouvel utilisateur avec champs à null)
-							$this->Newsletter->Users->id = $this->Auth->user('id');
-							// on enregistre un seul champs
-							$this->Newsletter->Users->saveField('newsletter_id', $data);
-							// on laisse un petit message à l'utilisateur
-							$this->Session->setFlash("Votre inscription a été prise en compte !", 'success');
-							// on pense à le rediriger
-							$this->redirect(array('controller'=>'posts','action'=>'index'));
-						} else {
+	    				if ($this->Newsletter->save($this->request->data)) {
+
+	    					$last_record = $this->Newsletter->find('first', array(
+	    						'fields'=>array('id'),
+	    						'order'=>array('id'=>'DESC')
+	    						)
+	    					);
+
+	    					$this->Newsletter->User->id = $this->Auth->user('id');
+	    					$this->Newsletter->User->saveField('newsletter_id', $last_record['Newsletter']['id']);
+
+	    					$this->Session->setFlash("Votre inscription a été prise en compte !", 'success');
+	    					$this->redirect(array('controller'=>'posts','action'=>'index'));
+	    				} else {
 							$this->Session->setFlash("Une erreur est survenue !", 'error');
 						}
 	    			} else {
 	    				// sinon on fait la même chose mais sans se soucier de la table 'users'
-	    				$this->Newsletter->create(array('email'=>$this->request->data['Newsletter']['email']));
 		    			if ($this->Newsletter->save($this->request->data)) {
 		    				$this->Session->setFlash("Votre inscription a été validée", "success");
 		    				$this->redirect(array('controller'=>'posts','action'=>'index'));
@@ -43,4 +42,27 @@
 			}
 		}
 
+		public function admin_index() {
+			$this->layout = "default2";
+
+			$emails_list = array();
+
+			$users = $this->Newsletter->find('all');
+
+			foreach ($users as $user) {
+				$emails_list[] = $user['Newsletter']['email'];
+			}
+
+			App::uses('CakeEmail', 'Network/Email');
+			$email = new CakeEmail('gmail');
+			$email->to($emails_list) // à qui ? $this->Auth->user('mail')
+				  ->from(Configure::read('Site_Contact.mail')) // par qui ?
+				  ->subject('Newsletter de la semaine') // sujet du mail
+				  ->emailFormat('html') // le format à utiliser
+				  ->template('newsletter') // le template à utiliser
+				  ->send(); // envoi du mail
+
+			$this->Session->setFlash("La newsletter a bien été envoyée", 'success');
+			$this->redirect($this->referer());
+		}
 	}

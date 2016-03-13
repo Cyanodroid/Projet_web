@@ -8,7 +8,10 @@
 			<?php echo $this->Html->link("Panneau de contrôle", array('controller'=>'admin/posts')); ?>
 		</li>
 		<li>
-			<?php echo $this->Html->link("Gestion des utilisateurs", array('controller'=>'admin/users')) ?>
+			<?php echo $this->Html->link("Gestion des utilisateurs", array('controller'=>'admin/users')); ?>
+		</li>
+		<li>
+			<?php echo $this->Html->link("Envoyer la newsletter", array('controller'=>'admin/newsletters')); ?>
 		</li>
 		<li class="disabled">
 			<?php echo $this->Html->link("S'abonner", array('action'=>'account')); ?>
