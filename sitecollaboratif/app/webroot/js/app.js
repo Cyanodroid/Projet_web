@@ -52,6 +52,33 @@ function ajaxCall() {
 	return false;
 }
 
+function recuperer_json(file) {
+	var request = new XMLHttpRequest();
+    request.open('GET', file, false);
+    request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+    request.send(null);
+
+    try {
+    	return JSON.parse(request.responseText);
+    } catch(ex) {
+    	return '';
+    }
+}
+
+function sanitize_badwords(message) {
+	
+    badwords = recuperer_json('app/webroot/js/badwords_file.json');
+
+    for (i = 0 ; i < badwords.length ; i++) {
+    	regExp = new RegExp('\\b' + badwords[i] + '\\b', 'gi');
+
+    	if (regExp.test(message)) {
+    		return message.replace(regExp, '*****');
+    	}
+    }
+    return message;
+}
+
 
 function EnvoyerMSG() {
 
@@ -62,13 +89,15 @@ function EnvoyerMSG() {
 	if (isNaN(id))
 		id = 1;
 
+	var msg = sanitize_badwords($('#chat-messsage-input').val());
+
 	$('#chat-form-control').submit(function(evt) {
 		evt.preventDefault();
 		$.ajax({
-		    url: '/Projet_web/sitecollaboratif/Chats/envoyer_msg/' + id + '/' + $('#chat-messsage-input').val(),
+		    url: '/Projet_web/sitecollaboratif/Chats/envoyer_msg/' + id + '/' + msg,
 		    data: {
 		    	id: id,
-		        msg: $('#chat-messsage-input').val()
+		        msg: msg
 		    }
 		});
 
@@ -78,7 +107,6 @@ function EnvoyerMSG() {
 		return false;
 	});
 }
-
 
 function EnvoyerMAIL() {
 	var current_url = $(location).attr('href');
