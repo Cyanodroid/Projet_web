@@ -42,6 +42,8 @@
 			'id'=>'[0-9]+'
 		)
 	);
+
+	Router::parseExtensions('rss');
 /**
 /**
  * Load all plugin routes. See the CakePlugin documentation on
