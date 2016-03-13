@@ -84,6 +84,9 @@
 			// on 'set' le tout et on balance à la view
 			$this->set('a', $query);
 			$this->set('c', $comments);
+
+			$user = $this->Auth->user('groups_id');
+			$this->set('user', $user);
 		}
 
 		// supression d'un commentaire

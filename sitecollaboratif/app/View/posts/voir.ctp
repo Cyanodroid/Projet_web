@@ -16,10 +16,14 @@
 	
 	<?php echo nl2br($a['Post']['contenu']); ?>
 
+    <?php if ($user != 2): ?>
 	<hr>
     <i class="fa fa-file-pdf-o"></i> &nbsp; <?php echo $this->Html->link('Exporter au format PDF', array('controller'=>'posts', 'action'=>'create_pdf', $a['Post']['id'], 'escape'=>false)); ?><br/><br/>
     <i class="fa fa-download"></i> &nbsp; <?php echo $this->Html->link('Télécharger le PDF', array('controller'=>'posts', 'action'=>'show_pdf', $a['Post']['id'])); ?>
     <hr>
+    <?php else: ?>
+     <hr>
+    <?php endif; ?>
 
 	<div class="well">
         <h4>Publiez un commentaire :</h4>
