@@ -182,19 +182,26 @@
 	  		} 
 	  	}
 
-	  	public function create_pdf() {
+	  	public function create_pdf($id) {
 	  		$this->layout = "pdf";
 	  		$this->Session->setFlash("Vous pouvez dès à présent télécharger votre pdf !", "success");
+	  		$this->set('id', $id);
+	  		$this->render('/Pdf/pdf_view');
 	  		$this->redirect($this->referer());
 	  	}
 
-	  	public function show_pdf() {
- 
+	  	public function show_pdf($id) {
+
 		    $this->viewClass = 'Media';
+
+	  		if (!file_exists(APP . 'files/pdf/' . $id . 'pdf')) {
+	  			$this->Session->setFlash("Avant de pouvoir télécharger votre article, vous devez d'abord l'exporter", "error");
+	  			$this->redirect(array('action'=>'voir', $id));
+	  		}
 		 
 		    $params = array(
-		        'id' => 'test.pdf',
-		        'name' => 'test' ,
+		        'id' => $id.'.pdf',
+		        'name' => $id ,
 		        'download' => false,
 		        'extension' => 'pdf',
 		        'path' => APP . 'files/pdf' . DS
