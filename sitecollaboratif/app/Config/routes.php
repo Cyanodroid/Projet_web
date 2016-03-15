@@ -43,14 +43,6 @@
 		)
 	);
 
-	Router::connect('/Chats/:msg', 
-		array('controller'=>'Chats', 'action'=>'question'),
-		array(
-			'pass'=>array('msg'),
-			'msg'=>'[a-zA-Z0-9]+'
-		)
-	);
-
 	Router::parseExtensions('rss');
 /**
 /**
