@@ -168,8 +168,8 @@ function enregistrer_reponse() {
 			    data: {
 			        msg: msg
 			    }, 
-			    success : function() {
-			    	alert("Réponse enregistrée");
+			    success : function(data) {
+			    	alert("Réponse enregistrée " + data);
 			    }, 
 			    error : function() {
 			    	alert("Une erreur est survenue");
