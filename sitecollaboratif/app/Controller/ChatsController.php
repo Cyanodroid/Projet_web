@@ -155,4 +155,22 @@
 					  ->send(); // envoi du mail
 			}
 		}
+
+		public function question($msg) {
+			$this->autoRender = false;
+
+			if ($this->request->is('ajax')) {
+				debug($this->request->params);
+				die();
+			}
+		}
+
+		public function reponse($msg) {
+			$this->autoRender = false;
+
+			if ($this->request->is('ajax')) {
+				debug($this->request->params);
+				die();
+			}
+		}
 	}

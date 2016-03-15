@@ -138,13 +138,19 @@ function EnvoyerMAIL() {
 function poser_question() {
 	$('#question-button-control').submit(function(evt) {
 		evt.preventDefault();
-		var str = window.prompt("Merci de nous préciser votre question : ", "");
-		if (str != NULL) {
+		var str = prompt("Merci de nous préciser votre question : ", "");
+		if (str != null) {
 			var msg = sanitize_badwords(str);
 			$.ajax({
-			    url: '/Projet_web/sitecollaboratif/Chats/action/' +  msg,
+			    url: '/Projet_web/sitecollaboratif/Chats/question/' +  msg,
 			    data: {
 			        msg: msg
+			    }, 
+			    success : function() {
+			    	alert("Question enregistrée");
+			    }, 
+			    error : function() {
+			    	alert("Une erreur est survenue");
 			    }
 			});
 		}
@@ -154,13 +160,19 @@ function poser_question() {
 function enregistrer_reponse() {
 	$('#reponse-button-control').submit(function(evt) {
 		evt.preventDefault();
-		var str = window.prompt("Merci de nous préciser la réponse qui vous semble la plus appropriée : ", "");
-		if (str != NULL) {
+		var str = prompt("Merci de nous préciser la réponse qui vous semble la plus appropriée : ", "");
+		if (str != null) {
 			var msg = sanitize_badwords(str);
 			$.ajax({
-			    url: '/Projet_web/sitecollaboratif/Chats/action/' +  msg,
+			    url: '/Projet_web/sitecollaboratif/Chats/reponse/' +  msg,
 			    data: {
 			        msg: msg
+			    }, 
+			    success : function() {
+			    	alert("Réponse enregistrée");
+			    }, 
+			    error : function() {
+			    	alert("Une erreur est survenue");
 			    }
 			});
 		}
