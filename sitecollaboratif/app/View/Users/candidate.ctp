@@ -12,7 +12,7 @@
 		</br>
 		Vous pourrez rejoindre notre grande famille en tant que rédacteur ou en tant que modérateur &hearts; !
 	</p>
-	</br>
+	</br> 
 	<?php 
 		echo $this->Form->create('User');
 		echo $this->Form->input('message', array('label'=>"Votre candidature", 'type'=>"textaera", 'rows'=>10, 'required', 'class'=>'form-control'));
