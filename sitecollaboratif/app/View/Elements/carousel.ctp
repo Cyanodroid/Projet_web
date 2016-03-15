@@ -9,6 +9,7 @@
 	  
 	<div class="carousel-inner" role="listbox">
 	  	<?php for ($i = 0; $i < 3; $i++){
+	  			if($articles[$i]['Post']['id'] == NULL) break;
 				if ($i == 0) echo "<div class=\"item active\">";
 				else echo "<div class=\"item\">";
 				echo "<div class=\"fill\">";
