@@ -66,12 +66,31 @@
 		</form>
 	</div>
 </div>
-
-<form id="mail-button-control">
-	<div class="input-group">
-		<span class="input-group-btn">
-			<input type="submit" onclick="EnvoyerMAIL();" class="btn btn-default" value="Envoyer un mail"/>
-		</span>
-	</div>
-</form>
-
+<div class="cb" style="margin-top: 10px;"></div>
+<div class="col-md-1 col-md-offset-5">
+	<form id="mail-button-control">
+		<div class="input-group">
+			<span class="input-group-btn">
+				<input type="submit" onclick="EnvoyerMAIL();" class="btn btn-default" value="Envoyer un mail"/>
+			</span>
+		</div>
+	</form>
+</div>
+<div class="col-md-1 col-md-offset-1">
+	<form id="question-button-control">
+		<div class="input-group">
+			<span class="input-group-btn">
+				<input type="submit" onclick="" class="btn btn-default" value="J'ai une question"/>
+			</span>
+		</div>
+	</form>
+</div>
+<div class="col-md-1 col-md-offset-1">
+	<form id="reponse-button-control">
+		<div class="input-group">
+			<span class="input-group-btn">
+				<input type="submit" onclick="" class="btn btn-default" value="J'ai eu une réponse"/>
+			</span>
+		</div>
+	</form>
+</div>
