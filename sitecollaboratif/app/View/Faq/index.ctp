@@ -56,12 +56,12 @@
 		          <h3>Nicolas</h3>
 		        </div>
 		        <div class="panel-body">
-		        	<?php //echo $this->Html->image('avatars/simi.jpg', array('class'=>'avatar')); ?>
-		        	<?php echo $this->Html->image('avatars/niko.jpg', array('class'=>'avatar')); ?>
+		        	<?php echo $this->Html->image('avatars/simi.jpg', array('class'=>'avatar')); ?>
+		        	<?php //echo $this->Html->image('avatars/niko.jpg', array('class'=>'avatar')); ?>
 		        </div>
 		        <div class="panel-footer">
-		        	<!-- p>Galérien en dev web mais cuisinier hors-pair.</p-->
-		        	<p>Aime les bananes et les applications, inachevé.</p>
+		        	<p>Galérien en dev web mais cuisinier hors-pair.</p>
+		        	<!--p>Aime les bananes et faire des applications la nuit.</p-->
 		        </div>
 		      </div>      
 		    </div>  
