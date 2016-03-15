@@ -26,7 +26,7 @@
 <div class="span12" style="text-align:center;">
 	<h1 style="margin-top : 10%;">Les derniers articles publiés</h1>
 
-	<?php foreach ($last as $l): ?>
+	<?php foreach ($all as $l): ?>
 
 	<div class="col-lg-4">
         <?php echo $this->Html->image('/img/categories/'.$l['Article']['categories_id'].'.jpg', array('height'=>140, 'width'=>140, 'class'=>'img-circle')); ?>
