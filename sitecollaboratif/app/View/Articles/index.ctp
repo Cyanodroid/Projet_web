@@ -24,7 +24,7 @@
 </div>
 
 <div class="span12" style="text-align:center;">
-	<h1 style="margin-top : 10%;">Les derniers articles publiés</h1>
+	<h1 style="margin-top : 10%;">Tous les articles publiés</h1>
 
 	<?php foreach ($all as $l): ?>
 
