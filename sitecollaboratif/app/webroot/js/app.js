@@ -134,3 +134,17 @@ function EnvoyerMAIL() {
 		return false;
 	});
 }
+
+function poser_question() {
+	$('#question-button-control').submit(function(evt) {
+		evt.preventDefault();
+		window.prompt("Merci de nous préciser votre question : ", "");
+	});
+}
+
+function enregistrer_reponse() {
+	$('#reponse-button-control').submit(function(evt) {
+		evt.preventDefault();
+		window.prompt("Merci de nous préciser la réponse qui vous semble la plus appropriée : ", "");
+	});
+}

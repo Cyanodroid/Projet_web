@@ -80,7 +80,7 @@
 	<form id="question-button-control">
 		<div class="input-group">
 			<span class="input-group-btn">
-				<input type="submit" onclick="" class="btn btn-default" value="J'ai une question"/>
+				<input type="submit" onclick="poser_question();" class="btn btn-default" value="J'ai une question"/>
 			</span>
 		</div>
 	</form>
@@ -89,7 +89,7 @@
 	<form id="reponse-button-control">
 		<div class="input-group">
 			<span class="input-group-btn">
-				<input type="submit" onclick="" class="btn btn-default" value="J'ai eu une réponse"/>
+				<input type="submit" onclick="enregistrer_reponse();" class="btn btn-default" value="J'ai eu une réponse"/>
 			</span>
 		</div>
 	</form>
