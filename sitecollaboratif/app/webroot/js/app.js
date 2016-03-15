@@ -146,8 +146,8 @@ function poser_question() {
 			    data: {
 			        msg: msg
 			    }, 
-			    success : function() {
-			    	alert("Question enregistrée");
+			    success : function(data) {
+			    	alert("Question enregistrée " + data);
 			    }, 
 			    error : function() {
 			    	alert("Une erreur est survenue");
