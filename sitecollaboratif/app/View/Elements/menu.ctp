@@ -33,39 +33,45 @@
 						<span class="caret"></span>
 					</button>
 				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-  					  <li><?php
+  					  <li onclick=alert("Bonjour")><?php
 						echo $this->Html->link(
-						    $this->Html->image("internationalisation/flag_icons/png/fr.png", array("alt" => "Langue")),
+						    $this->Html->image("internationalisation/flag_icons/png/fr.png", 
+						    	array("alt" => "Langue")),
 						    "index/",
 						    array('escape' => false)
 						);?></li>
-					  <li><?php
+					  <li onclick=alert("Hello")><?php
 						echo $this->Html->link(
-						    $this->Html->image("internationalisation/flag_icons/png/gb.png", array("alt" => "Langue")),
+						    $this->Html->image("internationalisation/flag_icons/png/gb.png", 
+						    	array("alt" => "Langue")),
 						    "index/",
 						    array('escape' => false)
 						);?></li>
-						<li><?php
+						<li onclick=alert("Hola")><?php
 						echo $this->Html->link(
-						    $this->Html->image("internationalisation/flag_icons/png/es.png", array("alt" => "Langue")),
+						    $this->Html->image("internationalisation/flag_icons/png/es.png", 
+						    	array("alt" => "Langue")),
 						    "index/",
 						    array('escape' => false)
 						);?></li>
-					  <li><?php
+					  <li onclick=alert("Hallo")><?php
 						echo $this->Html->link(
-						    $this->Html->image("internationalisation/flag_icons/png/de.png", array("alt" => "Langue")),
+						    $this->Html->image("internationalisation/flag_icons/png/de.png", 
+						    	array("alt" => "Langue")),
 						    "index/",
 						    array('escape' => false)
 						);?></li>
-						<li><?php
+						<li onclick=alert("привет")><?php
 						echo $this->Html->link(
-						    $this->Html->image("internationalisation/flag_icons/png/dz.png", array("alt" => "Langue")),
+						    $this->Html->image("internationalisation/flag_icons/png/ru.png", 
+						    	array("alt" => "Langue")),
 						    "index/",
 						    array('escape' => false)
 						);?></li>
-					  <li><?php
+					  <li onclick=alert("こんにちは")><?php
 						echo $this->Html->link(
-						    $this->Html->image("internationalisation/flag_icons/png/jp.png", array("alt" => "Langue")),
+						    $this->Html->image("internationalisation/flag_icons/png/jp.png", 
+						    	array("alt" => "Langue")),
 						    "index/",
 						    array('escape' => false)
 						);?></li>

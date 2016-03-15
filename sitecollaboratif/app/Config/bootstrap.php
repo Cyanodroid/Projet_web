@@ -29,3 +29,5 @@ Configure::write('Site_Contact', array(
 
 App::uses('CakeLog', 'Log');
 CakeLog::config('tchat', array('engine'=>'FileLog'));
+
+ini_set('intl.default_locale', 'fra');
