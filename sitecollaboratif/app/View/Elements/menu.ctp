@@ -15,7 +15,9 @@
 			<div id="navbar" class="navbar-collapse collapse">
 			  <ul class="nav navbar-nav navbar-right">
 				<li><?php echo $this->Html->link('Articles', '/articles'); ?></li>
-				<li><?php echo $this->Html->link('Tchat', array('controller'=>'Chats', 'action'=>'index', 'admin'=>false)); ?></li> 
+				<?php if ($this->Session->read('Auth.User.id')): ?>
+					<li><?php echo $this->Html->link('Tchat', array('controller'=>'Chats', 'action'=>'index', 'admin'=>false)); ?></li> 
+				<?php endif ?>
 				<li><?php echo $this->Html->link('Archives', '/archives'); ?></li>
 				<li><?php echo $this->Html->link('FAQ', '/faq'); ?></li>
 				<li><?php echo $this->Html->link('Contact', '/contact'); ?></li>
