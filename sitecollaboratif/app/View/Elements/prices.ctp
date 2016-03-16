@@ -10,13 +10,13 @@
         <div class="panel-heading">
           <h1>Premium</h1>
         </div>
-        <div class="panel-body">
-          <p><strong>Devenez un de nos membres premium !</strong></p>
-          <p>Passez prioritaire sur le tchat et téléchargez les PDF des cours.</p>
+        <div class="panel-body" style="font-size: 140%;">
+          <p></br></br><strong>Devenez un de nos membres premium !</strong></p>
+          <p>Passez prioritaire sur le tchat et téléchargez les PDF des cours.</br></br></p>
         </div>
-        <div class="panel-footer">
+        <div class="panel-footer" style="font-size: 140%;">
           <h3>Seulement 5€</h3>
-          <h4>par mois</h4>
+          <h4>par mois</br></h4>
           <?php echo $this->Html->link("Souscrire", array('controller'=>'users', 'action'=>'subscribe'), array('class'=>'btn btn-primary')); ?>
         </div>
       </div>      
@@ -26,13 +26,13 @@
         <div class="panel-heading">
           <h1>Modération</h1>
         </div>
-        <div class="panel-body">
-          <p><strong>Vous souhaitez participer à la vie du site ?</strong></p>
-          <p>Candidatez et choisissez de devenir rédacteur ou modérateur de notre tchat !</p>
+        <div class="panel-body" style="font-size: 140%;">
+          <p></br></br><strong>Vous souhaitez participer à la vie du site ?</strong></p>
+          <p>Candidatez et choisissez de devenir rédacteur ou modérateur de notre tchat !</br></br></p>
         </div>
-        <div class="panel-footer">
+        <div class="panel-footer" style="font-size: 140%;">
           <h3>Bénévolat</h3>
-          <h4>Rédaction d'articles</h4>
+          <h4>Rédaction d'articles</br></h4>
           <?php echo $this->Html->link("Postuler", array('controller'=>'users', 'action'=>'candidate'), array('class'=>'btn btn-primary')); ?>
         </div>
       </div>     
