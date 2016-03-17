@@ -52,8 +52,8 @@
 		    <div class="col-sm-4B col-xs-12">
 		      <div class="panel panel-default text-center">
 		        <div class="panel-heading">
-		          <!-- h3>Thomas</h3-->
-		          <h3>Nicolas</h3>
+		          <h3>Thomas</h3>
+		          <!-- h3>Nicolas</h3-->
 		        </div>
 		        <div class="panel-body">
 		        	<?php echo $this->Html->image('avatars/simi.jpg', array('class'=>'avatar')); ?>
