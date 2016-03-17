@@ -1,6 +1,6 @@
-<div class="container marketing">
+<div class="container marketing" style="margin-top: -8%">
 	
-	<div class="row featurette">
+	<div class="row featurette" >
 
 	<?php for ($i = 0 ; $i < 3 ; $i++) {
 		if ($i % 2 == 0) {

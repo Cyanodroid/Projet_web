@@ -4,7 +4,7 @@
 </div> 
 <section>
 	<div class="container">
-		<div class="row">
+		<div class="row" >
 			<div class="col-lg-12">
 				<h2 class="section-heading">
 					Rechercher un article
@@ -21,6 +21,6 @@
 		</div>
 	</div>
 </section>
-<div class="container marketing" style="margin-top:48px;">
+<div class="container marketing" style="margin-top:5%;">
 <div class="row">
 <div id="content">

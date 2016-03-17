@@ -48,7 +48,7 @@
 	
 	<?php echo $this->element('carousel'); ?>
 
-	<div class="container marketing" style="margin-top:48px;">
+	<div class="container marketing" style="margin-top:3%;">
 	  <div class="row">
 	  	<div id="content">
 	  		<?php echo $this->Flash->render();  ?>
