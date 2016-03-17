@@ -1,13 +1,22 @@
-²<?php
-	class ContactController extends AppController {
+<?php
+	App::build(array('Lib' => array(APP . 'Lib' . DS . 'reCAPTCHA' . DS)));
+	App::uses('recaptcha', 'Lib');
 
-		public $components = array('Session', 'Security');
+	class ContactController extends AppController {
 
 		public function index() {
 			// choix du layout
 			$this->layout = 'default2';
 			// l'utilisateur a bien utilisé le type "post" ?
 			if ($this->request->is('post')) {
+
+				// double protection !
+				$captcha = new recaptcha('6Lf4FBsTAAAAAKX8au0BRq9nC4iW9-NK0BLHBPH4');
+
+                if($captcha->checkcode($this->request->data['g-recaptcha-response']) == false) {
+                    $this->Session->setFlash("Erreur de captcha !", 'error');
+                    return false;
+                }
 
 				//petite protection contre le spam (amélioration possible : utiliser le captcha -> il faut avoir un serveur par contre)
 				// les bots ne lisant que du code HTML vont remplir tous les inputs possible (dans le cas où le bot est vraiment basique)

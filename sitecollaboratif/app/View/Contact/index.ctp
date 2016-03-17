@@ -10,7 +10,10 @@
 		echo $this->Form->input('email', array('label'=>"Votre email", 'type'=>'email', 'required', 'class'=>'right'));
 		echo $this->Form->input('prot', array('label'=>false, 'type'=>'text', 'class'=>'required', 'type'=>'hidden'));
 		echo $this->Form->input('message', array('label'=>"Votre message", 'type'=>"textaera", 'rows'=>6, 'required'));
-		echo $this->Form->button('Envoyer', array('class'=>'btn-contact'));
-		echo $this->Form->end();
+		echo $this->Form->button('Envoyer', array('class'=>'btn-contact')); ?>
+		<div class="col-lg-12 google">
+			<div class="g-recaptcha" data-sitekey="6Lf4FBsTAAAAAKiHLaippD0gapGYWbWO3viCQsTj"></div>
+		</div>
+		<?php echo $this->Form->end();
 		 ?>
 	</section>
