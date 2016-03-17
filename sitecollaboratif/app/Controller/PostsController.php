@@ -116,7 +116,7 @@
 	    // fonction rechercher
 		function resultSearch() {
 			// choix du layout pour l'affichage
-			$this->layout = 'recherche';
+			$this->layout = 'default2';
 			// on va créer une requête sql
 	        $search = $this->request->data['Post']['search'];
 	       	$query = $this->Post->find('all', array('conditions'=>array('Post.title LIKE'=>'%'.$search.'%')));
