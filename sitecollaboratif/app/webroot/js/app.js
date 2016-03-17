@@ -20,8 +20,33 @@ $(document).ready(function(){
 		else
 			$('.to-the-top').fadeOut(600);
 	});
-}
-);
+
+	$('#live_search').keyup(function(e) {
+		var search = $(this).val();
+		var key = e.which;
+		var go = 0;
+		if (key == 13) {
+			go = 1;
+		} else {
+			go = 0;
+		}
+
+		if (search.length >= 2) {
+
+			$.ajax({
+				type : "GET",
+				url : '/Projet_web/sitecollaboratif/posts/resultSearch/' + search + '/' + go,
+				data : {search: search},
+				success : function(server_response) {
+					$('#result').html(server_response).show();
+				}
+			});
+		}
+
+	});
+
+});
+
 setInterval(ajaxCall, 1000);
 
 function ajaxCall() {
