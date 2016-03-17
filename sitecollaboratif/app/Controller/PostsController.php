@@ -116,14 +116,14 @@
 	    // fonction rechercher
 		function resultSearch() {
 			// choix du layout pour l'affichage
-			$this->layout = 'default2';
+			$this->layout = 'recherche';
 			// on va créer une requête sql
 	        $search = $this->request->data['Post']['search'];
-	       	$query = $this->Post->find('all', array('fields' => array('id', 'title', 'contenu'), 'conditions'=>array('Post.title LIKE'=>'%'.$search.'%')));
+	       	$query = $this->Post->find('all', array('conditions'=>array('Post.title LIKE'=>'%'.$search.'%')));
 	       	// amélioration : recherche lorsque l'on commence à formuler la recherche
 	       	// on va balancer le tout à la view
 	        $this->set('articles', $query);
-	        $this->render('index');
+	        // $this->render('index');
 	    }
 
 	  	public function admin_index() {

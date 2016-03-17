@@ -20,9 +20,9 @@ $(document).ready(function(){
 		else
 			$('.to-the-top').fadeOut(600);
 	});
-});
-
-// setInterval(ajaxCall, 1000);
+}
+);
+setInterval(ajaxCall, 1000);
 
 function ajaxCall() {
 
