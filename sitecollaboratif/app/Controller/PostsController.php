@@ -188,7 +188,6 @@
 
 	  		$article = $this->Post->findById($id);
 
-
 	  		$this->Session->setFlash("Vous pouvez dès à présent télécharger votre pdf !", "success");
 
 	  		$this->set('id', $id);
@@ -198,7 +197,11 @@
 	  	}
 
 	  	public function show_pdf($id) {
-
+	  		if (!file_exists(APP . 'files/pdf/'.$id.'.pdf')) {
+	  			$this->Session->setFlash("Ce document n'est pas encore disponible sur le serveur. Afin de pouvoir le télécharger, vous devez d'abord l'exporter.", "error");
+	  			$this->redirect($this->referer());
+	  		}
+	  		
 		    $this->viewClass = 'Media';
 		 
 		    $params = array(
