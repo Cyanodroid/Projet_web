@@ -1,5 +1,8 @@
 <?php 
-	 class NewslettersController extends AppController {
+	App::build(array('Lib' => array(APP . 'Lib' . DS . 'reCAPTCHA' . DS)));
+	App::uses('recaptcha', 'Lib');
+
+	class NewslettersController extends AppController {
 	 	var $name = 'Newsletters';
 
 	    public function newsletter() {
@@ -11,6 +14,13 @@
 	    		// validation des champs
 	    		if ($this->Newsletter->validates()) {
 
+                    $captcha = new recaptcha('6Lf4FBsTAAAAAKX8au0BRq9nC4iW9-NK0BLHBPH4');
+
+                    if($captcha->checkcode($this->request->data['g-recaptcha-response']) == false) {
+                        $this->Session->setFlash("Erreur de captcha !", 'error');
+                        return false;
+                    }
+                    
 	    			// si jamais on est connecté au site alors on va modifier le champs 'newsletter_id' de la table 'users'
 	    			if ($this->Auth->user('id')) {
 

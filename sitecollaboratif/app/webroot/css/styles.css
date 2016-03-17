@@ -286,3 +286,11 @@ svg {
   top: 0; left: 0;
   z-index: 99999;
 }
+
+
+@media (min-width: 1200px) {
+  .google {
+    margin-top: 1%;
+    margin-left: 36%;
+  }
+}

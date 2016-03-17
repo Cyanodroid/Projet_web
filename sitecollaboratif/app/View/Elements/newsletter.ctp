@@ -17,8 +17,12 @@
 								<?php echo $this->Form->button("S'inscrire", array('class'=>'btn btn-default')); ?>
 							</span>
 					</div>
+					<div class="col-lg-12 google">
+						<div class="g-recaptcha" data-sitekey="6Lf4FBsTAAAAAKiHLaippD0gapGYWbWO3viCQsTj"></div>
+					</div>
 				<?php echo $this->Form->end(); ?>
 			</div>
+			
 		</div>
 	</div>
 </section>
