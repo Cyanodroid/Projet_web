@@ -44,7 +44,7 @@
 <body>
 	<?php echo $this->element('menu'); ?>
 
-	<div class="container marketing">
+	<div class="container marketing"  style="margin-top:8%;">
 	  <div class="row">
 		<?php echo $this->Flash->render(); ?>
 		<?php echo $this->fetch('content'); ?>
