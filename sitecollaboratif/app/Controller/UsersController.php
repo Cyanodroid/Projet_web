@@ -187,15 +187,13 @@
 			// choix du layout
 			$this->layout = 'default2';
 			// si l'utilisateur appuie sur "modifier"
+
 			if (!empty($this->request->data)) {
 				// récupération de l'utilisateur courant
 				$this->request->data['User']['id'] = $this->Auth->user('id');
-				$this->User->create($this->request->data);
 
 				// validation des champs
 				if ($this->User->validates()) {
-
-					$this->User->create();
 
 					$this->User->id = $this->Auth->user('id');
 					// vérification de la présence d'un avatar					
@@ -221,10 +219,10 @@
 						);
 					}
 
-					if (!empty($this->request->data['User']['password'])) {
+					if (!empty($this->request->data['User']['mail'])) {
 						$this->User->saveField(
 	           				'mail', $this->request->data['User']['mail']
-           				);
+           				);	
 					}
 					
 					// on recharge les informations
