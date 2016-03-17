@@ -232,6 +232,9 @@
 
 					// on laisse un message de validation
 					$this->Session->setFlash("Vos informations ont bien été modifiées", 'success');
+
+					$user = $this->User->findById($this->Auth->user('id'));
+					$this->set('user', $user);
 				}
 			} else {
 				// sinon on se contente d'afficher les informations de l'utilisateur
