@@ -16,5 +16,11 @@
             	)
 			)
 	    );
+
+	    function beforeSave($options = array()) {
+            App::uses('Sanitize', 'Utility');
+            $this->data['Newsletter']['email'] = Sanitize::html($this->data['Newsletter']['email']);
+            return true;
+        }
 	}
 ?>

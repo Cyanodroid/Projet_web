@@ -138,7 +138,6 @@
 		public function envoyer_mail($id) {
 			$this->autoRender = false;
 
-			
 			if ($this->request->is('ajax')) {
 
 				$room = $this->Chat->Rooms->findById($id);
@@ -153,6 +152,7 @@
 					  ->emailFormat('html') // le format à utiliser
 					  ->attachments($directory)
 					  ->send(); // envoi du mail
+				die();
 			}
 		}
 

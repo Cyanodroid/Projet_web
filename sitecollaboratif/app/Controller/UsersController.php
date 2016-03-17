@@ -282,17 +282,26 @@
 
 		public function paypal_success() {
 
+			if (!$this->Auth->user('id'))
+				throw new NotFoundException("Cette page n'existe pas");
+				
+
 			$user = $this->User->find('first', array(
 				'conditions'=>array('id'=>$this->Auth->user('id')),
-				'fields'=>array('id', 'username')
+				'fields'=>array('id', 'username', 'groups_id')
 				)
 			);
+
+			$group = 3;
+
+			$this->User->id = $this->Auth->user('id');
+			$this->User->saveField('groups_id', $group);
 
 			App::uses('CakeEmail', 'Network/Email');
 			$email = new CakeEmail('gmail');
 			$email->to(Configure::read('Site_Contact.mail')) // à qui ? $this->Auth->user('mail')
 				  ->from(Configure::read('Site_Contact.mail')) // par qui ?
-				  ->subject('Votre abonnement a été pris en compte') // sujet du mail
+				  ->subject('Merci de confirmer votre abonnement') // sujet du mail
 				  ->emailFormat('html') // le format à utiliser
 				  ->template('paypal_success') // le template à utiliser
 				  ->send(); // envoi du mail
