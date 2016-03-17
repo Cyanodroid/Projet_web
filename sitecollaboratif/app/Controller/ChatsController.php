@@ -142,7 +142,8 @@
 
 				$room = $this->Chat->Rooms->findById($id);
 
-				$directory = 'C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log';
+				// $directory = 'C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log'; // PC FIXE
+				$directory = 'C:/Users/link-/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; // PC PORTABLE
 
 				App::uses('CakeEmail', 'Network/Email');
 				$email = new CakeEmail('gmail');

@@ -69,6 +69,9 @@ function sanitize_badwords(message) {
 	
     badwords = recuperer_json('app/webroot/js/badwords_file.json');
 
+    if (badwords.length == 0)
+    	return '****';
+
     for (i = 0 ; i < badwords.length ; i++) {
     	regExp = new RegExp('\\b' + badwords[i] + '\\b', 'gi');
 
