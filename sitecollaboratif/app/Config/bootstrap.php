@@ -23,11 +23,10 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 
+CakeLog::config('tchat', array('engine'=>'FileLog'));
+
 Configure::write('Site_Contact', array(
 	'mail' => 'site.collaboratif.test@gmail.com'
 ));
-
-App::uses('CakeLog', 'Log');
-CakeLog::config('tchat', array('engine'=>'FileLog'));
 
 ini_set('intl.default_locale', 'fra');

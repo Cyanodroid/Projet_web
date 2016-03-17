@@ -3,8 +3,6 @@
 		var $name = "Posts";
 		var $uses = array('Post', 'Comment', 'User');
 
-		public $components = array('RequestHandler');
-
 		// création d'une pagination
 		var $paginate = array(
 			'Post'=> array( // sur les posts

@@ -5,6 +5,7 @@
 	    public function newsletter() {
 	    	// choix du layout
 	    	$this->layout = 'default2';
+
 	    	// un demande a été effectuée
 	    	if (!empty($this->request->data)) {
 	    		// validation des champs
