@@ -142,8 +142,14 @@
 
 				$room = $this->Chat->Rooms->findById($id);
 
-				// $directory = 'C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log'; // PC FIXE
-				$directory = 'C:/Users/link-/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; // PC PORTABLE
+				// $directory = 'C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log'; // NICO.G PC FIXE
+				$directory = 'C:/Users/link-/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		   // NICO.G PC PORTABLE
+
+				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // ARNAULT.P PC
+
+				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // CLAIRE.T PC
+
+				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // THOMAS.S PC	           
 
 				App::uses('CakeEmail', 'Network/Email');
 				$email = new CakeEmail('gmail');
