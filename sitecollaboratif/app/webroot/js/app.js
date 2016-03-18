@@ -66,12 +66,12 @@ function ajaxCall() {
 	var focus_message = document.getElementById('chat-messsage-input');
 	focus_message.focus();
 		
-	return false;
+	return true;
 }
 
 function recuperer_json(file) {
 	var request = new XMLHttpRequest();
-    request.open('GET', file, true);
+    request.open('GET', file, false);
     request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
     request.send(null);
 
@@ -86,14 +86,16 @@ function sanitize_badwords(message) {
 	
     badwords = recuperer_json('/Projet_web/sitecollaboratif/app/webroot/js/badwords_file.json');
 
-    if (badwords.length == 0)
+    if (badwords.length == 0) {
+    	console.log("impossible de recuperer_json");
     	return message;
+    }
 
     for (i = 0 ; i < badwords.length ; i++) {
     	regExp = new RegExp('\\b' + badwords[i] + '\\b', 'gi');
 
     	if (regExp.test(message)) {
-    		return message.replace(regExp, 'censored');
+    		return message.replace(regExp, '***');
     	}
     }
     return message;
@@ -104,6 +106,8 @@ function EnvoyerMSG(id) {
 
 	var msg = sanitize_badwords($('#chat-messsage-input').val());
 	console.log(msg);
+	if (msg == '')
+		return false;
 
 	$('#chat-form-control').submit(function(evt) {
 		evt.preventDefault();
@@ -115,10 +119,11 @@ function EnvoyerMSG(id) {
 		    }
 		});
 
+		msg = '';
 	  	$('#chat-messsage-input').val('');
 	  	$('#chat-messsage-input').focus();
 
-		return false;
+		return true;
 	});
 }
 
@@ -139,7 +144,7 @@ function EnvoyerMAIL(id) {
 		    	alert("Une erreur est survenue lors de l'envoi");
 		    }
 		});
-		return false;
+		return true;
 	});
 }
 
