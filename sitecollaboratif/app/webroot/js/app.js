@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 });
 
-//setInterval(ajaxCall, 1000);
+setInterval(ajaxCall, 1000);
 
 function ajaxCall() {
 
