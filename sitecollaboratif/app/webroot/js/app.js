@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 });
 
-setInterval(ajaxCall, 1000);
+//setInterval(ajaxCall, 1000);
 
 function ajaxCall() {
 
@@ -152,10 +152,10 @@ function poser_question() {
 	$('#question-button-control').submit(function(evt) {
 		evt.preventDefault();
 		var str = prompt("Merci de nous préciser votre question : ", "");
-		if (str != null) {
+		if (str != '') {
 			var msg = sanitize_badwords(str);
 			$.ajax({
-			    url: '/Projet_web/sitecollaboratif/Chats/question/' +  msg,
+			    url: '/Projet_web/sitecollaboratif/Archives/question/' +  msg,
 			    data: {
 			        msg: msg
 			    }, 
@@ -166,19 +166,23 @@ function poser_question() {
 			    	alert("Une erreur est survenue");
 			    }
 			});
-		}
+		} else return false;
+		return true;
 	});
 }
 
 function enregistrer_reponse() {
 	$('#reponse-button-control').submit(function(evt) {
 		evt.preventDefault();
+		var qst = prompt("Merci de nous rappeler votre question : ", "");
 		var str = prompt("Merci de nous préciser la réponse qui vous semble la plus appropriée : ", "");
-		if (str != null) {
+		if (str != '' && qst != '') {
+			var qst = sanitize_badwords(qst);
 			var msg = sanitize_badwords(str);
 			$.ajax({
-			    url: '/Projet_web/sitecollaboratif/Chats/reponse/' +  msg,
+			    url: '/Projet_web/sitecollaboratif/Archives/reponse/' + qst + '/' + msg,
 			    data: {
+			    	qst: qst,
 			        msg: msg
 			    }, 
 			    success : function(data) {
@@ -188,6 +192,7 @@ function enregistrer_reponse() {
 			    	alert("Une erreur est survenue");
 			    }
 			});
-		}
+		} else return false;
+		return true;
 	});
 }
