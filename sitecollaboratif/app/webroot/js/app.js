@@ -57,7 +57,7 @@ function ajaxCall() {
 	var url = '/Projet_web/sitecollaboratif/Chats/ajaxProcessing' + '/' + id;
 
 	$.get(url, function(data, status) {
-			$('#chat-message').empty().append(data);
+		$('#chat-message').empty().append(data);
 	});
 
 	var tchat_scroll = document.getElementById('chat-message');
@@ -71,7 +71,7 @@ function ajaxCall() {
 
 function recuperer_json(file) {
 	var request = new XMLHttpRequest();
-    request.open('GET', file, false);
+    request.open('GET', file, true);
     request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
     request.send(null);
 
@@ -84,32 +84,26 @@ function recuperer_json(file) {
 
 function sanitize_badwords(message) {
 	
-    badwords = recuperer_json('app/webroot/js/badwords_file.json');
+    badwords = recuperer_json('/Projet_web/sitecollaboratif/app/webroot/js/badwords_file.json');
 
     if (badwords.length == 0)
-    	return '****';
+    	return message;
 
     for (i = 0 ; i < badwords.length ; i++) {
     	regExp = new RegExp('\\b' + badwords[i] + '\\b', 'gi');
 
     	if (regExp.test(message)) {
-    		return message.replace(regExp, '*****');
+    		return message.replace(regExp, 'censored');
     	}
     }
     return message;
 }
 
 
-function EnvoyerMSG() {
-
-	var current_url = $(location).attr('href');
-	var params = current_url.substring(current_url.lastIndexOf("/")+1);
-	var id = params.slice(0, 1);
-
-	if (isNaN(id))
-		id = 1;
+function EnvoyerMSG(id) {
 
 	var msg = sanitize_badwords($('#chat-messsage-input').val());
+	console.log(msg);
 
 	$('#chat-form-control').submit(function(evt) {
 		evt.preventDefault();
@@ -128,13 +122,7 @@ function EnvoyerMSG() {
 	});
 }
 
-function EnvoyerMAIL() {
-	var current_url = $(location).attr('href');
-	var params = current_url.substring(current_url.lastIndexOf("/")+1);
-	var id = params.slice(0, 1);
-
-	if (isNaN(id))
-		id = 1;
+function EnvoyerMAIL(id) {
 
 	$('#mail-button-control').submit(function(evt) {
 		evt.preventDefault();

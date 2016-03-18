@@ -60,7 +60,7 @@
 			<div class="input-group">
 				<input id="chat-messsage-input" class="form-control" placeholder="Votre message" autocomplete="off"/>
 				<span class="input-group-btn">
-					<input type="submit" onclick="EnvoyerMSG();" class="btn btn-default tchat-button" value="Envoyer"/>
+					<input type="submit" onclick="EnvoyerMSG(<?= $cr['Rooms']['id'] ?>);" class="btn btn-default tchat-button" value="Envoyer"/>
 				</span>
 			</div>
 		</form>
@@ -71,7 +71,7 @@
 	<form id="mail-button-control">
 		<div class="input-group">
 			<span class="input-group-btn">
-				<input type="submit" onclick="EnvoyerMAIL();" class="btn btn-default" value="Envoyer un mail"/>
+				<input type="submit" onclick="EnvoyerMAIL(<?= $cr['Rooms']['id'] ?>);" class="btn btn-default" value="Envoyer un mail"/>
 			</span>
 		</div>
 	</form>

@@ -88,7 +88,7 @@
 			}
 		}
 
-		public function envoyer_msg($id, $msg) {
+		public function envoyer_msg($id = null, $msg) {
 			$this->autoRender = false;
 
 			if ($msg == null)
@@ -107,31 +107,16 @@
 			}
 		}
 
-		public function ajaxProcessing($id = null, $current_id = null) {
+		public function ajaxProcessing($id) {
 
 			if ($this->request->is('ajax')) {
 	
-				if ($id == null) {
+				$msg = $this->Chat->find('all', array(
+					'conditions'=>array('Chat.rooms_id'=> $id)
+					)
+				);
 
-					$r = $this->Chat->Rooms->find('first', array(
-						'conditions' => array('Rooms.name'=>'Général')
-						)
-					);
-
-					$msg = $this->Chat->find('all', array(
-						'conditions'=>array('Chat.rooms_id'=> $r['Rooms']['id'])
-						)
-					);
-
-					$this->set('msg', $msg);
-				} else if ($id) {
-					$msg = $this->Chat->find('all', array(
-						'conditions'=>array('Chat.rooms_id'=> $id)
-						)
-					);
-
-					$this->set('msg', $msg);
-				}
+				$this->set('msg', $msg);
 			}
 		}
 
@@ -142,8 +127,8 @@
 
 				$room = $this->Chat->Rooms->findById($id);
 
-				// $directory = 'C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log'; // NICO.G PC FIXE
-				$directory = 'C:/Users/link-/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		   // NICO.G PC PORTABLE
+				$directory = 'C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log'; // NICO.G PC FIXE
+				// $directory = 'C:/Users/link-/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		   // NICO.G PC PORTABLE
 
 				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // ARNAULT.P PC
 
