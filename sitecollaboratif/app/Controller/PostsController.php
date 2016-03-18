@@ -125,7 +125,6 @@
 					echo '<a href="posts/voir/'.$query[$i]['Post']['id'].'">' . $query[$i]['Post']['title'] . '</a><br/>';
 					$i++;
 				}
-				return true;
 			} else {
 				$this->layout = 'recherche';
 				$search = $this->request->data['Post']['search'];
