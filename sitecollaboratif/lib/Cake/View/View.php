@@ -142,11 +142,11 @@ class View extends Object {
 	public $autoLayout = true;
 
 /**
- * File extension. Defaults to CakePHP's template ".ctp".
+ * File extension. Defaults to CakePHP's template ".php".
  *
  * @var string
  */
-	public $ext = '.ctp';
+	public $ext = '.php';
 
 /**
  * Sub-directory for this view file. This is often used for extension based routing.
@@ -987,9 +987,9 @@ class View extends Object {
 	}
 
 /**
- * Returns filename of given action's template file (.ctp) as a string.
+ * Returns filename of given action's template file (.php) as a string.
  * CamelCased action names will be under_scored! This means that you can have
- * LongActionNames that refer to long_action_names.ctp views.
+ * LongActionNames that refer to long_action_names.php views.
  *
  * @param string $name Controller action to find template filename for
  * @return string Template filename
@@ -1057,7 +1057,7 @@ class View extends Object {
  * Returns layout filename for this template as a string.
  *
  * @param string $name The name of the layout to find.
- * @return string Filename for layout file (.ctp).
+ * @return string Filename for layout file (.php).
  * @throws MissingLayoutException when a layout cannot be located
  */
 	protected function _getLayoutFileName($name = null) {
@@ -1091,8 +1091,8 @@ class View extends Object {
  */
 	protected function _getExtensions() {
 		$exts = array($this->ext);
-		if ($this->ext !== '.ctp') {
-			$exts[] = '.ctp';
+		if ($this->ext !== '.php') {
+			$exts[] = '.php';
 		}
 		return $exts;
 	}
