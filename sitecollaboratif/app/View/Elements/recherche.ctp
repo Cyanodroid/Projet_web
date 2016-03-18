@@ -11,13 +11,14 @@
 				</h2>
 				<?php echo $this->Form->create('Post',array('id' => 'textBox', 'type' => 'post','url' => array('controller' => 'posts', 'action' => 'resultSearch'))); ?>
 					<div class="input-group">
-						<?php echo $this->Form->input('search', array('label'=>"",'id'=>'search', 'class'=>'form-control')); ?>
+						<?php echo $this->Form->input('search', array('label'=>"",'id'=>'search', 'class'=>'form-control', 'autocomplete'=>"off")); ?>
 							<span class="input-group-btn">
 								<?php echo $this->Form->button('Rechercher', array('class'=>'btn btn-default')); ?>
 							</span>
 					</div>
 				<?php echo $this->Form->end(); ?>
 			</div>
+			<div class="result" id="result"></div>
 		</div>
 	</div>
 </section>

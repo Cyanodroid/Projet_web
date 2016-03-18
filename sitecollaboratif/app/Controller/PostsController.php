@@ -112,33 +112,26 @@
 	    }
 
 	    // fonction rechercher
-		function resultSearch($search, $bool) {
-			// choix du layout pour l'affichage
-			//$this->layout = 'recherche';
-			$this->layout = 'ajax';
+		function resultSearch($search = null) {
+		
+			if ($this->request->is('ajax')) {
+				$this->layout = 'ajax';
 
-			debug($this->request->params);
-			$data = $this->request->params['pass'][0];
-			$query = $this->Post->find('all', array('conditions'=>array('Post.title LIKE'=>'%'.$data.'%')));
+				$data = $this->request->params['pass'][0];
+				$query = $this->Post->find('all', array('conditions'=>array('Post.title LIKE'=>'%'.$data.'%')));
 
-			if ($this->request->params['pass'][1] == 0) {
 				$i = 0;
 				foreach ($query as $q) {
-					echo $query[$i]['Post']['title'] . '<br/>'; 
+					echo '<a href="posts/voir/'.$query[$i]['Post']['id'].'">' . $query[$i]['Post']['title'] . '</a><br/>';
 					$i++;
 				}
-			} else if ($this->request->params['pass'][1] == 1) {
-				 $this->set('articles', $query);
+				return true;
+			} else {
+				$this->layout = 'recherche';
+				$search = $this->request->data['Post']['search'];
+	       		$query = $this->Post->find('all', array('conditions'=>array('Post.title LIKE'=>'%'.$search.'%')));
+				$this->set('articles', $query);
 			}
-			
-/*			// on va créer une requête sql
-	        $search = $this->request->data['Post']['search'];
-	       	$query = $this->Post->find('all', array('conditions'=>array('Post.title LIKE'=>'%'.$search.'%')));
-	       	// amélioration : recherche lorsque l'on commence à formuler la recherche
-	       	// on va balancer le tout à la view
-	        $this->set('articles', $query);
-	        // $this->render('index');
-*/
 	    }
 
 	  	public function admin_index() {
