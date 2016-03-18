@@ -107,7 +107,7 @@
 			}
 		}
 
-		public function ajaxProcessing($id) {
+		public function ajaxProcessing($id = null) {
 
 			if ($this->request->is('ajax')) {
 	

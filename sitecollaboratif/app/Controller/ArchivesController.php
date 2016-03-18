@@ -3,7 +3,7 @@
 		var $name = 'Archives';
 
 		public function index() {
-
+			$this->layout = 'default2';
 		}
 
 		public function question($msg) {
