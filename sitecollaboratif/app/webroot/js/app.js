@@ -186,7 +186,7 @@ function enregistrer_reponse() {
 			        msg: msg
 			    }, 
 			    success : function(data) {
-			    	alert("Réponse enregistrée " + data);
+			    	alert(data);
 			    }, 
 			    error : function() {
 			    	alert("Une erreur est survenue");

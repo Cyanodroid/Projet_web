@@ -6,12 +6,11 @@
 
 		}
 
-
 		public function question($msg) {
 			$this->autoRender = false;
 
 			if (empty($this->request->params['pass'][0]))
-				return false;
+				die();
 
 			if ($this->request->is('ajax')) {
 				$data['Archive']['query'] = $this->request->params['pass'][0];
@@ -23,16 +22,21 @@
 			$this->autoRender = false;
 
 			if ($this->request->is('ajax')) {
-				// debug($this->request->params);
-				// die();
 
 				$query = $this->Archive->find('first', array(
 					'conditions' => array('query'=>$qst)
 					)
 				);
 
+				if ($query == null) {
+					echo "Aucune question ne correspond à votre demande";
+					die();
+				}
+
 				$this->Archive->id = $query['Archive']['id'];
 				$this->Archive->saveField('answer', $msg);
+
+				echo "Réponse enregistrée !";
 			}
 		}
 	}
