@@ -27,6 +27,3 @@
 	$pdf->lastPage();
  
 	echo $pdf->Output(APP . 'Files/pdf' . DS . $id . '.pdf', 'F');
-
-
-	
