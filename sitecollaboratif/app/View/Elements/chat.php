@@ -29,7 +29,7 @@ echo("<div class=\"row\" style=\"margin-top: 120px; border: 1px solid black;\">"
 				    	echo("<tr>");
 				        	echo("<td>");
 				        		if($u['Users']['avatar'] == 1){
-					        		$this->Html->image('/img/avatars/'.ceil($u['Users']['id'] / 1000).'/'.$u['Users']['id'].'.jpg', array('class'=>'chat-avatar'));
+					        		echo $this->Html->image('/img/avatars/'.ceil($u['Users']['id'] / 1000).'/'.$u['Users']['id'].'.jpg', array('class'=>'chat-avatar'));
 					    		}
 				        	echo("</td>");
 				        	echo("<td>".$u['Users']['username']."</td>");

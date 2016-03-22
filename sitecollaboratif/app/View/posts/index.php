@@ -1,6 +1,6 @@
 <?php $count = 0?>
 <div class="col-xs-12">
-
+	
 <?php foreach ($articles as $a): ?>
 	<div class="col-lg-4">
         <?php echo $this->Html->image('/img/categories/'.$a['Post']['categories_id'].'.jpg', array('height'=>140, 'width'=>140, 'class'=>'img-circle')); ?>

@@ -1,2 +1,4 @@
-<?php $this->layout = 'default2'; ?>
-<?php echo $this->element('newsletter'); ?>
+<?php 
+	$this->layout = 'default2';
+	echo $this->element('newsletter'); 
+?>

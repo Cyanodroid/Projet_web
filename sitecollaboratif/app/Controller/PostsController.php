@@ -55,15 +55,15 @@
 						// on vide les champs pour ne pas spam les commentaires (ex : F5 => confirmer l'envoi du formulaire etc etc)
 						$this->request->data = array();
 						// on laisse un petit message à l'utilisateur
-						$this->Session->setFlash("Votre commentaire a été posté !", 'success');
+						$this->Session->setFlash(__("Votre commentaire a été posté !"), 'success');
 						// on "refresh" la page courante
 						$this->redirect(array('action'=>'voir', $id));
 					} else {
-						$this->Session->setFlash("Une erreur est survenue !", 'error');
+						$this->Session->setFlash(__("Une erreur est survenue !"), 'error');
 					}
 					
 				} else {
-					$this->Session->setFlash("Vous devez vous connecter pour pouvoir commenter !", 'error');
+					$this->Session->setFlash(__("Vous devez vous connecter pour pouvoir commenter !"), 'error');
 				}
 			}
 
@@ -102,10 +102,10 @@
 	        	// suppression
 	            $this->Comment->delete($id);
 	            // validation
-	            $this->Session->setFlash("Commentaire supprimé", "success");
+	            $this->Session->setFlash(__("Commentaire supprimé"), "success");
 
 	        } else {
-	            $this->Session->setFlash("Vous n'avez pas le droit de supprimer ce commentaire", "error");
+	            $this->Session->setFlash(__("Vous n'avez pas le droit de supprimer ce commentaire"), "error");
 	        }
 	        // on redirige l'utilisateur d'où il vient
 	        return $this->redirect($this->referer());
@@ -172,13 +172,13 @@
 						}
 
 		  				$this->request->data = array();
-		  				$this->Session->setFlash("Votre article vient d'être publié !", "success");
+		  				$this->Session->setFlash(__("Votre article vient d'être publié !"), "success");
 		  				$this->redirect(array('action'=>'admin_index'));
 		  			} else {
-		  				$this->Session->setFlash("Erreur : votre article n'a pas pu être publié", "error");
+		  				$this->Session->setFlash(__("Erreur : votre article n'a pas pu être publié"), "error");
 		  			}
 	  			} else {
-	  				$this->Session->setFlash("Erreur : vos champs de sont pas valides", "error");
+	  				$this->Session->setFlash(__("Erreur : vos champs de sont pas valides"), "error");
 	  			}
 	  		} else if ($id) {
 	  			$this->request->data = $this->Post->findById($id); 
@@ -187,7 +187,7 @@
 
 	  	public function admin_delete($id) {
 	  		if ($this->Post->delete($id)) {
-	  			$this->Session->setFlash("Votre article vient d'être supprimé !", "success");
+	  			$this->Session->setFlash(__("Votre article vient d'être supprimé !"), "success");
 	  			$this->redirect($this->referer());
 	  		} 
 	  	}
@@ -197,7 +197,7 @@
 
 	  		$article = $this->Post->findById($id);
 
-	  		$this->Session->setFlash("Vous pouvez dès à présent télécharger votre pdf !", "success");
+	  		$this->Session->setFlash(__("Vous pouvez dès à présent télécharger votre pdf !"), "success");
 
 	  		$this->set('id', $id);
 	  		$this->set(compact('article'));
@@ -207,7 +207,7 @@
 
 	  	public function show_pdf($id) {
 	  		if (!file_exists(APP . 'files/pdf/'.$id.'.pdf')) {
-	  			$this->Session->setFlash("Ce document n'est pas encore disponible sur le serveur. Afin de pouvoir le télécharger, vous devez d'abord l'exporter.", "error");
+	  			$this->Session->setFlash(__("Ce document n'est pas encore disponible sur le serveur. Afin de pouvoir le télécharger, vous devez d'abord l'exporter."), "error");
 	  			$this->redirect($this->referer());
 	  		}
 	  		
