@@ -27746,3 +27746,161 @@ Stack Trace:
 #4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2016-03-23 11:16:49 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:16:50 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:17:02 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account/gestion
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:17:03 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account/gestion
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:17:11 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:17:11 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:19:17 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:19:17 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:20:02 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:20:03 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:21:07 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:21:07 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:21:49 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:21:50 Error: [ParseError] syntax error, unexpected '<', expecting end of file
+Request URL: /users/account
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\Claire...', Array)
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\Claire...')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-03-23 11:30:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/internationalisation/flag_icons/png/ja.png
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-23 11:30:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/internationalisation/flag_icons/png/ja.png
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

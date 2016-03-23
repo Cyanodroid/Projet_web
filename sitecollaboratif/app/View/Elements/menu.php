@@ -71,40 +71,52 @@ echo("<div class=\"navbar-wrapper\">");
 							echo("</button>");
 						  	echo("<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu2\">");
 		  					  	echo("<li onclick=alert(\"Bonjour\")>");
-			  					  	echo("<a href=\"/\" escape=\"false\"");
-										echo("<img src=\"internationalisation/flag_icons/png/fr.png\" alt=\"Français\"");
-										echo("</img>");	
-									echo("</a>");
+		  					  		echo $this->Html->link(
+									    $this->Html->image("internationalisation/flag_icons/png/fr.png", 
+									    	array("alt" => "Français")),
+									    "index/",
+									    array('escape' => false)
+									);
 								echo("</li>");
 								echo("<li onclick=alert(\"Hello\")>");
-			  					  	echo("<a href=\"/\" escape=\"false\"");
-										echo("<img src=\"internationalisation/flag_icons/png/gb.png\" alt=\"Anglais\"");	
-										echo("</img>");	
-									echo("</a>");
+			  					  	echo $this->Html->link(
+									    $this->Html->image("internationalisation/flag_icons/png/gb.png", 
+									    	array("alt" => "Anglais")),
+									    "index/",
+									    array('escape' => false)
+									);
 								echo("</li>");
 								echo("<li onclick=alert(\"Hola\")>");
-			  					  	echo("<a href=\"/\" escape=\"false\"");
-										echo("<img src=\"internationalisation/flag_icons/png/es.png\" alt=\"Espagnol\"");
-										echo("</img>");		
-									echo("</a>");
+			  					  	echo $this->Html->link(
+									    $this->Html->image("internationalisation/flag_icons/png/es.png", 
+									    	array("alt" => "Espagnol")),
+									    "index/",
+									    array('escape' => false)
+									);
 								echo("</li>");
 								echo("<li onclick=alert(\"Hallo\")>");
-			  					  	echo("<a href=\"/\" escape=\"false\"");
-										echo("<img src=\"internationalisation/flag_icons/png/de.png\" alt=\"Allemand\"");	
-										echo("</img>");	
-									echo("</a>");
+			  					  	echo $this->Html->link(
+									    $this->Html->image("internationalisation/flag_icons/png/de.png", 
+									    	array("alt" => "Allemand")),
+									    "index/",
+									    array('escape' => false)
+									);
 								echo("</li>");
 								echo("<li onclick=alert(\"привет\")>");
-			  					  	echo("<a href=\"/\" escape=\"false\"");
-										echo("<img src=\"internationalisation/flag_icons/png/ru.png\" alt=\"Russe\"");
-										echo("</img>");		
-									echo("</a>");
+			  					  	echo $this->Html->link(
+									    $this->Html->image("internationalisation/flag_icons/png/ru.png", 
+									    	array("alt" => "Russe")),
+									    "index/",
+									    array('escape' => false)
+									);
 								echo("</li>");
 								echo("<li onclick=alert(\"こんにちは\")>");
-			  					  	echo("<a href=\"/\" escape=\"false\"");
-										echo("<img src=\"internationalisation/flag_icons/png/jp.png\" alt=\"Japonais\"");
-										echo("</img>");		
-									echo("</a>");
+			  					  	echo $this->Html->link(
+									    $this->Html->image("internationalisation/flag_icons/png/jp.png", 
+									    	array("alt" => "Japonais")),
+									    "index/",
+									    array('escape' => false)
+									);
 								echo("</li>");					  
 						  	echo("</ul>");
 						echo("</li>");
