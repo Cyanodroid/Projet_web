@@ -27904,3 +27904,235 @@ Request URL: /img/internationalisation/flag_icons/png/ja.png
 Stack Trace:
 #0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-03-25 09:12:06 Error: [MissingViewException] View file "Emails\html\newsletter.php" is missing.
+Exception Attributes: array (
+  'file' => 'Emails\\html\\newsletter.php',
+)
+Request URL: /admin/newsletters
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Emails\\html\\new...')
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1710): View->render('newsletter', 'default')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1562): CakeEmail->_renderTemplates('')
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1171): CakeEmail->_render('')
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\Controller\NewslettersController.php(74): CakeEmail->send()
+#5 [internal function]: NewslettersController->admin_index()
+#6 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NewslettersController), Array)
+#7 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewslettersController), Object(CakeRequest))
+#9 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-03-25 09:12:06 Error: [MissingViewException] View file "Emails\html\newsletter.php" is missing.
+Exception Attributes: array (
+  'file' => 'Emails\\html\\newsletter.php',
+)
+Request URL: /admin/newsletters
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Emails\\html\\new...')
+#1 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1710): View->render('newsletter', 'default')
+#2 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1562): CakeEmail->_renderTemplates('')
+#3 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1171): CakeEmail->_render('')
+#4 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\Controller\NewslettersController.php(74): CakeEmail->send()
+#5 [internal function]: NewslettersController->admin_index()
+#6 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(NewslettersController), Array)
+#7 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(NewslettersController), Object(CakeRequest))
+#9 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-03-25 09:27:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/carousel.css
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/carousel.css
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:32 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:32 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:33 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:34 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:35 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:35 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:36 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:37 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:38 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:39 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:39 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:27:40 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:41:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/carousel.css
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:41:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/carousel.css
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:41:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/carousel.css
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:41:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/carousel.css
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:41:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/carousel.css
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:41:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/carousel.css
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:58:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/carousel.css
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-25 09:58:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/carousel.css
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

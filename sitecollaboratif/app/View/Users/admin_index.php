@@ -1,6 +1,5 @@
 <?php 
 echo $this->Session->Flash(); 
-//erreur
 echo("<div class=\"row\" style=\"margin-top:70px;\">");
 	echo("<h1>");
 	echo __("Gestion des utilisateurs");
@@ -43,12 +42,10 @@ echo("<div class=\"row\" style=\"margin-top:70px;\">");
 							echo $user['User']['groups_id'];
 						echo("</td>");
 						echo("<td>");
-							$g1 = __("Gérer");
-							$g2 = '<i class="fa fa-pencil-square-o"></i>&nbsp;'.$g1;
-							echo $this->Html->link($g2, array('action'=>'admin_edit', $user['User']['id']), array('escape'=>false));
+							echo $this->Html->link('<i class="fa fa-pencil-square-o"></i>&nbsp;Gérer', array('action'=>'admin_edit', $user['User']['id']), array('escape'=>false));
 						echo("</td>");
 					echo("</tr>");
-				}
+				}	
 			echo("</tbody>");
 		echo("</table>");
 	echo("</div>");
