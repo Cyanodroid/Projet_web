@@ -46,10 +46,11 @@ echo("<div class=\"col-lg-8\">");
     echo("<div class=\"media\">");
         echo("<div class=\"col-lg-2\">");
 	        if ($com['User']['avatar']){
-	            echo $this->Html->image($com['User']['avatari'], array('class' => 'avatar img-circle'));
+	            echo $this->Html->image($com['User']['avatari'], array('class' => 'media-object img-circle', "height" => 50, "weight" => 50));
 	       	}
             else{
-            	echo("<img class=\"media-object img-circle\" src=\"http://placehold.it/64x64\" alt=\"\">");
+                echo $this->Html->image("avatars/avatardefault.jpg", 
+                    array("class" => "media-object img-circle", "height" => 50, "weight" => 50));
         	}
         echo("</div>");
         echo("<div class=\"media-body\">");
