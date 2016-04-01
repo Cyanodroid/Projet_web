@@ -178,3 +178,75 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
 [main] - APP\webroot\index.php, line 110
 
+2016-04-01 19:17:27 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 38]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:17:27 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 38]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:18:55 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 38]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:18:55 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 38]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:19:38 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 38]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:19:38 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 38]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:20:00 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 38]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:20:00 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 38]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+

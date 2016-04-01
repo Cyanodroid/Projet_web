@@ -40,7 +40,30 @@ $(document).ready(function() {
 			});
 		}
 
+		if (search_input.length == 0) {
+			$('#result').html('').show();
+		}
+
 	});
+
+	$('#search_archives').keyup(function(e) {
+		var search_input = $(this).val();
+
+		if (search_input.length >= 2) {
+			$.ajax({
+				type : "GET",
+				url : '/Projet_web/sitecollaboratif/archives/resultSearch/' + search_input,
+				data : {search: search_input},
+				success : function(server_response) {
+					$('#result').html(server_response).show();
+				}
+			});
+		}
+
+		if (search_input.length == 0) {
+			$('#result').html('').show();
+		}
+	})
 
 });
 

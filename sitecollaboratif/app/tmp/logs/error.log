@@ -29632,3 +29632,1645 @@ Stack Trace:
 #6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
 #7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2016-04-01 19:17:25 Warning: Warning (2): Missing argument 2 for ArchivesController::reponse() in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 22]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 22
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:17:25 Warning: Warning (2): Missing argument 2 for ArchivesController::reponse() in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 22]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 22
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:18:54 Warning: Warning (2): Missing argument 2 for ArchivesController::reponse() in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 22]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 22
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:18:54 Warning: Warning (2): Missing argument 2 for ArchivesController::reponse() in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 22]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 22
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:19:37 Warning: Warning (2): Missing argument 2 for ArchivesController::reponse() in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 22]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 22
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:19:37 Warning: Warning (2): Missing argument 2 for ArchivesController::reponse() in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 22]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 22
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:19:59 Warning: Warning (2): Missing argument 2 for ArchivesController::reponse() in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 22]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 22
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:19:59 Warning: Warning (2): Missing argument 2 for ArchivesController::reponse() in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php, line 22]
+Trace:
+ArchivesController::reponse() - APP\Controller\ArchivesController.php, line 22
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-01 19:28:59 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /Projet_web/sitecollaboratif/archives
+Stack Trace:
+#0 [internal function]: App::load('ArchivesControl...')
+#1 [internal function]: spl_autoload_call('ArchivesControl...')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(266): class_exists('ArchivesControl...')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-01 19:28:59 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /Projet_web/sitecollaboratif/archives
+Stack Trace:
+#0 [internal function]: App::load('ArchivesControl...')
+#1 [internal function]: spl_autoload_call('ArchivesControl...')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(266): class_exists('ArchivesControl...')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-01 19:29:10 Error: [Error] Call to a member function find() on null
+Request URL: /Projet_web/sitecollaboratif/archives
+Stack Trace:
+#0 [internal function]: ArchivesController->index()
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 19:29:10 Error: [Error] Call to a member function find() on null
+Request URL: /Projet_web/sitecollaboratif/archives
+Stack Trace:
+#0 [internal function]: ArchivesController->index()
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 19:36:48 Error: [ParseError] syntax error, unexpected 'margin' (T_STRING), expecting ',' or ';'
+Request URL: /Projet_web/sitecollaboratif/archives
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\link-\\...', Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\link-\\...')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-01 19:36:48 Error: [ParseError] syntax error, unexpected 'margin' (T_STRING), expecting ',' or ';'
+Request URL: /Projet_web/sitecollaboratif/archives
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\link-\\...', Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\link-\\...')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-01 20:11:24 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Co?search=Co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:24 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Co?search=Co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:24 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Com?search=Com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:24 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Com?search=Com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:25 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comm?search=Comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:25 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comm?search=Comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:25 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comme?search=Comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:25 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comme?search=Comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:26 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Commen?search=Commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:26 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Commen?search=Commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:27 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:11:27 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:13:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Co?search=Co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Co')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Co?search=Co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Co')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Com?search=Com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Com')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Com?search=Com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Com')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comm?search=Comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comm')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comm?search=Comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comm')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comme?search=Comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comme')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comme?search=Comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comme')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Commen?search=Commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Commen')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Commen?search=Commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Commen')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comment')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comment')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comment')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comment')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Co?search=Co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Co')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Co?search=Co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Co')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Com?search=Com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Com')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Com?search=Com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Com')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comm?search=Comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comm')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comm?search=Comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comm')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comme?search=Comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comme')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comme?search=Comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comme')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Commen?search=Commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Commen')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Commen?search=Commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Commen')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comment')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comment')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Commen?search=Commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Commen')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Commen?search=Commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Commen')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comme?search=Comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comme')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comme?search=Comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comme')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comm?search=Comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comm')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comm?search=Comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Comm')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Com?search=Com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Com')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Com?search=Com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Com')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Co?search=Co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Co')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:13:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Archives.query' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Co?search=Co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Archive...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Archive...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Archive...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Archive), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(20): Model->find('all', Array)
+#7 [internal function]: ArchivesController->resultSearch('Co')
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-01 20:14:53 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Co?search=Co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:53 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Co?search=Co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:53 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Com?search=Com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:53 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Com?search=Com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:53 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comm?search=Comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:53 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comm?search=Comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comme?search=Comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comme?search=Comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:55 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Commen?search=Commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:55 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Commen?search=Commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:56 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:14:56 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:15 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:15 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/Comment?search=Comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:18 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:19 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:19 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:19 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:21 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:21 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comm?search=comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comm?search=comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comme?search=comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comme?search=comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/commen?search=commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/commen?search=commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comment?search=comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:16:23 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comment?search=comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:53 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:53 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comm?search=comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comm?search=comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comme?search=comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comme?search=comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/commen?search=commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/commen?search=commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comment?search=comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:17:54 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comment?search=comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:19:12 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:19:12 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:19:12 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:19:12 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:19:12 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comm?search=comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:19:12 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comm?search=comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:19:15 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:19:15 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:19:15 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:19:15 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:42 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:42 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/co?search=co
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:42 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:42 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/com?search=com
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:42 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comm?search=comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:42 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comm?search=comm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:42 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comme?search=comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:42 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comme?search=comme
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:43 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/commen?search=commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:43 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/commen?search=commen
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:43 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comment?search=comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:20:43 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch/comment?search=comment
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
