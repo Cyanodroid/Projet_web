@@ -33,28 +33,28 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	// utilisation des composants
 	public $components = array(
-		'Session', 
-		'Cookie', 
+		'Session',
+		'Cookie',
 		'Auth'=>array(
 			'authenticate'=>array(
 				'Form'=>array(
 					'scope'=>array('User.active'=>1) // on laisse les utilisateurs inscrits concrètement se connecter
 				)
 			)
-		), 
+		),
 		'RequestHandler'
 	);
 
 	public function beforeFilter() {
 		parent::beforeFilter();
 
-		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir');
+		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir', 'flux_rss');
 
 		if ($this->request->is('ajax')) {
 			$this->layout = null;
 		}
 
-		
+
 		if (isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'admin') {
 			/*if ($this->Auth->user('groups_id') != 1) {
 				throw new NotFoundException();
@@ -65,8 +65,3 @@ class AppController extends Controller {
 		}
     }
 }
-
-
-
-
-    

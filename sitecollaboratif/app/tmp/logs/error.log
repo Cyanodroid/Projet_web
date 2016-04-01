@@ -29378,3 +29378,75 @@ Stack Trace:
 #1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
 #2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-04-01 17:15:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/css/carousel.css
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 17:15:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/css/carousel.css
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 17:15:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/internationalisation/flag_icons/png/.png
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 17:15:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/internationalisation/flag_icons/png/.png
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 17:15:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/css/carousel.css
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 17:15:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/css/carousel.css
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 17:15:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/internationalisation/flag_icons/png/.png
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 17:15:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/internationalisation/flag_icons/png/.png
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
