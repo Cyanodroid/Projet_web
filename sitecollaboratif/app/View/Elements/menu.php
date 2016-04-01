@@ -1,4 +1,4 @@
-<?php 
+<?php
 echo("<div class=\"navbar-wrapper\">");
 	echo ("<div class=\"container\">");
 		echo("<nav class=\"navbar navbar-inverse navbar-static-top\">");
@@ -11,7 +11,7 @@ echo("<div class=\"navbar-wrapper\">");
 						echo("<span class=\"icon-bar\"></span>");
 				  	echo("</button>");
 				  	echo("<li style=\"list-style-type:none;\">");
-					  	echo("<a href=\"/\" class=\"navbar-brand\">");
+					  	echo("<a href=\"/Projet_web/sitecollaboratif/\" class=\"navbar-brand\">");
 					  		echo __("Site collaboratif");
 					  	echo("</a>");
 				  	echo("</li>");
@@ -19,48 +19,48 @@ echo("<div class=\"navbar-wrapper\">");
 				echo("<div id=\"navbar\" class=\"navbar-collapse collapse\">");
 				  	echo("<ul class=\"nav navbar-nav navbar-right\">");
 						echo("<li>");
-							echo("<a href=\"/articles\">");
+							echo("<a href=\"/Projet_web/sitecollaboratif/articles\">");
 								echo __("Articles");
 							echo("</a>");
 						echo("</li>");
 						if ($this->Session->read('Auth.User.id')){
 						echo("<li>");
-							echo("<a href=\"/chats/index\" controller=\"Chats\" action=\"index\" admin=\"false\">");
+							echo("<a href=\"chats/index\" controller=\"Chats\" action=\"index\" admin=\"false\">");
 								echo __("Tchat");
 							echo("</a>");
 						echo("</li>");
 						}
 						echo("<li>");
-							echo("<a href=\"/archives\">");
+							echo("<a href=\"/Projet_web/sitecollaboratif/archives\">");
 								echo __("Archives");
 							echo("</a>");
 						echo("</li>");
 						echo("<li>");
-							echo("<a href=\"/faq\">");
+							echo("<a href=\"faq\">");
 								echo __("FAQ");
 							echo("</a>");
 						echo("</li>");
 						echo("<li>");
-							echo("<a href=\"/contact\">");
+							echo("<a href=\"/Projet_web/sitecollaboratif/contact\">");
 								echo __("Contact");
 							echo("</a>");
 						echo("</li>");
 						if($this->Session->read('Auth.User.id')){
 						echo("<li>");
-						echo("<a href=\"/users/account\" controller=\"users\" action=\"account\" admin=\"false\">");
-								echo __("Mon compte");	
-						echo("</a>");				
+						echo("<a href=\"users/account\" controller=\"users\" action=\"account\" admin=\"false\">");
+								echo __("Mon compte");
+						echo("</a>");
 						echo("</li>");
 						echo("<li>");
-							echo("<a href=\"/users/logout\" controller=\"users\" action=\"logout\" admin=\"false\">");
-								echo __("Se déconnecter");	
+							echo("<a href=\"users/logout\" controller=\"users\" action=\"logout\" admin=\"false\">");
+								echo __("Se déconnecter");
 							echo("</a>");
 						echo("</li>");
 						}
 						else{
 						echo("<li>");
-							echo("<a href=\"/users/login\" controller=\"users\" action=\"login\">");
-								echo __("Se connecter");	
+							echo("<a href=\"users/login\" controller=\"users\" action=\"login\">");
+								echo __("Se connecter");
 							echo("</a>");
 						echo("</li>");
 						}
@@ -72,7 +72,7 @@ echo("<div class=\"navbar-wrapper\">");
 						  	echo("<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu2\">");
 		  					  	echo("<li onclick=alert(\"Bonjour\")>");
 		  					  		echo $this->Html->link(
-									    $this->Html->image("internationalisation/flag_icons/png/Fr.png", 
+									    $this->Html->image("internationalisation/flag_icons/png/Fr.png",
 									    	array("alt" => "fr")),
 									    "index/",
 									    array('escape' => false)
@@ -80,7 +80,7 @@ echo("<div class=\"navbar-wrapper\">");
 								echo("</li>");
 								echo("<li onclick=alert(\"Hello\")>");
 			  					  	echo $this->Html->link(
-									    $this->Html->image("internationalisation/flag_icons/png/Gb.png", 
+									    $this->Html->image("internationalisation/flag_icons/png/Gb.png",
 									    	array("alt" => "gb")),
 									    "index/",
 									    array('escape' => false)
@@ -88,7 +88,7 @@ echo("<div class=\"navbar-wrapper\">");
 								echo("</li>");
 								echo("<li onclick=alert(\"Hola\")>");
 			  					  	echo $this->Html->link(
-									    $this->Html->image("internationalisation/flag_icons/png/Es.png", 
+									    $this->Html->image("internationalisation/flag_icons/png/Es.png",
 									    	array("alt" => "es")),
 									    "index/",
 									    array('escape' => false)
@@ -96,7 +96,7 @@ echo("<div class=\"navbar-wrapper\">");
 								echo("</li>");
 								echo("<li onclick=alert(\"Hallo\")>");
 			  					  	echo $this->Html->link(
-									    $this->Html->image("internationalisation/flag_icons/png/De.png", 
+									    $this->Html->image("internationalisation/flag_icons/png/De.png",
 									    	array("alt" => "de")),
 									    "index/",
 									    array('escape' => false)
@@ -104,7 +104,7 @@ echo("<div class=\"navbar-wrapper\">");
 								echo("</li>");
 								echo("<li onclick=alert(\"привет\")>");
 			  					  	echo $this->Html->link(
-									    $this->Html->image("internationalisation/flag_icons/png/Ru.png", 
+									    $this->Html->image("internationalisation/flag_icons/png/Ru.png",
 									    	array("alt" => "ru")),
 									    "index/",
 									    array('escape' => false)
@@ -112,12 +112,12 @@ echo("<div class=\"navbar-wrapper\">");
 								echo("</li>");
 								echo("<li onclick=alert(\"こんにちは\")>");
 			  					  	echo $this->Html->link(
-									    $this->Html->image("internationalisation/flag_icons/png/Jp.png", 
+									    $this->Html->image("internationalisation/flag_icons/png/Jp.png",
 									    	array("alt" => "jp")),
 									    "index/",
 									    array('escape' => false)
 									);
-								echo("</li>");					  
+								echo("</li>");
 						  	echo("</ul>");
 						echo("</li>");
 				  	echo("</ul>");

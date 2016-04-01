@@ -29186,3 +29186,195 @@ Request URL: /css/carousel.css
 Stack Trace:
 #0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-04-01 12:28:45 Error: [SocketException] File not found: "C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/1.log"
+Request URL: /Projet_web/sitecollaboratif/Chats/envoyer_mail/1?id=1
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php(145): CakeEmail->attachments('C:/Users/Nicola...')
+#1 [internal function]: ChatsController->envoyer_mail('1')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ChatsController), Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-01 12:28:45 Error: [SocketException] File not found: "C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/1.log"
+Request URL: /Projet_web/sitecollaboratif/Chats/envoyer_mail/1?id=1
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php(145): CakeEmail->attachments('C:/Users/Nicola...')
+#1 [internal function]: ChatsController->envoyer_mail('1')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ChatsController), Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-01 12:29:12 Error: [MissingTableException] Table archives for model Archive was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'archives',
+  'class' => 'Archive',
+  'ds' => 'default',
+)
+Request URL: /Projet_web/sitecollaboratif/Archives/question/null?msg=
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3653): Model->setSource('archives')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(1748): Model->getDataSource()
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(17): Model->save(Array)
+#3 [internal function]: ArchivesController->question('null')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-04-01 12:29:12 Error: [MissingTableException] Table archives for model Archive was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'archives',
+  'class' => 'Archive',
+  'ds' => 'default',
+)
+Request URL: /Projet_web/sitecollaboratif/Archives/question/null?msg=
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3653): Model->setSource('archives')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(1748): Model->getDataSource()
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(17): Model->save(Array)
+#3 [internal function]: ArchivesController->question('null')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-04-01 12:29:22 Error: [MissingTableException] Table archives for model Archive was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'archives',
+  'class' => 'Archive',
+  'ds' => 'default',
+)
+Request URL: /Projet_web/sitecollaboratif/Archives/reponse/null/null?qst=&msg=
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3653): Model->setSource('archives')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): Model->getDataSource()
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(27): Model->find('first', Array)
+#4 [internal function]: ArchivesController->reponse('null', 'null')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-04-01 12:29:22 Error: [MissingTableException] Table archives for model Archive was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'archives',
+  'class' => 'Archive',
+  'ds' => 'default',
+)
+Request URL: /Projet_web/sitecollaboratif/Archives/reponse/null/null?qst=&msg=
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3653): Model->setSource('archives')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): Model->getDataSource()
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(27): Model->find('first', Array)
+#4 [internal function]: ArchivesController->reponse('null', 'null')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-04-01 16:27:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/css/carousel.css
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 16:27:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/css/carousel.css
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 16:27:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/internationalisation/flag_icons/png/.png
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 16:27:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/internationalisation/flag_icons/png/.png
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-01 16:42:33 Error: [MissingActionException] Action ChatsController::articles() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatsController',
+  'action' => 'articles',
+)
+Request URL: /Projet_web/sitecollaboratif/chats/articles
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-01 16:42:33 Error: [MissingActionException] Action ChatsController::articles() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatsController',
+  'action' => 'articles',
+)
+Request URL: /Projet_web/sitecollaboratif/chats/articles
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-01 16:43:26 Error: [MissingActionException] Action ChatsController::contact() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatsController',
+  'action' => 'contact',
+)
+Request URL: /Projet_web/sitecollaboratif/chats/contact
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-01 16:43:26 Error: [MissingActionException] Action ChatsController::contact() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatsController',
+  'action' => 'contact',
+)
+Request URL: /Projet_web/sitecollaboratif/chats/contact
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-01 16:43:29 Error: [MissingActionException] Action ChatsController::articles() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatsController',
+  'action' => 'articles',
+)
+Request URL: /Projet_web/sitecollaboratif/chats/articles
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-04-01 16:43:29 Error: [MissingActionException] Action ChatsController::articles() could not be found.
+Exception Attributes: array (
+  'controller' => 'ChatsController',
+  'action' => 'articles',
+)
+Request URL: /Projet_web/sitecollaboratif/chats/articles
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

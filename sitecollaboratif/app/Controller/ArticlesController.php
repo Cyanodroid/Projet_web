@@ -43,6 +43,7 @@
 
 		    $this->Paginator->settings = array(
 		        'conditions' => array('Article.categories_id'=>$id),
+						'order'=>array('date_post'=>'desc')
    			);
 
    			$articles = $this->Paginator->paginate('Article');
