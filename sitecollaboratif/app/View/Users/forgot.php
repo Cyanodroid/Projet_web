@@ -1,6 +1,10 @@
 <?php $this->layout = 'default2'; 
 echo("<div class=\"row\">");
 	echo("<div class=\"span12\">");
+		echo("</br>");
+		echo("</br>");
+		echo("</br>");
+		echo("</br>");
 		echo("<h1>");
 		echo __("Mot de passe oublié");
 		echo("</h1>");
