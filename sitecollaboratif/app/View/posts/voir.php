@@ -8,8 +8,12 @@ echo("<div class=\"col-lg-8\">");
     echo $a['Categories']['title'];
     echo("</p>");
     echo("<p><span class=\"glyphicon glyphicon-time\"></span>");
+    echo "&nbsp;";
     echo $this->Time->timeAgoInWords($a['Post']['date_post']);
     echo("</p>");
+    echo $this->Html->image("internationalisation/flag_icons/png/".$a['Post']['langage'].".png"); 
+    echo "&nbsp;";
+    echo $a['Post']['langage'];
     echo("<hr>");
     if ($a['Post']['image'] == 1){
         echo $this->Html->image('/img/articles/'.$a['Post']['id'].'.jpg', array('height'=>400, 'width'=>750));
