@@ -25,7 +25,7 @@ echo("<div class=\"navbar-wrapper\">");
 						echo("</li>");
 						if ($this->Session->read('Auth.User.id')){
 						echo("<li>");
-							echo("<a href=\"chats/index\" controller=\"Chats\" action=\"index\" admin=\"false\">");
+							echo("<a href=\"/Projet_web/sitecollaboratif/chats/index\" admin=\"false\">");
 								echo __("Tchat");
 							echo("</a>");
 						echo("</li>");
@@ -36,7 +36,7 @@ echo("<div class=\"navbar-wrapper\">");
 							echo("</a>");
 						echo("</li>");
 						echo("<li>");
-							echo("<a href=\"faq\">");
+							echo("<a href=\"/Projet_web/sitecollaboratif/faq\">");
 								echo __("FAQ");
 							echo("</a>");
 						echo("</li>");
@@ -47,19 +47,19 @@ echo("<div class=\"navbar-wrapper\">");
 						echo("</li>");
 						if($this->Session->read('Auth.User.id')){
 						echo("<li>");
-						echo("<a href=\"users/account\" controller=\"users\" action=\"account\" admin=\"false\">");
+						echo("<a href=\"/Projet_web/sitecollaboratif/users/account\" admin=\"false\">");
 								echo __("Mon compte");
 						echo("</a>");
 						echo("</li>");
 						echo("<li>");
-							echo("<a href=\"users/logout\" controller=\"users\" action=\"logout\" admin=\"false\">");
+							echo("<a href=\"/Projet_web/sitecollaboratif/users/logout\" admin=\"false\">");
 								echo __("Se déconnecter");
 							echo("</a>");
 						echo("</li>");
 						}
 						else{
 						echo("<li>");
-							echo("<a href=\"users/login\" controller=\"users\" action=\"login\">");
+							echo("<a href=\"/Projet_web/sitecollaboratif/users/login\">");
 								echo __("Se connecter");
 							echo("</a>");
 						echo("</li>");
