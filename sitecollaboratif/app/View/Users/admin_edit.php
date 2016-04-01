@@ -1,5 +1,6 @@
 <?php echo $this->Session->Flash(); 
 echo("<div class=\"row\" style=\"margin-top:70px;\">");
+	echo("</br>");
 	echo("<h1>");
 	echo __("Gestion d'un utilisateur");
 	echo("</h1>");

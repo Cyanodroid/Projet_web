@@ -1,9 +1,11 @@
 <?php 
 echo $this->Session->Flash();
 echo("<div class=\"row\" style=\"margin-top:70px;\">");
+	echo("</br>");
 	echo("<h1>");
 	echo __("Panneau de contrôle");
 	echo("</h1>");
+	echo("</br>");
 	echo("<div class=\"span12\">");
 	$p = __("Publier un article");
 		echo $this->Html->link('<i class="fa fa-plus"></i>&nbsp;'.$p, array('action'=>'admin_edit'), array('class'=> 'btn btn-primary', 'escape'=>false));

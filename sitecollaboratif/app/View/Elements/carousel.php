@@ -11,9 +11,15 @@ echo("<div id=\"myCarousel\" class=\"carousel slide\" data-ride=\"carousel\">");
 			if ($i == 0) echo "<div class=\"item active\">";
 			else echo "<div class=\"item\">";
 			echo "<div class=\"fill\">";
-			if ($i == 0) echo $this->Html->image('/img/articles/'.$articles[$i]['Post']['id'].'.jpg', array('class'=>'first-slide', 'alt'=>'First slide'));
-			elseif ($i == 1) echo $this->Html->image('/img/articles/'.$articles[$i]['Post']['id'].'.jpg', array('class'=>'second-slide', 'alt'=>'Second slide'));
-			elseif ($i == 2) echo $this->Html->image('/img/articles/'.$articles[$i]['Post']['id'].'.jpg', array('class'=>'third-slide', 'alt'=>'Third slide'));
+			if ($i == 0){
+				echo $this->Html->image('/img/articles/'.$articles[$i]['Post']['id'].'.jpg', array('class'=>'first-slide', 'alt'=>'First slide'));
+			} 
+			elseif ($i == 1){
+				echo $this->Html->image('/img/articles/'.$articles[$i]['Post']['id'].'.jpg', array('class'=>'second-slide', 'alt'=>'Second slide'));
+			} 
+			elseif ($i == 2){
+				echo $this->Html->image('/img/articles/'.$articles[$i]['Post']['id'].'.jpg', array('class'=>'third-slide', 'alt'=>'Third slide'));
+			} 
 			echo "</div>";
 			echo "<div class=\"container\">";
 			echo "<div class=\"carousel-caption\" style=\" position: absolute;  top: 50%;  z-index: 5;  display: inline-block;  margin-top: -100px; margin-left: .6%;\">";

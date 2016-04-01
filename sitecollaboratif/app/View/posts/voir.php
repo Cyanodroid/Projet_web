@@ -2,6 +2,7 @@
 $this->layout = 'articles';
 echo $this->Session->flash();
 echo("<div class=\"col-lg-8\">");
+    echo("</br>");
 	echo "<h1>".$a['Post']['title']."</h1>";
     echo("<p>");
     echo $a['Categories']['title'];
@@ -73,6 +74,8 @@ echo("<div class=\"col-lg-8\">");
 	}
 echo("</div>");
 echo("<div class=\"col-lg-4\">");
+    echo("</br>");
+    echo("</br>");
 	echo("<p></p>");
         echo("<div class=\"col-sm-4\">");
         	echo("<button class=\"button share_twitter\" data-url=\"http://www.site-collaboratif.fr/\" style=\"background-color:#55ACEE\">");

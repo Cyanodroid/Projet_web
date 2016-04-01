@@ -3,6 +3,7 @@ echo("<div class=\"span12\" style=\"text-align:center;\">");
 	echo("<h1 style=\"margin-top : 10%;\">");
         echo __("Articles par catégories");
     echo("</h1>");
+    echo("</br>");
 	echo("<div class=\"row slideanim\" style=\"margin-top : 2%;\">");
 	foreach ($categories as $c){
     	echo("<div class=\"col-sm-4 col-xs-12\">");

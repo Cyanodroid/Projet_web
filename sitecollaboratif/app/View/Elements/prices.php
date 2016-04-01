@@ -8,6 +8,7 @@ echo("<div id=\"pricing\" class=\"container-fluid\">");
     echo __("Choisir un forfait");
     echo("</h4>");
 	echo("</br>");
+  echo("</br>");
   echo("</div>");
   echo("<div class=\"row slideanim\">");     
     echo("<div class=\"col-sm-4 col-xs-12\">");

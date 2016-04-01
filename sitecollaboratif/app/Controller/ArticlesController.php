@@ -8,7 +8,7 @@
 		var $paginate = array(
 			'Article'=> array( // sur les posts
 				'fields'=>array('id', 'title', 'contenu', 'categories_id'), // où l'on récupère que ces trois champs
-				'limit'=>6, // on fixe une limite par page
+				'limit'=>3, // on fixe une limite par page
 				'order'=> array( // on les organise du plus récent au plus vieux
 					'date_post'=> 'desc'
 				)

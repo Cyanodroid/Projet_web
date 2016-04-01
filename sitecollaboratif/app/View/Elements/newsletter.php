@@ -16,6 +16,7 @@ echo("<section>");
 								echo $this->Form->button(__("S'inscrire"), array('class'=>'btn btn-default'));
 							echo("</span>");
 					echo("</div>");
+					echo("</br>");
 					echo("<div class=\"col-lg-12 google\">");
 						echo("<div class=\"g-recaptcha\" data-sitekey=\"6Lf4FBsTAAAAAKiHLaippD0gapGYWbWO3viCQsTj\"></div>");
 					echo("</div>");
@@ -24,7 +25,7 @@ echo("<section>");
 		echo("</div>");
 	echo("</div>");
 echo("</section>");
-echo("<div class=\"container marketing\" style=\"margin-top:48px;\">");
+echo("<div class=\"container marketing\" >");
 	echo("<div class=\"row\">");
 		echo("<div id=\"content\">");
 ?>
