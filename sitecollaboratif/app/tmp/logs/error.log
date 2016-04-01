@@ -31274,3 +31274,27 @@ Stack Trace:
 #3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
 #4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2016-04-01 20:24:27 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-04-01 20:24:27 Error: [MissingViewException] View file "Archives\result_search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Archives\\result_search.ctp',
+)
+Request URL: /Projet_web/sitecollaboratif/archives/resultSearch
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Archives\\result...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

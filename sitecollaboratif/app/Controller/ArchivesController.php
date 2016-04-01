@@ -25,7 +25,7 @@
 				}
 				die();
 			} else {
-				return false;
+				$this->redirect($this->referer());
 			}
 	    }
 
