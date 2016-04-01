@@ -1,4 +1,3 @@
-<!-- voir la doc pour les Helpers -->
 <?php
 /**
  * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
@@ -14,11 +13,24 @@
  * @since         CakePHP(tm) v 0.10.0.1076
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
-?>
+?><!--
+<nobr>
+ ______     __     __  __     __    __     ______     ______     ______     ______     __     __         __         ______     <br />
+/\  __ \   /\ \   /\_\_\_\   /\ "-./  \   /\  __ \   /\  == \   /\  ___\   /\  ___\   /\ \   /\ \       /\ \       /\  ___\    <br />
+\ \  __ \  \ \ \  \/_/\_\/_  \ \ \-./\ \  \ \  __ \  \ \  __<   \ \___  \  \ \  __\   \ \ \  \ \ \____  \ \ \____  \ \  __\    <br />
+ \ \_\ \_\  \ \_\   /\_\/\_\  \ \_\ \ \_\  \ \_\ \_\  \ \_\ \_\  \/\_____\  \ \_____\  \ \_\  \ \_____\  \ \_____\  \ \_____\  <br />
+  \/_/\/_/   \/_/   \/_/\/_/   \/_/  \/_/   \/_/\/_/   \/_/ /_/   \/_____/   \/_____/   \/_/   \/_____/   \/_____/   \/_____/  <br />
+<br />
+ __  __     __   __     __     __   __   ______     ______     ______     __     ______	    ______     <br />
+/\ \/\ \   /\ "-.\ \   /\ \   /\ \ / /  /\  ___\   /\  == \   /\  ___\   /\ \   /\__  _\   /\  ___\    <br />
+\ \ \_\ \  \ \ \-.  \  \ \ \  \ \ \'/   \ \  __\   \ \  __<   \ \___  \  \ \ \  \/_/\ \/   \ \  __\    <br />
+ \ \_____\  \ \_\\"\_\  \ \_\  \ \__|    \ \_____\  \ \_\ \_\  \/\_____\  \ \_\    \ \_\    \ \_____\  <br />
+  \/_____/   \/_/ \/_/   \/_/   \/_/      \/_____/   \/_/ /_/   \/_____/   \/_/     \/_/     \/_____/  <br />
+</nobr>-->
 <!DOCTYPE html>
 <html>
 <head>
-	<?php 
+	<?php
 	echo $this->Html->charset();
 	echo $this->Html->meta(array(
 		'name'=>'viewport',
@@ -38,7 +50,7 @@
 		echo $this->Html->css('/css/bootstrap.css');
 		echo $this->Html->css('/css/full-slider.css');
 		echo $this->Html->css('/css/styles.css');
-		
+
 		echo $this->Html->css('http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300');
 	?>
 	<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -46,7 +58,7 @@
 </head>
 <body>
 	<?php echo $this->element('menu'); ?>
-	
+
 	<?php echo $this->element('carousel'); ?>
 
 	<div class="container marketing" style="margin-top:3%;">
@@ -58,7 +70,7 @@
 	  	</div>
 	  </div>
 	</div>
-	
+
 	<footer>
 		<p>&copy; 2016 Aix-Marseille-Universite. &middot;</p>
 		<?php echo $this->element('sql_dump'); ?>
