@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 	$('body').append('<a href="#" class="to-the-top"><i class="fa fa-arrow-up"></i></a>');
 
 	$('.to-the-top').css({
@@ -13,13 +13,18 @@ $(document).ready(function(){
 		'z-index'				:	'2000'
 	});
 
-	$(window).scroll(function(){
+	$(window).scroll(function() {
 		posScroll = $(document).scrollTop();
-		if(posScroll >=600) 
+		if(posScroll >=600)
 			$('.to-the-top').fadeIn(600);
 		else
 			$('.to-the-top').fadeOut(600);
 	});
+
+	$(".to-the-top").click(function() {
+    	$("html, body").animate({scrollTop: 0}, 600);
+		return false;
+ 	});
 
 	$('#search').keyup(function(e) {
 		var search_input = $(this).val();
@@ -50,7 +55,7 @@ function ajaxCall() {
 	var current_url = $(location).attr('href');
 	var params = current_url.substring(current_url.lastIndexOf("/")+1);
 	var id = params.slice(0, 1);
-	
+
 	if (isNaN(id))
 		id = 1;
 
@@ -65,7 +70,7 @@ function ajaxCall() {
 
 	var focus_message = document.getElementById('chat-messsage-input');
 	focus_message.focus();
-		
+
 	return true;
 }
 
@@ -83,7 +88,7 @@ function recuperer_json(file) {
 }
 
 function sanitize_badwords(message) {
-	
+
     badwords = recuperer_json('/Projet_web/sitecollaboratif/app/webroot/js/badwords_file.json');
 
     if (badwords.length == 0) {
@@ -100,7 +105,6 @@ function sanitize_badwords(message) {
     }
     return message;
 }
-
 
 function EnvoyerMSG(id) {
 
@@ -158,10 +162,10 @@ function poser_question() {
 			    url: '/Projet_web/sitecollaboratif/Archives/question/' +  msg,
 			    data: {
 			        msg: msg
-			    }, 
+			    },
 			    success : function(data) {
 			    	alert("Question enregistrée " + data);
-			    }, 
+			    },
 			    error : function() {
 			    	alert("Une erreur est survenue");
 			    }
@@ -184,10 +188,10 @@ function enregistrer_reponse() {
 			    data: {
 			    	qst: qst,
 			        msg: msg
-			    }, 
+			    },
 			    success : function(data) {
 			    	alert(data);
-			    }, 
+			    },
 			    error : function() {
 			    	alert("Une erreur est survenue");
 			    }
