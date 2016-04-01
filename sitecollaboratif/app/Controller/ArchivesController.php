@@ -13,8 +13,9 @@
 				die();
 
 			if ($this->request->is('ajax')) {
-				$data['Archive']['query'] = $this->request->params['pass'][0];
-				$this->Archive->save($data['Archive']);
+				$data['Archives']['query'] = $this->request->params['pass'][0];
+				$this->Archive->save($data['Archives']);
+				die();
 			}
 		}
 

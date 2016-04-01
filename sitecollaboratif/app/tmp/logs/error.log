@@ -29598,3 +29598,37 @@ Stack Trace:
 #6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
 #7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2016-04-01 18:05:06 Error: [MissingTableException] Table archives for model Archive was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'archives',
+  'class' => 'Archive',
+  'ds' => 'default',
+)
+Request URL: /Projet_web/sitecollaboratif/Archives/question/toto?msg=toto
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3653): Model->setSource('archives')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(1748): Model->getDataSource()
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(17): Model->save(Array)
+#3 [internal function]: ArchivesController->question('toto')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-04-01 18:05:06 Error: [MissingTableException] Table archives for model Archive was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'archives',
+  'class' => 'Archive',
+  'ds' => 'default',
+)
+Request URL: /Projet_web/sitecollaboratif/Archives/question/toto?msg=toto
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3653): Model->setSource('archives')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(1748): Model->getDataSource()
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ArchivesController.php(17): Model->save(Array)
+#3 [internal function]: ArchivesController->question('toto')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ArchivesController), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
