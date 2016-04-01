@@ -46,7 +46,7 @@
 				$this->set('rooms', $room);
 				$this->set('cr', $r);
 				$this->set('users_list', $users);
-				
+
 			} else if ($id && $current_id) {
 				$old = $this->Chat->Rooms->find('first', array(
 					'conditions'=>array('Rooms.id'=>$current_id)
@@ -101,7 +101,7 @@
 
 				$this->Chat->create($data['Chats'], true, array());
 				$this->Chat->save($data['Chats']);
-				
+
 				// app/tmp/$id.log
 				CakeLog::write($id, 'Utilisateur : ' . $this->Auth->user('username') . ' dit : '. $msg);
 			}
@@ -110,7 +110,7 @@
 		public function ajaxProcessing($id = null) {
 
 			if ($this->request->is('ajax')) {
-	
+
 				$msg = $this->Chat->find('all', array(
 					'conditions'=>array('Chat.rooms_id'=> $id)
 					)
@@ -127,18 +127,18 @@
 
 				$room = $this->Chat->Rooms->findById($id);
 
-				$directory = 'C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log'; // NICO.G PC FIXE
-				// $directory = 'C:/Users/link-/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		   // NICO.G PC PORTABLE
+				// $directory = 'C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log'; // NICO.G PC FIXE
+				$directory = 'C:/Users/link-/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		   // NICO.G PC PORTABLE
 
 				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // ARNAULT.P PC
 
 				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // CLAIRE.T PC
 
-				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // THOMAS.S PC        
+				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // THOMAS.S PC
 
 				App::uses('CakeEmail', 'Network/Email');
 				$email = new CakeEmail('gmail');
-				$email->to(Configure::read('Site_Contact.mail')) // à qui ? 
+				$email->to(Configure::read('Site_Contact.mail')) // à qui ?
 					  ->from(Configure::read('Site_Contact.mail')) // par qui ?
 					  ->subject('Un utilisateur du site "Site collaboratif" a posé une question sur le tchat') // sujet du mail
 					  ->emailFormat('html') // le format à utiliser
@@ -147,5 +147,5 @@
 				die();
 			}
 		}
-		
+
 	}
