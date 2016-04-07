@@ -19,6 +19,8 @@ echo("<div class=\"span12\">");
 	echo $this->Form->create('User');
 	echo $this->Form->input('message', array('label'=>__("Votre candidature"), 'type'=>"textaera", 'rows'=>10, 'required', 'class'=>'form-control'));
 	echo ("<br/>");
+	echo $this->Form->input('CV', array('type'=>'file', 'label'=>__('Votre CV (.pdf)')));
+	echo ("<br/>");
 	echo $this->Form->button(__('Postuler maintenant'), array('class'=>"btn btn-lg btn-primary"));
 	echo $this->Form->end();
 echo ("</div>");
