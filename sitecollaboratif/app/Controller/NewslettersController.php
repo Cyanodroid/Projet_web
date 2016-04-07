@@ -17,7 +17,7 @@
                     $captcha = new recaptcha('6Lf4FBsTAAAAAKX8au0BRq9nC4iW9-NK0BLHBPH4');
 
                     if($captcha->checkcode($this->request->data['g-recaptcha-response']) == false) {
-                        $this->Session->setFlash("Erreur de captcha !", 'error');
+                        echo $this->Session->setFlash(__("Erreur de captcha !"), 'error');
                         return false;
                     }
                     
@@ -35,18 +35,18 @@
 	    					$this->Newsletter->User->id = $this->Auth->user('id');
 	    					$this->Newsletter->User->saveField('newsletter_id', $last_record['Newsletter']['id']);
 
-	    					$this->Session->setFlash("Votre inscription a été prise en compte !", 'success');
+	    					echo $this->Session->setFlash(__("Votre inscription a été prise en compte !"), 'success');
 	    					$this->redirect(array('controller'=>'posts','action'=>'index'));
 	    				} else {
-							$this->Session->setFlash("Une erreur est survenue !", 'error');
+							echo $this->Session->setFlash(__("Une erreur est survenue !"), 'error');
 						}
 	    			} else {
 	    				// sinon on fait la même chose mais sans se soucier de la table 'users'
 		    			if ($this->Newsletter->save($this->request->data)) {
-		    				$this->Session->setFlash("Votre inscription a été validée", "success");
+		    				echo $this->Session->setFlash(__("Votre inscription a été validée"), "success");
 		    				$this->redirect(array('controller'=>'posts','action'=>'index'));
 		    			} else {
-		    				$this->Session->setFlash("Erreur d'enregistrement", "error");
+		    				echo $this->Session->setFlash(__("Erreur d'enregistrement"), "error");
 		    			}
 	    			}
 	    		}
@@ -73,7 +73,7 @@
 				  ->template('newsletter') // le template à utiliser
 				  ->send(); // envoi du mail
 
-			$this->Session->setFlash("La newsletter a bien été envoyée", 'success');
+			echo $this->Session->setFlash(__("La newsletter a bien été envoyée"), 'success');
 			$this->redirect($this->referer());
 		}
 	}

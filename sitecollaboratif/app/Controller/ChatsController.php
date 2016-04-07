@@ -103,7 +103,7 @@
 				$this->Chat->save($data['Chats']);
 
 				// app/tmp/$id.log
-				CakeLog::write($id, 'Utilisateur : ' . $this->Auth->user('username') . ' dit : '. $msg);
+				CakeLog::write($id, __('Utilisateur : ') . $this->Auth->user('username') . __(' dit : '). $msg);
 			}
 		}
 
