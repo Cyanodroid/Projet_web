@@ -3,10 +3,10 @@ echo("<div class=\"row\" style=\"margin-top: 120px; border: 1px solid black;\">"
 	echo("<div class=\"col-md-4\" style=\"height: 500px; border-right: 1px solid black;\">");
 		echo("<div class=\"user-infos\" style=\"margin-top: 20px;\">");
 			if ($this->Session->read('Auth.User.avatar')){
-	        	$this->Html->image($this->Session->read('Auth.User.avatari'), array('class'=>'preview-avatar'));
+	        	echo $this->Html->image($this->Session->read('Auth.User.avatari'), array('class'=>'preview-avatar'));
 	    	}
 			echo("<b>");
-			$this->Session->read('Auth.User.username');
+			echo $this->Session->read('Auth.User.username');
 			echo("</b>");
 		echo("</div>");
 		echo("<ul class=\"nav nav-tabs\" style=\"margin-top: 20px;\">");
