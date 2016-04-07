@@ -1,6 +1,11 @@
 <?php
 echo("<div class=\"container marketing\" style=\"margin-top: -8%\">");
 	echo("<div class=\"row featurette\" >");
+	echo("<div class=\"text-center\">");
+		echo("<h2>");
+	    echo __("ARTICLES ALEATOIRES");
+	    echo("</h2>");
+	   echo("</div>");
 	for ($i = 0 ; $i < 3 ; $i++) {
 		if ($i % 2 == 0) {
 			echo "<div class='content-section-a'>";
