@@ -32576,3 +32576,3144 @@ Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
 Stack Trace:
 #0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-04-07 10:00:22 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:23 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:23 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:24 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:25 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:26 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:27 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:27 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:28 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:29 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:30 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:30 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:31 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:32 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:33 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:34 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:34 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:35 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:36 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:37 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:38 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:38 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:39 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:39 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:40 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:40 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:41 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:41 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:42 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:43 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:43 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:44 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:44 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:44 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:45 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:45 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:46 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:47 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:47 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:47 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:48 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:48 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:49 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:50 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:50 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:50 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:50 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:51 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:52 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:52 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:53 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:53 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:54 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:54 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:55 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:55 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:55 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:56 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:57 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:57 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:58 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:58 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:00:59 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:00 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:00 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:01 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:01 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:01 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:02 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:03 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:03 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:04 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:04 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:05 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:06 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:06 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:06 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:07 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:08 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:08 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:08 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:09 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:09 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:10 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:11 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:11 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:11 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:12 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:13 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:14 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:14 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:15 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:15 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:16 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:16 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:16 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:17 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:18 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:18 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:19 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:19 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:20 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:21 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:21 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:22 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:22 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:22 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:23 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:24 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:24 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:24 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:25 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:26 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:26 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:27 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:27 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:28 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:29 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:29 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:30 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:30 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:30 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:31 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:32 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:32 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:33 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:34 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:34 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:35 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:35 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:35 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:36 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:37 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:37 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:38 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:38 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:39 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:40 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:40 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:40 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:41 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:42 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:42 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:43 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:43 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:43 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:44 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:45 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:46 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:46 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:46 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:47 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:48 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:48 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:48 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:50 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:50 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:51 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:52 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:52 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:53 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:54 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:54 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:55 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:55 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:55 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:56 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:57 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:57 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:58 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:59 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:01:59 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:00 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:00 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:01 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:01 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:02 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:03 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:03 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:03 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:03 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:04 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:05 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:06 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:06 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:07 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:08 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:08 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:08 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:09 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:10 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:11 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:11 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:11 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:11 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:12 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:13 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:13 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:14 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:14 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:14 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:15 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:16 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:16 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:17 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:17 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:17 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:18 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:19 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:19 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:19 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:20 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:21 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:21 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:22 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:22 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:23 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:24 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:24 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:25 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:25 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:25 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:26 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:27 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:27 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:28 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:28 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:28 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:29 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:30 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:30 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:30 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:31 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:32 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:32 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:33 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:33 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:33 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:34 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:35 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:35 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:36 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:36 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:37 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:37 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:38 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:38 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:39 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:39 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:39 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:40 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:40 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:40 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:41 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:42 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:43 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:43 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:44 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:45 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:48 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:49 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:50 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:50 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:51 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:52 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:53 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:54 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:54 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:55 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:56 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:57 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:58 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:58 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:02:59 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:00 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:01 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:01 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:02 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:03 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:04 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:05 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:05 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:06 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:07 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:08 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:09 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:09 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:10 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:11 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:12 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:12 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:13 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:14 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:15 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:16 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:16 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:17 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:18 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:19 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:20 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:20 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:21 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:22 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:23 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:24 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:24 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:25 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:26 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:27 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:28 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:29 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:30 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:31 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:31 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:32 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:33 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:34 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:35 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:36 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:37 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:38 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:38 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:39 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:40 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:41 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:42 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:42 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:43 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:44 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:45 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:46 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:47 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:48 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:49 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:49 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:50 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:51 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:52 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:53 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:53 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:54 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:55 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:56 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:57 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:58 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:03:59 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:04:00 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:04:01 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-07 10:04:02 Error: [MissingControllerException] Controller class ProjetWebController could not be found.
+Exception Attributes: array (
+  'class' => 'ProjetWebController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/Chats/ajaxProcessing/1
+Stack Trace:
+#0 C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

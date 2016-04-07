@@ -106,4 +106,15 @@ echo("<div class=\"col-md-1 col-md-offset-1\">");
 		echo("</div>");
 	echo("</form>");
 echo("</div>");
+echo("</br>");
+echo("</br>");
+echo("</br>");
+echo("<div>");
+echo("<p>");
+	echo __("Comment utiliser le tchat ? -> ");
+	echo("<a href=\"/faq\">");
+		echo __("FAQ");
+	echo("</a>");
+echo("</p>");
+echo("</div>");
 ?>
