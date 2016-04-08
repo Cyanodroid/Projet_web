@@ -130,7 +130,12 @@
 				$this->layout = 'ajax';
 
 				$data = $this->request->params['pass'][0];
-				$query = $this->Post->find('all', array('conditions'=>array('Post.title LIKE'=>'%'.$data.'%')));
+
+				$query = $this->Post->query("
+					SELECT *
+					FROM site.posts AS Post
+					WHERE Post.title LIKE '%".addslashes($data)."%' OR Post.contenu LIKE '%".addslashes($data)."%';
+				");
 
 				$i = 0;
 				foreach ($query as $q) {

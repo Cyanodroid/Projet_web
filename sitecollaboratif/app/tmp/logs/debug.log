@@ -278,3 +278,871 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
 [main] - APP\webroot\index.php, line 110
 
+2016-04-08 15:01:04 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:04 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:04 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:04 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:05 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:05 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:07 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:07 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:07 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:07 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:08 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:08 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:09 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:09 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:09 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:09 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:10 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:10 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:10 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:10 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:10 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:10 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:11 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:11 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:11 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:11 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:11 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:11 Debug: Notice (8): Array to string conversion in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 2736]
+Trace:
+implode - [internal], line ??
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2736
+DboSource::conditionKeysToString() - CORE\Cake\Model\Datasource\DboSource.php, line 2694
+DboSource::conditions() - CORE\Cake\Model\Datasource\DboSource.php, line 2633
+DboSource::buildStatement() - CORE\Cake\Model\Datasource\DboSource.php, line 1932
+DboSource::buildAssociationQuery() - CORE\Cake\Model\Datasource\DboSource.php, line 1660
+DboSource::read() - CORE\Cake\Model\Datasource\DboSource.php, line 1111
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 3031
+Model::find() - CORE\Cake\Model\Model.php, line 3003
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 595
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 138
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:49 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:49 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:49 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:49 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:52 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:52 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:53 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:53 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:55 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:55 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:55 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:55 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:55 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:55 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:59 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:59 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:59 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:01:59 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:02:00 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:02:00 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:02:00 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:02:00 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:02:01 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:02:01 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:02:15 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:02:15 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:02:16 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 15:02:16 Debug: Notice (8): Undefined offset: 1 in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php, line 571]
+Trace:
+DboSource::query() - CORE\Cake\Model\Datasource\DboSource.php, line 571
+Model::__call() - CORE\Cake\Model\Model.php, line 827
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 135
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+

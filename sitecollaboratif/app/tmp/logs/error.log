@@ -41112,3 +41112,1223 @@ Stack Trace:
 #9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest))
 #10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #11 {main}
+2016-04-08 14:53:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% te % OR Post.contenu LIKE % te $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('te')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% te % OR Post.contenu LIKE % te $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('te')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% tes % OR Post.contenu LIKE % tes $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('tes')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% tes % OR Post.contenu LIKE % tes $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('tes')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:22 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test % OR Post.contenu LIKE % test $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:22 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test % OR Post.contenu LIKE % test $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test  % OR Post.contenu LIKE % test  $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test%20?search=test+
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test ')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test  % OR Post.contenu LIKE % test  $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test%20?search=test+
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test ')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:25 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test % OR Post.contenu LIKE % test $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:25 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test % OR Post.contenu LIKE % test $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% tes % OR Post.contenu LIKE % tes $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('tes')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% tes % OR Post.contenu LIKE % tes $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('tes')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% te % OR Post.contenu LIKE % te $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('te')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% te % OR Post.contenu LIKE % te $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('te')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% ig % OR Post.contenu LIKE % ig $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/ig?search=ig
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('ig')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% ig % OR Post.contenu LIKE % ig $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/ig?search=ig
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('ig')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% igi % OR Post.contenu LIKE % igi $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/igi?search=igi
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('igi')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% igi % OR Post.contenu LIKE % igi $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/igi?search=igi
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('igi')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% igit % OR Post.contenu LIKE % igit $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/igit?search=igit
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('igit')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% igit % OR Post.contenu LIKE % igit $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/igit?search=igit
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('igit')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% igitu % OR Post.contenu LIKE % igitu $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/igitu?search=igitu
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('igitu')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% igitu % OR Post.contenu LIKE % igitu $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/igitu?search=igitu
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('igitu')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% igitur % OR Post.contenu LIKE % igitur $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/igitur?search=igitur
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('igitur')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:53:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% igitur % OR Post.contenu LIKE % igitur $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/igitur?search=igitur
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('igitur')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:56:57 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% te % OR Post.contenu LIKE % te $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('te')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:56:57 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% te % OR Post.contenu LIKE % te $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('te')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:56:57 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% tes % OR Post.contenu LIKE % tes $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('tes')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:56:57 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% tes % OR Post.contenu LIKE % tes $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('tes')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:56:58 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test % OR Post.contenu LIKE % test $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:56:58 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test % OR Post.contenu LIKE % test $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test % OR Post.contenu LIKE % test $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test % OR Post.contenu LIKE % test $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% te % OR Post.contenu LIKE % te $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('te')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% te % OR Post.contenu LIKE % te $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('te')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% tes % OR Post.contenu LIKE % tes $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('tes')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% tes % OR Post.contenu LIKE % tes $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('tes')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test % OR Post.contenu LIKE % test $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test % OR Post.contenu LIKE % test $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test  % OR Post.contenu LIKE % test  $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test%20?search=test+
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test ')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test  % OR Post.contenu LIKE % test  $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test%20?search=test+
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test ')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test i % OR Post.contenu LIKE % test i $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test%20i?search=test+i
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test i')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test i % OR Post.contenu LIKE % test i $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test%20i?search=test+i
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test i')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:39 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test id % OR Post.contenu LIKE % test id $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test%20id?search=test+id
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test id')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:57:39 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% test id % OR Post.contenu LIKE % test id $' at line 1
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test%20id?search=test+id
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM s...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT * FROM s...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM s...')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3456): DboSource->query('SELECT * FROM s...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(135): Model->query('SELECT * FROM s...')
+#6 [internal function]: PostsController->resultSearch('test id')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 15:00:48 Error: [ParseError] syntax error, unexpected '$i' (T_VARIABLE)
+Request URL: /Projet_web/sitecollaboratif/
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-08 15:00:48 Error: [ParseError] syntax error, unexpected '$i' (T_VARIABLE)
+Request URL: /Projet_web/sitecollaboratif/
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-08 15:01:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('te')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('te')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('tes')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('tes')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('test')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/test?search=test
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('test')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('tes')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/tes?search=tes
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('tes')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('te')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/te?search=te
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('te')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lo?search=lo
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lo')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lo?search=lo
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lo')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lor?search=lor
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lor')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lor?search=lor
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lor')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lorm?search=lorm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lorm')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lorm?search=lorm
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lorm')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lore?search=lore
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lore')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lore?search=lore
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lore')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lorem?search=lorem
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lorem')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lorem?search=lorem
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lorem')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lor?search=lor
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lor')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lor?search=lor
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lor')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lore?search=lore
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lore')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lore?search=lore
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lore')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lor?search=lor
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lor')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lor?search=lor
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lor')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lo?search=lo
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lo')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:01:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /Projet_web/sitecollaboratif/posts/resultSearch/lo?search=lo
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(1113): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Post), Array)
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(595): Model->find('first', Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('findByTitleOrCo...', Array, Object(Post))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php(138): Model->__call('findByTitleOrCo...', Array)
+#9 [internal function]: PostsController->resultSearch('lo')
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-08 15:06:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/css/carousel.css
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-08 15:06:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/css/carousel.css
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-08 15:06:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/internationalisation/flag_icons/png/.png
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-08 15:06:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/internationalisation/flag_icons/png/.png
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
