@@ -12,7 +12,7 @@ echo("<div class=\"row\" style=\"margin-top:70px;\">");
 		echo("<br/>");
 		echo $this->Form->input('Post.categories_id', array('label' => __("Catégorie de l'article"), 'class'=>'form-control', 'options'=>$cats));
 		echo("<br/>");
-		echo $this->Form->input('imageart.', array('type'=>'file', 'multiple', 'label'=>__('Image (.jpg, .jpeg, .png)')));
+		echo $this->Form->input('imageart.', array('type'=>'file', 'multiple', 'label'=>__('Image (.jpg, .jpeg, .png) max: 3')));
 		echo("<br/>");
 		echo $this->Form->input('Post.contenu', array('label' => __("Contenu de l'article"), 'class'=>'form-control'));
 		echo("<br/>");
