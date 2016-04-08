@@ -91,31 +91,47 @@ echo("<div text-align=\"left\">");
 		echo __("Quel est l'objectif de ce site ?");
 		echo("</h4></li>");
 		echo("<p>");
-		echo __("Ce site est un site collaboratif permettant à tout utilisateur d'apprendre plusieurs langages informatiques.");
+		echo __("Ce site est un site collaboratif permettant à tout utilisateur d'apprendre ou de perfectionner plusieurs langages 
+			informatiques grâce aux différents articles postés. L'utilisateur peut également trouver des réponses à ses questions.");
 		echo("</p>");
 		echo("<li><h4>");
 		echo __("J'ai une question.");
 		echo("</h4></li>");
 		echo("<p>");
-		echo __("Lorsque vous avez une question, deux choix s'offrent à vous : vous pouvez soit aller sur le tchat (vous devez pour cela vous inscrire sur le site), soit aller dans la section archive. Dans le premier cas, vous pouvez choisir la salle qui correspond à la catégorie de votre question et la poser aux autres utilisateurs et au modérateur responsable en cliquant sur le bouton correspondant. Sinon, vous pouvez chercher dans les archives si votre question a déjà été posée et ainsi, trouver la réponse. Lorsque vous avez obtenu la réponse à votre question, vous pouvez l'enregistrer en cliquant sur le bouton correspondant et ainsi l'ajouter dans les archives pour les utilisateurs suivants.");
+		echo __("Lorsque vous avez une question, deux choix s'offrent à vous : vous pouvez soit aller sur le tchat 
+			(vous devez pour cela vous inscrire sur le site), soit aller dans la section archive. Dans le premier cas, 
+			vous pouvez choisir la salle qui correspond à la catégorie de votre question et la poser aux autres utilisateurs et 
+			au modérateur responsable en cliquant sur le bouton correspondant. Sinon, vous pouvez chercher dans les archives si 
+			votre question a déjà été posée et ainsi, trouver la réponse. Lorsque vous avez obtenu la réponse à votre question, 
+			vous pouvez choisir de l'enregistrer en cliquant sur le bouton correspondant et ainsi l'ajouter dans les archives pour les 
+			utilisateurs suivants.");
 		echo("</p>");
 		echo("<li><h4>");
-		echo __("Personne n'est connecté sur le chat.");
+		echo __("Personne n'est connecté sur le tchat.");
 		echo("</h4></li>");
 		echo("<p>");
-		echo __("Si personne n'est connecté sur le site alors votre message va être envoyé au modérateur responsable de la salle de tchat où vous vous trouvez en cliquant sur le bouton correspondant. Il répondra à votre question dès qu'il le pourra.");
+		echo __("Si personne n'est connecté sur le tchat alors votre message va être envoyé par mail au modérateur responsable de la salle de 
+			tchat où vous vous trouvez en cliquant sur le bouton correspondant. Il répondra à votre question dès qu'il le pourra.");
 		echo("</p>");
 		echo("<li><h4>");
 		echo __("Je veux être tenu au courant des nouveautés.");
 		echo("</h4></li>");
 		echo("<p>");
-		echo __("Pour être au courant de toutes nos nouveautés (articles sortis), vous pouvez souscrire à notre newsletter.");
+		echo __("Pour être au courant de toutes nos nouveautés (derniers articles sortis), vous pouvez souscrire à notre newsletter avec votre mail.");
 		echo("</p>");
 		echo("<li><h4>");
 		echo __("Quels sont les avantages d'un abonnement ?");
 		echo("</h4></li>");
 		echo("<p>");
-		echo __("Lorsque vous choisissez de vous abonner et de devenir un utilisateur premium, vous devenez prioritaire lors de vos discussions sur le tchat. Vos questions seront traitées en priorité par les modérateurs. Vous aurez aussi la possibilité de télécharger les différents cours/articles sous forme de PDF.");
+		echo __("Lorsque vous choisissez de vous abonner et de devenir un utilisateur premium, vous devenez prioritaire lors de vos 
+			discussions sur le tchat. Vos questions seront traitées en priorité par les modérateurs. De plus, vous aurez aussi la possibilité de 
+			télécharger les différents cours/articles sous forme de PDF.");
+		echo("</p>");
+		echo("<li><h4>");
+		echo __("Je veux participer à la vie du site.");
+		echo("</h4></li>");
+		echo("<p>");
+		echo __("Vous pouvez devenir rédacteur d'articles ou modérateur, n'hésitez pas à postuler en ajoutant votre CV en pièce jointe.");
 		echo("</p>");
 	echo("</ul>");
 echo("</div>");
