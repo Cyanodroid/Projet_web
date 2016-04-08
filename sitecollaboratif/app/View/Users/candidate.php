@@ -16,7 +16,7 @@ echo("<div class=\"span12\">");
 		echo __("Vous pourrez rejoindre notre grande famille en tant que rédacteur ou en tant que modérateur &hearts; !");
 	echo("</p>");
 	echo("</br> ");
-	echo $this->Form->create('User');
+	echo $this->Form->create('User', array('type'=>'file'));
 	echo $this->Form->input('message', array('label'=>__("Votre candidature"), 'type'=>"textaera", 'rows'=>10, 'required', 'class'=>'form-control'));
 	echo ("<br/>");
 	echo $this->Form->input('CV', array('type'=>'file', 'label'=>__('Votre CV (.pdf)')));

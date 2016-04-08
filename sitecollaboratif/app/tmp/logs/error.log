@@ -40974,3 +40974,141 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
 [main] - APP\webroot\index.php, line 110
 
+2016-04-08 14:07:29 Error: [MissingViewException] View file "Emails\html\candidature.php" is missing.
+Exception Attributes: array (
+  'file' => 'Emails\\html\\candidature.php',
+)
+Request URL: /Projet_web/sitecollaboratif/users/candidate
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Emails\\html\\can...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1710): View->render('candidature', 'default')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1562): CakeEmail->_renderTemplates('')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1171): CakeEmail->_render('')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\UsersController.php(284): CakeEmail->send()
+#5 [internal function]: UsersController->candidate()
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-08 14:07:29 Error: [MissingViewException] View file "Emails\html\candidature.php" is missing.
+Exception Attributes: array (
+  'file' => 'Emails\\html\\candidature.php',
+)
+Request URL: /Projet_web/sitecollaboratif/users/candidate
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Emails\\html\\can...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1710): View->render('candidature', 'default')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1562): CakeEmail->_renderTemplates('')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1171): CakeEmail->_render('')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\UsersController.php(284): CakeEmail->send()
+#5 [internal function]: UsersController->candidate()
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-08 14:08:14 Error: [MissingViewException] View file "Emails\html\candidature.php" is missing.
+Exception Attributes: array (
+  'file' => 'Emails\\html\\candidature.php',
+)
+Request URL: /Projet_web/sitecollaboratif/users/candidate
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Emails\\html\\can...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1710): View->render('candidature', 'default')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1562): CakeEmail->_renderTemplates('')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1171): CakeEmail->_render('')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\UsersController.php(284): CakeEmail->send()
+#5 [internal function]: UsersController->candidate()
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-08 14:08:14 Error: [MissingViewException] View file "Emails\html\candidature.php" is missing.
+Exception Attributes: array (
+  'file' => 'Emails\\html\\candidature.php',
+)
+Request URL: /Projet_web/sitecollaboratif/users/candidate
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Emails\\html\\can...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1710): View->render('candidature', 'default')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1562): CakeEmail->_renderTemplates('')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1171): CakeEmail->_render('')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\UsersController.php(284): CakeEmail->send()
+#5 [internal function]: UsersController->candidate()
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-08 14:27:04 Error: [MissingViewException] View file "Emails\html\contact.php" is missing.
+Exception Attributes: array (
+  'file' => 'Emails\\html\\contact.php',
+)
+Request URL: /Projet_web/sitecollaboratif/contact
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Emails\\html\\con...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1710): View->render('contact', 'default')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1562): CakeEmail->_renderTemplates('')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1171): CakeEmail->_render('')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ContactController.php(44): CakeEmail->send()
+#5 [internal function]: ContactController->index()
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-08 14:27:04 Error: [MissingViewException] View file "Emails\html\contact.php" is missing.
+Exception Attributes: array (
+  'file' => 'Emails\\html\\contact.php',
+)
+Request URL: /Projet_web/sitecollaboratif/contact
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(470): View->_getViewFileName('Emails\\html\\con...')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1710): View->render('contact', 'default')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1562): CakeEmail->_renderTemplates('')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1171): CakeEmail->_render('')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ContactController.php(44): CakeEmail->send()
+#5 [internal function]: ContactController->index()
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-04-08 14:28:39 Error: [MissingLayoutException] Layout file "Layouts\Emails\html\default.php" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts\\Emails\\html\\default.php',
+)
+Request URL: /Projet_web/sitecollaboratif/contact
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(514): View->_getLayoutFileName('default')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1710): View->render('contact', 'default')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1562): CakeEmail->_renderTemplates('')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1171): CakeEmail->_render('')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ContactController.php(44): CakeEmail->send()
+#6 [internal function]: ContactController->index()
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-08 14:28:39 Error: [MissingLayoutException] Layout file "Layouts\Emails\html\default.php" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts\\Emails\\html\\default.php',
+)
+Request URL: /Projet_web/sitecollaboratif/contact
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(514): View->_getLayoutFileName('default')
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1710): View->render('contact', 'default')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1562): CakeEmail->_renderTemplates('')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Network\Email\CakeEmail.php(1171): CakeEmail->_render('')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ContactController.php(44): CakeEmail->send()
+#6 [internal function]: ContactController->index()
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

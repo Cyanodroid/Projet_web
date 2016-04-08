@@ -1,4 +1,4 @@
-<?php 
+<?php
 	App::uses('AppController','Controller');
 
 	class UsersController extends AppController {
@@ -32,7 +32,7 @@
            				'token'   =>$token,
            				));
            			// on enregistre dans la DB
-           			
+
            			$this->User->save();
            			// amélioration possible : supprimer les comptes avec 'active'=>0 au bout de x temps
 
@@ -40,7 +40,7 @@
            			App::uses('CakeEmail', 'Network/Email');
            			$Email = new CakeEmail('gmail');
            			$Email->to($this->request->data['User']['mail']) // à qui ?
-           				  ->from(Configure::read('Site_Contact.mail')) // de qui ? 
+           				  ->from(Configure::read('Site_Contact.mail')) // de qui ?
            				  ->subject('Merci de confirmer votre inscription') // sujet du mail
            				  ->viewVars($this->request->data['User'] + array('token'=>$token, 'id'=>$this->User->id)) // arguments que l'on va passer au template
            				  ->emailFormat('html') // format du mail
@@ -196,10 +196,10 @@
 				if ($this->User->validates()) {
 
 					$this->User->id = $this->Auth->user('id');
-					// vérification de la présence d'un avatar					
+					// vérification de la présence d'un avatar
 					if (!empty($this->request->data['User']['avatarf']['tmp_name'])) {
 						// création du chemin (ou récupération)
-						// supposons qu'il y ait beaucoup d'utilisateur, on va mettre les images dans des 
+						// supposons qu'il y ait beaucoup d'utilisateur, on va mettre les images dans des
 						// dossiers séparés 1 pour utilisateur 1 à 1000 etc etc
 						$directory = IMAGES . 'avatars' . DS . ceil($this->User->id / 1000);
 						if (!file_exists($directory)) {
@@ -222,9 +222,9 @@
 					if (!empty($this->request->data['User']['mail'])) {
 						$this->User->saveField(
 	           				'mail', $this->request->data['User']['mail']
-           				);	
+           				);
 					}
-					
+
 					// on recharge les informations
 					$user = $this->User->read();
 
@@ -255,6 +255,7 @@
 		public function candidate() {
 			$this->layout = 'default2';
 			if (!empty($this->request->data)) {
+
 				$u = $this->User->find('first', array(
 					'fields'=>array('username', 'mail'),
 					'conditions'=>array(
@@ -265,26 +266,56 @@
 				$this->request->data['User']['mail']     = $u['User']['mail'];
 				$this->request->data['User']['username'] = $u['User']['username'];
 
-				App::uses('CakeEmail', 'Network/Email');
-				$email = new CakeEmail('gmail');
-				$email->to(Configure::read('Site_Contact.mail')) // à qui ? 
-					  ->from($this->request->data['User']['mail']) // par qui ?
-					  ->subject('Un utilisateur du site "Site collaboratif" a envoyé sa candidature') // sujet du mail
-					  ->emailFormat('html') // le format à utiliser
-					  ->template('candidature') // le template à utiliser
-					  ->viewVars($this->request->data['User']) // les arg qu'on passe à notre template
-					  ->send(); // envoi du mail
+				if (!empty($this->request->data['User']['CV']['name'])) {
 
-				echo $this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
-				$this->redirect($this->referer());
-			}		
+					$directory = APP . '/Files/cvs' . DS . ceil($this->User->id / 1000);
+					if (!file_exists($directory)) {
+						// si le dossier n'existe pas on le créer
+						mkdir($directory, 0777);
+					}
+
+					$pathname = $directory . DS . $this->request->data['User']['CV']['name'];
+
+					if (!file_exists($pathname)) {
+						move_uploaded_file($this->request->data['User']['CV']['tmp_name'], $pathname);
+					}
+
+					App::uses('CakeEmail', 'Network/Email');
+					$email = new CakeEmail('gmail');
+					$email->to(Configure::read('Site_Contact.mail')) // à qui ?
+						  ->from($this->request->data['User']['mail']) // par qui ?
+						  ->subject('Un utilisateur du site "Site collaboratif" a envoyé sa candidature') // sujet du mail
+						  ->emailFormat('html') // le format à utiliser
+						  ->template('candidature') // le template à utiliser
+						  ->viewVars($this->request->data['User']) // les arg qu'on passe à notre template
+						  ->attachments($pathname)
+						  ->send(); // envoi du mail
+
+					echo $this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
+					$this->redirect($this->referer());
+
+				} else {
+					App::uses('CakeEmail', 'Network/Email');
+					$email = new CakeEmail('gmail');
+					$email->to(Configure::read('Site_Contact.mail')) // à qui ?
+						  ->from($this->request->data['User']['mail']) // par qui ?
+						  ->subject('Un utilisateur du site "Site collaboratif" a envoyé sa candidature') // sujet du mail
+						  ->emailFormat('html') // le format à utiliser
+						  ->template('candidature') // le template à utiliser
+						  ->viewVars($this->request->data['User']) // les arg qu'on passe à notre template
+						  ->send(); // envoi du mail
+
+					echo $this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
+					$this->redirect($this->referer());
+				}
+			}
 		}
 
 		public function paypal_success() {
 
 			if (!$this->Auth->user('id'))
 				throw new NotFoundException(__("Cette page n'existe pas"));
-				
+
 
 			$user = $this->User->find('first', array(
 				'conditions'=>array('id'=>$this->Auth->user('id')),
