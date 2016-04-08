@@ -223,3 +223,24 @@ function enregistrer_reponse() {
 		return true;
 	});
 }
+
+function set_answer(id_answer, current_user) {
+	if (isNaN(id_answer) || isNaN(current_user)) {
+		return false;
+	}
+	
+	$.ajax({
+		url: '/Projet_web/sitecollaboratif/Archives/reponse_test/' + id_answer + '/' + current_user,
+		data: {
+			id_answer: id_answer,
+			current_user: current_user
+		},
+		success: function(server_response) {
+			alert(server_response);
+		},
+		error: function(server_response) {
+			alert(server_response);
+		}
+	});
+	return true;
+}
