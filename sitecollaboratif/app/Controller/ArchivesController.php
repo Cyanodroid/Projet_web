@@ -53,14 +53,14 @@
 				);
 
 				if ($query == null) {
-					echo "Aucune question ne correspond à votre demande";
+					echo __("Aucune question ne correspond à votre demande");
 					die();
 				}
 
 				$this->Archive->id = $query['Archive']['id'];
 				$this->Archive->saveField('answer', $msg);
 
-				echo "Réponse enregistrée !";
+				echo __("Réponse enregistrée !");
 			}
 		}
 

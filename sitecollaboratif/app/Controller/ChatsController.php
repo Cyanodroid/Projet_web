@@ -103,7 +103,7 @@
 				$this->Chat->save($data['Chats']);
 
 				// app/tmp/$id.log
-				CakeLog::write($id, 'Utilisateur : ' . $this->Auth->user('username') . ' dit : '. $msg);
+				CakeLog::write($id, __('Utilisateur : ') . $this->Auth->user('username') . __(' dit : '). $msg);
 			}
 		}
 
@@ -133,7 +133,7 @@
 
 				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // ARNAULT.P PC
 
-				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // CLAIRE.T PC
+				//$directory = 'C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\tmp\logs'.$id.'.log'; 		   // CLAIRE.T PC
 
 				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // THOMAS.S PC
 

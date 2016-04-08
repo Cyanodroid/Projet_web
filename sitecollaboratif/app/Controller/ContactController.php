@@ -14,7 +14,7 @@
 				$captcha = new recaptcha('6Lf4FBsTAAAAAKX8au0BRq9nC4iW9-NK0BLHBPH4');
 
                 if($captcha->checkcode($this->request->data['g-recaptcha-response']) == false) {
-                    $this->Session->setFlash("Erreur de captcha !", 'error');
+                    echo $this->Session->setFlash(__("Erreur de captcha !"), 'error');
                     return false;
                 }
 
@@ -23,7 +23,7 @@
 				if (!empty($this->request->data['Contact']['prot'])) {
 					// donc si on remplit ce champs ça veut dire qu'on veut nous spam
 					// on laisse quand même un message de success dans le cas où un utilisateur humain regarde l'écran
-					$this->Session->setFlash('Votre message a été envoyé avec succès.', 'success');
+					echo $this->Session->setFlash(__('Votre message a été envoyé avec succès.'), 'success');
 					// on redirige normalement comme si tout s'était bien passé
 			   		$this->redirect(array('action' => 'index'));
 				} else {
@@ -44,12 +44,12 @@
 							  ->send(); // envoi du mail
 
 						// on laisse un petit message de validation
-						$this->Session->setFlash('Votre message a été envoyé avec succès.', 'success');
+						echo $this->Session->setFlash(__('Votre message a été envoyé avec succès.'), 'success');
 						// on pense à rediriger l'utilisateur
 			   			$this->redirect(array('action' => 'index'));
 		   			} else {
 		   				// sinon il y a un problème au niveau des champs
-						$this->Session->setFlash('Veuillez corriger les erreurs ci-dessous.', 'error');
+						echo $this->Session->setFlash(__('Veuillez corriger les erreurs ci-dessous.'), 'error');
 					}
 				}
 	        }
