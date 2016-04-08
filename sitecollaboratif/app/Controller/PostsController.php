@@ -67,15 +67,15 @@
 						// on vide les champs pour ne pas spam les commentaires (ex : F5 => confirmer l'envoi du formulaire etc etc)
 						$this->request->data = array();
 						// on laisse un petit message à l'utilisateur
-						echo $this->Session->setFlash(__("Votre commentaire a été posté !"), 'success');
+						$this->Session->setFlash(__("Votre commentaire a été posté !"), 'success');
 						// on "refresh" la page courante
 						$this->redirect(array('action'=>'voir', $id));
 					} else {
-						echo $this->Session->setFlash(__("Une erreur est survenue !"), 'error');
+						$this->Session->setFlash(__("Une erreur est survenue !"), 'error');
 					}
 
 				} else {
-					echo $this->Session->setFlash(__("Vous devez vous connecter pour pouvoir commenter !"), 'error');
+					$this->Session->setFlash(__("Vous devez vous connecter pour pouvoir commenter !"), 'error');
 				}
 			}
 
@@ -114,10 +114,10 @@
 	        	// suppression
 	            $this->Comment->delete($id);
 	            // validation
-	            echo $this->Session->setFlash(__("Commentaire supprimé"), "success");
+	            $this->Session->setFlash(__("Commentaire supprimé"), "success");
 
 	        } else {
-	            echo $this->Session->setFlash(__("Vous n'avez pas le droit de supprimer ce commentaire"), "error");
+	            $this->Session->setFlash(__("Vous n'avez pas le droit de supprimer ce commentaire"), "error");
 	        }
 	        // on redirige l'utilisateur d'où il vient
 	        return $this->redirect($this->referer());
@@ -161,42 +161,48 @@
 	  	public function admin_edit($id = null) {
 	  		$this->layout = "default2";
 	  		$cat = $this->Post->Categories->find('list', array(
-		  			'recursive'=>-1,
-		  			'fields'=>array('id', 'title')
+		  		'recursive'=>-1,
+		  		'fields'=>array('id', 'title')
 		  	));
 
 		  	$this->set('cats', $cat);
+			if ($id == null) {
+		  		if (!empty($this->request->data)) {
+		  			if ($this->Post->validates()) {
+			  			$this->request->data['Post']['users_id'] = $this->Auth->user('id');
 
-	  		if (!empty($this->request->data)) {
-	  			if ($this->Post->validates()) {
-		  			$this->request->data['Post']['users_id'] = $this->Auth->user('id');
+			  			$this->Post->create($this->request->data);
+			  			if ($this->Post->save($this->request->data, true, array())) {
 
-		  			//debug($this->request->data);
-		  			$this->Post->create($this->request->data);
-		  			if ($this->Post->save($this->request->data, true, array())) {
+				  			if (!empty($this->request->data['Post']['imageart'][0]['tmp_name'])) {
+								$directory = IMAGES . 'articles' . DS;
+								if (!file_exists($directory)) {
+								   mkdir($directory, 0777);
+								}
 
-			  			if (!empty($this->request->data['Post']['imageart']['tmp_name'])) {
+								$i = 0;
+								while (!empty($this->request->data['Post']['imageart'][$i]['tmp_name'])) {
+									if ($i == 0) {
+										move_uploaded_file($this->request->data['Post']['imageart'][$i]['tmp_name'], $directory . DS . $this->Post->id . '.jpg');
+									} else {
+										move_uploaded_file($this->request->data['Post']['imageart'][$i]['tmp_name'], $directory . DS . $this->Post->id . '-' . $i . '.jpg');
+									}
+									$i++;
+								}
 
-							$directory = IMAGES . 'articles' . DS;
-							debug($directory);
-							if (!file_exists($directory)) {
-								mkdir($directory, 0777);
+								$this->Post->saveField('image', 1);
 							}
 
-							move_uploaded_file($this->request->data['Post']['imageart']['tmp_name'], $directory . DS . $this->Post->id . '.jpg');
-
-							$this->Post->saveField('image', 1);
-						}
-
-		  				$this->request->data = array();
-		  				echo $this->Session->setFlash(__("Votre article vient d'être publié !"), "success");
-		  				$this->redirect(array('action'=>'admin_index'));
+			  				$this->request->data = array();
+			  				$this->Session->setFlash(__("Votre article vient d'être publié !"), "success");
+			  				$this->redirect(array('action'=>'admin_index'));
+			  			} else {
+			  				$this->Session->setFlash(__("Erreur : votre article n'a pas pu être publié"), "error");
+			  			}
 		  			} else {
-		  				echo $this->Session->setFlash(__("Erreur : votre article n'a pas pu être publié"), "error");
+		  				$this->Session->setFlash(__("Erreur : vos champs de sont pas valides"), "error");
 		  			}
-	  			} else {
-	  				echo $this->Session->setFlash(__("Erreur : vos champs de sont pas valides"), "error");
-	  			}
+				}
 	  		} else if ($id) {
 	  			$this->request->data = $this->Post->findById($id);
 	  		}
@@ -204,7 +210,7 @@
 
 	  	public function admin_delete($id) {
 	  		if ($this->Post->delete($id)) {
-	  			echo $this->Session->setFlash(__("Votre article vient d'être supprimé !"), "success");
+	  			$this->Session->setFlash(__("Votre article vient d'être supprimé !"), "success");
 	  			$this->redirect($this->referer());
 	  		}
 	  	}
@@ -214,7 +220,7 @@
 
 	  		$article = $this->Post->findById($id);
 
-	  		echo $this->Session->setFlash(__("Vous pouvez dès à présent télécharger votre pdf !"), "success");
+	  		$this->Session->setFlash(__("Vous pouvez dès à présent télécharger votre pdf !"), "success");
 
 	  		$this->set('id', $id);
 	  		$this->set(compact('article'));
@@ -224,7 +230,7 @@
 
 	  	public function show_pdf($id) {
 	  		if (!file_exists(APP . 'files/pdf/'.$id.'.pdf')) {
-	  			echo $this->Session->setFlash(__("Ce document n'est pas encore disponible sur le serveur. Afin de pouvoir le télécharger, vous devez d'abord l'exporter."), "error");
+	  			$this->Session->setFlash(__("Ce document n'est pas encore disponible sur le serveur. Afin de pouvoir le télécharger, vous devez d'abord l'exporter."), "error");
 	  			$this->redirect($this->referer());
 	  		}
 

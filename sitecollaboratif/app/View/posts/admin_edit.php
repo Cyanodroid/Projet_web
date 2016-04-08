@@ -1,36 +1,27 @@
-<?php 
+<?php
 echo $this->Session->Flash();
 echo("<div class=\"row\" style=\"margin-top:70px;\">");
 	echo("<h1>");
 	echo __("Poster un article");
 	echo("</h1>");
 	echo("<div class=\"span12\">");
-		$this->Form->create('Post', array('type'=>'file'));
+		echo $this->Form->create('Post', array('type'=>'file'));
 		echo $this->Form->input('Post.id');
 		echo("<br/>");
 		echo $this->Form->input('Post.title', array('label' => __("Titre de l'article"), 'class'=>'form-control'));
 		echo("<br/>");
 		echo $this->Form->input('Post.categories_id', array('label' => __("Catégorie de l'article"), 'class'=>'form-control', 'options'=>$cats));
 		echo("<br/>");
-		echo $this->Form->input('imageart', array('type'=>'file', 'label'=>__('Image principale (.jpg, .jpeg, .png)')));
+		echo $this->Form->input('imageart.', array('type'=>'file', 'multiple', 'label'=>__('Image (.jpg, .jpeg, .png)')));
 		echo("<br/>");
 		echo $this->Form->input('Post.contenu', array('label' => __("Contenu de l'article"), 'class'=>'form-control'));
 		echo("<br/>");
-		echo("<h4>");
-			echo __("Autres images (otionnel) (.jpg, .jpeg, .png) : ");
-		echo("</h4>");
-		echo $this->Form->input('imageart', array('type'=>'file', 'label'=>__('Image 1')));
-		echo("<br/>");
-		echo $this->Form->input('imageart', array('type'=>'file', 'label'=>__('Image 2')));
-		echo("<br/>");
-		echo $this->Form->input('imageart', array('type'=>'file', 'label'=>__('Image 3')));
-		echo("<br/>");
 		echo $this->Form->input('Post.date_post', array('label' => __("Date "), 'dateFormat'=>'DMY'));
 		echo("<br/>");
-		echo $this->Form->input('Post.langage', array('label' => __("Langue"), 'class'=>'form-control', 'options'=>array('Fr', 'Gb', 'De', 'Es', 'Ru', 'Jp')));
-		echo("<br/>");
-		echo $this->Form->button('Publier maintenant', array('class'=>"btn btn-lg btn-primary"));
-		$this->Form->end();
+		// echo $this->Form->input('Post.langage', array('label' => __("Langue"), 'class'=>'form-control', 'options'=>array('Fr', 'Gb', 'De', 'Es', 'Ru', 'Jp')));
+		// echo("<br/>");
+		echo $this->Form->button(__('Publier maintenant'), array('class'=>'btn btn-lg btn-primary'));
+		echo $this->Form->end();
 	echo("</div>");
 echo("</div>");
 ?>

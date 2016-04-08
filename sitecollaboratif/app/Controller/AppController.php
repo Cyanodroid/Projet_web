@@ -56,13 +56,7 @@ class AppController extends Controller {
     		Configure::write('debug', 0);
 		}
 
-
 		if (isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'admin') {
-			/*if ($this->Auth->user('groups_id') != 1) {
-				throw new NotFoundException();
-			} else {
-				$this->layout = 'default2';
-			}*/
 			$this->layout = 'default2';
 		}
     }

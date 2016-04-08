@@ -32,7 +32,7 @@ App::uses('Model', 'Model');
 class AppModel extends Model {
 
 	public function sizeimg($check, $width, $height, $limit) {
-		//debug(func_get_args());
+		// debug(func_get_args());
 		$field = key($check);
 		$val = $check[$field];
 

@@ -48,10 +48,10 @@
            				  ->send(); // envoi du mail
 
            			// on laisse un petit message à l'utilisateur
-           			echo $this->Session->setFlash(__("Un mail de confirmation vous a été envoyé"), 'success');
+           			$this->Session->setFlash(__("Un mail de confirmation vous a été envoyé"), 'success');
 				} else {
 					// sinon il doit corriger des champs
-					echo $this->Session->setFlash(__("Des erreurs sont à corriger"), "error");
+					$this->Session->setFlash(__("Des erreurs sont à corriger"), "error");
 				}
 			}
 		}
@@ -67,11 +67,11 @@
 				));
 			// si un tel utilisateur n'existe pas alors le lien doit être mauvais
 			if (empty($user)) {
-				echo $this->Session->setFlash(__("Ce lien de validation est invalide"), 'error');
-				return $this->redirect('/');
+				$this->Session->setFlash(__("Ce lien de validation est invalide"), 'error');
+				return $this->redirect(array('controller'=>'posts', 'action'=>'index'));
 			}
 			// on affiche un message de validation
-			echo $this->Session->setFlash(__("Votre compte a été validé"), "success");
+			$this->Session->setFlash(__("Votre compte a été validé"), "success");
 			$this->User->save(array(
 				'id'=>$user['User']['id'], // on récupère l'id de l'utilisateur
 				'active' => 1, // on valide concrètement son compte
@@ -89,10 +89,10 @@
 			if (!empty($this->request->data)) {
 				// si on arrive à le connecter (voir la doc cakephp 2.x Authentification)
 				if ($this->Auth->login()) {
-					echo $this->Session->setFlash(__("Vous êtes maintenant connecté"), "success");
+					$this->Session->setFlash(__("Vous êtes maintenant connecté"), "success");
 					$this->redirect(array('controller'=>'posts', 'action'=>'index'));
 				} else {
-					echo $this->Session->setFlash(__("Vos identifiants sont incorrects"), "error");
+					$this->Session->setFlash(__("Vos identifiants sont incorrects"), "error");
 				}
 			}
 		}
@@ -117,7 +117,7 @@
 
 				// si on ne trouve pas, l'adresse est mauvaise
 				if (empty($user)) {
-					echo $this->Session->setFlash(__("Cette adresse email n'est pas enregistrée"), "error");
+					$this->Session->setFlash(__("Cette adresse email n'est pas enregistrée"), "error");
 				} else {
 					// sinon on va créer un token qui sera unique
 					$token = md5(uniqid().time());
@@ -139,7 +139,7 @@
            				  ->send(); // l'envoie du mail
 
            			// on laisse un petit message à l'utilisateur
-           			echo $this->Session->setFlash(__("Un mail vous a été envoyé"), 'success');
+           			$this->Session->setFlash(__("Un mail vous a été envoyé"), 'success');
 				}
 			}
 		}
@@ -156,7 +156,7 @@
 
 			// si on ne trouve pas, cela veut dire que l'utilisateur a pris un mauvais lien ou essaye de nous pirater des comptes
 			if (empty($user)) {
-				echo $this->Session->setFlash(__("Ce lien de validation est invalide"), 'error');
+				$this->Session->setFlash(__("Ce lien de validation est invalide"), 'error');
 				return $this->redirect(array('action'=>'forgot'));
 			}
 
@@ -175,7 +175,7 @@
 						'password'=>$this->Auth->password($this->request->data['User']['password'])
 					));
 					// on laisse un petit message
-					echo $this->Session->setFlash(__("Votre mot de passe a bien été modifié"), 'success');
+					$this->Session->setFlash(__("Votre mot de passe a bien été modifié"), 'success');
 					// on redirige notre utilisateur
 					return $this->redirect(array('action'=>'login'));
 				}
@@ -231,7 +231,7 @@
 					$this->Auth->login($user['User']);
 
 					// on laisse un message de validation
-					echo $this->Session->setFlash(__("Vos informations ont bien été modifiées"), 'success');
+					$this->Session->setFlash(__("Vos informations ont bien été modifiées"), 'success');
 
 					$user = $this->User->findById($this->Auth->user('id'));
 					$this->set('user', $user);
@@ -291,7 +291,7 @@
 						  ->attachments($pathname)
 						  ->send(); // envoi du mail
 
-					echo $this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
+					$this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
 					$this->redirect($this->referer());
 
 				} else {
@@ -305,7 +305,7 @@
 						  ->viewVars($this->request->data['User']) // les arg qu'on passe à notre template
 						  ->send(); // envoi du mail
 
-					echo $this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
+					$this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
 					$this->redirect($this->referer());
 				}
 			}
@@ -346,8 +346,8 @@
 				  ->viewVars(array('username'=>$user['User']['username'], 'id'=>$user['User']['id'])) // les arg qu'on passe à notre template
 				  ->send(); // envoi du mail
 
-			echo $this->Session->setFlash(__("Votre abonnement a été pris en compte"), 'success');
-			$this->redirect('/');
+			$this->Session->setFlash(__("Votre abonnement a été pris en compte"), 'success');
+			$this->redirect(array('controller'=>'posts', 'action'=>'index'));
 		}
 
 		public function paypal_cancel() {
@@ -360,8 +360,8 @@
 				  ->template('paypal_cancel') // le template à utiliser
 				  ->send(); // envoi du mail
 
-			echo $this->Session->setFlash(__("Votre demande a été annulée"), 'success');
-			$this->redirect('/');
+			$this->Session->setFlash(__("Votre demande a été annulée"), 'success');
+			$this->redirect(array('controller'=>'posts', 'action'=>'index'));
 		}
 
 		public function admin_index() {
@@ -383,7 +383,7 @@
 				$this->User->id = $id;
 				$this->User->saveField('groups_id', $this->request->data['User']['groups_id']);
 				$this->User->saveField('end_subscription', $this->request->data['User']['end_subscription']);
-				echo $this->Session->setFlash(__("Opération effectuée"), 'success');
+				$this->Session->setFlash(__("Opération effectuée"), 'success');
 
 				$this->redirect(array('action'=>'admin_index'));
 			}

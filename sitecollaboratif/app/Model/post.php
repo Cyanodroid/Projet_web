@@ -11,13 +11,6 @@
 			'Post.contenu'=>array(
 				'rule'=>'notBlank'
 			),
-			'imageart'=>array(
-				'rule'=> array('sizeimg', 150, 150),
-				'message'=> "Le format et/ou la taille sont invalides"
-			),
 		);
-
-		public function afterSave($created, $options = array()) {
-		}
 	}
 ?>
