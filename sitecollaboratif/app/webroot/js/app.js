@@ -175,62 +175,34 @@ function EnvoyerMAIL(id) {
 	});
 }
 
-function poser_question() {
-	$('#question-button-control').submit(function(evt) {
-		evt.preventDefault();
-		var str = prompt("Merci de nous préciser votre question : ", "");
-		if (str != '') {
-			var msg = sanitize_badwords(str);
-			$.ajax({
-			    url: '/Projet_web/sitecollaboratif/Archives/question/' +  msg,
-			    data: {
-			        msg: msg
-			    },
-			    success : function(data) {
-			    	alert("Question enregistrée " + data);
-			    },
-			    error : function() {
-			    	alert("Une erreur est survenue");
-			    }
-			});
-		} else return false;
-		return true;
-	});
-}
+function set_query(id_query, current_user) {
+	if (isNaN(id_query) || isNaN(current_user)) {
+		return false;
+	}
 
-function enregistrer_reponse() {
-	$('#reponse-button-control').submit(function(evt) {
-		evt.preventDefault();
-		var qst = prompt("Merci de nous rappeler votre question : ", "");
-		var str = prompt("Merci de nous préciser la réponse qui vous semble la plus appropriée : ", "");
-		if (str != '' && qst != '') {
-			var qst = sanitize_badwords(qst);
-			var msg = sanitize_badwords(str);
-			$.ajax({
-			    url: '/Projet_web/sitecollaboratif/Archives/reponse/' + qst + '/' + msg,
-			    data: {
-			    	qst: qst,
-			        msg: msg
-			    },
-			    success : function(data) {
-			    	alert(data);
-			    },
-			    error : function() {
-			    	alert("Une erreur est survenue");
-			    }
-			});
-		} else return false;
-		return true;
+	$.ajax({
+		url: '/Projet_web/sitecollaboratif/Archives/question/' + id_query + '/' + current_user,
+		data: {
+			id_query: id_query,
+			current_user: current_user
+		},
+		success: function(server_response) {
+			alert(server_response);
+		},
+		error: function(server_response) {
+			alert(server_response);
+		}
 	});
+	return true;
 }
 
 function set_answer(id_answer, current_user) {
 	if (isNaN(id_answer) || isNaN(current_user)) {
 		return false;
 	}
-	
+
 	$.ajax({
-		url: '/Projet_web/sitecollaboratif/Archives/reponse_test/' + id_answer + '/' + current_user,
+		url: '/Projet_web/sitecollaboratif/Archives/reponse/' + id_answer + '/' + current_user,
 		data: {
 			id_answer: id_answer,
 			current_user: current_user
