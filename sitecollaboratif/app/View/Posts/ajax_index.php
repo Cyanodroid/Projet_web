@@ -29,17 +29,4 @@ $this->Paginator->options(array(
 		));
 	$count++;?>
 </div>
-
-</br>
-<?php echo $this->element('recherche'); ?>
-</br></br></br>
-
-<?php echo $this->element('random_articles'); ?>
-
-<?php echo $this->element('newsletter'); ?>
-
-<div class="container marketing">
-	</br></br>
-	<?php echo $this->element('prices'); ?>
-</div>
 <?php echo $this->Js->writeBuffer(); ?>

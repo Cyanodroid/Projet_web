@@ -3,6 +3,11 @@
 		var $name = "Posts";
 		var $uses = array('Post', 'Comment', 'User');
 
+		// test ajax pagination
+		public $components = array('RequestHandler');
+		public $helpers = array('Js');
+		// fin test
+
 		// création d'une pagination
 		var $paginate = array(
 			'Post'=> array( // sur les posts
@@ -16,15 +21,22 @@
 
 		// page index (page d'accueil quoi)
 		public function index() {
+			if ($this->request->is('ajax')) {
+				$query = $this->paginate('Post');
+				// on les "set" dans 'articles' ... regarder la view index.ctp pour comprendre
+				$this->set('articles', $query);
+				$this->render('ajax_index');
+			} else {
 			// récupération des posts
-			$query = $this->paginate('Post');
-			// on les "set" dans 'articles' ... regarder la view index.ctp pour comprendre
-			$this->set('articles', $query);
-			$this->set('random_articles', $this->Post->find('all', array( 
-			   'conditions' => array('Post.image' => 1), 
-			   'order' => 'rand()',
-			   'limit' => 3,
-			)));
+				$query = $this->paginate('Post');
+				// on les "set" dans 'articles' ... regarder la view index.ctp pour comprendre
+				$this->set('articles', $query);
+				$this->set('random_articles', $this->Post->find('all', array(
+				   'conditions' => array('Post.image' => 1),
+				   'order' => 'rand()',
+				   'limit' => 3,
+				)));
+			}
 		}
 
 		// lorsque l'on demande 'en savoir plus' sur l'article avec l'id $id
@@ -61,7 +73,7 @@
 					} else {
 						echo $this->Session->setFlash(__("Une erreur est survenue !"), 'error');
 					}
-					
+
 				} else {
 					echo $this->Session->setFlash(__("Vous devez vous connecter pour pouvoir commenter !"), 'error');
 				}
@@ -96,7 +108,7 @@
 	        // récupération du commentaire en question
 	        $comment = $this->Comment->findById($id, array('Comment.id', 'Comment.user_id'));
 
-	        // qui peut supprimer un com ? l'utilisateur qui l'a posté ou un admin	        
+	        // qui peut supprimer un com ? l'utilisateur qui l'a posté ou un admin
 	        if ($this->Auth->user('id') == $comment['Comment']['user_id'] /*|| $this->Auth->user('role') == 'admin'*/) {
 
 	        	// suppression
@@ -113,7 +125,7 @@
 
 	    // fonction rechercher
 		function resultSearch($search = null) {
-		
+
 			if ($this->request->is('ajax')) {
 				$this->layout = 'ajax';
 
@@ -181,7 +193,7 @@
 	  				echo $this->Session->setFlash(__("Erreur : vos champs de sont pas valides"), "error");
 	  			}
 	  		} else if ($id) {
-	  			$this->request->data = $this->Post->findById($id); 
+	  			$this->request->data = $this->Post->findById($id);
 	  		}
 	  	}
 
@@ -189,7 +201,7 @@
 	  		if ($this->Post->delete($id)) {
 	  			echo $this->Session->setFlash(__("Votre article vient d'être supprimé !"), "success");
 	  			$this->redirect($this->referer());
-	  		} 
+	  		}
 	  	}
 
 	  	public function create_pdf($id) {
@@ -210,9 +222,9 @@
 	  			echo $this->Session->setFlash(__("Ce document n'est pas encore disponible sur le serveur. Afin de pouvoir le télécharger, vous devez d'abord l'exporter."), "error");
 	  			$this->redirect($this->referer());
 	  		}
-	  		
+
 		    $this->viewClass = 'Media';
-		 
+
 		    $params = array(
 		        'id' => $id.'.pdf',
 		        'name' => $id ,
@@ -220,7 +232,7 @@
 		        'extension' => 'pdf',
 		        'path' => APP . 'files/pdf' . DS
 		    );
-		 
+
 			$this->set($params);
 		}
 

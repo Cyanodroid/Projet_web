@@ -51,8 +51,9 @@ class AppController extends Controller {
 
 		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir', 'flux_rss');
 
-		if ($this->request->is('ajax')) {
+		if ($this->request->is('ajax') || $this->RequestHandler->isAjax()) {
 			$this->layout = null;
+    		Configure::write('debug', 0);
 		}
 
 

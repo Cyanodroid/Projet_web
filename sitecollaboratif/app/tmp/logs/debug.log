@@ -250,3 +250,31 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
 [main] - APP\webroot\index.php, line 110
 
+2016-04-08 13:46:52 Debug: Notice (8): Undefined variable: articles in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Posts\ajax_index.php, line 11]
+Trace:
+include - APP\View\Posts\ajax_index.php, line 11
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+PostsController::index() - APP\Controller\PostsController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 13:46:52 Debug: Notice (8): Undefined variable: articles in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Posts\ajax_index.php, line 11]
+Trace:
+include - APP\View\Posts\ajax_index.php, line 11
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+PostsController::index() - APP\Controller\PostsController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+

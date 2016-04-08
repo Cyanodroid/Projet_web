@@ -40870,3 +40870,107 @@ Stack Trace:
 #3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ArchivesController), Object(CakeRequest))
 #4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2016-04-08 12:39:33 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /Projet_web/sitecollaboratif/
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-08 12:39:33 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /Projet_web/sitecollaboratif/
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(266): class_exists('PostsController')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-08 12:40:57 Error: Fatal Error (64): Constant expression contains invalid operations in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 13]
+2016-04-08 12:40:57 Error: Fatal Error (64): Constant expression contains invalid operations in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 13]
+2016-04-08 12:40:57 Error: [FatalErrorException] Constant expression contains invalid operations
+Request URL: /Projet_web/sitecollaboratif/
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Constant expres...', 'C:\\Users\\link-\\...', 13)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Core\App.php(970): ErrorHandler::handleError(64, 'Constant expres...', 'C:\\Users\\link-\\...', 13, Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2016-04-08 12:40:57 Error: [FatalErrorException] Constant expression contains invalid operations
+Request URL: /Projet_web/sitecollaboratif/
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Constant expres...', 'C:\\Users\\link-\\...', 13)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Core\App.php(970): ErrorHandler::handleError(64, 'Constant expres...', 'C:\\Users\\link-\\...', 13, Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2016-04-08 13:18:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/js/jquery.js
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-08 13:18:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/js/jquery.js
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-08 13:30:48 Error: [ParseError] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /Projet_web/sitecollaboratif/
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\link-\\...', Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\link-\\...')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-08 13:30:48 Error: [ParseError] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /Projet_web/sitecollaboratif/
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\link-\\...', Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\link-\\...')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-04-08 13:46:52 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Posts\ajax_index.php, line 11]
+Trace:
+include - APP\View\Posts\ajax_index.php, line 11
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+PostsController::index() - APP\Controller\PostsController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-08 13:46:52 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Posts\ajax_index.php, line 11]
+Trace:
+include - APP\View\Posts\ajax_index.php, line 11
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+PostsController::index() - APP\Controller\PostsController.php, line 25
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
