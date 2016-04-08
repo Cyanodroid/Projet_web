@@ -132,7 +132,7 @@
 
 				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // ARNAULT.P PC
 
-				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // CLAIRE.T PC
+				//$directory = 'C:\Users\Claire\Documents\GitHub\Projet_web\sitecollaboratif\app\tmp\logs'.$id.'.log'; 		   // CLAIRE.T PC
 
 				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // THOMAS.S PC
 
