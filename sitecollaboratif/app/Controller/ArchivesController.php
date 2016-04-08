@@ -63,4 +63,19 @@
 				echo "Réponse enregistrée !";
 			}
 		}
+
+		public function question_test($id_question, $current_user) {}
+
+		public function reponse_test($id_answer, $current_user) {
+			$this->autoRender = false;
+
+			if ($this->request->is('ajax')) {
+				if ($id_answer == null || $current_user == null) {
+					echo "error";
+					die();
+				}
+				echo "ok";
+				die();
+			}
+		}
 	}

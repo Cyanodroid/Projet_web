@@ -117,6 +117,7 @@
 				);
 
 				$this->set('msg', $msg);
+				$this->set('current_user', $this->Auth->user('id'));
 			}
 		}
 
