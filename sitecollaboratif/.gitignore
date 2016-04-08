@@ -5,9 +5,6 @@
 #################################
 /nbproject
 .idea
-sitecollaboratif/app/tmp/cache/*
-sitecollaboratif/app/tmp/logs/error.log
-sitecollaboratif/app/tmp/logs/debug.log
 
 # OS generated files #
 ######################

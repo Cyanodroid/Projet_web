@@ -47,9 +47,7 @@ Temporary Items
 .apdisk
 <<<<<<< HEAD
 
-sitecollaboratif/app/View/Elements/menu.php
-sitecollaboratif/app/tmp/cache/*
-sitecollaboratif/app/tmp/logs/error.log
-sitecollaboratif/app/tmp/logs/debug.log
 =======
 >>>>>>> parent of 109a44e... ajout drapeaux et menu langues
+sitecollaboratif/app/tmp/*
+sitecollaboratif/app/View/Elements/menu.php
