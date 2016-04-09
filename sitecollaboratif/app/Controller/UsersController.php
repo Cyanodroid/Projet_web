@@ -228,6 +228,7 @@
 					// on recharge les informations
 					$user = $this->User->read();
 
+					$this->Session->write('Auth.User.avatari', $directory . DS . $this->User->id . '.jpg');
 					$this->Auth->login($user['User']);
 
 					// on laisse un message de validation
