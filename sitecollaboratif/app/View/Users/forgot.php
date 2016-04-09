@@ -1,11 +1,7 @@
-<?php $this->layout = 'default2'; 
+<?php $this->layout = 'default2';
 echo("<div class=\"row\">");
 	echo("<div class=\"span12\">");
-		echo("</br>");
-		echo("</br>");
-		echo("</br>");
-		echo("</br>");
-		echo("<h1>");
+		echo("<h1 style=\"margin-top: 10%;\">");
 		echo __("Mot de passe oublié");
 		echo("</h1>");
 		echo $this->Form->create('User');

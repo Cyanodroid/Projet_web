@@ -150,7 +150,7 @@
 			$this->layout = 'default2';
 			// récupération dans la table users l'utilisateur id ayant le token $token
 			$user = $this->User->find('first', array(
-				'fields'=>array('id'),
+				'fields'=>array('id', 'groups_id'),
 				'conditions'=>array('id'=>$user_id, 'token'=>$token)
 				));
 
@@ -172,7 +172,8 @@
 						'id'=>$user['User']['id'],
 						'token'=>'', // on vide le token pour ne pas permettre à quelqu'un de modifier le mdp
 						'active'=>1,
-						'password'=>$this->Auth->password($this->request->data['User']['password'])
+						'password'=>$this->Auth->password($this->request->data['User']['password']),
+						'groups_id'=>$user['User']['groups_id']
 					));
 					// on laisse un petit message
 					$this->Session->setFlash(__("Votre mot de passe a bien été modifié"), 'success');
