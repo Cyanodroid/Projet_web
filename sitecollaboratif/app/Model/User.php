@@ -37,7 +37,7 @@
 			'avatarf' => array(
 				'required' => false,
 				'rule' => 'isJpg', // format jpg
-				'message'=> "Le format est invalid"
+				'message'=> "Le format est invalide"
 				)
 		);
 

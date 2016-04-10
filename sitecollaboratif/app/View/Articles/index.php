@@ -17,16 +17,16 @@ echo("<div class=\"span12\" style=\"text-align:center;\">");
 					echo $this->Html->image('/img/categories/'.$c['Categories']['id'].'.jpg', array('height'=>140, 'width'=>140, 'class'=>'img-circle'));
         			echo("<p><strong>");
                     echo __("Découvrez nos articles sur la ");
-                    echo $c['Categories']['title']; 
+                    echo $c['Categories']['title'];
                     echo("!");
                     echo("</strong></p>");
         		echo("</div>");
         		echo("<div class=\"panel-footer\">");
         			echo $this->Html->link(__("Parcourir les articles"), array('action'=>'parcourir', $c['Categories']['id']), array('class'=>'btn btn-primary'));
         		echo("</div>");
-    		echo("</div>");     
+    		echo("</div>");
     	echo("</div>");
-    }    
+    }
 	echo("</div>");
 echo("</div>");
 echo("<div class=\"span12\" style=\"text-align:center;\">");
@@ -38,7 +38,7 @@ echo("<div class=\"span12\" style=\"text-align:center;\">");
         echo $this->Html->image('/img/categories/'.$l['Article']['categories_id'].'.jpg', array('height'=>140, 'width'=>140, 'class'=>'img-circle'));
 	    echo "<h2>".$l['Article']['title']."</h2>";
 	    echo "<p>".$this->Text->truncate($l['Article']['contenu'], 200, array('ellipsis'=>'...', 'exact'=>false))."</p>";
-	    echo "<p>".$this->Html->link(__('En savoir plus'), array('controller'=>'posts', 'action'=>'voir', $l['Article']['id']), array('class'=>'btn btn-default', 'role'=>'button'))."</p>";   
+	    echo "<p>".$this->Html->link(__('En savoir plus'), array('controller'=>'posts', 'action'=>'voir', $l['Article']['id']), array('class'=>'btn btn-default', 'role'=>'button'))."</p>";
 	echo("</div>");
     }
 echo("</div>");
