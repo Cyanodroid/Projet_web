@@ -91,7 +91,7 @@
 				if ($this->Auth->login()) {
 
 					$user = $this->User->findById($this->Auth->user('id'));
-					if ($user['User']['end_subscription'] != null && $test['User']['end_subscription'] < date('Y-m-d H:i:s')) {
+					if ($user['User']['end_subscription'] != null && $user['User']['end_subscription'] < date('Y-m-d H:i:s')) {
 						$group = 2;
 						$this->User->id = $this->Auth->user('id');
 						$this->User->saveField('groups_id', $group);
