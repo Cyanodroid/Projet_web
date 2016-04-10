@@ -1146,3 +1146,507 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
 [main] - APP\webroot\index.php, line 110
 
+2016-04-10 15:59:38 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 15:59:39 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 15:59:47 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 15:59:47 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 15:59:48 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 15:59:48 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:01 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:01 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:02 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:02 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:04 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:04 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:19 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:19 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:20 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:20 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:22 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:22 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:24 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:24 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:33 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:33 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:34 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:34 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:35 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:35 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:37 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:37 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:38 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:00:38 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:22 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:22 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:23 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:23 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:24 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:24 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:25 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:25 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:27 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:27 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:28 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:02:28 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:16:02 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:16:02 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:36:15 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:36:15 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:36:25 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:36:25 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:36:26 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:36:26 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:37:52 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:37:52 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:37:53 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:37:53 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:37:55 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-10 16:37:55 Debug: Notice (8): Undefined variable: msg in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 96]
+Trace:
+ChatsController::envoyer_msg() - APP\Controller\ChatsController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+

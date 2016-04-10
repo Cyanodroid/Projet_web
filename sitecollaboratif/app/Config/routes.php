@@ -19,7 +19,7 @@
  * @since         CakePHP(tm) v 0.2.9
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
- 
+
 /**
  * Here, we are connecting '/' (base path) to controller called 'Pages',
  * its action called 'display', and we pass a param to select the view file
@@ -27,7 +27,7 @@
  */
 	Router::connect('/', array('controller' => 'posts', 'action' => 'index')); // on donne la page d'accueil
 
-	Router::connect('/Chats/:id-:current_id', 
+	Router::connect('/Chats/id/current_id',
 		array('controller'=>'Chats', 'action'=>'index'),
 		array(
 			'pass'=>array('id', 'current_id'),
