@@ -191,11 +191,12 @@
 			// si l'utilisateur appuie sur "modifier"
 
 			if (!empty($this->request->data)) {
-				// récupération de l'utilisateur courant
-				$this->request->data['User']['id'] = $this->Auth->user('id');
-				$this->User->id = $this->Auth->user('id');
 
 				if (!isset($this->request->data['User']['password'])) {
+
+					$this->request->data['User']['id'] = $this->Auth->user('id');
+					// récupération de l'utilisateur courant
+					$this->User->id = $this->Auth->user('id');
 
 					// validation des champs
 					if ($this->User->validates()) {
@@ -237,21 +238,36 @@
 						$this->redirect($this->referer());
 					}
 				} else {
+
+					$user = $this->User->find('first', array(
+						'conditions'=>array('id'=>$this->Auth->user('id'))
+					));
+
+					$this->User->create($this->request->data);
+					// validation des champs
 					if ($this->User->validates()) {
-						$this->User->saveField(
-							'password', $this->Auth->password($this->request->data['User']['password'])
-						);
+						// modification de la DB
+						$this->User->create();
+						$this->User->save(array(
+							'id'=>$user['User']['id'],
+							'active'=>1,
+							'password'=>$this->Auth->password($this->request->data['User']['password']),
+							'groups_id'=>$user['User']['groups_id'],
+							'avatar'=>$user['User']['avatar']
+						));
 						$user = $this->User->read();
 
 						$this->Auth->login($user['User']);
-
-						// on laisse un message de validation
-						$this->Session->setFlash(__("Votre mot de passe a bien été mis à jour"), 'success');
-
+						// on laisse un petit message
+						$this->Session->setFlash(__("Votre mot de passe a bien été modifié"), 'success');
 						$user = $this->User->findById($this->Auth->user('id'));
 						$this->set('user', $user);
-						$this->redirect($this->referer());
+						// on redirige notre utilisateur
+						return $this->redirect($this->referer());
 					}
+
+					$user = $this->User->findById($this->Auth->user('id'));
+					$this->set('user', $user);
 				}
 			} else {
 				// sinon on se contente d'afficher les informations de l'utilisateur
