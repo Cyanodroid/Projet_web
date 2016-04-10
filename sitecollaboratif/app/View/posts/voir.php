@@ -42,6 +42,10 @@ echo("<div class=\"col-lg-8\">");
     // partie gallerie
     if ($cpt > 1) {
         echo("<hr>");
+        echo("<h3>");
+        echo __("Gallerie");
+        echo("</h3>");
+        echo("<br/>");
         echo("<div id=\"images-box\">");
             for ($i = 0 ; $i < $cpt ; $i++) {
                 $j = $i+1;
@@ -58,7 +62,7 @@ echo("<div class=\"col-lg-8\">");
                 echo("</div>");
             }
         echo("</div>");
-        echo("<div class=\"cb\"></div>");
+        echo("<div class=\"cb\" style=\"margin-bottom: 100px;\"></div>");
     }
 
     // partie pdf
