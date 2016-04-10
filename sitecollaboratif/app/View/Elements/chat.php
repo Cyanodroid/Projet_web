@@ -32,7 +32,13 @@ echo("<div class=\"row\" style=\"margin-top: 120px; border: 1px solid black;\">"
 					        		echo $this->Html->image('/img/avatars/'.ceil($u['Users']['id'] / 1000).'/'.$u['Users']['id'].'.jpg', array('class'=>'chat-avatar'));
 					    		}
 				        	echo("</td>");
-				        	echo("<td>".$u['Users']['username']."</td>");
+							if ($u['Users']['groups_id'] == 1) {
+								echo("<td><i class=\"fa fa-star\"></i>&nbsp;".$u['Users']['username']."</td>");
+							} else if ($u['Users']['groups_id'] == 2) {
+								echo("<td><i class=\"fa fa-user\"></i>&nbsp;".$u['Users']['username']."</td>");
+							} else if ($u['Users']['groups_id'] == 3) {
+								echo("<td><i class=\"fa fa-star-half-o\"></i>&nbsp;".$u['Users']['username']."</td>");
+							}
 				      	echo("</tr>");
 				      	}
 				    echo("</tbody>");

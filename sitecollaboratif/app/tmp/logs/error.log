@@ -47950,3 +47950,33 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
 [main] - APP\webroot\index.php, line 110
 
+2016-04-10 17:17:24 Error: [ParseError] syntax error, unexpected '<'
+Request URL: /Projet_web/sitecollaboratif/chats/index
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\link-\\...', Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(1224): View->_render('C:\\Users\\link-\\...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(418): View->_renderElement('C:\\Users\\link-\\...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Chats\index.php(2): View->element('chat')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(971): include('C:\\Users\\link-\\...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\link-\\...', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\link-\\...')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-10 17:17:24 Error: [ParseError] syntax error, unexpected '<'
+Request URL: /Projet_web/sitecollaboratif/chats/index
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\link-\\...', Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(1224): View->_render('C:\\Users\\link-\\...', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(418): View->_renderElement('C:\\Users\\link-\\...', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Chats\index.php(2): View->element('chat')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(971): include('C:\\Users\\link-\\...')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(933): View->_evaluate('C:\\Users\\link-\\...', Array)
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\View\View.php(473): View->_render('C:\\Users\\link-\\...')
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ChatsController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
