@@ -1650,3 +1650,79 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
 [main] - APP\webroot\index.php, line 110
 
+2016-04-10 21:56:12 Debug: Notice (8): Undefined variable: articles in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\carousel.php, line 10]
+Trace:
+include - APP\View\Elements\carousel.php, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Layouts\default.ctp, line 62
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2016-04-10 21:56:12 Debug: Notice (8): Undefined variable: articles in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\carousel.php, line 10]
+Trace:
+include - APP\View\Elements\carousel.php, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Layouts\default.ctp, line 62
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2016-04-10 21:56:20 Debug: Notice (8): Undefined variable: articles in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\carousel.php, line 10]
+Trace:
+include - APP\View\Elements\carousel.php, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Layouts\default.ctp, line 62
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2016-04-10 21:56:20 Debug: Notice (8): Undefined variable: articles in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\carousel.php, line 10]
+Trace:
+include - APP\View\Elements\carousel.php, line 10
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Layouts\default.ctp, line 62
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::renderLayout() - CORE\Cake\View\View.php, line 546
+View::render() - CORE\Cake\View\View.php, line 481
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 289
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 257
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
+[main] - [internal], line ??
+
