@@ -109,7 +109,7 @@
 	        $comment = $this->Comment->findById($id, array('Comment.id', 'Comment.user_id'));
 
 	        // qui peut supprimer un com ? l'utilisateur qui l'a posté ou un admin
-	        if ($this->Auth->user('id') == $comment['Comment']['user_id'] /*|| $this->Auth->user('role') == 'admin'*/) {
+	        if ($this->Auth->user('id') == $comment['Comment']['user_id'] || $this->Auth->user('groups_id') == 1) {
 
 	        	// suppression
 	            $this->Comment->delete($id);

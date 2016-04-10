@@ -105,11 +105,11 @@ echo("<div class=\"col-lg-8\">");
             echo("</strong>");
 	        echo("</h4>");
 	       	echo "<p>".$com['Comment']['contenu']."</p>";
-	       	if ($this->Session->read('Auth.User.id') == $com['User']['id']){
+	       	if ($this->Session->read('Auth.User.id') == $com['User']['id'] || $this->Session->read('Auth.User.groups_id') == 1){
 	        echo("<p>");
                 $c = __("Supprimer ce commentaire");
                 $v = __("Voulez vous vraiment supprimer ?");
-                echo $this->Form->postLink('<i class="fa fa-trash-o"></i>'.$c, array('action' => 'delete', 'controller' => 'posts', $com['Comment']['id']), array('class' => 'btn btn-danger', 'escape' => false), $v);
+                echo $this->Form->postLink('<i class="fa fa-trash-o"></i>&nbsp;'.$c, array('action' => 'delete', 'controller' => 'posts', $com['Comment']['id']), array('class' => 'btn btn-danger', 'escape' => false), $v);
            echo("</p>");
             }
         echo("</div>");

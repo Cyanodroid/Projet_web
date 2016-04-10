@@ -1,11 +1,11 @@
-<?php echo $this->Session->Flash(); 
+<?php echo $this->Session->Flash();
 echo("<div class=\"row\" style=\"margin-top:70px;\">");
 	echo("</br>");
 	echo("<h1>");
 	echo __("Gestion d'un utilisateur");
 	echo("</h1>");
 	echo("<div class=\"span12\">");
-			$this->Form->create('User');
+			echo $this->Form->create('User');
 			echo $this->Form->input('User.id');
 			echo("<br/>");
 			echo $this->Form->input('User.username', array('label'=> __("Nom d'utilisateur"), 'disabled'=>true, 'class'=>'form-control', 'placeholder'=>$user['User']['username']));
@@ -15,7 +15,7 @@ echo("<div class=\"row\" style=\"margin-top:70px;\">");
 			echo $this->Form->input('User.end_subscription', array('label' => __("Fin d'abonnement : "), 'dateFormat'=>'DMY'));
 			echo("<br/>");
 			echo $this->Form->button(__('Enregistrer'), array('class'=>"btn btn-lg btn-primary"));
-			$this->Form->end();
+			echo $this->Form->end();
 	echo("</div>");
 echo("</div>");
 ?>
