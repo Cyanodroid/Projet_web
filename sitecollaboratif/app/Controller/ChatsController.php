@@ -116,7 +116,6 @@
 
 		public function ajaxProcessing($id = null) {
 			if ($this->request->is('ajax')) {
-				debug($this->request->params);
 
 				$msg = $this->Chat->find('all', array(
 					'conditions'=>array('Chat.rooms_id'=> $id)
