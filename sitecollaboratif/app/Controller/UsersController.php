@@ -89,6 +89,14 @@
 			if (!empty($this->request->data)) {
 				// si on arrive à le connecter (voir la doc cakephp 2.x Authentification)
 				if ($this->Auth->login()) {
+
+					$user = $this->User->findById($this->Auth->user('id'));
+					if ($user['User']['end_subscription'] != null && $test['User']['end_subscription'] < date('Y-m-d H:i:s')) {
+						$group = 2;
+						$this->User->id = $this->Auth->user('id');
+						$this->User->saveField('groups_id', $group);
+					}
+
 					$this->Session->setFlash(__("Vous êtes maintenant connecté"), "success");
 					$this->redirect(array('controller'=>'posts', 'action'=>'index'));
 				} else {
@@ -353,20 +361,23 @@
 
 			$user = $this->User->find('first', array(
 				'conditions'=>array('id'=>$this->Auth->user('id')),
-				'fields'=>array('id', 'username', 'groups_id')
+				'fields'=>array('id', 'username', 'groups_id', 'mail')
 				)
 			);
+
+			$end_subscription = date("Y-m-d H:i:s", mktime(date("H"), date("i"), date("s"), date("m")+1, date("d"), date("Y")));
 
 			$group = 3;
 
 			$this->User->id = $this->Auth->user('id');
 			$this->User->saveField('groups_id', $group);
+			$this->User->saveField('end_subscription', $end_subscription);
 
 			App::uses('CakeEmail', 'Network/Email');
 			$email = new CakeEmail('gmail');
-			$email->to(Configure::read('Site_Contact.mail')) // à qui ? $this->Auth->user('mail')
+			$email->to($user['User']['mail']) // à qui ? $this->Auth->user('mail')
 				  ->from(Configure::read('Site_Contact.mail')) // par qui ?
-				  ->subject('Merci de confirmer votre abonnement') // sujet du mail
+				  ->subject('Votre abonnement a été pris en compte') // sujet du mail
 				  ->emailFormat('html') // le format à utiliser
 				  ->template('paypal_success') // le template à utiliser
 				  ->send(); // envoi du mail
@@ -385,9 +396,16 @@
 		}
 
 		public function paypal_cancel() {
+
+			$user = $this->User->find('first', array(
+				'conditions'=>array('id'=>$this->Auth->user('id')),
+				'fields'=>array('mail')
+				)
+			);
+
 			App::uses('CakeEmail', 'Network/Email');
 			$email = new CakeEmail('gmail');
-			$email->to(Configure::read('Site_Contact.mail')) // à qui ? $this->Auth->user('mail')
+			$email->to($user['User']['mail']) // à qui ? $this->Auth->user('mail')
 				  ->from(Configure::read('Site_Contact.mail')) // par qui ?
 				  ->subject('Votre demande a été annulée') // sujet du mail
 				  ->emailFormat('html') // le format à utiliser
