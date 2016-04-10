@@ -361,6 +361,7 @@ class ExtractTask extends AppShell {
  * @return void
  */
 	protected function _extractTokens() {
+		ini_set('memory_limit', '1024M');
 		foreach ($this->_files as $file) {
 			$this->_file = $file;
 			$this->out(__d('cake_console', 'Processing %s...', $file), 1, Shell::VERBOSE);

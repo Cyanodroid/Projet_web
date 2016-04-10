@@ -28,5 +28,3 @@ CakeLog::config('tchat', array('engine'=>'FileLog'));
 Configure::write('Site_Contact', array(
 	'mail' => 'site.collaboratif.test@gmail.com'
 ));
-
-ini_set('intl.default_locale', 'fra');

@@ -24,13 +24,8 @@ echo("<div class=\"col-lg-8\">");
     echo "&nbsp;";
     echo $this->Time->timeAgoInWords($a['Post']['date_post']);
     echo("</p>");
-    // echo $this->Html->image("internationalisation/flag_icons/png/".$a['Post']['langage'].".png");
-    echo $this->Html->image("internationalisation/flag_icons/png/Fr.png");
-    echo "&nbsp;";
-    // echo $a['Post']['langage'];
-    echo __("Français");
     echo("<hr>");
-    if ($a['Post']['image'] == 1){
+    if ($a['Post']['image'] == 1) {
         echo $this->Html->image('/img/articles/'.$a['Post']['id'].'.jpg', array('height'=>400, 'width'=>750));
     }
     else{

@@ -87,51 +87,19 @@ echo("<div class=\"navbar-wrapper\">");
 								echo("<span class=\"caret\"></span>");
 							echo("</button>");
 						  	echo("<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu2\">");
-		  					  	echo("<li onclick=alert(\"Bonjour\")>");
+		  					  	echo("<li>");
 		  					  		echo $this->Html->link(
 									    $this->Html->image("internationalisation/flag_icons/png/Fr.png",
 									    	array("alt" => "fr")),
-									    "index/",
+									    array('action'=>'set_language', 'fra'),
 									    array('escape' => false)
 									);
 								echo("</li>");
-								echo("<li onclick=alert(\"Hello\")>");
+								echo("<li>");
 			  					  	echo $this->Html->link(
 									    $this->Html->image("internationalisation/flag_icons/png/Gb.png",
 									    	array("alt" => "gb")),
-									    "index/",
-									    array('escape' => false)
-									);
-								echo("</li>");
-								echo("<li onclick=alert(\"Hola\")>");
-			  					  	echo $this->Html->link(
-									    $this->Html->image("internationalisation/flag_icons/png/Es.png",
-									    	array("alt" => "es")),
-									    "index/",
-									    array('escape' => false)
-									);
-								echo("</li>");
-								echo("<li onclick=alert(\"Hallo\")>");
-			  					  	echo $this->Html->link(
-									    $this->Html->image("internationalisation/flag_icons/png/De.png",
-									    	array("alt" => "de")),
-									    "index/",
-									    array('escape' => false)
-									);
-								echo("</li>");
-								echo("<li onclick=alert(\"привет\")>");
-			  					  	echo $this->Html->link(
-									    $this->Html->image("internationalisation/flag_icons/png/Ru.png",
-									    	array("alt" => "ru")),
-									    "index/",
-									    array('escape' => false)
-									);
-								echo("</li>");
-								echo("<li onclick=alert(\"こんにちは\")>");
-			  					  	echo $this->Html->link(
-									    $this->Html->image("internationalisation/flag_icons/png/Jp.png",
-									    	array("alt" => "jp")),
-									    "index/",
+									    array('action'=>'set_language', 'eng'),
 									    array('escape' => false)
 									);
 								echo("</li>");

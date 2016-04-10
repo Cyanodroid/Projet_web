@@ -1,0 +1,753 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2016-04-10 22:17+0100\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: \n"
+"Language: en\n"
+
+#: Controller/ArchivesController.php:38
+msgid "Erreur de paramètres"
+msgstr "Error in parameters"
+
+#: Controller/ArchivesController.php:51
+msgid "Question enregistrée"
+msgstr "Your query is saved"
+
+#: Controller/ArchivesController.php:78
+msgid "Réponse enregistrée !"
+msgstr "Your answer is saved"
+
+#: Controller/ChatsController.php:109
+msgid "Utilisateur [PREMIUM] : "
+msgstr "User [PREMIUM] : "
+
+#: Controller/ChatsController.php:109;112
+msgid " dit : "
+msgstr "says :"
+
+#: Controller/ChatsController.php:112
+msgid "Utilisateur : "
+msgstr "User : "
+
+#: Controller/ContactController.php:17 Controller/NewslettersController.php:20
+msgid "Erreur de captcha !"
+msgstr "Wrong captcha!"
+
+#: Controller/ContactController.php:26;47
+msgid "Votre message a été envoyé avec succès."
+msgstr "Your message was successfully sent."
+
+#: Controller/ContactController.php:52
+msgid "Veuillez corriger les erreurs ci-dessous."
+msgstr "Please correct the errors below."
+
+#: Controller/NewslettersController.php:38
+msgid "Votre inscription a été prise en compte !"
+msgstr "Your registration has been taken into account!"
+
+#: Controller/NewslettersController.php:41 Controller/PostsController.php:74
+msgid "Une erreur est survenue !"
+msgstr "An error has occurred !"
+
+#: Controller/NewslettersController.php:46
+msgid "Votre inscription a été validée"
+msgstr "Your registration has been validated"
+
+#: Controller/NewslettersController.php:49
+msgid "Erreur d'enregistrement"
+msgstr "Registration error"
+
+#: Controller/NewslettersController.php:76
+msgid "La newsletter a bien été envoyée"
+msgstr "The newsletter has been sent"
+
+#: Controller/PostsController.php:70
+msgid "Votre commentaire a été posté !"
+msgstr "Your comment has been posted !"
+
+#: Controller/PostsController.php:78
+msgid "Vous devez vous connecter pour pouvoir commenter !"
+msgstr "You must be logged in order to comment!"
+
+#: Controller/PostsController.php:117
+msgid "Commentaire supprimé"
+msgstr "Comment removed"
+
+#: Controller/PostsController.php:120
+msgid "Vous n'avez pas le droit de supprimer ce commentaire"
+msgstr "You do not have the right to delete this comment"
+
+#: Controller/PostsController.php:197
+msgid "Votre article vient d'être publié !"
+msgstr "Your article has just been published!"
+
+#: Controller/PostsController.php:200
+msgid "Erreur : votre article n'a pas pu être publié"
+msgstr "Error: your article could not be published"
+
+#: Controller/PostsController.php:203
+msgid "Erreur : vos champs de sont pas valides"
+msgstr "Error: Your fields are invalid"
+
+#: Controller/PostsController.php:213
+msgid "Votre article vient d'être supprimé !"
+msgstr "Your item has been deleted!"
+
+#: Controller/PostsController.php:223
+msgid "Vous pouvez dès à présent télécharger votre pdf !"
+msgstr "You can now download your PDF!"
+
+#: Controller/PostsController.php:233
+msgid ""
+"Ce document n'est pas encore disponible sur le serveur. Afin de pouvoir le "
+"télécharger, vous devez d'abord l'exporter."
+msgstr ""
+"This document is not yet available on the server. In order to download it, "
+"you must first export it."
+
+#: Controller/UsersController.php:51
+msgid "Un mail de confirmation vous a été envoyé"
+msgstr "A confirmation email has been sent"
+
+#: Controller/UsersController.php:54
+msgid "Des erreurs sont à corriger"
+msgstr "Errors need to be corrected"
+
+#: Controller/UsersController.php:70;167
+msgid "Ce lien de validation est invalide"
+msgstr "This activation link is invalid"
+
+#: Controller/UsersController.php:74
+msgid "Votre compte a été validé"
+msgstr "Your account has been validated"
+
+#: Controller/UsersController.php:100
+msgid "Vous êtes maintenant connecté"
+msgstr "You are now connected"
+
+#: Controller/UsersController.php:103
+msgid "Vos identifiants sont incorrects"
+msgstr "Your password is incorrect"
+
+#: Controller/UsersController.php:128
+msgid "Cette adresse email n'est pas enregistrée"
+msgstr "This e-mail address is not registered"
+
+#: Controller/UsersController.php:150
+msgid "Un mail vous a été envoyé"
+msgstr "An e-mail will have been sent to you"
+
+#: Controller/UsersController.php:188;270
+msgid "Votre mot de passe a bien été modifié"
+msgstr "Your password has been changed"
+
+#: Controller/UsersController.php:242
+msgid "Vos informations ont bien été modifiées"
+msgstr "Your information has been changed"
+
+#: Controller/UsersController.php:336;350
+msgid "Votre candidature a bien été envoyée"
+msgstr "Your application has been sent"
+
+#: Controller/UsersController.php:359
+msgid "Cette page n'existe pas"
+msgstr "This page does not exist"
+
+#: Controller/UsersController.php:394
+msgid "Votre abonnement a été pris en compte"
+msgstr "Your subscription has been taken into account"
+
+#: Controller/UsersController.php:415
+msgid "Votre demande a été annulée"
+msgstr "Your request was canceled"
+
+#: Controller/UsersController.php:438
+msgid "Opération effectuée"
+msgstr "Operation performed"
+
+#: Model/Contact.php:13;17;20
+msgid "Champ requis"
+msgstr "Required field"
+
+#: Model/Contact.php:16
+msgid "E-mail non valide"
+msgstr "Invalid E-mail"
+
+#: View/Archives/index.php:6 View/Elements/menu.php:47
+msgid "Archives"
+msgstr "Archives"
+
+#: View/Archives/index.php:17 View/Elements/recherche.php:16
+msgid "Rechercher"
+msgstr "Search"
+
+#: View/Articles/index.php:4
+msgid "Articles par catégories"
+msgstr "Article category"
+
+#: View/Articles/index.php:19
+msgid "Découvrez nos articles sur la "
+msgstr "Check out our articles on"
+
+#: View/Articles/index.php:25
+msgid "Parcourir les articles"
+msgstr "Browse articles"
+
+#: View/Articles/index.php:34
+msgid "Tous les articles publiés"
+msgstr "All articles published"
+
+#: View/Articles/index.php:41 View/Articles/parcourir.php:11
+msgid "En savoir plus"
+msgstr "Read more"
+
+#: View/Contact/index.php:6
+msgid "Nous contacter"
+msgstr "Contact us"
+
+#: View/Contact/index.php:9
+msgid "Votre nom"
+msgstr "Your name"
+
+#: View/Contact/index.php:10
+msgid "Votre email"
+msgstr "Your email"
+
+#: View/Contact/index.php:12
+msgid "Votre message"
+msgstr "Your message"
+
+#: View/Contact/index.php:13 View/Elements/chat.php:75
+msgid "Envoyer"
+msgstr "Send"
+
+#: View/Elements/chat.php:15
+msgid "Utilisateurs connectés"
+msgstr "Online users"
+
+#: View/Elements/chat.php:20
+msgid "Salles"
+msgstr "Rooms"
+
+#: View/Elements/chat.php:72
+msgid "Message"
+msgstr "Message"
+
+#: View/Elements/chat.php:88
+msgid "Mail"
+msgstr "Mail"
+
+#: View/Elements/chat.php:100
+msgid "Comment utiliser le tchat ? -> "
+msgstr "How to use? ->"
+
+#: View/Elements/chat.php:102 View/Elements/menu.php:53 View/Faq/index.php:6
+msgid "FAQ"
+msgstr "FAQ"
+
+#: View/Elements/gestion_compte.php:3;16 View/Posts/admin_index.php:6
+msgid "Panneau de contrôle"
+msgstr "Control panel"
+
+#: View/Elements/gestion_compte.php:19 View/Users/admin_index.php:5
+msgid "Gestion des utilisateurs"
+msgstr "User Management"
+
+#: View/Elements/gestion_compte.php:22
+msgid "Envoyer la newsletter"
+msgstr "Send the newsletter"
+
+#: View/Elements/gestion_compte.php:25;30
+msgid "S'abonner"
+msgstr "Subscribe"
+
+#: View/Elements/menu.php:16
+msgid "Site collaboratif"
+msgstr "Collaborative website"
+
+#: View/Elements/menu.php:33
+msgid "Articles"
+msgstr "Articles"
+
+#: View/Elements/menu.php:40
+msgid "Tchat"
+msgstr "Chat"
+
+#: View/Elements/menu.php:59
+msgid "Contact"
+msgstr "Contact"
+
+#: View/Elements/menu.php:66 View/Users/account.php:6
+msgid "Mon compte"
+msgstr "My account"
+
+#: View/Elements/menu.php:72
+msgid "Se déconnecter"
+msgstr "Log out"
+
+#: View/Elements/menu.php:80 View/Users/login.php:6;13
+msgid "Se connecter"
+msgstr "Log in"
+
+#: View/Elements/menu.php:86
+msgid "Langue"
+msgstr "Language"
+
+#: View/Elements/newsletter.php:10
+msgid "S'inscrire à la newsletter"
+msgstr "Subscribe to the newsletter"
+
+#: View/Elements/newsletter.php:12
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: View/Elements/newsletter.php:16 View/Users/login.php:20
+#: View/Users/signup.php:6;17
+msgid "S'inscrire"
+msgstr "Sign in"
+
+#: View/Elements/prices.php:5
+msgid "ABONNEMENTS"
+msgstr "SUBSCRIPTIONS"
+
+#: View/Elements/prices.php:8
+msgid "Choisir un forfait"
+msgstr "Choose a plan"
+
+#: View/Elements/prices.php:18
+msgid "Premium"
+msgstr "Premium"
+
+#: View/Elements/prices.php:26
+msgid "Devenez un de nos membres premium !"
+msgstr "Become one of our premium members!"
+
+#: View/Elements/prices.php:30
+msgid "Passez prioritaire sur le tchat et téléchargez les PDF des cours."
+msgstr "Become priority on chat and download PDF documents."
+
+#: View/Elements/prices.php:37
+msgid "Seulement 5€"
+msgstr "Only 5 €"
+
+#: View/Elements/prices.php:40
+msgid "par mois"
+msgstr "per month"
+
+#: View/Elements/prices.php:43
+msgid "Souscrire"
+msgstr "Subscribe"
+
+#: View/Elements/prices.php:51
+msgid "Modération"
+msgstr "Moderation"
+
+#: View/Elements/prices.php:59
+msgid "Vous souhaitez participer à la vie du site ?"
+msgstr " You want to taking part to the website's life?"
+
+#: View/Elements/prices.php:63
+msgid ""
+"Candidatez et choisissez de devenir rédacteur ou modérateur de notre tchat !"
+msgstr "APPLY and choose to become editor and moderator of our chat!"
+
+#: View/Elements/prices.php:70
+msgid "Bénévolat"
+msgstr "Volunteer"
+
+#: View/Elements/prices.php:73
+msgid "Rédaction d'articles"
+msgstr "Writing of articles"
+
+#: View/Elements/prices.php:76
+msgid "Postuler"
+msgstr "Apply"
+
+#: View/Elements/prices_subscribe.php:4
+msgid "Le paiment s'effectue ci-dessous avec l'application Paypal."
+msgstr "Payment is made below with the PayPal app."
+
+#: View/Elements/random_articles.php:6
+msgid "ARTICLES ALEATOIRES"
+msgstr "RANDOM ARTICLES"
+
+#: View/Elements/recherche.php:10
+msgid "Rechercher un article"
+msgstr "Search an article"
+
+#: View/Faq/index.php:11
+msgid "Nos développeurs :"
+msgstr "Our developers:"
+
+#: View/Faq/index.php:26
+msgid "Notre grand et beau designer, souverain du CSS."
+msgstr "Our great and beautiful designer, sovereign of CSS.."
+
+#: View/Faq/index.php:41
+msgid "Celle qui fait les bêtises sur Github mais pas que."
+msgstr "One that makes the nonsense on Github but not that."
+
+#: View/Faq/index.php:56
+msgid "Le troll qui voulait à tout prix utiliser CakePhp."
+msgstr "The troll who was desperate to use CakePhp."
+
+#: View/Faq/index.php:73
+msgid "Galérien en dev web mais cuisinier hors-pair."
+msgstr "Convict in web dev but peerless cook."
+
+#: View/Faq/index.php:83
+msgid "Questions fréquentes :"
+msgstr "Frequently asked Questions :"
+
+#: View/Faq/index.php:91
+msgid "Quel est l'objectif de ce site ?"
+msgstr "What is the purpose of this website?"
+
+#: View/Faq/index.php:94
+msgid ""
+"Ce site est un site collaboratif permettant à tout utilisateur d'apprendre "
+"ou de perfectionner plusieurs langages\n"
+"\t\t\tinformatiques grâce aux différents articles postés. L'utilisateur peut "
+"également trouver des réponses à ses questions."
+msgstr ""
+"This website is a collaborative website that allows any user to learn or "
+"improve several computer\n"
+"\t\t\tlanguages thanks to the different articles posted. The user can also "
+"find answers to his questions."
+
+#: View/Faq/index.php:98
+msgid "J'ai une question."
+msgstr "I have a question."
+
+#: View/Faq/index.php:101
+msgid ""
+"Lorsque vous avez une question, deux choix s'offrent à vous : vous pouvez "
+"soit aller sur le tchat\n"
+"\t\t\t(vous devez pour cela vous inscrire sur le site), soit aller dans la "
+"section archives. Dans le premier cas,\n"
+"\t\t\tvous pouvez choisir la salle qui correspond à la catégorie de votre "
+"question et la poser aux autres utilisateurs et\n"
+"\t\t\tau modérateur responsable. Sinon, vous pouvez chercher dans les "
+"archives si\n"
+"\t\t\tvotre question a déjà été posée et ainsi, trouver la réponse. Lorsque "
+"vous avez obtenu la réponse à votre question,\n"
+"\t\t\tvous pouvez choisir de l'enregistrer et ainsi l'ajouter dans les "
+"archives pour les\n"
+"\t\t\tutilisateurs suivants."
+msgstr ""
+"When you have a question, two choices are available: you can either go on "
+"chat\n"
+"\t\t\tyou have to be logged in), or go to the archives section. In the first "
+"case,\n"
+"\t\t\tyou can choose the room that matches the category of your question and "
+"ask other users and\n"
+"\t\t\tthe responsible moderator. Otherwise, you can search the archives if\n"
+"\t\t\tyour question has already been asked and thus find the answer. When "
+"you got the answer to your question,\n"
+"\t\t\tyou can choose to save and so add in the archives for\n"
+"\t\t\tsubsequent users."
+
+#: View/Faq/index.php:110
+msgid ""
+"Afin de faire profiter le plus de monde possible, vous pouvez enregistrer "
+"votre question (en cliquant sur le bouton correspondant (<i class=\"fa fa-"
+"question\"></i>))\n"
+"\t\t\tet votre réponse (en cliquant sur le bouton correspondant (<i class="
+"\"fa fa-check\"></i>)) afin qu'elle apparaisse dans les archives."
+msgstr ""
+"For the benefit of all, you can save your question (by clicking (<i class = "
+"\"fa-fa question\"></ i>))\n"
+"\t\t\tand your answer (by clicking (<i class = \"fa-fa check\"></ i>)) so "
+"that it does appear in the archive."
+
+#: View/Faq/index.php:114
+msgid "Personne n'est connecté sur le tchat."
+msgstr "No one is logged into the chat."
+
+#: View/Faq/index.php:117
+msgid ""
+"Si personne n'est connecté sur le tchat alors votre message va être envoyé "
+"par mail au modérateur responsable de la salle de\n"
+"\t\t\ttchat où vous vous trouvez en cliquant sur le bouton correspondant. Il "
+"répondra à votre question dès qu'il le pourra."
+msgstr ""
+"If no one is logged on the chat, your message will be sent by email to the "
+"moderator\n"
+"\t\t\tby clicking the corresponding button. He will answer your question as "
+"soon as he can."
+
+#: View/Faq/index.php:121
+msgid "Je veux être tenu au courant des nouveautés."
+msgstr " I want to have an overview of what is new"
+
+#: View/Faq/index.php:124
+msgid ""
+"Pour être au courant de toutes nos nouveautés (derniers articles sortis), "
+"vous pouvez souscrire à notre newsletter avec votre mail."
+msgstr "To be aware of all our news, you can subscribe to our newsletter."
+
+#: View/Faq/index.php:127
+msgid "Quels sont les avantages d'un abonnement ?"
+msgstr "What are the advantages of a subscription?"
+
+#: View/Faq/index.php:130
+msgid ""
+"Lorsque vous choisissez de vous abonner et de devenir un utilisateur "
+"premium, vous devenez prioritaire lors de vos\n"
+"\t\t\tdiscussions sur le tchat. Vos questions seront traitées en priorité "
+"par les modérateurs. De plus, vous aurez aussi la possibilité de\n"
+"\t\t\ttélécharger les différents cours/articles sous forme de PDF."
+msgstr ""
+"When you choose to subscribe and become a premium user, you have priority\n"
+"\t\t\ton chat. Your question will be met and concerns dealt with quickly. In "
+"addition, you have the opportunity to\n"
+"\t\t\tdownload the files as PDF documents."
+
+#: View/Faq/index.php:135
+msgid "Je veux participer à la vie du site."
+msgstr "I want to participate in the life of the website."
+
+#: View/Faq/index.php:138
+msgid ""
+"Vous pouvez devenir rédacteur d'articles ou modérateur, n'hésitez pas à "
+"postuler en ajoutant votre CV en pièce jointe."
+msgstr ""
+"You can become a writer of articles or moderator, please apply by adding "
+"your CV attached."
+
+#: View/Posts/admin_edit.php:5
+msgid "Poster un article"
+msgstr "Post Article"
+
+#: View/Posts/admin_edit.php:11
+msgid "Titre de l'article"
+msgstr "Article Title"
+
+#: View/Posts/admin_edit.php:13
+msgid "Catégorie de l'article"
+msgstr "Category of article"
+
+#: View/Posts/admin_edit.php:15
+msgid "Image (.jpg, .jpeg, .png) max: 3"
+msgstr "Image (.jpg, .jpeg, .png) max: 3"
+
+#: View/Posts/admin_edit.php:17
+msgid "Contenu de l'article"
+msgstr "Content of article"
+
+#: View/Posts/admin_edit.php:19
+msgid "Date "
+msgstr "Date "
+
+#: View/Posts/admin_edit.php:23
+msgid "Publier maintenant"
+msgstr "Publish now"
+
+#: View/Posts/admin_index.php:10
+msgid "Publier un article"
+msgstr "Publish an article"
+
+#: View/Posts/admin_index.php:17 View/Users/admin_index.php:13
+msgid "IDENTIFIANT"
+msgstr "ID"
+
+#: View/Posts/admin_index.php:20
+msgid "TITRE"
+msgstr "TITLE"
+
+#: View/Posts/admin_index.php:23
+msgid "CATEGORIE"
+msgstr "CATEGORY"
+
+#: View/Posts/admin_index.php:26
+msgid "DATE DE PUBLICATION"
+msgstr "PUBLICATION DATE"
+
+#: View/Posts/admin_index.php:29
+msgid "ACTIONS"
+msgstr "ACTION"
+
+#: View/Posts/voir.php:31
+msgid "Français"
+msgstr "French"
+
+#: View/Posts/voir.php:46
+msgid "Gallerie"
+msgstr "Gallery"
+
+#: View/Posts/voir.php:84
+msgid "Publiez un commentaire :"
+msgstr "Post a comment:"
+
+#: View/Posts/voir.php:114
+msgid "Supprimer ce commentaire"
+msgstr "Delete this comment"
+
+#: View/Posts/voir.php:115
+msgid "Voulez vous vraiment supprimer ?"
+msgstr "Are you sure you want to remove?"
+
+#: View/Users/account.php:18
+msgid "Avatar (.jpg)"
+msgstr "Avatar (.jpg)"
+
+#: View/Users/account.php:20 View/Users/admin_edit.php:11
+#: View/Users/login.php:9 View/Users/signup.php:9
+msgid "Nom d'utilisateur"
+msgstr "Username"
+
+#: View/Users/account.php:23 View/Users/signup.php:15
+msgid "Email"
+msgstr "Email"
+
+#: View/Users/account.php:25
+msgid "Modifier mes informations"
+msgstr "Edit my information"
+
+#: View/Users/account.php:30
+msgid "Modifiez votre mot de passe"
+msgstr "Modify your password"
+
+#: View/Users/account.php:32 View/Users/password.php:11
+#: View/Users/signup.php:13
+msgid "Confirmer Mot de passe"
+msgstr "Confirm password"
+
+#: View/Users/account.php:34
+msgid "Modifier mon mot de passe"
+msgstr "Change my password"
+
+#: View/Users/admin_edit.php:5
+msgid "Gestion d'un utilisateur"
+msgstr "Management of a user"
+
+#: View/Users/admin_edit.php:13
+msgid "Groupe de l'utilisateur"
+msgstr "User Group"
+
+#: View/Users/admin_edit.php:15
+msgid "Fin d'abonnement : "
+msgstr "End of subscription:"
+
+#: View/Users/admin_edit.php:17
+msgid "Enregistrer"
+msgstr "Save"
+
+#: View/Users/admin_index.php:16
+msgid "PSEUDO"
+msgstr "USERNAME"
+
+#: View/Users/admin_index.php:19
+msgid "MAIL"
+msgstr "MAIL"
+
+#: View/Users/admin_index.php:22
+msgid "GROUPE"
+msgstr "GROUP"
+
+#: View/Users/admin_index.php:25
+msgid "ACTION"
+msgstr "ACTION"
+
+#: View/Users/candidate.php:4
+msgid "Devenir bénévole"
+msgstr "Become a volunteer"
+
+#: View/Users/candidate.php:8
+msgid "Vous vous sentez l'âme d'un rédacteur ?"
+msgstr "You feel the soul of a writer?"
+
+#: View/Users/candidate.php:10
+msgid "Vous voulez aider nos utilisateurs à travers le tchat ?"
+msgstr "You want to help our users through chat?"
+
+#: View/Users/candidate.php:12
+msgid "Ou tout simplement prendre part à la vie de notre site collaboratif ?"
+msgstr "Or simply take part in the life of our collaborative website?"
+
+#: View/Users/candidate.php:14
+msgid ""
+"Alors prenez le temps de nous envoyer un message montrant votre motivation !"
+msgstr "So take the time to send us a message showing your motivation!"
+
+#: View/Users/candidate.php:16
+msgid ""
+"Vous pourrez rejoindre notre grande famille en tant que rédacteur ou en tant "
+"que modérateur &hearts; !"
+msgstr "You can join our family as a writer or as a moderator & hearts; !"
+
+#: View/Users/candidate.php:20
+msgid "Votre candidature"
+msgstr "Your application"
+
+#: View/Users/candidate.php:22
+msgid "Votre CV (.pdf)"
+msgstr "Your CV (.pdf)"
+
+#: View/Users/candidate.php:24
+msgid "Postuler maintenant"
+msgstr "Apply now"
+
+#: View/Users/forgot.php:5
+msgid "Mot de passe oublié"
+msgstr "Forgot your password"
+
+#: View/Users/forgot.php:10
+msgid "Renvoyer un mot de passe"
+msgstr "Send a new password"
+
+#: View/Users/login.php:11 View/Users/password.php:9 View/Users/signup.php:11
+msgid "Mot de passe"
+msgstr "Password"
+
+#: View/Users/login.php:17
+msgid "Mot de passe oublié ?"
+msgstr "Forgot your password ?"
+
+#: View/Users/password.php:6
+msgid "Changer de mot de passe"
+msgstr "Change your password"
+
+#: View/Users/password.php:13
+msgid "Valider"
+msgstr "Validate"
+
+#: View/Users/subscribe.php:4
+msgid "S'abonner au site"
+msgstr "Subscribe"
+
+#: Model/Newsletter.php:validation for field email Model/User.php:validation
+#: mail
+msgid "Cette adresse mail n'est pas valide"
+msgstr "This email address is not valid"
+
+#: Model/Newsletter.php:validation for field email Model/User.php:validation
+#: mail
+msgid "Cette adresse mail est déjà utilisée"
+msgstr "This email address is already in use"
+
+#: Model/User.php:validation for field username
+msgid "Votre nom d'utilisateur n'est pas valide"
+msgstr "Your username is invalid"
+
+#: Model/User.php:validation for field username
+msgid "Ce pseudo est déjà utilisé"
+msgstr "This username is already used"
+
+#: Model/User.php:validation for field password2
+msgid "Les champs ne correspondent pas"
+msgstr "The fields do not match"
+
+#: Model/User.php:validation for field avatarf
+msgid "Le format est invalid"
+msgstr "The format is invalid"

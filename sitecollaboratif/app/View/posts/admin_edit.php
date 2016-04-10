@@ -18,8 +18,6 @@ echo("<div class=\"row\" style=\"margin-top:70px;\">");
 		echo("<br/>");
 		echo $this->Form->input('Post.date_post', array('label' => __("Date "), 'dateFormat'=>'DMY'));
 		echo("<br/>");
-		// echo $this->Form->input('Post.langage', array('label' => __("Langue"), 'class'=>'form-control', 'options'=>array('Fr', 'Gb', 'De', 'Es', 'Ru', 'Jp')));
-		// echo("<br/>");
 		echo $this->Form->button(__('Publier maintenant'), array('class'=>'btn btn-lg btn-primary'));
 		echo $this->Form->end();
 	echo("</div>");
