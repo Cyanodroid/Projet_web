@@ -47218,3 +47218,119 @@ Stack Trace:
 #4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
 #5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2016-04-09 22:50:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/avatars/1/10.jpg
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-09 22:50:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/avatars/1/10.jpg
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-09 22:52:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/avatars/1/10.jpg
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-09 22:52:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /Projet_web/sitecollaboratif/img/avatars/1/10.jpg
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-04-09 22:53:08 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'validate' at line 1
+Request URL: /Projet_web/sitecollaboratif/users/account
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('validate', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('validate', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(607): DboSource->fetchAll('validate', Array, Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('validate', Array, Object(User))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\UsersController.php(221): Model->__call('validate', Array)
+#6 [internal function]: UsersController->account()
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-09 22:53:08 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'validate' at line 1
+Request URL: /Projet_web/sitecollaboratif/users/account
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('validate', Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('validate', Array, Array)
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Datasource\DboSource.php(607): DboSource->fetchAll('validate', Array, Array)
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Model\Model.php(827): DboSource->query('validate', Array, Object(User))
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\UsersController.php(221): Model->__call('validate', Array)
+#6 [internal function]: UsersController->account()
+#7 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-04-10 00:05:59 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /Projet_web/sitecollaboratif/users/account
+Stack Trace:
+#0 [internal function]: App::load('User')
+#1 [internal function]: spl_autoload_call('User')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Utility\ClassRegistry.php(146): class_exists('User')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(741): ClassRegistry::init('User')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(368): Controller->loadModel('User')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(406): Controller->__isset('User')
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\UsersController.php(251): Controller->__get('User')
+#7 [internal function]: UsersController->account()
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-10 00:05:59 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /Projet_web/sitecollaboratif/users/account
+Stack Trace:
+#0 [internal function]: App::load('User')
+#1 [internal function]: spl_autoload_call('User')
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Utility\ClassRegistry.php(146): class_exists('User')
+#3 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(741): ClassRegistry::init('User')
+#4 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(368): Controller->loadModel('User')
+#5 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(406): Controller->__isset('User')
+#6 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\UsersController.php(251): Controller->__get('User')
+#7 [internal function]: UsersController->account()
+#8 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-04-10 11:32:34 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 1417216 bytes) in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Utility\Debugger.php, line 603]
+2016-04-10 11:32:34 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 1417216 bytes) in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Utility\Debugger.php, line 603]
+2016-04-10 11:32:34 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 1417216 bytes)
+Request URL: /Projet_web/sitecollaboratif/users/account
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\Users\\link-\\...', 603)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\Users\\link-\\...', 603, Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2016-04-10 11:32:34 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 1417216 bytes)
+Request URL: /Projet_web/sitecollaboratif/users/account
+Stack Trace:
+#0 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Allowed memory ...', 'C:\\Users\\link-\\...', 603)
+#1 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Core\App.php(970): ErrorHandler::handleError(1, 'Allowed memory ...', 'C:\\Users\\link-\\...', 603, Array)
+#2 C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}

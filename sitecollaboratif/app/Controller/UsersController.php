@@ -167,6 +167,7 @@
 				// validation des champs
 				if ($this->User->validates()) {
 					// modification de la DB
+					$this->Session->destroy();
 					$this->User->create();
 					$this->User->save(array(
 						'id'=>$user['User']['id'],
@@ -192,51 +193,65 @@
 			if (!empty($this->request->data)) {
 				// récupération de l'utilisateur courant
 				$this->request->data['User']['id'] = $this->Auth->user('id');
+				$this->User->id = $this->Auth->user('id');
 
-				// validation des champs
-				if ($this->User->validates()) {
+				if (!isset($this->request->data['User']['password'])) {
 
-					$this->User->id = $this->Auth->user('id');
-					// vérification de la présence d'un avatar
-					if (!empty($this->request->data['User']['avatarf']['tmp_name'])) {
-						// création du chemin (ou récupération)
-						// supposons qu'il y ait beaucoup d'utilisateur, on va mettre les images dans des
-						// dossiers séparés 1 pour utilisateur 1 à 1000 etc etc
-						$directory = IMAGES . 'avatars' . DS . ceil($this->User->id / 1000);
-						if (!file_exists($directory)) {
-							// si le dossier n'existe pas on le créer
-							mkdir($directory, 0777);
+					// validation des champs
+					if ($this->User->validates()) {
+						// vérification de la présence d'un avatar
+						if (!empty($this->request->data['User']['avatarf']['tmp_name'])) {
+							// création du chemin (ou récupération)
+							// supposons qu'il y ait beaucoup d'utilisateur, on va mettre les images dans des
+							// dossiers séparés 1 pour utilisateur 1 à 1000 etc etc
+							$directory = IMAGES . 'avatars' . DS . ceil($this->User->id / 1000);
+							if (!file_exists($directory)) {
+								// si le dossier n'existe pas on le créer
+								mkdir($directory, 0777);
+							}
+
+							// enfin on récupère l'image pour la mettre dans notre dossier
+							move_uploaded_file($this->request->data['User']['avatarf']['tmp_name'], $directory . DS . $this->User->id . '.jpg');
+							// on modifie la colonne "avatar" de la tables users pour mettre la valeur 1
+							$this->User->saveField('avatar', 1);
+							$this->Session->destroy();
+							$this->Session->write('Auth.User.avatari', $directory . DS . $this->User->id . '.jpg');
 						}
 
-						// enfin on récupère l'image pour la mettre dans notre dossier
-						move_uploaded_file($this->request->data['User']['avatarf']['tmp_name'], $directory . DS . $this->User->id . '.jpg');
-						// on modifie la colonne "avatar" de la tables users pour mettre la valeur 1
-						$this->User->saveField('avatar', 1);
-					}
+						if (!empty($this->request->data['User']['mail'])) {
+							$this->User->saveField(
+		           				'mail', $this->request->data['User']['mail']
+	           				);
+						}
 
-					if (!empty($this->request->data['User']['password'])) {
+						// on recharge les informations
+						$user = $this->User->read();
+
+						$this->Auth->login($user['User']);
+
+						// on laisse un message de validation
+						$this->Session->setFlash(__("Vos informations ont bien été modifiées"), 'success');
+
+						$user = $this->User->findById($this->Auth->user('id'));
+						$this->set('user', $user);
+						$this->redirect($this->referer());
+					}
+				} else {
+					if ($this->User->validates()) {
 						$this->User->saveField(
 							'password', $this->Auth->password($this->request->data['User']['password'])
 						);
+						$user = $this->User->read();
+
+						$this->Auth->login($user['User']);
+
+						// on laisse un message de validation
+						$this->Session->setFlash(__("Votre mot de passe a bien été mis à jour"), 'success');
+
+						$user = $this->User->findById($this->Auth->user('id'));
+						$this->set('user', $user);
+						$this->redirect($this->referer());
 					}
-
-					if (!empty($this->request->data['User']['mail'])) {
-						$this->User->saveField(
-	           				'mail', $this->request->data['User']['mail']
-           				);
-					}
-
-					// on recharge les informations
-					$user = $this->User->read();
-
-					$this->Session->write('Auth.User.avatari', $directory . DS . $this->User->id . '.jpg');
-					$this->Auth->login($user['User']);
-
-					// on laisse un message de validation
-					$this->Session->setFlash(__("Vos informations ont bien été modifiées"), 'success');
-
-					$user = $this->User->findById($this->Auth->user('id'));
-					$this->set('user', $user);
 				}
 			} else {
 				// sinon on se contente d'afficher les informations de l'utilisateur
@@ -244,6 +259,7 @@
 				$this->set('user', $user);
 				$this->User->id = $this->Auth->user('id');
 				$this->request->data = $this->User->read();
+				$this->request->data['User']['password'] = array();
 			}
 		}
 
