@@ -1,0 +1,9 @@
+{
+     "name": "test_tchat",
+     "description": "ceci est un test de tchat pour le couplage nodejs-cakephp",
+     "version": "0.0.1",
+     "dependencies": {
+        "express": "",
+        "socket.io": ""
+     }
+}
