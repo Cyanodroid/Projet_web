@@ -10,7 +10,7 @@ echo("<div class=\"row\" style=\"margin-top:70px;\">");
 			echo("<br/>");
 			echo $this->Form->input('User.username', array('label'=> __("Nom d'utilisateur"), 'disabled'=>true, 'class'=>'form-control', 'placeholder'=>$user['User']['username']));
 			echo("<br/>");
-			echo $this->Form->input('User.groups_id', array('label' => __("Groupe de l'utilisateur"), 'class'=>'form-control', 'options'=>array('', 'administrateur', 'utilisateur', 'utilisateur premium')));
+			echo $this->Form->input('User.groups_id', array('label' => __("Groupe de l'utilisateur"), 'class'=>'form-control', 'options'=>array('', 'administrateur', 'utilisateur', 'utilisateur premium', 'bénévole')));
 			echo("<br/>");
 			echo $this->Form->input('User.end_subscription', array('label' => __("Fin d'abonnement : "), 'dateFormat'=>'DMY'));
 			echo("<br/>");

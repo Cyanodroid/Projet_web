@@ -24,7 +24,7 @@ echo("<ul class=\"nav nav-pills nav-stacked\" style=\"margin-top: 45px;\">");
 		echo("<li class=\"disabled\">");
 			echo $this->Html->link(__("S'abonner"), array('action'=>'account'));
 		echo("</li>");
-	} else if ($user['User']['groups_id'] == 3) {
+	} else if ($user['User']['groups_id'] == 4) {
 		echo("<li>");
 			echo $this->Html->link(__("Panneau de contrôle"), array('controller'=>'admin/posts'));
 		echo("</li>");
