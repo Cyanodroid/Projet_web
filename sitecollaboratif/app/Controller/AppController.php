@@ -53,7 +53,7 @@ class AppController extends Controller {
 			Configure::write('Config.language', $this->Session->read('Config.language'));
 		}
 
-		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir', 'flux_rss', 'set_language');
+		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir', 'articles', 'flux_rss', 'set_language');
 
 		if ($this->request->is('ajax') || $this->RequestHandler->isAjax()) {
 			$this->layout = null;
@@ -70,6 +70,6 @@ class AppController extends Controller {
 			Configure::write('Config.language', $lang);
 			$this->Session->write('Config.language', $lang);
 		}
-		return $this->redirect('/');
+		return $this->redirect($this->referer());
 	}
 }

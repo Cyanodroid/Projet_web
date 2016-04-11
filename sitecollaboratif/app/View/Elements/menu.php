@@ -29,7 +29,7 @@ echo("<div class=\"navbar-wrapper\">");
 						echo("</li>");
 						echo("<li>");
 							// echo("<a href=\"/articles\">");
-							echo("<a href=\"/Projet_web/sitecollaboratif/articles\">");
+							echo("<a href=\"/Projet_web/sitecollaboratif/posts/articles\">");
 								echo __("Articles");
 							echo("</a>");
 						echo("</li>");

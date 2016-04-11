@@ -5,13 +5,13 @@ echo("</h1>");
 echo("<ul class=\"nav nav-pills nav-stacked\" style=\"margin-top: 45px;\">");
 	if ($this->request->action == 'account'){
 		echo("<li class=\"active\">");
-	} 
+	}
 	else{
 		echo("<li>");
 	}
 	$this->Html->link('Mon compte', array('controller'=>'users', 'action'=>'account'));
 	echo("</li>");
-	if ($user['User']['groups_id'] == 1){
+	if ($user['User']['groups_id'] == 1) {
 		echo("<li>");
 			echo $this->Html->link(__("Panneau de contrôle"), array('controller'=>'admin/posts'));
 		echo("</li>");
@@ -24,8 +24,14 @@ echo("<ul class=\"nav nav-pills nav-stacked\" style=\"margin-top: 45px;\">");
 		echo("<li class=\"disabled\">");
 			echo $this->Html->link(__("S'abonner"), array('action'=>'account'));
 		echo("</li>");
-	}
-	else{
+	} else if ($user['User']['groups_id'] == 3) {
+		echo("<li>");
+			echo $this->Html->link(__("Panneau de contrôle"), array('controller'=>'admin/posts'));
+		echo("</li>");
+		echo("<li>");
+			echo $this->Html->link(__("S'abonner"), array('controller'=>'Users', 'action'=>'subscribe'));
+		echo("</li>");
+	} else {
 		echo("<li>");
 			echo $this->Html->link(__("S'abonner"), array('controller'=>'Users', 'action'=>'subscribe'));
 		echo("</li>");

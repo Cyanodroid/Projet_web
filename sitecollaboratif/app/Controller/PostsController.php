@@ -302,5 +302,36 @@
 
 			$this->set(compact('posts'));
 		}
+
+		public function articles() {
+	  		$this->layout = "default2";
+
+	  		$cat = $this->Post->Categories->find('all', array(
+		  			'fields'=>array('id', 'title')
+		  	));
+
+		  	$all = $this->Post->find('all', array(
+		  		'order'=>array('date_post'=>'desc')
+		  		)
+		  	);
+
+			$this->set('categories', $cat);
+			$this->set('all', $all);
+		}
+
+		public function parcourir($id) {
+			$this->layout = "default2";
+
+			$articles = $this->Post->find('all', array(
+				'conditions'=>array('categories_id'=>$id)
+			));
+
+			$cat = $this->Post->Categories->find('first', array(
+		  			'conditions'=>array('Categories.id'=>$id)
+		  	));
+
+			$this->set(compact('articles'));
+			$this->set('categories', $cat);
+		}
 	}
 ?>
