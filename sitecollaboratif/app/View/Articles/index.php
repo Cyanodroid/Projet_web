@@ -34,7 +34,7 @@ echo("<div class=\"span12\" style=\"text-align:center;\">");
     echo __("Tous les articles publiés");
     echo("</h1>");
 	foreach ($all as $l){
-	echo("<div class=\"col-lg-4\">");
+	echo("<div class=\"col-xs-6 col-md-4\">");
         echo $this->Html->image('/img/categories/'.$l['Article']['categories_id'].'.jpg', array('height'=>140, 'width'=>140, 'class'=>'img-circle'));
 	    echo "<h2>".$l['Article']['title']."</h2>";
 	    echo "<p>".$this->Text->truncate($l['Article']['contenu'], 200, array('ellipsis'=>'...', 'exact'=>false))."</p>";
