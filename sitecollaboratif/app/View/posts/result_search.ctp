@@ -13,7 +13,7 @@
 <?php endif; ?>
 </div>
 <div class="span12" style="text-align:center;">
-	<?php 
+	<?php
 	if($count < 2)
 	echo $this->Paginator->numbers(array(
 		'before'=>'<ul class="">',
