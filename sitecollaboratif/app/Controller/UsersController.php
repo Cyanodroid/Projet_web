@@ -1,4 +1,4 @@
-<?php 
+<?php
 	App::uses('AppController','Controller');
 
 	class UsersController extends AppController {
@@ -32,7 +32,7 @@
            				'token'   =>$token,
            				));
            			// on enregistre dans la DB
-           			
+
            			$this->User->save();
            			// amélioration possible : supprimer les comptes avec 'active'=>0 au bout de x temps
 
@@ -40,7 +40,7 @@
            			App::uses('CakeEmail', 'Network/Email');
            			$Email = new CakeEmail('gmail');
            			$Email->to($this->request->data['User']['mail']) // à qui ?
-           				  ->from(Configure::read('Site_Contact.mail')) // de qui ? 
+           				  ->from(Configure::read('Site_Contact.mail')) // de qui ?
            				  ->subject('Merci de confirmer votre inscription') // sujet du mail
            				  ->viewVars($this->request->data['User'] + array('token'=>$token, 'id'=>$this->User->id)) // arguments que l'on va passer au template
            				  ->emailFormat('html') // format du mail
@@ -48,10 +48,10 @@
            				  ->send(); // envoi du mail
 
            			// on laisse un petit message à l'utilisateur
-           			echo $this->Session->setFlash(__("Un mail de confirmation vous a été envoyé"), 'success');
+           			$this->Session->setFlash(__("Un mail de confirmation vous a été envoyé"), 'success');
 				} else {
 					// sinon il doit corriger des champs
-					echo $this->Session->setFlash(__("Des erreurs sont à corriger"), "error");
+					$this->Session->setFlash(__("Des erreurs sont à corriger"), "error");
 				}
 			}
 		}
@@ -67,11 +67,11 @@
 				));
 			// si un tel utilisateur n'existe pas alors le lien doit être mauvais
 			if (empty($user)) {
-				echo $this->Session->setFlash(__("Ce lien de validation est invalide"), 'error');
-				return $this->redirect('/');
+				$this->Session->setFlash(__("Ce lien de validation est invalide"), 'error');
+				return $this->redirect(array('controller'=>'posts', 'action'=>'index'));
 			}
 			// on affiche un message de validation
-			echo $this->Session->setFlash(__("Votre compte a été validé"), "success");
+			$this->Session->setFlash(__("Votre compte a été validé"), "success");
 			$this->User->save(array(
 				'id'=>$user['User']['id'], // on récupère l'id de l'utilisateur
 				'active' => 1, // on valide concrètement son compte
@@ -89,10 +89,18 @@
 			if (!empty($this->request->data)) {
 				// si on arrive à le connecter (voir la doc cakephp 2.x Authentification)
 				if ($this->Auth->login()) {
-					echo $this->Session->setFlash(__("Vous êtes maintenant connecté"), "success");
+
+					$user = $this->User->findById($this->Auth->user('id'));
+					if ($user['User']['end_subscription'] != null && $user['User']['end_subscription'] < date('Y-m-d H:i:s')) {
+						$group = 2;
+						$this->User->id = $this->Auth->user('id');
+						$this->User->saveField('groups_id', $group);
+					}
+
+					$this->Session->setFlash(__("Vous êtes maintenant connecté"), "success");
 					$this->redirect(array('controller'=>'posts', 'action'=>'index'));
 				} else {
-					echo $this->Session->setFlash(__("Vos identifiants sont incorrects"), "error");
+					$this->Session->setFlash(__("Vos identifiants sont incorrects"), "error");
 				}
 			}
 		}
@@ -117,7 +125,7 @@
 
 				// si on ne trouve pas, l'adresse est mauvaise
 				if (empty($user)) {
-					echo $this->Session->setFlash(__("Cette adresse email n'est pas enregistrée"), "error");
+					$this->Session->setFlash(__("Cette adresse email n'est pas enregistrée"), "error");
 				} else {
 					// sinon on va créer un token qui sera unique
 					$token = md5(uniqid().time());
@@ -139,7 +147,7 @@
            				  ->send(); // l'envoie du mail
 
            			// on laisse un petit message à l'utilisateur
-           			echo $this->Session->setFlash(__("Un mail vous a été envoyé"), 'success');
+           			$this->Session->setFlash(__("Un mail vous a été envoyé"), 'success');
 				}
 			}
 		}
@@ -150,13 +158,13 @@
 			$this->layout = 'default2';
 			// récupération dans la table users l'utilisateur id ayant le token $token
 			$user = $this->User->find('first', array(
-				'fields'=>array('id'),
+				'fields'=>array('id', 'groups_id'),
 				'conditions'=>array('id'=>$user_id, 'token'=>$token)
 				));
 
 			// si on ne trouve pas, cela veut dire que l'utilisateur a pris un mauvais lien ou essaye de nous pirater des comptes
 			if (empty($user)) {
-				echo $this->Session->setFlash(__("Ce lien de validation est invalide"), 'error');
+				$this->Session->setFlash(__("Ce lien de validation est invalide"), 'error');
 				return $this->redirect(array('action'=>'forgot'));
 			}
 
@@ -167,15 +175,17 @@
 				// validation des champs
 				if ($this->User->validates()) {
 					// modification de la DB
+					$this->Session->destroy();
 					$this->User->create();
 					$this->User->save(array(
 						'id'=>$user['User']['id'],
 						'token'=>'', // on vide le token pour ne pas permettre à quelqu'un de modifier le mdp
 						'active'=>1,
-						'password'=>$this->Auth->password($this->request->data['User']['password'])
+						'password'=>$this->Auth->password($this->request->data['User']['password']),
+						'groups_id'=>$user['User']['groups_id']
 					));
 					// on laisse un petit message
-					echo $this->Session->setFlash(__("Votre mot de passe a bien été modifié"), 'success');
+					$this->Session->setFlash(__("Votre mot de passe a bien été modifié"), 'success');
 					// on redirige notre utilisateur
 					return $this->redirect(array('action'=>'login'));
 				}
@@ -189,49 +199,80 @@
 			// si l'utilisateur appuie sur "modifier"
 
 			if (!empty($this->request->data)) {
-				// récupération de l'utilisateur courant
-				$this->request->data['User']['id'] = $this->Auth->user('id');
 
-				// validation des champs
-				if ($this->User->validates()) {
+				if (!isset($this->request->data['User']['password'])) {
 
+					$this->request->data['User']['id'] = $this->Auth->user('id');
+					// récupération de l'utilisateur courant
 					$this->User->id = $this->Auth->user('id');
-					// vérification de la présence d'un avatar					
-					if (!empty($this->request->data['User']['avatarf']['tmp_name'])) {
-						// création du chemin (ou récupération)
-						// supposons qu'il y ait beaucoup d'utilisateur, on va mettre les images dans des 
-						// dossiers séparés 1 pour utilisateur 1 à 1000 etc etc
-						$directory = IMAGES . 'avatars' . DS . ceil($this->User->id / 1000);
-						if (!file_exists($directory)) {
-							// si le dossier n'existe pas on le créer
-							mkdir($directory, 0777);
+
+					// validation des champs
+					if ($this->User->validates()) {
+						// vérification de la présence d'un avatar
+						if (!empty($this->request->data['User']['avatarf']['tmp_name'])) {
+							// création du chemin (ou récupération)
+							// supposons qu'il y ait beaucoup d'utilisateur, on va mettre les images dans des
+							// dossiers séparés 1 pour utilisateur 1 à 1000 etc etc
+							$directory = IMAGES . 'avatars' . DS . ceil($this->User->id / 1000);
+							if (!file_exists($directory)) {
+								// si le dossier n'existe pas on le créer
+								mkdir($directory, 0777);
+							}
+
+							// enfin on récupère l'image pour la mettre dans notre dossier
+							move_uploaded_file($this->request->data['User']['avatarf']['tmp_name'], $directory . DS . $this->User->id . '.jpg');
+							// on modifie la colonne "avatar" de la tables users pour mettre la valeur 1
+							$this->User->saveField('avatar', 1);
+							$this->Session->destroy();
+							$this->Session->write('Auth.User.avatari', $directory . DS . $this->User->id . '.jpg');
 						}
 
-						// enfin on récupère l'image pour la mettre dans notre dossier
-						move_uploaded_file($this->request->data['User']['avatarf']['tmp_name'], $directory . DS . $this->User->id . '.jpg');
-						// on modifie la colonne "avatar" de la tables users pour mettre la valeur 1
-						$this->User->saveField('avatar', 1);
+						if (!empty($this->request->data['User']['mail'])) {
+							$this->User->saveField(
+		           				'mail', $this->request->data['User']['mail']
+	           				);
+						}
+
+						// on recharge les informations
+						$user = $this->User->read();
+
+						$this->Auth->login($user['User']);
+
+						// on laisse un message de validation
+						$this->Session->setFlash(__("Vos informations ont bien été modifiées"), 'success');
+
+						$user = $this->User->findById($this->Auth->user('id'));
+						$this->set('user', $user);
+						$this->redirect($this->referer());
 					}
+				} else {
 
-					if (!empty($this->request->data['User']['password'])) {
-						$this->User->saveField(
-							'password', $this->Auth->password($this->request->data['User']['password'])
-						);
+					$user = $this->User->find('first', array(
+						'conditions'=>array('id'=>$this->Auth->user('id'))
+					));
+
+					$this->User->create($this->request->data);
+					// validation des champs
+					if ($this->User->validates()) {
+						// modification de la DB
+						$this->User->create();
+						$this->User->save(array(
+							'id'=>$user['User']['id'],
+							'active'=>1,
+							'password'=>$this->Auth->password($this->request->data['User']['password']),
+							'groups_id'=>$user['User']['groups_id'],
+							'avatar'=>$user['User']['avatar']
+						));
+						$user = $this->User->read();
+
+						$this->Auth->login($user['User']);
+						// on laisse un petit message
+						$this->Session->setFlash(__("Votre mot de passe a bien été modifié"), 'success');
+						$user = $this->User->findById($this->Auth->user('id'));
+						$this->set('user', $user);
+						// on redirige notre utilisateur
+						return $this->redirect($this->referer());
 					}
-
-					if (!empty($this->request->data['User']['mail'])) {
-						$this->User->saveField(
-	           				'mail', $this->request->data['User']['mail']
-           				);	
-					}
-					
-					// on recharge les informations
-					$user = $this->User->read();
-
-					$this->Auth->login($user['User']);
-
-					// on laisse un message de validation
-					echo $this->Session->setFlash(__("Vos informations ont bien été modifiées"), 'success');
 
 					$user = $this->User->findById($this->Auth->user('id'));
 					$this->set('user', $user);
@@ -242,6 +283,7 @@
 				$this->set('user', $user);
 				$this->User->id = $this->Auth->user('id');
 				$this->request->data = $this->User->read();
+				$this->request->data['User']['password'] = array();
 			}
 		}
 
@@ -255,6 +297,7 @@
 		public function candidate() {
 			$this->layout = 'default2';
 			if (!empty($this->request->data)) {
+
 				$u = $this->User->find('first', array(
 					'fields'=>array('username', 'mail'),
 					'conditions'=>array(
@@ -265,43 +308,76 @@
 				$this->request->data['User']['mail']     = $u['User']['mail'];
 				$this->request->data['User']['username'] = $u['User']['username'];
 
-				App::uses('CakeEmail', 'Network/Email');
-				$email = new CakeEmail('gmail');
-				$email->to(Configure::read('Site_Contact.mail')) // à qui ? 
-					  ->from($this->request->data['User']['mail']) // par qui ?
-					  ->subject('Un utilisateur du site "Site collaboratif" a envoyé sa candidature') // sujet du mail
-					  ->emailFormat('html') // le format à utiliser
-					  ->template('candidature') // le template à utiliser
-					  ->viewVars($this->request->data['User']) // les arg qu'on passe à notre template
-					  ->send(); // envoi du mail
+				if (!empty($this->request->data['User']['CV']['name'])) {
 
-				echo $this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
-				$this->redirect($this->referer());
-			}		
+					$directory = APP . '/Files/cvs' . DS . ceil($this->User->id / 1000);
+					if (!file_exists($directory)) {
+						// si le dossier n'existe pas on le créer
+						mkdir($directory, 0777);
+					}
+
+					$pathname = $directory . DS . $this->request->data['User']['CV']['name'];
+
+					if (!file_exists($pathname)) {
+						move_uploaded_file($this->request->data['User']['CV']['tmp_name'], $pathname);
+					}
+
+					App::uses('CakeEmail', 'Network/Email');
+					$email = new CakeEmail('gmail');
+					$email->to(Configure::read('Site_Contact.mail')) // à qui ?
+						  ->from($this->request->data['User']['mail']) // par qui ?
+						  ->subject('Un utilisateur du site "Site collaboratif" a envoyé sa candidature') // sujet du mail
+						  ->emailFormat('html') // le format à utiliser
+						  ->template('candidature') // le template à utiliser
+						  ->viewVars($this->request->data['User']) // les arg qu'on passe à notre template
+						  ->attachments($pathname)
+						  ->send(); // envoi du mail
+
+					$this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
+					$this->redirect($this->referer());
+
+				} else {
+					App::uses('CakeEmail', 'Network/Email');
+					$email = new CakeEmail('gmail');
+					$email->to(Configure::read('Site_Contact.mail')) // à qui ?
+						  ->from($this->request->data['User']['mail']) // par qui ?
+						  ->subject('Un utilisateur du site "Site collaboratif" a envoyé sa candidature') // sujet du mail
+						  ->emailFormat('html') // le format à utiliser
+						  ->template('candidature') // le template à utiliser
+						  ->viewVars($this->request->data['User']) // les arg qu'on passe à notre template
+						  ->send(); // envoi du mail
+
+					$this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
+					$this->redirect($this->referer());
+				}
+			}
 		}
 
 		public function paypal_success() {
 
 			if (!$this->Auth->user('id'))
 				throw new NotFoundException(__("Cette page n'existe pas"));
-				
+
 
 			$user = $this->User->find('first', array(
 				'conditions'=>array('id'=>$this->Auth->user('id')),
-				'fields'=>array('id', 'username', 'groups_id')
+				'fields'=>array('id', 'username', 'groups_id', 'mail')
 				)
 			);
+
+			$end_subscription = date("Y-m-d H:i:s", mktime(date("H"), date("i"), date("s"), date("m")+1, date("d"), date("Y")));
 
 			$group = 3;
 
 			$this->User->id = $this->Auth->user('id');
 			$this->User->saveField('groups_id', $group);
+			$this->User->saveField('end_subscription', $end_subscription);
 
 			App::uses('CakeEmail', 'Network/Email');
 			$email = new CakeEmail('gmail');
-			$email->to(Configure::read('Site_Contact.mail')) // à qui ? $this->Auth->user('mail')
+			$email->to($user['User']['mail']) // à qui ? $this->Auth->user('mail')
 				  ->from(Configure::read('Site_Contact.mail')) // par qui ?
-				  ->subject('Merci de confirmer votre abonnement') // sujet du mail
+				  ->subject('Votre abonnement a été pris en compte') // sujet du mail
 				  ->emailFormat('html') // le format à utiliser
 				  ->template('paypal_success') // le template à utiliser
 				  ->send(); // envoi du mail
@@ -315,22 +391,29 @@
 				  ->viewVars(array('username'=>$user['User']['username'], 'id'=>$user['User']['id'])) // les arg qu'on passe à notre template
 				  ->send(); // envoi du mail
 
-			echo $this->Session->setFlash(__("Votre abonnement a été pris en compte"), 'success');
-			$this->redirect('/');
+			$this->Session->setFlash(__("Votre abonnement a été pris en compte"), 'success');
+			$this->redirect(array('controller'=>'posts', 'action'=>'index'));
 		}
 
 		public function paypal_cancel() {
+
+			$user = $this->User->find('first', array(
+				'conditions'=>array('id'=>$this->Auth->user('id')),
+				'fields'=>array('mail')
+				)
+			);
+
 			App::uses('CakeEmail', 'Network/Email');
 			$email = new CakeEmail('gmail');
-			$email->to(Configure::read('Site_Contact.mail')) // à qui ? $this->Auth->user('mail')
+			$email->to($user['User']['mail']) // à qui ? $this->Auth->user('mail')
 				  ->from(Configure::read('Site_Contact.mail')) // par qui ?
 				  ->subject('Votre demande a été annulée') // sujet du mail
 				  ->emailFormat('html') // le format à utiliser
 				  ->template('paypal_cancel') // le template à utiliser
 				  ->send(); // envoi du mail
 
-			echo $this->Session->setFlash(__("Votre demande a été annulée"), 'success');
-			$this->redirect('/');
+			$this->Session->setFlash(__("Votre demande a été annulée"), 'success');
+			$this->redirect(array('controller'=>'posts', 'action'=>'index'));
 		}
 
 		public function admin_index() {
@@ -352,7 +435,7 @@
 				$this->User->id = $id;
 				$this->User->saveField('groups_id', $this->request->data['User']['groups_id']);
 				$this->User->saveField('end_subscription', $this->request->data['User']['end_subscription']);
-				echo $this->Session->setFlash(__("Opération effectuée"), 'success');
+				$this->Session->setFlash(__("Opération effectuée"), 'success');
 
 				$this->redirect(array('action'=>'admin_index'));
 			}

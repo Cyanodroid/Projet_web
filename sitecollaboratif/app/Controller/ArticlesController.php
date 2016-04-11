@@ -22,19 +22,12 @@
 		  			'fields'=>array('id', 'title')
 		  	));
 
-		  	$last = $this->Article->find('all', array(
-		  		'order'=>array('date_post'=>'desc'),
-		  		'limit'=>3
-		  		)
-		  	);
-
 		  	$all = $this->Article->find('all', array(
 		  		'order'=>array('date_post'=>'desc')
 		  		)
 		  	);
 
 			$this->set('categories', $cat);
-			$this->set('last', $last);
 			$this->set('all', $all);
 		}
 

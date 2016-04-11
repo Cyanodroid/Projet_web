@@ -1,6 +1,7 @@
 <?php
 	class ArchivesController extends AppController {
 		var $name = 'Archives';
+		var $uses = array('Archive', 'Chat');
 
 		public function index() {
 			$this->layout = 'default2';
@@ -29,44 +30,30 @@
 			}
 	    }
 
-		public function question($msg) {
-			$this->autoRender = false;
-
-			if (empty($this->request->params['pass'][0]))
-				die();
-
-			if ($this->request->is('ajax')) {
-				$data['Archives']['query'] = $this->request->params['pass'][0];
-				$this->Archive->save($data['Archives']);
-				die();
-			}
-		}
-
-		public function reponse($qst, $msg) {
+		public function question($id_query, $current_user) {
 			$this->autoRender = false;
 
 			if ($this->request->is('ajax')) {
-
-				$query = $this->Archive->find('first', array(
-					'conditions' => array('query'=>$qst)
-					)
-				);
-
-				if ($query == null) {
-					echo __("Aucune question ne correspond à votre demande");
+				if ($id_query == null || $current_user == null) {
+					echo __("Erreur de paramètres");
 					die();
 				}
 
-				$this->Archive->id = $query['Archive']['id'];
-				$this->Archive->saveField('answer', $msg);
+				$query = $this->Chat->find('first', array(
+					'fields'=>array('Chat.contenu'),
+					'conditions'=>array('Chat.id'=>$id_query)
+				));
 
-				echo __("Réponse enregistrée !");
+				$data['Archives']['query'] = $query['Chat']['contenu'];
+				$data['Archives']['users_id'] = $current_user;
+				$this->Archive->save($data['Archives']);
+
+				echo __("Question enregistrée");
+				die();
 			}
 		}
 
-		public function question_test($id_question, $current_user) {}
-
-		public function reponse_test($id_answer, $current_user) {
+		public function reponse($id_answer, $current_user) {
 			$this->autoRender = false;
 
 			if ($this->request->is('ajax')) {
@@ -74,7 +61,21 @@
 					echo "error";
 					die();
 				}
-				echo "ok";
+
+				$row = $this->Archive->find('first', array(
+					'conditions' => array('users_id'=>$current_user)
+					)
+				);
+
+				$query = $this->Chat->find('first', array(
+					'fields'=>array('Chat.contenu'),
+					'conditions'=>array('Chat.id'=>$id_answer)
+				));
+
+				$this->Archive->id = $row['Archive']['id'];
+				$this->Archive->saveField('answer', $query['Chat']['contenu']);
+
+				echo __("Réponse enregistrée !");
 				die();
 			}
 		}

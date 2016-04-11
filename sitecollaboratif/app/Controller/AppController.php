@@ -49,20 +49,27 @@ class AppController extends Controller {
 	public function beforeFilter() {
 		parent::beforeFilter();
 
-		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir', 'flux_rss');
-
-		if ($this->request->is('ajax')) {
-			$this->layout = null;
+		if ($this->Session->check('Config.language')) {
+			Configure::write('Config.language', $this->Session->read('Config.language'));
 		}
 
+		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir', 'flux_rss', 'set_language');
+
+		if ($this->request->is('ajax') || $this->RequestHandler->isAjax()) {
+			$this->layout = null;
+    		Configure::write('debug', 0);
+		}
 
 		if (isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'admin') {
-			/*if ($this->Auth->user('groups_id') != 1) {
-				throw new NotFoundException();
-			} else {
-				$this->layout = 'default2';
-			}*/
 			$this->layout = 'default2';
 		}
     }
+
+	public function set_language($lang) {
+		if (in_array($lang, Configure::read('Config.languages'))) {
+			Configure::write('Config.language', $lang);
+			$this->Session->write('Config.language', $lang);
+		}
+		return $this->redirect('/');
+	}
 }

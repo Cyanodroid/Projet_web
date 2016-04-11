@@ -1,4 +1,4 @@
-<?php 
+<?php
 echo $this->Session->Flash();
 echo("<div class=\"row\" style=\"margin-top:70px;\">");
 	echo("</br>");
@@ -46,8 +46,8 @@ echo("<div class=\"row\" style=\"margin-top:70px;\">");
 						echo $article['Post']['date_post'];
 						echo("</td>");
 					echo("<td>");
-						$this->Html->link('<i class="fa fa-pencil-square-o"></i>&nbsp;Editer', array('action'=>'admin_edit', $article['Post']['id']), array('escape'=>false));
-						$this->Html->link('<i class="fa fa-trash-o"></i>&nbsp;Supprimer', array('action'=>'admin_delete', $article['Post']['id']), array('confirm'=>"Merci de confirmer la suppression" , 'escape'=>false));
+						echo $this->Html->link('<i class="fa fa-pencil-square-o"></i>&nbsp;Editer&nbsp;', array('action'=>'admin_edit', $article['Post']['id']), array('escape'=>false));
+						echo $this->Html->link('<i class="fa fa-trash-o"></i>&nbsp;Supprimer', array('action'=>'admin_delete', $article['Post']['id']), array('confirm'=>"Merci de confirmer la suppression" , 'escape'=>false));
 					echo("</td>");
 				echo("</tr>");
 			}

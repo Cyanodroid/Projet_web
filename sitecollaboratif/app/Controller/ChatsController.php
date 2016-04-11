@@ -18,7 +18,7 @@
 				)
 			);
 
-			if ($id == null) {
+			if (empty($this->request->params['named'])) {
 				$r = $this->Chat->Rooms->find('first', array(
 					'conditions' => array('Rooms.name'=>'Général')
 					)
@@ -47,7 +47,9 @@
 				$this->set('cr', $r);
 				$this->set('users_list', $users);
 
-			} else if ($id && $current_id) {
+			} else if (!empty($this->request->params['named']['id']) && !empty($this->request->params['named']['current_id'])) {
+				$id = $this->request->params['named']['id'];
+				$current_id = $this->request->params['named']['current_id'];
 				$old = $this->Chat->Rooms->find('first', array(
 					'conditions'=>array('Rooms.id'=>$current_id)
 					)
@@ -102,14 +104,20 @@
 				$this->Chat->create($data['Chats'], true, array());
 				$this->Chat->save($data['Chats']);
 
-				// app/tmp/$id.log
-				CakeLog::write($id, __('Utilisateur : ') . $this->Auth->user('username') . __(' dit : '). $msg);
+				if ($this->Auth->user('groups_id') == 3) {
+					// app/tmp/$id.log
+					CakeLog::write($id, __('Utilisateur [PREMIUM] : ') . $this->Auth->user('username') . __(' dit : '). $msg);
+				} else {
+					// app/tmp/$id.log
+					CakeLog::write($id, __('Utilisateur : ') . $this->Auth->user('username') . __(' dit : '). $msg);
+				}
 			}
 		}
 
 		public function ajaxProcessing($id = null) {
-
 			if ($this->request->is('ajax')) {
+
+				if ($id == null) $id = 1;
 
 				$msg = $this->Chat->find('all', array(
 					'conditions'=>array('Chat.rooms_id'=> $id)
@@ -137,15 +145,27 @@
 
 				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // THOMAS.S PC
 
-				App::uses('CakeEmail', 'Network/Email');
-				$email = new CakeEmail('gmail');
-				$email->to(Configure::read('Site_Contact.mail')) // à qui ?
-					  ->from(Configure::read('Site_Contact.mail')) // par qui ?
-					  ->subject('Un utilisateur du site "Site collaboratif" a posé une question sur le tchat') // sujet du mail
-					  ->emailFormat('html') // le format à utiliser
-					  ->attachments($directory)
-					  ->send(); // envoi du mail
-				die();
+				if ($this->Auth->user('groups_id') == 3) {
+					App::uses('CakeEmail', 'Network/Email');
+					$email = new CakeEmail('gmail');
+					$email->to(Configure::read('Site_Contact.mail')) // à qui ?
+						  ->from(Configure::read('Site_Contact.mail')) // par qui ?
+						  ->subject('[URGENT] Un utilisateur du site "Site collaboratif" a posé une question sur le tchat') // sujet du mail
+						  ->emailFormat('html') // le format à utiliser
+						  ->attachments($directory)
+						  ->send(); // envoi du mail
+					die();
+				} else {
+					App::uses('CakeEmail', 'Network/Email');
+					$email = new CakeEmail('gmail');
+					$email->to(Configure::read('Site_Contact.mail')) // à qui ?
+						  ->from(Configure::read('Site_Contact.mail')) // par qui ?
+						  ->subject('Un utilisateur du site "Site collaboratif" a posé une question sur le tchat') // sujet du mail
+						  ->emailFormat('html') // le format à utiliser
+						  ->attachments($directory)
+						  ->send(); // envoi du mail
+					die();
+				}
 			}
 		}
 

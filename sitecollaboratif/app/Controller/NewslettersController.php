@@ -1,4 +1,4 @@
-<?php 
+<?php
 	App::build(array('Lib' => array(APP . 'Lib' . DS . 'reCAPTCHA' . DS)));
 	App::uses('recaptcha', 'Lib');
 
@@ -20,7 +20,7 @@
                         echo $this->Session->setFlash(__("Erreur de captcha !"), 'error');
                         return false;
                     }
-                    
+
 	    			// si jamais on est connecté au site alors on va modifier le champs 'newsletter_id' de la table 'users'
 	    			if ($this->Auth->user('id')) {
 
@@ -35,18 +35,18 @@
 	    					$this->Newsletter->User->id = $this->Auth->user('id');
 	    					$this->Newsletter->User->saveField('newsletter_id', $last_record['Newsletter']['id']);
 
-	    					echo $this->Session->setFlash(__("Votre inscription a été prise en compte !"), 'success');
+	    					$this->Session->setFlash(__("Votre inscription a été prise en compte !"), 'success');
 	    					$this->redirect(array('controller'=>'posts','action'=>'index'));
 	    				} else {
-							echo $this->Session->setFlash(__("Une erreur est survenue !"), 'error');
+							$this->Session->setFlash(__("Une erreur est survenue !"), 'error');
 						}
 	    			} else {
 	    				// sinon on fait la même chose mais sans se soucier de la table 'users'
 		    			if ($this->Newsletter->save($this->request->data)) {
-		    				echo $this->Session->setFlash(__("Votre inscription a été validée"), "success");
+		    				$this->Session->setFlash(__("Votre inscription a été validée"), "success");
 		    				$this->redirect(array('controller'=>'posts','action'=>'index'));
 		    			} else {
-		    				echo $this->Session->setFlash(__("Erreur d'enregistrement"), "error");
+		    				$this->Session->setFlash(__("Erreur d'enregistrement"), "error");
 		    			}
 	    			}
 	    		}

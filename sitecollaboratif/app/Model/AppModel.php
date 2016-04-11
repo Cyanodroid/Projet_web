@@ -32,7 +32,7 @@ App::uses('Model', 'Model');
 class AppModel extends Model {
 
 	public function sizeimg($check, $width, $height, $limit) {
-		//debug(func_get_args());
+		// debug(func_get_args());
 		$field = key($check);
 		$val = $check[$field];
 
@@ -50,5 +50,21 @@ class AppModel extends Model {
 		//debug($size);
 		return $size[0] > $width && $size[1] > $height;
 
+	}
+
+	public function read_all_language() {
+		$datas = $this->read();
+		$this->name = 'Post';
+		foreach ($datas as $field => $trads) {
+			if (strpos($field, 'Translate') === (strlen($field) - strlen('Translate'))) {
+				$title = str_replace('Translate', '', $field);
+				$datas[$this->name][$title] = array();
+				foreach ($trads as $trad) {
+					$locale = $trad['locale'];
+					$datas[$this->name][$title][$locale] = $trad['content'];
+				}
+			}
+		}
+		return $datas;
 	}
 }

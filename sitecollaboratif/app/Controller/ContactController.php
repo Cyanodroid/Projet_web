@@ -23,7 +23,7 @@
 				if (!empty($this->request->data['Contact']['prot'])) {
 					// donc si on remplit ce champs ça veut dire qu'on veut nous spam
 					// on laisse quand même un message de success dans le cas où un utilisateur humain regarde l'écran
-					echo $this->Session->setFlash(__('Votre message a été envoyé avec succès.'), 'success');
+					$this->Session->setFlash(__('Votre message a été envoyé avec succès.'), 'success');
 					// on redirige normalement comme si tout s'était bien passé
 			   		$this->redirect(array('action' => 'index'));
 				} else {
@@ -35,7 +35,7 @@
 			        	// création du mail
 			        	App::uses('CakeEmail', 'Network/Email');
 						$email = new CakeEmail('gmail');
-						$email->to(Configure::read('Site_Contact.mail')) // à qui ? 
+						$email->to(Configure::read('Site_Contact.mail')) // à qui ?
 							  ->from($this->request->data['Contact']['email']) // par qui ?
 							  ->subject('Un utilisateur du site "Site collaboratif" vous a contacté') // sujet du mail
 							  ->emailFormat('html') // le format à utiliser
@@ -44,12 +44,12 @@
 							  ->send(); // envoi du mail
 
 						// on laisse un petit message de validation
-						echo $this->Session->setFlash(__('Votre message a été envoyé avec succès.'), 'success');
+						$this->Session->setFlash(__('Votre message a été envoyé avec succès.'), 'success');
 						// on pense à rediriger l'utilisateur
 			   			$this->redirect(array('action' => 'index'));
 		   			} else {
 		   				// sinon il y a un problème au niveau des champs
-						echo $this->Session->setFlash(__('Veuillez corriger les erreurs ci-dessous.'), 'error');
+						$this->Session->setFlash(__('Veuillez corriger les erreurs ci-dessous.'), 'error');
 					}
 				}
 	        }

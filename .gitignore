@@ -51,3 +51,8 @@ Temporary Items
 >>>>>>> parent of 109a44e... ajout drapeaux et menu langues
 sitecollaboratif/app/tmp/*
 sitecollaboratif/app/View/Elements/menu.php
+sitecollaboratif/app/tmp/cache/models/myapp_cake_model_default_site_categories
+sitecollaboratif/app/tmp/cache/persistent/myapp_cake_core_method_cache
+sitecollaboratif/app/tmp/cache/persistent/myapp_cake_core_cake_fr-fr
+sitecollaboratif/app/tmp/cache/models/myapp_cake_model_default_site_list
+sitecollaboratif/app/tmp/cache/models/myapp_cake_model_default_site_categories
