@@ -18,7 +18,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
- Configure::write('Config.languages', array('eng', 'fra'));
+ Configure::write('Config.languages', array('fra', 'eng'));
  Configure::write('Config.language', 'fra');
 
 /**

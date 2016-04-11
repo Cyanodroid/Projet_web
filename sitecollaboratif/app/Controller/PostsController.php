@@ -133,8 +133,9 @@
 
 				$query = $this->Post->query("
 					SELECT *
-					FROM site.posts AS Post
-					WHERE Post.title LIKE '%".addslashes($data)."%' OR Post.contenu LIKE '%".addslashes($data)."%';
+					FROM site.posts AS Post, site.i18n AS I
+					WHERE (Post.title LIKE '%".addslashes($data)."%' OR Post.contenu LIKE '%".addslashes($data)."%') OR
+							(I.content LIKE '%".addslashes($data)."%' );
 				");
 
 				$i = 0;
@@ -160,51 +161,52 @@
 
 	  	public function admin_edit($id = null) {
 	  		$this->layout = "default2";
+
+			$this->Post->locale = Configure::read('Config.languages');
+
 	  		$cat = $this->Post->Categories->find('list', array(
 		  		'recursive'=>-1,
 		  		'fields'=>array('id', 'title')
 		  	));
 
 		  	$this->set('cats', $cat);
-			if ($id == null) {
-		  		if (!empty($this->request->data)) {
-		  			if ($this->Post->validates()) {
-			  			$this->request->data['Post']['users_id'] = $this->Auth->user('id');
+	  		if (!empty($this->request->data)) {
 
-			  			$this->Post->create($this->request->data);
-			  			if ($this->Post->save($this->request->data, true, array())) {
+	  			$this->request->data['Post']['users_id'] = $this->Auth->user('id');
 
-				  			if (!empty($this->request->data['Post']['imageart'][0]['tmp_name'])) {
-								$directory = IMAGES . 'articles' . DS;
-								if (!file_exists($directory)) {
-								   mkdir($directory, 0777);
-								}
+	  			$this->Post->create($this->request->data);
+	  			if ($this->Post->save($this->request->data, false, array())) {
 
-								$i = 0;
-								while (!empty($this->request->data['Post']['imageart'][$i]['tmp_name'])) {
-									if ($i == 0) {
-										move_uploaded_file($this->request->data['Post']['imageart'][$i]['tmp_name'], $directory . DS . $this->Post->id . '.jpg');
-									} else {
-										move_uploaded_file($this->request->data['Post']['imageart'][$i]['tmp_name'], $directory . DS . $this->Post->id . '-' . $i . '.jpg');
-									}
-									$i++;
-								}
+		  			if (!empty($this->request->data['Post']['imageart'][0]['tmp_name'])) {
+						$directory = IMAGES . 'articles' . DS;
+						if (!file_exists($directory)) {
+						   mkdir($directory, 0777);
+						}
 
-								$this->Post->saveField('image', 1);
+						$i = 0;
+						while (!empty($this->request->data['Post']['imageart'][$i]['tmp_name'])) {
+							if ($i == 0) {
+								move_uploaded_file($this->request->data['Post']['imageart'][$i]['tmp_name'], $directory . DS . $this->Post->id . '.jpg');
+							} else {
+								move_uploaded_file($this->request->data['Post']['imageart'][$i]['tmp_name'], $directory . DS . $this->Post->id . '-' . $i . '.jpg');
 							}
+							$i++;
+						}
 
-			  				$this->request->data = array();
-			  				$this->Session->setFlash(__("Votre article vient d'être publié !"), "success");
-			  				$this->redirect(array('action'=>'admin_index'));
-			  			} else {
-			  				$this->Session->setFlash(__("Erreur : votre article n'a pas pu être publié"), "error");
-			  			}
-		  			} else {
-		  				$this->Session->setFlash(__("Erreur : vos champs de sont pas valides"), "error");
-		  			}
-				}
-	  		} else if ($id) {
-	  			$this->request->data = $this->Post->findById($id);
+						$this->Post->saveField('image', 1);
+					}
+
+	  				$this->request->data = array();
+	  				$this->Session->setFlash(__("Votre article vient d'être publié !"), "success");
+	  				return $this->redirect(array('action'=>'admin_index'));
+	  			} else {
+	  				$this->Session->setFlash(__("Erreur : votre article n'a pas pu être publié"), "error");
+	  			}
+				return $this->redirect(array('action'=>'admin_index'));
+			}
+	  		if ($id) {
+				$this->Post->id = $id;
+	  			$this->request->data = $this->Post->read_all_language();
 	  		}
 	  	}
 

@@ -91,7 +91,7 @@ echo("<div class=\"navbar-wrapper\">");
 		  					  		echo $this->Html->link(
 									    $this->Html->image("internationalisation/flag_icons/png/Fr.png",
 									    	array("alt" => "fr")),
-									    array('action'=>'set_language', 'fra'),
+									    array('action'=>'set_language', 'fra', 'admin'=>false),
 									    array('escape' => false)
 									);
 								echo("</li>");
@@ -99,7 +99,7 @@ echo("<div class=\"navbar-wrapper\">");
 			  					  	echo $this->Html->link(
 									    $this->Html->image("internationalisation/flag_icons/png/Gb.png",
 									    	array("alt" => "gb")),
-									    array('action'=>'set_language', 'eng'),
+									    array('action'=>'set_language', 'eng', 'admin'=>false),
 									    array('escape' => false)
 									);
 								echo("</li>");

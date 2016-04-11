@@ -1726,3 +1726,1155 @@ ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
 ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
 [main] - [internal], line ??
 
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:18 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:19 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:20 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:21 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:25 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:25 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:25 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:25 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:25 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:25 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:25 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-11 02:15:25 Debug: Notice (8): Undefined index: Post in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\PostsController.php, line 142]
+Trace:
+PostsController::resultSearch() - APP\Controller\PostsController.php, line 142
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
