@@ -131,27 +131,39 @@
 
 				$data = $this->request->params['pass'][0];
 
-				$query = $this->Post->query("
-					SELECT DISTINCT I.content, I.foreign_key
-					FROM site.i18n AS I
-					WHERE
-						I.locale=\"".Configure::read('Config.language')."\" AND
-						I.content LIKE '% ".addslashes($data)." %'
-					;
-				");
+				if (Configure::read('Config.language') != "fra") {
+					$query = $this->Post->query("
+						SELECT DISTINCT I.content, I.foreign_key
+						FROM site.i18n AS I
+						WHERE
+							I.locale=\"".Configure::read('Config.language')."\" AND
+							I.content LIKE '% ".addslashes($data)." %'
+						;
+					");
 
-				foreach ($query as $q) {
-					$articles['Post'] = $this->Post->find('first', array(
-						'conditions'=>array('Post.id'=>$q['I']['foreign_key']),
-						'fields'=>array('Post.id', 'title', 'categories_id', 'contenu')
-						)
+					foreach ($query as $q) {
+						$articles['Post'] = $this->Post->find('first', array(
+							'conditions'=>array('Post.id'=>$q['I']['foreign_key']),
+							'fields'=>array('Post.id', 'title', 'categories_id', 'contenu')
+							)
+						);
+					}
+
+					foreach ($articles as $a) {
+						echo '<a href="posts/voir/'.$a['Post']['id'].'">' . $a['Post']['title'] . '</a><br/>';
+					}
+				} else {
+					$query = $this->Post->query("
+						SELECT *
+						FROM site.posts AS Post
+						WHERE (Post.title LIKE '%".addslashes($data)."%' OR Post.contenu LIKE '%".addslashes($data)."%');
+						"
 					);
-				}
-
-				$i = 0;
-				foreach ($articles as $a) {
-					echo '<a href="posts/voir/'.$a['Post']['id'].'">' . $a['Post']['title'] . '</a><br/>';
-					$i++;
+					$i = 0;
+					foreach ($query as $q) {
+						echo '<a href="posts/voir/'.$query[$i]['Post']['id'].'">' . $query[$i]['Post']['title'] . '</a><br/>';
+						$i++;
+					}
 				}
 			} else {
 				$this->layout = 'recherche';
@@ -176,9 +188,10 @@
 					}
 					$this->set('articles', $articles);
 				} else {
-					$search = $this->request->data;
+					$search = $this->request->data['Post']['search'];
+					$query = $this->Post->find('all', array('conditions'=>array('Post.title LIKE'=>'%'.$search.'%')));
+					$this->set('articles', $query);
 				}
-
 			}
 	    }
 
