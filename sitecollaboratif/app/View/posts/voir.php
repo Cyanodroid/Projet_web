@@ -135,8 +135,11 @@ echo("<div class=\"col-lg-4\">");
                 echo("<svg><use xlink:href=\"../../app/webroot/img/sprite.svg#gplus\"></use></svg>");
             echo("</button>");
         echo("</div>");
-         echo("<div class=\"col-sm-4\">");
+        echo("<div class=\"col-sm-4\">");
             echo $this->Html->link('<i class="fa fa-rss-square fa-4x"></i>', array('controller'=>'posts', 'action'=>'flux_rss.rss'), array('escape'=>false));
+        echo("</div>");
+        echo("<div class=\"col-sm-4\" style=\"display:none;\">");
+            echo $this->Html->link('json', array('controller'=>'posts', 'action'=>'json_output'), array('escape'=>false));
         echo("</div>");
 echo("</div>");
 ?>

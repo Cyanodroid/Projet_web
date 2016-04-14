@@ -53,7 +53,7 @@ class AppController extends Controller {
 			Configure::write('Config.language', $this->Session->read('Config.language'));
 		}
 
-		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir', 'articles', 'flux_rss', 'set_language');
+		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir', 'articles', 'flux_rss', 'set_language', 'json_output');
 
 		if ($this->request->is('ajax') || $this->RequestHandler->isAjax()) {
 			$this->layout = null;

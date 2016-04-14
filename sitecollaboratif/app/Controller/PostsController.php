@@ -303,6 +303,16 @@
 			$this->set(compact('posts'));
 		}
 
+		public function json_output() {
+			$this->layout = "ajax";
+			$posts = $this->Post->find('all', array(
+				'order'=>'Post.date_post DESC'
+				)
+			);
+
+			$this->set(compact('posts'));
+		}
+
 		public function articles() {
 	  		$this->layout = "default2";
 
