@@ -4,6 +4,7 @@
 		var $hasMany = 'Comment';
 		var $belongsTo = 'Categories'; // plusieurs posts vers une cat
 
+		// pour les différentes langues on va dire ce que l'on veut traduire
 		public $actsAs = array(
 			'Translate' => array(
 				'title'=>'titleTranslate',

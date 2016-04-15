@@ -52,6 +52,7 @@ class AppModel extends Model {
 
 	}
 
+	// reformatage de request->data
 	public function read_all_language() {
 		$datas = $this->read();
 		$this->name = 'Post';

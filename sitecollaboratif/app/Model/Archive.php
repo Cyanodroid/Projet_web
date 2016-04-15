@@ -2,6 +2,7 @@
 	class Archive extends AppModel {
 		var $name = 'Archives';
 
+		// pour éviter tout type d'injection on va sanitize les champs ...
 		function beforeSave($options = array()) {
             App::uses('Sanitize', 'Utility');
             if (!empty( $this->data['Archives']['query']))
