@@ -125,13 +125,14 @@
 
 	    // fonction rechercher
 		function resultSearch($search = null) {
-
+			// recherche en ajax (en même temps que l'utilisateur écrit)
 			if ($this->request->is('ajax')) {
 				$this->layout = 'ajax';
 
 				$data = $this->request->params['pass'][0];
-
+				// on va regarder la langue car pas la même table dans la DB
 				if (Configure::read('Config.language') != "fra") {
+					// pas en français donc on va chercher sur la table inter
 					$query = $this->Post->query("
 						SELECT DISTINCT I.content, I.foreign_key
 						FROM site.i18n AS I
@@ -140,6 +141,7 @@
 							I.content LIKE '% ".addslashes($data)." %'
 						;
 					");
+					// on protège avec addslashes pour éviter les injections SQL
 
 					foreach ($query as $q) {
 						$articles['Post'] = $this->Post->find('first', array(
@@ -149,10 +151,12 @@
 						);
 					}
 
+					// on affiche un lien vers l'article pour chaque article trouvé
 					foreach ($articles as $a) {
 						echo '<a href="posts/voir/'.$a['Post']['id'].'">' . $a['Post']['title'] . '</a><br/>';
 					}
 				} else {
+					// idem mais en français
 					$query = $this->Post->query("
 						SELECT *
 						FROM site.posts AS Post
@@ -166,6 +170,7 @@
 					}
 				}
 			} else {
+				// idem mais sans ajax
 				$this->layout = 'recherche';
 				if (Configure::read('Config.language') != "fra") {
 					$data = $this->request->data['Post']['search'];
@@ -196,6 +201,7 @@
 	    }
 
 	  	public function admin_index() {
+			// liste tous les articles publiés par l'utilisateur
 	  		$this->layout = "default2";
 	  		$articles = $this->Post->find('all', array(
 	  			'conditions'=>array('Post.users_id'=>$this->Auth->user('id'))
@@ -204,29 +210,40 @@
 	  	}
 
 	  	public function admin_edit($id = null) {
+			// fonction qui permet d'éditer un article
 	  		$this->layout = "default2";
 
+			// pour pouvoir enregistrer dans toutes les langues
 			$this->Post->locale = Configure::read('Config.languages');
 
+			// récupération des catégories
 	  		$cat = $this->Post->Categories->find('list', array(
 		  		'recursive'=>-1,
 		  		'fields'=>array('id', 'title')
 		  	));
 
+			// passage des catégories à la vue
 		  	$this->set('cats', $cat);
+			// si l'utilisateur veut publier (ou modifier)
 	  		if (!empty($this->request->data)) {
 
+				// on récupère l'identifiant de l'utilisateur
 	  			$this->request->data['Post']['users_id'] = $this->Auth->user('id');
 
+				// on va créer une entrée dans la DB
 	  			$this->Post->create($this->request->data);
+
+				// l'enregistrer
 	  			if ($this->Post->save($this->request->data, false, array())) {
 
+					// ensuite on va regarder s'il y a des images avec
 		  			if (!empty($this->request->data['Post']['imageart'][0]['tmp_name'])) {
 						$directory = IMAGES . 'articles' . DS;
 						if (!file_exists($directory)) {
 						   mkdir($directory, 0777);
 						}
 
+						// et pour chaque image on va les télécharger
 						$i = 0;
 						while (!empty($this->request->data['Post']['imageart'][$i]['tmp_name'])) {
 							if ($i == 0) {
@@ -236,12 +253,15 @@
 							}
 							$i++;
 						}
-
+						// on précise dans la DB qu'il y a une image
 						$this->Post->saveField('image', 1);
 					}
 
+					// on vide tous les champs
 	  				$this->request->data = array();
+					// on laisse une confirmation à l'utilisateur
 	  				$this->Session->setFlash(__("Votre article vient d'être publié !"), "success");
+					// on le redirige
 	  				return $this->redirect(array('action'=>'admin_index'));
 	  			} else {
 	  				$this->Session->setFlash(__("Erreur : votre article n'a pas pu être publié"), "error");
@@ -249,12 +269,14 @@
 				return $this->redirect(array('action'=>'admin_index'));
 			}
 	  		if ($id) {
+				// si on édite alors on va récupérer l'article et remplir les champs
 				$this->Post->id = $id;
 	  			$this->request->data = $this->Post->read_all_language();
 	  		}
 	  	}
 
 	  	public function admin_delete($id) {
+			// suppression d'un article par un administrateur
 	  		if ($this->Post->delete($id)) {
 	  			$this->Session->setFlash(__("Votre article vient d'être supprimé !"), "success");
 	  			$this->redirect($this->referer());
@@ -262,12 +284,15 @@
 	  	}
 
 	  	public function create_pdf($id) {
+			// exportation d'un pdf
 	  		$this->layout = "pdf";
 
+			// on récupère l'article que l'on veut exporter
 	  		$article = $this->Post->findById($id);
 
 	  		$this->Session->setFlash(__("Vous pouvez dès à présent télécharger votre pdf !"), "success");
 
+			// on envoie l'article à la vue qui va s'en charger
 	  		$this->set('id', $id);
 	  		$this->set(compact('article'));
 	  		$this->render('/Pdf/pdf_view');
@@ -275,11 +300,14 @@
 	  	}
 
 	  	public function show_pdf($id) {
+			// affichage du pdf en question
+			// on vérifie qu'il existe bien sur le serveur
 	  		if (!file_exists(APP . 'files/pdf/'.$id.'.pdf')) {
 	  			$this->Session->setFlash(__("Ce document n'est pas encore disponible sur le serveur. Afin de pouvoir le télécharger, vous devez d'abord l'exporter."), "error");
 	  			$this->redirect($this->referer());
 	  		}
 
+			// on place les différents params qui vont nous permettre d'afficher le pdf
 		    $this->viewClass = 'Media';
 
 		    $params = array(
@@ -294,6 +322,7 @@
 		}
 
 		public function flux_rss() {
+			// création d'un flux rss avec les trois derniers articles du site
 			$posts = $this->Post->find('all', array(
 				'limit'=>3,
 				'order'=>'Post.date_post DESC'
@@ -304,14 +333,18 @@
 		}
 
 		public function json_output($id) {
+			// création d'une sortie json pour l'application mobile
+			// on passe sur ajax qui le layout ajax n'affiche que ce qui lui est passé (soit posts)
 			$this->layout = "ajax";
 			if ($id == null) {
+				// on récupère tout
 				$posts = $this->Post->find('all', array(
 					'order'=>'Post.date_post DESC'
 					)
 				);
 				$this->set(compact('posts'));
 			} else if ($id) {
+				// ou juste un article en particulier
 				$posts = $this->Post->find('first', array(
 					'conditions'=>array('Post.id'=>$id)
 					)
@@ -321,12 +354,16 @@
 		}
 
 		public function articles() {
+			// pages articles qui va proposer de parcourir l'ensemble des articles
+			// par catégorie
 	  		$this->layout = "default2";
 
+			// récupération des catégories
 	  		$cat = $this->Post->Categories->find('all', array(
 		  			'fields'=>array('id', 'title')
 		  	));
 
+			// récupération de tous les articles
 		  	$all = $this->Post->find('all', array(
 		  		'order'=>array('date_post'=>'desc')
 		  		)
@@ -337,6 +374,7 @@
 		}
 
 		public function parcourir($id) {
+			// on va récupérer les articles d'une certaine catégorie uniquement
 			$this->layout = "default2";
 
 			$articles = $this->Post->find('all', array(
