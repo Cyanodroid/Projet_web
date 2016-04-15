@@ -49,12 +49,15 @@ class AppController extends Controller {
 	public function beforeFilter() {
 		parent::beforeFilter();
 
+		// On met à jour la langue dans le config si elle est définie dans la session
 		if ($this->Session->check('Config.language')) {
 			Configure::write('Config.language', $this->Session->read('Config.language'));
 		}
 
+		// liste des pages accessibles sans être connecté
 		$this->Auth->allow('index', 'voir', 'resultSearch', 'newsletter', 'parcourir', 'articles', 'flux_rss', 'set_language', 'json_output');
 
+		// si on est en ajax alors on ne définit pas de layout afin de ne pas recharger les éléments qui ne servent pas
 		if ($this->request->is('ajax') || $this->RequestHandler->isAjax()) {
 			$this->layout = null;
     		Configure::write('debug', 0);
@@ -65,11 +68,15 @@ class AppController extends Controller {
 		}
     }
 
+	// fonction qui permet de définir la langue du site
 	public function set_language($lang) {
+		// si la langue qu'on passe en arguement est définie
 		if (in_array($lang, Configure::read('Config.languages'))) {
+			// on met le tout à jour
 			Configure::write('Config.language', $lang);
 			$this->Session->write('Config.language', $lang);
 		}
+		// on revient sur la page
 		return $this->redirect($this->referer());
 	}
 }
