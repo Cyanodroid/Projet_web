@@ -287,17 +287,20 @@
 			}
 		}
 
-		// abonnement premium non fonctionnel
 		public function subscribe() {
+			// on ne peut pas s'abonner si on n'est pas inscrit
 			if (!$this->Auth->user('id')) {
 				throw new NotFoundException();
 			}
+			// sinon affichage de la page qui permet d'aller sur paypal
 		}
 
 		public function candidate() {
 			$this->layout = 'default2';
+			// lorsque l'utilisateur veut participer à la vie du site en envoyant sa candidature
 			if (!empty($this->request->data)) {
 
+				// on va récupérer de qui est-ce qu'il s'agit
 				$u = $this->User->find('first', array(
 					'fields'=>array('username', 'mail'),
 					'conditions'=>array(
@@ -305,9 +308,11 @@
 					)
 				));
 
+				// compléter les datas
 				$this->request->data['User']['mail']     = $u['User']['mail'];
 				$this->request->data['User']['username'] = $u['User']['username'];
 
+				// télécharger son cv
 				if (!empty($this->request->data['User']['CV']['name'])) {
 
 					$directory = APP . '/Files/cvs' . DS . ceil($this->User->id / 1000);
@@ -319,9 +324,11 @@
 					$pathname = $directory . DS . $this->request->data['User']['CV']['name'];
 
 					if (!file_exists($pathname)) {
+						// téléchargement
 						move_uploaded_file($this->request->data['User']['CV']['tmp_name'], $pathname);
 					}
 
+					// on envoie un mail avec le cv
 					App::uses('CakeEmail', 'Network/Email');
 					$email = new CakeEmail('gmail');
 					$email->to(Configure::read('Site_Contact.mail')) // à qui ?
@@ -333,10 +340,13 @@
 						  ->attachments($pathname)
 						  ->send(); // envoi du mail
 
+					// on prévient l'utilisateur de la prise en compte de sa candidature
 					$this->Session->setFlash(__("Votre candidature a bien été envoyée"), 'success');
+					// on le redirige
 					$this->redirect($this->referer());
 
 				} else {
+					// sinon idem mais sans cv
 					App::uses('CakeEmail', 'Network/Email');
 					$email = new CakeEmail('gmail');
 					$email->to(Configure::read('Site_Contact.mail')) // à qui ?
@@ -354,25 +364,33 @@
 		}
 
 		public function paypal_success() {
+			// si paypal nous renvoie une confirmation de paiement
 
+			// supposons qu'une personne récupère le lien (comment ?) et qu'il n'est pas connecté
+			// on fait pop un 404
 			if (!$this->Auth->user('id'))
 				throw new NotFoundException(__("Cette page n'existe pas"));
 
 
+			// on récupère l'utilisateur
 			$user = $this->User->find('first', array(
 				'conditions'=>array('id'=>$this->Auth->user('id')),
 				'fields'=>array('id', 'username', 'groups_id', 'mail')
 				)
 			);
 
+			// on va mettre à jour sa durée d'abonnement d'un mois
 			$end_subscription = date("Y-m-d H:i:s", mktime(date("H"), date("i"), date("s"), date("m")+1, date("d"), date("Y")));
 
+			// le faire changer de groupe
 			$group = 3;
 
+			// on va mettre la DB à jour
 			$this->User->id = $this->Auth->user('id');
 			$this->User->saveField('groups_id', $group);
 			$this->User->saveField('end_subscription', $end_subscription);
 
+			// on envoie des mails de confirmation
 			App::uses('CakeEmail', 'Network/Email');
 			$email = new CakeEmail('gmail');
 			$email->to($user['User']['mail']) // à qui ? $this->Auth->user('mail')
@@ -397,12 +415,15 @@
 
 		public function paypal_cancel() {
 
+			// si l'utilisateur cancel sa demande on va vouloir lui confirmer son action
+			// on va donc chercher son adresse mail
 			$user = $this->User->find('first', array(
 				'conditions'=>array('id'=>$this->Auth->user('id')),
 				'fields'=>array('mail')
 				)
 			);
 
+			// et on lui envoie le mail de confirmation pour son annulation
 			App::uses('CakeEmail', 'Network/Email');
 			$email = new CakeEmail('gmail');
 			$email->to($user['User']['mail']) // à qui ? $this->Auth->user('mail')
@@ -417,6 +438,7 @@
 		}
 
 		public function admin_index() {
+			// liste tous les utilisateurs du site
 			$this->layout = "default2";
 			$users = $this->User->find('all', array(
 				'fields'=>array('id', 'username', 'mail', 'groups_id')
@@ -426,11 +448,13 @@
 		}
 
 		public function admin_edit($id) {
+			// permet de faire changer de groupe à un utilisateur
 			$this->layout = "default2";
 
 			$user = $this->User->findById($id);
 			$this->set('user', $user);
 
+			// on met à jour la DB
 			if (!empty($this->request->data)) {
 				$this->User->id = $id;
 				$this->User->saveField('groups_id', $this->request->data['User']['groups_id']);
