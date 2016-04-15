@@ -303,14 +303,21 @@
 			$this->set(compact('posts'));
 		}
 
-		public function json_output() {
+		public function json_output($id) {
 			$this->layout = "ajax";
-			$posts = $this->Post->find('all', array(
-				'order'=>'Post.date_post DESC'
-				)
-			);
-
-			$this->set(compact('posts'));
+			if ($id == null) {
+				$posts = $this->Post->find('all', array(
+					'order'=>'Post.date_post DESC'
+					)
+				);
+				$this->set(compact('posts'));
+			} else if ($id) {
+				$posts = $this->Post->find('first', array(
+					'conditions'=>array('Post.id'=>$id)
+					)
+				);
+				$this->set(compact('posts'));
+			}
 		}
 
 		public function articles() {

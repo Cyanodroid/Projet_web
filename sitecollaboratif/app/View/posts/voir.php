@@ -174,6 +174,9 @@ echo("<div class=\"col-lg-4\">");
         echo("<div class=\"col-sm-4\" style=\"display:none;\">");
             echo $this->Html->link('json', array('controller'=>'posts', 'action'=>'json_output'), array('escape'=>false));
         echo("</div>");
+        echo("<div class=\"col-sm-4\" style=\"display:none;\">");
+            echo $this->Html->link('json', array('controller'=>'posts', 'action'=>'json_output', $a['Post']['id'])), array('escape'=>false));
+        echo("</div>");
 echo("</div>");
 =======
 >>>>>>> 626522d8e9a78b68196ffc2ae7bc6ab2f0a99d0e
