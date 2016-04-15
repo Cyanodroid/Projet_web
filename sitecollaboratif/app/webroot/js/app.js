@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	// bouton pour remonter la page avec un effet "smooth"
 	$('body').append('<a href="#" class="to-the-top"><i class="fa fa-arrow-up"></i></a>');
 
 	$('.to-the-top').css({
@@ -26,6 +27,7 @@ $(document).ready(function() {
 		return false;
  	});
 
+	// recherche ajax en même temps qu'on écrit (pour les articles)
 	$('#search').keyup(function(e) {
 		var search_input = $(this).val();
 
@@ -46,6 +48,7 @@ $(document).ready(function() {
 
 	});
 
+	// recherche ajax en même temps qu'on écrit (pour les archives)
 	$('#search_archives').keyup(function(e) {
 		var search_input = $(this).val();
 
@@ -67,8 +70,10 @@ $(document).ready(function() {
 
 });
 
+// demande d'affichage toutes les secondes
 setInterval(ajaxCall, 1000);
 
+// affichage du tchat
 function ajaxCall() {
 
 	if (typeof $('#chat-message').val() === "undefined") {
@@ -221,6 +226,7 @@ function remplace_diacritiques_latins(chaine) {
 }
 
 function recuperer_json(file) {
+	// récupération du fichier json
 	var request = new XMLHttpRequest();
     request.open('GET', file, false);
     request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
@@ -235,13 +241,16 @@ function recuperer_json(file) {
 
 function sanitize_badwords(message) {
 
+	// récupération du fichier json
     badwords = recuperer_json('/Projet_web/sitecollaboratif/app/webroot/js/badwords_file.json');
 
+	// si ce fichier est vide alors rien à faire
     if (badwords.length == 0) {
     	console.log("impossible de recuperer_json");
     	return message;
     }
 
+	// sinon on va chercher notre message dans le fichier
     for (i = 0 ; i < badwords.length ; i++) {
     	regExp = new RegExp('\\b' + badwords[i] + '\\b', 'gi');
 
@@ -252,6 +261,7 @@ function sanitize_badwords(message) {
     return message;
 }
 
+// idem pour chaque fonction après : récupération des arguments et demande de traintemenent avec ajax par le controller
 function EnvoyerMSG(id) {
 
 	var str = $('#chat-messsage-input').val();

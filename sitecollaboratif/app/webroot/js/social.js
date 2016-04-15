@@ -1,5 +1,6 @@
 (function(){
 
+    // création d'une fenêtre popup
     var popupCenter = function(url, title, width, height){
         var popupWidth = width || 640;
         var popupHeight = height || 320;
@@ -14,6 +15,7 @@
         return true;
     };
 
+    // création pour twitter
     document.querySelector('.share_twitter').addEventListener('click', function(e){
         e.preventDefault();
         var url = this.getAttribute('data-url');
@@ -23,6 +25,7 @@
         popupCenter(shareUrl, "Partager sur Twitter");
     });
 
+    // création pour facebook
     document.querySelector('.share_facebook').addEventListener('click', function(e){
         e.preventDefault();
         var url = this.getAttribute('data-url');
@@ -30,6 +33,7 @@
         popupCenter(shareUrl, "Partager sur facebook");
     });
 
+    // création pour google plus
     document.querySelector('.share_gplus').addEventListener('click', function(e){
         e.preventDefault();
         var url = this.getAttribute('data-url');
