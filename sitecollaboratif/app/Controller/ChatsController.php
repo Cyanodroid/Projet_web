@@ -7,6 +7,7 @@
 		public function index($id = null, $current_id = null) {
 			$this->layout = 'default2';
 
+			// si l'utilisateur parvient à acceder à cette page sans être connecté
 			if (!$this->Auth->user('id')) {
 				throw new NotFoundException();
 			}
@@ -18,6 +19,9 @@
 				)
 			);
 
+			// dans cette partie on va placer notre utilisateur dans la salle générale
+			// et mettre à jour le nombre d'utilisateur connectés et les récupérer
+			// pour pouvoir les afficher
 			if (empty($this->request->params['named'])) {
 				$r = $this->Chat->Rooms->find('first', array(
 					'conditions' => array('Rooms.name'=>'Général')
@@ -48,6 +52,7 @@
 				$this->set('users_list', $users);
 
 			} else if (!empty($this->request->params['named']['id']) && !empty($this->request->params['named']['current_id'])) {
+				// ici c'est la même chose mais on demande une room
 				$id = $this->request->params['named']['id'];
 				$current_id = $this->request->params['named']['current_id'];
 				$old = $this->Chat->Rooms->find('first', array(
@@ -91,19 +96,27 @@
 		}
 
 		public function envoyer_msg($id = null, $msg) {
+			// envoie de message en ajax sur le tchat
+			// suppression du rendu (on ne va pas sur une page différente)
 			$this->autoRender = false;
 
+			// si il n'y a pas de msg alors on ne fait rien
 			if ($msg == null)
 				exit();
 
+			// vérifie que l'on est bien en ajax
 			if ($this->request->is('ajax')) {
+				// on va définir notre tableau data
 				$data['Chats']['rooms_id'] = $id;
 				$data['Chats']['users_id'] = $this->Auth->user('id');
 				$data['Chats']['contenu'] = $msg;
 
+				// on va créer une entrée dans la DB
 				$this->Chat->create($data['Chats'], true, array());
+				// et l'enregistrer
 				$this->Chat->save($data['Chats']);
 
+				// on met les log à jour au passage
 				if ($this->Auth->user('groups_id') == 3) {
 					// app/tmp/$id.log
 					CakeLog::write($id, __('Utilisateur [PREMIUM] : ') . $this->Auth->user('username') . __(' dit : '). $msg);
@@ -115,6 +128,7 @@
 		}
 
 		public function ajaxProcessing($id = null) {
+			// affichage du tchat avec ajax
 			if ($this->request->is('ajax')) {
 
 				if ($id == null) $id = 1;
@@ -130,12 +144,15 @@
 		}
 
 		public function envoyer_mail($id) {
+			// si l'utilisateur veut poser une question à un modérateur
 			$this->autoRender = false;
 
 			if ($this->request->is('ajax')) {
 
+				// pour récupérer le fichier log correspondant, on doit savoir la room
 				$room = $this->Chat->Rooms->findById($id);
 
+				// on va chercher le fichier
 				// $directory = 'C:/Users/Nicolas/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log'; // NICO.G PC FIXE
 				$directory = 'C:/Users/link-/Documents/web/Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		   // NICO.G PC PORTABLE
 
@@ -145,6 +162,7 @@
 
 				// $directory = 'à vous de compléter /Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log'; 		  		   // THOMAS.S PC
 
+				// et on envoie le mail avec un texte différent si on est premium ou pas
 				if ($this->Auth->user('groups_id') == 3) {
 					App::uses('CakeEmail', 'Network/Email');
 					$email = new CakeEmail('gmail');
