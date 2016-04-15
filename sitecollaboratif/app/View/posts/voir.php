@@ -141,43 +141,15 @@
                     echo("<svg><use xlink:href=\"../../app/webroot/img/sprite.svg#gplus\"></use></svg>");
                 echo("</button>");
             echo("</div>");
-             echo("<div class=\"col-sm-4\">");
+            echo("<div class=\"col-sm-4\">");
                 echo $this->Html->link('<i class="fa fa-rss-square fa-4x"></i>', array('controller'=>'posts', 'action'=>'flux_rss.rss'), array('escape'=>false));
             echo("</div>");
+            echo("<div class=\"col-sm-4\" style=\"display:none;\">");
+                echo $this->Html->link('json', array('controller'=>'posts', 'action'=>'json_output'), array('escape'=>false));
+            echo("</div>");
+            echo("<div class=\"col-sm-4\" style=\"display:none;\">");
+                echo $this->Html->link('json', array('controller'=>'posts', 'action'=>'json_output', $a['Post']['id']), array('escape'=>false));
+            echo("</div>");
     echo("</div>");
-<<<<<<< HEAD
-    echo("<hr>");
-	}
-echo("</div>");
-echo("<div class=\"col-lg-4\">");
-    echo("</br>");
-    echo("</br>");
-	echo("<p></p>");
-        echo("<div class=\"col-sm-4\">");
-        	echo("<button class=\"button share_twitter\" data-url=\"http://www.site-collaboratif.fr/\" style=\"background-color:#55ACEE\">");
-                echo("<svg><use xlink:href=\"../../app/webroot/img/sprite.svg#twitter\"></use></svg>");
-            echo("</button>");
-        echo("</div>");
-       	echo("<div class=\"col-sm-4\">");
-        	echo("<button class=\"button share_facebook\" data-url=\"http://www.site-collaboratif.fr/\" style=\"background-color:#4C67A1\">");
-                echo("<svg><use xlink:href=\"../../app/webroot/img/sprite.svg#facebook\"></use></svg>");
-            echo("</button>");
-        echo("</div>");
-        echo("<div class=\"col-sm-4\">");
-        	 echo("<button class=\"button share_gplus\" data-url=\"http://www.site-collaboratif.fr/\" style=\"background-color:#D23F31\">");
-                echo("<svg><use xlink:href=\"../../app/webroot/img/sprite.svg#gplus\"></use></svg>");
-            echo("</button>");
-        echo("</div>");
-        echo("<div class=\"col-sm-4\">");
-            echo $this->Html->link('<i class="fa fa-rss-square fa-4x"></i>', array('controller'=>'posts', 'action'=>'flux_rss.rss'), array('escape'=>false));
-        echo("</div>");
-        echo("<div class=\"col-sm-4\" style=\"display:none;\">");
-            echo $this->Html->link('json', array('controller'=>'posts', 'action'=>'json_output'), array('escape'=>false));
-        echo("</div>");
-        echo("<div class=\"col-sm-4\" style=\"display:none;\">");
-            echo $this->Html->link('json', array('controller'=>'posts', 'action'=>'json_output', $a['Post']['id'])), array('escape'=>false));
-        echo("</div>");
-echo("</div>");
-=======
->>>>>>> 626522d8e9a78b68196ffc2ae7bc6ab2f0a99d0e
+
 ?>
