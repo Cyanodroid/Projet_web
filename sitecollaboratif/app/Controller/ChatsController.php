@@ -24,7 +24,7 @@
 			// pour pouvoir les afficher
 			if (empty($this->request->params['named'])) {
 				$r = $this->Chat->Rooms->find('first', array(
-					'conditions' => array('Rooms.name'=>'Général')
+					'conditions' => array('Rooms.name'=>'Générale')
 					)
 				);
 

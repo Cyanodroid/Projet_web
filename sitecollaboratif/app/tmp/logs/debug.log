@@ -5282,3 +5282,691 @@ ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 187
 ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 127
 [main] - [internal], line ??
 
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 31]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 31
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 31]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 31
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 32]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 32
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 32]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 32
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 38]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 38]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 46]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 46
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 46]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 46
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 72]
+Trace:
+include - APP\View\Elements\chat.php, line 72
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 72]
+Trace:
+include - APP\View\Elements\chat.php, line 72
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 90]
+Trace:
+include - APP\View\Elements\chat.php, line 90
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 90]
+Trace:
+include - APP\View\Elements\chat.php, line 90
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 105]
+Trace:
+include - APP\View\Elements\chat.php, line 105
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:15:13 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 105]
+Trace:
+include - APP\View\Elements\chat.php, line 105
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:22 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 31]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 31
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:22 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 31]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 31
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:22 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 32]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 32
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:22 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 32]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 32
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 38]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 38]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 46]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 46
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\Controller\ChatsController.php, line 46]
+Trace:
+ChatsController::index() - APP\Controller\ChatsController.php, line 46
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 60]
+Trace:
+include - APP\View\Elements\chat.php, line 60
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 72]
+Trace:
+include - APP\View\Elements\chat.php, line 72
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 72]
+Trace:
+include - APP\View\Elements\chat.php, line 72
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 90]
+Trace:
+include - APP\View\Elements\chat.php, line 90
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 90]
+Trace:
+include - APP\View\Elements\chat.php, line 90
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 105]
+Trace:
+include - APP\View\Elements\chat.php, line 105
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
+2016-04-20 11:19:23 Debug: Notice (8): Undefined index: Rooms in [C:\Users\link-\Documents\web\Projet_web\sitecollaboratif\app\View\Elements\chat.php, line 105]
+Trace:
+include - APP\View\Elements\chat.php, line 105
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::_renderElement() - CORE\Cake\View\View.php, line 1224
+View::element() - CORE\Cake\View\View.php, line 418
+include - APP\View\Chats\index.php, line 2
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 110
+
