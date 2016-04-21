@@ -31,6 +31,7 @@ public $gmail = array(
     'password' => 'votre_mot_de_passe', // ainsi que votre mdp
     'transport' => 'Smtp'
 );
+```
 ...
 
 à la suite de quoi, il vous faut modifier les paramètres de sécurité de votre compte google permettant aux applications moins sécurisées de vous envoyer des mails.
