@@ -21,8 +21,6 @@ Afin que les fonctionnalités puissent marcher correctement, vous devez modifier
 
 Pour pouvoir envoyer des mails vous devez disposer d'une adresse gmail et modifier le fichier __email.php__, qui se trouve dans le dossier __app/Config/__, comme ceci :
 
-...
-
 ```php
 public $gmail = array(
     'host' => 'ssl://smtp.gmail.com',
@@ -32,24 +30,23 @@ public $gmail = array(
     'transport' => 'Smtp'
 );
 ```
-...
 
 à la suite de quoi, il vous faut modifier les paramètres de sécurité de votre compte google permettant aux applications moins sécurisées de vous envoyer des mails.
 
 Ensuite, vous devez modifier le fichier __bootstrap.php__, qui se trouve dans le dossier __app/Config/__, comme ceci :
 
-'''php
+```php
 Configure::write('Site_Contact', array(
 	'mail' => 'votre_adresse@gmail.com'
 ));
-'''
+```
 
 #### Gestion du tchat
 
-Pour pouvoir correctement gérer le tchat, vous devez modifier la valeur de la variable '''php $directory ''' du fichier __ChatsController.php__ (ligne 156, fonction envoyer_mail), qui se trouve dans le dossier __app/Controller/__, comme ceci :
+Pour pouvoir correctement gérer le tchat, vous devez modifier la valeur de la variable $directory du fichier __ChatsController.php__ (ligne 156, fonction envoyer_mail), qui se trouve dans le dossier __app/Controller/__, comme ceci :
 
-'''php
+```php
 $directory = '_chemin_absolu_vers_projet_/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log';
-'''
+```
 
 ## License : MIT
