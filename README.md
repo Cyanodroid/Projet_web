@@ -43,7 +43,7 @@ Configure::write('Site_Contact', array(
 
 #### Gestion du tchat
 
-Pour pouvoir correctement gérer le tchat, vous devez modifier la valeur de la variable $directory du fichier __ChatsController.php__ (ligne 156, fonction envoyer_mail), qui se trouve dans le dossier __app/Controller/__, comme ceci :
+Pour pouvoir correctement gérer le tchat, vous devez modifier la valeur de la variable __$directory__ du fichier __ChatsController.php__ (ligne 156, fonction envoyer_mail), qui se trouve dans le dossier __app/Controller/__, comme ceci :
 
 ```php
 $directory = '_chemin_absolu_vers_projet_/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log';
