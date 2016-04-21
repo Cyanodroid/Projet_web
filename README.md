@@ -13,6 +13,8 @@ Assurez-vous d'avoir un serveur __Apache__ et __MySql__ sur les ports 80 et 3306
 Afin de pouvoir tester l'application, il vous faut __importer__ la base de données.
 Celle-ci se trouve dans le fichier __site.sql__. Une simple importation sur phpMyAdmin devrait suffire.
 
+:warning: Assurez-vous que la base de données s'appelle bien __site__ :warning:
+
 ## Configuration
 
 Afin que les fonctionnalités puissent marcher correctement, vous devez modifier quelques lignes du code source.
