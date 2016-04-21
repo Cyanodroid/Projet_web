@@ -6,12 +6,12 @@ Projet réalisé lors de la troisième année de Licence à la Faculté des scie
 
 ## Installation
 
-Assurez-vous d'avoir un serveur Apache et MySql sur les ports 80 et 3306 et que ces derniers pointent sur le dossier du projet (voir les préférences de MAMP).
+Assurez-vous d'avoir un serveur __Apache__ et __MySql__ sur les ports 80 et 3306 et que ces derniers pointent sur le dossier du projet (voir les préférences de MAMP).
 
 ## Installer la base de données
 
-Afin de pouvoir tester l'application, il vous faut importer la base de données.
-Celle-ci se trouve dans le fichier site.sql. Une simple importation sur phpMyAdmin devrait suffire.
+Afin de pouvoir tester l'application, il vous faut __importer__ la base de données.
+Celle-ci se trouve dans le fichier __site.sql__. Une simple importation sur phpMyAdmin devrait suffire.
 
 ## Configuration
 
@@ -49,4 +49,4 @@ Pour pouvoir correctement gérer le tchat, vous devez modifier la valeur de la v
 $directory = '_chemin_absolu_vers_projet_/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log';
 ```
 
-## License : MIT
+### License : MIT
