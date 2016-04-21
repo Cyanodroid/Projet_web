@@ -17,7 +17,7 @@
 					  	echo("<li style=\"list-style-type:none;\">");
 							//  	echo("<a href=\"/#\" class=\"navbar-brand\">");
 						  	echo("<a href=\"/Projet_web/sitecollaboratif/\" class=\"navbar-brand\">");
-						  		echo __("Site collaboratif");
+						  		echo __("SGF");
 						  	echo("</a>");
 					  	echo("</li>");
 					echo("</div>");
