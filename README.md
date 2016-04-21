@@ -71,4 +71,24 @@ Le fichier __newsletter.php__ (ligne 27), qui se trouve dans le dossier __app/Vi
 echo("<div class=\"g-recaptcha\" data-sitekey=\"clé_du_site\"></div>");
 ```
 
+#### Système de paiement : Paypal
+
+Vous devez disposer d'un compte [Paypal Développeur](https://developer.paypal.com/) (acheteur et vendeur) afin de pouvoir tester cette fonctionnalité.
+
+De plus, vous devez vous connecter, grâce à vos comptes de développeur, sur [Paypal Sandbox](https://www.sandbox.paypal.com/signin/) afin de générer un bouton d'abonnement que vous devez placer dans le fichier __subscribe.php__, qui se trouve dans le dossier __app/View/Users/__ et copier le bouton générer par paypal comme ceci :
+
+```php
+//application Paypal
+echo("<div class=\"centered\">");
+    echo("<form action=\"le_site\" method=\"post\" target=\"_top\">");
+        echo("<input type=\"hidden\" name=\"cmd\" value=\"la_valeur\">");
+        echo("<input type=\"hidden\" name=\"hosted_button_id\" value=\"la_valeur\">");
+        echo("<input type=\"image\" src=\"une_image\" border=\"0\" name=\"submit\" alt=\"PayPal, le réflexe sécurité pour payer en ligne\">");
+        echo("<img alt=\"\" border=\"0\" src=\"une_image\" width=\"1\" height=\"1\">");
+    echo("</form>");
+echo("</div>");
+```
+
+:warning: Sans cela, vous ne pourrez pas tester cette fonctionnalité :warning:
+
 ### License : MIT
