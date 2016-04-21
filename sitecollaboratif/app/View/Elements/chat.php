@@ -116,7 +116,7 @@
 	//lien vers la faq pour apprendre à utiliser le chat
 	echo("<p>");
 		echo __("Comment utiliser le tchat ? -> ");
-		echo("<a href=\"/faq\">");
+		echo("<a href=\"/Projet_web/sitecollaboratif/faq\">");
 			echo __("FAQ");
 		echo("</a>");
 	echo("</p>");
