@@ -49,4 +49,22 @@ Pour pouvoir correctement gérer le tchat, vous devez modifier la valeur de la v
 $directory = '_chemin_absolu_vers_projet_/Projet_web/sitecollaboratif/app/tmp/logs/' . $id . '.log';
 ```
 
+### Système de Newsletter
+
+Le système de Newsletter implémente le recaptcha de Google.
+
+Vous devez donc modifier les fichiers suivants :
+
+Le fichier __NewslettersController.php__ (ligne 17), qui se trouve dans le dossier __app/Controller/__, comme ceci :
+
+```php
+$captcha = new recaptcha('votre_cle_secrète');
+```
+
+Le fichier __newsletter.php__ (ligne 27), qui se trouve dans le dossier __app/View/Elements/__, comme ceci :
+
+```php
+echo("<div class=\"g-recaptcha\" data-sitekey=\"votre_cle_publique\"></div>");
+```
+
 ### License : MIT
