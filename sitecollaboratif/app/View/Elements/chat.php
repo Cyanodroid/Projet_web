@@ -40,7 +40,7 @@
 					        	echo("</td>");
 								if ($u['Users']['groups_id'] == 1) {
 									echo("<td><i class=\"fa fa-star\"></i>&nbsp;".$u['Users']['username']."</td>");
-								} else if ($u['Users']['groups_id'] == 2) {
+								} else if ($u['Users']['groups_id'] == 2 || $u['Users']['groups_id'] == 4) {
 									echo("<td><i class=\"fa fa-user\"></i>&nbsp;".$u['Users']['username']."</td>");
 								} else if ($u['Users']['groups_id'] == 3) {
 									echo("<td><i class=\"fa fa-star-half-o\"></i>&nbsp;".$u['Users']['username']."</td>");
