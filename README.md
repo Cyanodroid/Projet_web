@@ -21,7 +21,9 @@ Afin que les fonctionnalités puissent marcher correctement, vous devez modifier
 
 Pour pouvoir envoyer des mails vous devez disposer d'une adresse gmail et modifier le fichier __email.php__, qui se trouve dans le dossier __app/Config/__, comme ceci :
 
-''php
+...
+
+```php
 public $gmail = array(
     'host' => 'ssl://smtp.gmail.com',
     'port' => 465,
@@ -29,7 +31,7 @@ public $gmail = array(
     'password' => 'votre_mot_de_passe', // ainsi que votre mdp
     'transport' => 'Smtp'
 );
-'''
+...
 
 à la suite de quoi, il vous faut modifier les paramètres de sécurité de votre compte google permettant aux applications moins sécurisées de vous envoyer des mails.
 
