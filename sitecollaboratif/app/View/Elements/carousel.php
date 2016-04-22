@@ -17,19 +17,19 @@
 				echo "<div class=\"fill\">";
 				if ($i == 0){
 					echo $this->Html->image('/img/articles/'.$articles[$i]['Post']['id'].'.jpg', array('class'=>'first-slide', 'alt'=>'First slide'));
-				} 
+				}
 				elseif ($i == 1){
 					echo $this->Html->image('/img/articles/'.$articles[$i]['Post']['id'].'.jpg', array('class'=>'second-slide', 'alt'=>'Second slide'));
-				} 
+				}
 				elseif ($i == 2){
 					echo $this->Html->image('/img/articles/'.$articles[$i]['Post']['id'].'.jpg', array('class'=>'third-slide', 'alt'=>'Third slide'));
-				} 
+				}
 				echo "</div>";
 				echo "<div class=\"container\">";
 				echo "<div class=\"carousel-caption\" style=\" position: absolute;  top: 50%;  z-index: 5;  display: inline-block;  margin-top: -100px; margin-left: .6%;\">";
 				echo "<h1>".$articles[$i]['Post']['title']."</h1>";
 				echo "<p>".$this->Text->truncate($articles[$i]['Post']['contenu'], 200, array('ellipsis'=>'...', 'exact'=>false))."</p>";
-				echo "<p>".$this->Html->link('En savoir plus', array('action'=>'voir', $articles[$i]['Post']['id']), array('class'=>'btn btn-default', 'role'=>'button', 'class="btn btn-lg btn-primary"'))."</p>";
+				echo "<p>".$this->Html->link(__('En savoir plus'), array('action'=>'voir', $articles[$i]['Post']['id']), array('class'=>'btn btn-default', 'role'=>'button', 'class="btn btn-lg btn-primary"'))."</p>";
 				echo "</div>";
 				echo "</div>";
 				echo "</div>";
