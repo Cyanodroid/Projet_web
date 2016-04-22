@@ -14,7 +14,7 @@
 	    		// validation des champs
 	    		if ($this->Newsletter->validates()) {
 
-                    $captcha = new recaptcha('6Lf4FBsTAAAAAKX8au0BRq9nC4iW9-NK0BLHBPH4');
+                    $captcha = new recaptcha('clé_secrète');
 
                     if($captcha->checkcode($this->request->data['g-recaptcha-response']) == false) {
                         echo $this->Session->setFlash(__("Erreur de captcha !"), 'error');

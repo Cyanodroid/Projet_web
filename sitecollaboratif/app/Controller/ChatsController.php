@@ -153,7 +153,7 @@
 				$room = $this->Chat->Rooms->findById($id);
 
 				// on va chercher le fichier
-				$directory = 'C:/Users/link-/Desktop/Presentation/Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log';
+				$directory = '_chemin_absolu_vers_projet_/Projet_web/sitecollaboratif/app/tmp/logs/'.$id.'.log';
 
 				// et on envoie le mail avec un texte différent si on est premium ou pas
 				if ($this->Auth->user('groups_id') == 3) {

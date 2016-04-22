@@ -39,8 +39,8 @@ class EmailConfig {
 	public $gmail = array(
         'host' => 'ssl://smtp.gmail.com',
         'port' => 465,
-        'username' => 'site.collaboratif.test@gmail.com', // rentrez votre adr gmail
-        'password' => 'sitecollabo123', // ainsi que votre mdp
+        'username' => 'votre_adresse@gmail.com', // rentrez votre adr gmail
+        'password' => 'votre_mot_de_passe', // ainsi que votre mdp
         'transport' => 'Smtp'
     );
 

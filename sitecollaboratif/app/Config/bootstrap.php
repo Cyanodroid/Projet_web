@@ -26,5 +26,5 @@ CakeLog::config('error', array(
 CakeLog::config('tchat', array('engine'=>'FileLog'));
 
 Configure::write('Site_Contact', array(
-	'mail' => 'site.collaboratif.test@gmail.com'
+	'mail' => 'votre_adresse@gmail.com'
 ));

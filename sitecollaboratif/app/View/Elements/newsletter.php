@@ -2,7 +2,7 @@
 			echo("</div>");
 		echo("</div>");
 	echo("</div>");
-	
+
 	echo("<section>");
 		echo("<div class=\"container\">");
 			echo("<div class=\"row\">");
@@ -24,7 +24,7 @@
 
 					//captcha pour empecher le spam
 					echo("<div class=\"google\">");
-						echo("<div class=\"g-recaptcha\" data-sitekey=\"6Lf4FBsTAAAAAKiHLaippD0gapGYWbWO3viCQsTj\"></div>");
+						echo("<div class=\"g-recaptcha\" data-sitekey=\"clé_du_site\"></div>");
 					echo("</div>");
 				echo $this->Form->end();
 
