@@ -71,6 +71,16 @@ Le fichier __newsletter.php__ (ligne 27), qui se trouve dans le dossier __app/Vi
 echo("<div class=\"g-recaptcha\" data-sitekey=\"clé_du_site\"></div>");
 ```
 
+### Système de Contact
+
+Comme pour la Newsletter, le système de Contact implémente le recaptcha de Google.
+
+Vous devez modifier le fichier __ContactController.php__ (ligne 14), qui se trouve dans le dossier __app/Controller/__, comme ceci :
+
+```php
+$captcha = new recaptcha('clé_secrète');
+```
+
 #### Système de paiement : Paypal
 
 Vous devez disposer d'un compte [Paypal Développeur](https://developer.paypal.com/) (acheteur et vendeur) afin de pouvoir tester cette fonctionnalité.

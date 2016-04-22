@@ -65,16 +65,13 @@
 			    echo("<div class=\"col-sm-4B col-xs-12\">");
 			      	echo("<div class=\"panel panel-default text-center\">");
 			        	echo("<div class=\"panel-heading\">");
-			        		// echo("<h3>Thomas</h3>");
 			          		echo("<h3>Nicolas</h3>");
 			        	echo("</div>");
 			        	echo("<div class=\"panel-body\">");
-			        		// echo $this->Html->image('avatars/simi.jpg', array('class'=>'avatar'));
 			        		echo $this->Html->image('avatars/niko.jpg', array('class'=>'avatar'));
 			        	echo("</div>");
 			        	echo("<div class=\"panel-footer\">");
 			        		echo("<p>");
-			        		// echo __("Galérien en dev web mais cuisinier hors-pair.");
 			        		echo __("Aime les bananes et faire des applications la nuit.");
 			        		echo("</p>");
 			        	echo("</div>");
