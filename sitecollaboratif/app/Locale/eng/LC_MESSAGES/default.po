@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-04-10 22:49+0100\n"
+"PO-Revision-Date: 2016-04-21 22:47+0200\n"
 "Last-Translator: \n"
 "Language-Team: EMAIL@ADDRESS\n"
 "Language: en\n"
@@ -197,7 +197,7 @@ msgstr "Article category"
 
 #: View/Articles/index.php:13
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: View/Articles/index.php:19
 msgid "Découvrez nos articles sur la "

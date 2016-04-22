@@ -15,10 +15,10 @@
 							echo("<span class=\"icon-bar\"></span>");
 					  	echo("</button>");
 					  	echo("<li style=\"list-style-type:none;\">");
-							//  	echo("<a href=\"/#\" class=\"navbar-brand\">");
-						  	echo("<a href=\"/Projet_web/sitecollaboratif/\" class=\"navbar-brand\">");
-						  		echo __("SGF");
-						  	echo("</a>");
+						echo("<a href=\"/Projet_web/sitecollaboratif/\" class=\"navbar-brand\">");
+							echo $this->Html->image('logo1.png', array('alt'=>'Logo', 'class'=>'pull-left', 'style'=>'margin-top: -14px; width:48px; height:48px'));
+							echo("<span class=\"stylelogo\">"); echo __("Secours du Geek Fatigué"); echo ("</span>");
+						echo("</a>");
 					  	echo("</li>");
 					echo("</div>");
 
