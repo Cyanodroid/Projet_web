@@ -5,7 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: \n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2016-04-22 14:07+0200\n"
+=======
+"PO-Revision-Date: 2016-04-21 22:47+0200\n"
+>>>>>>> 9ee07f97cc83617b212a22200b22063c7794b7a6
 "Last-Translator: \n"
 "Language-Team: EMAIL@ADDRESS\n"
 "Language: en\n"
@@ -187,7 +191,35 @@ msgstr "Archives"
 msgid "Rechercher"
 msgstr "Search"
 
+<<<<<<< HEAD
 #: View/Contact/index.php:8
+=======
+#: View/Articles/index.php:4
+msgid "Articles par catégories"
+msgstr "Article category"
+
+#: View/Articles/index.php:13
+msgid "%s"
+msgstr "%s"
+
+#: View/Articles/index.php:19
+msgid "Découvrez nos articles sur la "
+msgstr "Check out our articles on"
+
+#: View/Articles/index.php:25
+msgid "Parcourir les articles"
+msgstr "Browse articles"
+
+#: View/Articles/index.php:34
+msgid "Tous les articles publiés"
+msgstr "All articles published"
+
+#: View/Articles/index.php:41 View/Articles/parcourir.php:11
+msgid "En savoir plus"
+msgstr "Read more"
+
+#: View/Contact/index.php:6
+>>>>>>> 9ee07f97cc83617b212a22200b22063c7794b7a6
 msgid "Nous contacter"
 msgstr "Contact us"
 
