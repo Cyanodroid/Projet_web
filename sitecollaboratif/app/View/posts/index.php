@@ -13,7 +13,7 @@ $this->Paginator->options(array(
         <?php echo $this->Html->image('/img/categories/'.$a['Post']['categories_id'].'.jpg', array('height'=>140, 'width'=>140, 'class'=>'img-circle')); ?>
 	    <?php echo "<h2>".$a['Post']['title']."</h2>"; ?>
 	    <?php echo "<p>".$this->Text->truncate($a['Post']['contenu'], 200, array('ellipsis'=>'...', 'exact'=>false))."</p>"; ?>
-	    <?php echo "<p>".$this->Html->link('En savoir plus', array('action'=>'voir', $a['Post']['id']), array('class'=>'btn btn-default', 'role'=>'button'))."</p>" ?>
+	    <?php echo "<p>".$this->Html->link(__('En savoir plus'), array('action'=>'voir', $a['Post']['id']), array('class'=>'btn btn-default', 'role'=>'button'))."</p>" ?>
 	</div>
 <?php endforeach ?>
 </div>

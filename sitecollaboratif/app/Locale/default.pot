@@ -13,27 +13,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/ArchivesController.php:38
+#: Controller/ArchivesController.php:50
 msgid "Erreur de paramètres"
 msgstr ""
 
-#: Controller/ArchivesController.php:51
+#: Controller/ArchivesController.php:66
 msgid "Question enregistrée"
 msgstr ""
 
-#: Controller/ArchivesController.php:78
+#: Controller/ArchivesController.php:93
 msgid "Réponse enregistrée !"
 msgstr ""
 
-#: Controller/ChatsController.php:109
+#: Controller/ChatsController.php:122
 msgid "Utilisateur [PREMIUM] : "
 msgstr ""
 
-#: Controller/ChatsController.php:109;112
+#: Controller/ChatsController.php:122;125
 msgid " dit : "
 msgstr ""
 
-#: Controller/ChatsController.php:112
+#: Controller/ChatsController.php:125
 msgid "Utilisateur : "
 msgstr ""
 
@@ -87,27 +87,23 @@ msgstr ""
 msgid "Vous n'avez pas le droit de supprimer ce commentaire"
 msgstr ""
 
-#: Controller/PostsController.php:197
+#: Controller/PostsController.php:263
 msgid "Votre article vient d'être publié !"
 msgstr ""
 
-#: Controller/PostsController.php:200
+#: Controller/PostsController.php:267
 msgid "Erreur : votre article n'a pas pu être publié"
 msgstr ""
 
-#: Controller/PostsController.php:203
-msgid "Erreur : vos champs de sont pas valides"
-msgstr ""
-
-#: Controller/PostsController.php:213
+#: Controller/PostsController.php:281
 msgid "Votre article vient d'être supprimé !"
 msgstr ""
 
-#: Controller/PostsController.php:223
+#: Controller/PostsController.php:293
 msgid "Vous pouvez dès à présent télécharger votre pdf !"
 msgstr ""
 
-#: Controller/PostsController.php:233
+#: Controller/PostsController.php:306
 msgid "Ce document n'est pas encore disponible sur le serveur. Afin de pouvoir le télécharger, vous devez d'abord l'exporter."
 msgstr ""
 
@@ -151,23 +147,23 @@ msgstr ""
 msgid "Vos informations ont bien été modifiées"
 msgstr ""
 
-#: Controller/UsersController.php:336;350
+#: Controller/UsersController.php:344;360
 msgid "Votre candidature a bien été envoyée"
 msgstr ""
 
-#: Controller/UsersController.php:359
+#: Controller/UsersController.php:372
 msgid "Cette page n'existe pas"
 msgstr ""
 
-#: Controller/UsersController.php:394
+#: Controller/UsersController.php:412
 msgid "Votre abonnement a été pris en compte"
 msgstr ""
 
-#: Controller/UsersController.php:415
+#: Controller/UsersController.php:436
 msgid "Votre demande a été annulée"
 msgstr ""
 
-#: Controller/UsersController.php:438
+#: Controller/UsersController.php:462
 msgid "Opération effectuée"
 msgstr ""
 
@@ -179,519 +175,504 @@ msgstr ""
 msgid "E-mail non valide"
 msgstr ""
 
-#: View/Archives/index.php:6
-#: View/Elements/menu.php:47
+#: View/Archives/index.php:8
+#: View/Elements/menu.php:53
 msgid "Archives"
 msgstr ""
 
-#: View/Archives/index.php:17
-#: View/Elements/recherche.php:16
+#: View/Archives/index.php:22
+#: View/Elements/recherche.php:20
 msgid "Rechercher"
 msgstr ""
 
-#: View/Articles/index.php:4
-msgid "Articles par catégories"
-msgstr ""
-
-#: View/Articles/index.php:19
-msgid "Découvrez nos articles sur la "
-msgstr ""
-
-#: View/Articles/index.php:25
-msgid "Parcourir les articles"
-msgstr ""
-
-#: View/Articles/index.php:34
-msgid "Tous les articles publiés"
-msgstr ""
-
-#: View/Articles/index.php:41
-#: View/Articles/parcourir.php:11
-msgid "En savoir plus"
-msgstr ""
-
-#: View/Contact/index.php:6
+#: View/Contact/index.php:8
 msgid "Nous contacter"
 msgstr ""
 
-#: View/Contact/index.php:9
+#: View/Contact/index.php:13
 msgid "Votre nom"
 msgstr ""
 
-#: View/Contact/index.php:10
+#: View/Contact/index.php:14
 msgid "Votre email"
 msgstr ""
 
-#: View/Contact/index.php:12
+#: View/Contact/index.php:16
 msgid "Votre message"
 msgstr ""
 
-#: View/Contact/index.php:13
-#: View/Elements/chat.php:75
+#: View/Contact/index.php:17
+#: View/Elements/chat.php:89
+#: View/Posts/voir.php:87
 msgid "Envoyer"
 msgstr ""
 
-#: View/Elements/chat.php:15
+#: View/Elements/carousel.php:32
+#: View/Posts/articles.php:47
+#: View/Posts/index.php:16
+#: View/Posts/parcourir.php:15
+msgid "En savoir plus"
+msgstr ""
+
+#: View/Elements/chat.php:19
 msgid "Utilisateurs connectés"
 msgstr ""
 
-#: View/Elements/chat.php:20
+#: View/Elements/chat.php:24
 msgid "Salles"
 msgstr ""
 
-#: View/Elements/chat.php:72
+#: View/Elements/chat.php:86
 msgid "Message"
 msgstr ""
 
-#: View/Elements/chat.php:88
+#: View/Elements/chat.php:104
 msgid "Mail"
 msgstr ""
 
-#: View/Elements/chat.php:100
+#: View/Elements/chat.php:118
 msgid "Comment utiliser le tchat ? -> "
 msgstr ""
 
-#: View/Elements/chat.php:102
-#: View/Elements/menu.php:53
-#: View/Faq/index.php:6
+#: View/Elements/chat.php:120
+#: View/Elements/menu.php:59
+#: View/Faq/index.php:8
 msgid "FAQ"
 msgstr ""
 
-#: View/Elements/gestion_compte.php:3;16
-#: View/Posts/admin_index.php:6
+#: View/Elements/gestion_compte.php:5;22;35
+#: View/Posts/admin_index.php:8
 msgid "Panneau de contrôle"
 msgstr ""
 
-#: View/Elements/gestion_compte.php:19
-#: View/Users/admin_index.php:5
+#: View/Elements/gestion_compte.php:25
+#: View/Users/admin_index.php:7
 msgid "Gestion des utilisateurs"
 msgstr ""
 
-#: View/Elements/gestion_compte.php:22
+#: View/Elements/gestion_compte.php:28
 msgid "Envoyer la newsletter"
 msgstr ""
 
-#: View/Elements/gestion_compte.php:25;30
+#: View/Elements/gestion_compte.php:31;38;42
 msgid "S'abonner"
 msgstr ""
 
-#: View/Elements/menu.php:16
-msgid "Site collaboratif"
+#: View/Elements/menu.php:20
+msgid "Secours du Geek Fatigué"
 msgstr ""
 
-#: View/Elements/menu.php:33
+#: View/Elements/menu.php:39
 msgid "Articles"
 msgstr ""
 
-#: View/Elements/menu.php:40
+#: View/Elements/menu.php:46
 msgid "Tchat"
 msgstr ""
 
-#: View/Elements/menu.php:59
+#: View/Elements/menu.php:65
 msgid "Contact"
 msgstr ""
 
-#: View/Elements/menu.php:66
-#: View/Users/account.php:6
+#: View/Elements/menu.php:72
+#: View/Users/account.php:8
 msgid "Mon compte"
 msgstr ""
 
-#: View/Elements/menu.php:72
+#: View/Elements/menu.php:78
 msgid "Se déconnecter"
 msgstr ""
 
-#: View/Elements/menu.php:80
-#: View/Users/login.php:6;13
+#: View/Elements/menu.php:86
+#: View/Users/login.php:8;17
 msgid "Se connecter"
 msgstr ""
 
-#: View/Elements/menu.php:86
+#: View/Elements/menu.php:94
 msgid "Langue"
 msgstr ""
 
-#: View/Elements/newsletter.php:10
+#: View/Elements/newsletter.php:12
 msgid "S'inscrire à la newsletter"
 msgstr ""
 
-#: View/Elements/newsletter.php:12
+#: View/Elements/newsletter.php:16
 msgid "Newsletter"
 msgstr ""
 
-#: View/Elements/newsletter.php:16
-#: View/Users/login.php:20
-#: View/Users/signup.php:6;17
+#: View/Elements/newsletter.php:20
+#: View/Users/login.php:26
+#: View/Users/signup.php:8;21
 msgid "S'inscrire"
 msgstr ""
 
-#: View/Elements/prices.php:5
+#: View/Elements/prices.php:7
 msgid "ABONNEMENTS"
 msgstr ""
 
-#: View/Elements/prices.php:8
+#: View/Elements/prices.php:10
 msgid "Choisir un forfait"
 msgstr ""
 
-#: View/Elements/prices.php:18
+#: View/Elements/prices.php:22
 msgid "Premium"
 msgstr ""
 
-#: View/Elements/prices.php:26
+#: View/Elements/prices.php:30
 msgid "Devenez un de nos membres premium !"
 msgstr ""
 
-#: View/Elements/prices.php:30
+#: View/Elements/prices.php:34
 msgid "Passez prioritaire sur le tchat et téléchargez les PDF des cours."
 msgstr ""
 
-#: View/Elements/prices.php:37
+#: View/Elements/prices.php:41
 msgid "Seulement 5€"
 msgstr ""
 
-#: View/Elements/prices.php:40
+#: View/Elements/prices.php:44
 msgid "par mois"
 msgstr ""
 
-#: View/Elements/prices.php:43
+#: View/Elements/prices.php:47
 msgid "Souscrire"
 msgstr ""
 
-#: View/Elements/prices.php:51
+#: View/Elements/prices.php:57
 msgid "Modération"
 msgstr ""
 
-#: View/Elements/prices.php:59
+#: View/Elements/prices.php:65
 msgid "Vous souhaitez participer à la vie du site ?"
 msgstr ""
 
-#: View/Elements/prices.php:63
+#: View/Elements/prices.php:69
 msgid "Candidatez et choisissez de devenir rédacteur ou modérateur de notre tchat !"
 msgstr ""
 
-#: View/Elements/prices.php:70
+#: View/Elements/prices.php:76
 msgid "Bénévolat"
 msgstr ""
 
-#: View/Elements/prices.php:73
+#: View/Elements/prices.php:79
 msgid "Rédaction d'articles"
 msgstr ""
 
-#: View/Elements/prices.php:76
+#: View/Elements/prices.php:82
 msgid "Postuler"
 msgstr ""
 
-#: View/Elements/prices_subscribe.php:4
+#: View/Elements/prices_subscribe.php:6
 msgid "Le paiment s'effectue ci-dessous avec l'application Paypal."
 msgstr ""
 
-#: View/Elements/random_articles.php:6
+#: View/Elements/random_articles.php:8
 msgid "ARTICLES ALEATOIRES"
 msgstr ""
 
-#: View/Elements/recherche.php:10
+#: View/Elements/recherche.php:12
 msgid "Rechercher un article"
 msgstr ""
 
-#: View/Faq/index.php:11
+#: View/Faq/index.php:15
 msgid "Nos développeurs :"
 msgstr ""
 
-#: View/Faq/index.php:26
+#: View/Faq/index.php:30
 msgid "Notre grand et beau designer, souverain du CSS."
 msgstr ""
 
-#: View/Faq/index.php:41
+#: View/Faq/index.php:45
 msgid "Celle qui fait les bêtises sur Github mais pas que."
 msgstr ""
 
-#: View/Faq/index.php:56
+#: View/Faq/index.php:60
 msgid "Le troll qui voulait à tout prix utiliser CakePhp."
 msgstr ""
 
-#: View/Faq/index.php:73
-msgid "Galérien en dev web mais cuisinier hors-pair."
+#: View/Faq/index.php:78
+msgid "Aime les bananes et faire des applications la nuit."
 msgstr ""
 
-#: View/Faq/index.php:83
+#: View/Faq/index.php:89
 msgid "Questions fréquentes :"
 msgstr ""
 
-#: View/Faq/index.php:91
+#: View/Faq/index.php:97
 msgid "Quel est l'objectif de ce site ?"
 msgstr ""
 
-#: View/Faq/index.php:94
-msgid "Ce site est un site collaboratif permettant à tout utilisateur d'apprendre ou de perfectionner plusieurs langages\n\t\t\tinformatiques grâce aux différents articles postés. L'utilisateur peut également trouver des réponses à ses questions."
+#: View/Faq/index.php:100
+msgid "Ce site est un site collaboratif permettant à tout utilisateur d'apprendre ou de perfectionner plusieurs langages\n\t\t\t\tinformatiques grâce aux différents articles postés. L'utilisateur peut également trouver des réponses à ses questions."
 msgstr ""
 
-#: View/Faq/index.php:98
+#: View/Faq/index.php:104
 msgid "J'ai une question."
 msgstr ""
 
-#: View/Faq/index.php:101
-msgid "Lorsque vous avez une question, deux choix s'offrent à vous : vous pouvez soit aller sur le tchat\n\t\t\t(vous devez pour cela vous inscrire sur le site), soit aller dans la section archives. Dans le premier cas,\n\t\t\tvous pouvez choisir la salle qui correspond à la catégorie de votre question et la poser aux autres utilisateurs et\n\t\t\tau modérateur responsable. Sinon, vous pouvez chercher dans les archives si\n\t\t\tvotre question a déjà été posée et ainsi, trouver la réponse. Lorsque vous avez obtenu la réponse à votre question,\n\t\t\tvous pouvez choisir de l'enregistrer et ainsi l'ajouter dans les archives pour les\n\t\t\tutilisateurs suivants."
+#: View/Faq/index.php:107
+msgid "Lorsque vous avez une question, deux choix s'offrent à vous : vous pouvez soit aller sur le tchat\n\t\t\t\t(vous devez pour cela vous inscrire sur le site), soit aller dans la section archives. Dans le premier cas,\n\t\t\t\tvous pouvez choisir la salle qui correspond à la catégorie de votre question et la poser aux autres utilisateurs et\n\t\t\t\tau modérateur responsable. Sinon, vous pouvez chercher dans les archives si\n\t\t\t\tvotre question a déjà été posée et ainsi, trouver la réponse. Lorsque vous avez obtenu la réponse à votre question,\n\t\t\t\tvous pouvez choisir de l'enregistrer et ainsi l'ajouter dans les archives pour les\n\t\t\t\tutilisateurs suivants."
 msgstr ""
 
-#: View/Faq/index.php:110
-msgid "Afin de faire profiter le plus de monde possible, vous pouvez enregistrer votre question (en cliquant sur le bouton correspondant (<i class=\"fa fa-question\"></i>))\n\t\t\tet votre réponse (en cliquant sur le bouton correspondant (<i class=\"fa fa-check\"></i>)) afin qu'elle apparaisse dans les archives."
+#: View/Faq/index.php:116
+msgid "Afin de faire profiter le plus de monde possible, vous pouvez enregistrer votre question (en cliquant sur le bouton correspondant (<i class=\"fa fa-question\"></i>))\n\t\t\t\tet votre réponse (en cliquant sur le bouton correspondant (<i class=\"fa fa-check\"></i>)) afin qu'elle apparaisse dans les archives."
 msgstr ""
 
-#: View/Faq/index.php:114
+#: View/Faq/index.php:120
 msgid "Personne n'est connecté sur le tchat."
 msgstr ""
 
-#: View/Faq/index.php:117
-msgid "Si personne n'est connecté sur le tchat alors votre message va être envoyé par mail au modérateur responsable de la salle de\n\t\t\ttchat où vous vous trouvez en cliquant sur le bouton correspondant. Il répondra à votre question dès qu'il le pourra."
-msgstr ""
-
-#: View/Faq/index.php:121
-msgid "Je veux être tenu au courant des nouveautés."
-msgstr ""
-
-#: View/Faq/index.php:124
-msgid "Pour être au courant de toutes nos nouveautés (derniers articles sortis), vous pouvez souscrire à notre newsletter avec votre mail."
+#: View/Faq/index.php:123
+msgid "Si personne n'est connecté sur le tchat alors votre message va être envoyé par mail au modérateur responsable de la salle de\n\t\t\t\ttchat où vous vous trouvez en cliquant sur le bouton correspondant. Il répondra à votre question dès qu'il le pourra."
 msgstr ""
 
 #: View/Faq/index.php:127
-msgid "Quels sont les avantages d'un abonnement ?"
+msgid "Je veux être tenu au courant des nouveautés."
 msgstr ""
 
 #: View/Faq/index.php:130
-msgid "Lorsque vous choisissez de vous abonner et de devenir un utilisateur premium, vous devenez prioritaire lors de vos\n\t\t\tdiscussions sur le tchat. Vos questions seront traitées en priorité par les modérateurs. De plus, vous aurez aussi la possibilité de\n\t\t\ttélécharger les différents cours/articles sous forme de PDF."
+msgid "Pour être au courant de toutes nos nouveautés (derniers articles sortis), vous pouvez souscrire à notre newsletter avec votre mail."
 msgstr ""
 
-#: View/Faq/index.php:135
+#: View/Faq/index.php:133
+msgid "Quels sont les avantages d'un abonnement ?"
+msgstr ""
+
+#: View/Faq/index.php:136
+msgid "Lorsque vous choisissez de vous abonner et de devenir un utilisateur premium, vous devenez prioritaire lors de vos\n\t\t\t\tdiscussions sur le tchat. Vos questions seront traitées en priorité par les modérateurs. De plus, vous aurez aussi la possibilité de\n\t\t\t\ttélécharger les différents cours/articles sous forme de PDF."
+msgstr ""
+
+#: View/Faq/index.php:141
 msgid "Je veux participer à la vie du site."
 msgstr ""
 
-#: View/Faq/index.php:138
+#: View/Faq/index.php:144
 msgid "Vous pouvez devenir rédacteur d'articles ou modérateur, n'hésitez pas à postuler en ajoutant votre CV en pièce jointe."
 msgstr ""
 
-#: View/Posts/admin_edit.php:5
+#: View/Posts/admin_edit.php:7
 msgid "Poster un article"
 msgstr ""
 
-#: View/Posts/admin_edit.php:11
-msgid "Titre de l'article"
-msgstr ""
-
-#: View/Posts/admin_edit.php:13
-msgid "Catégorie de l'article"
-msgstr ""
-
-#: View/Posts/admin_edit.php:15
-msgid "Image (.jpg, .jpeg, .png) max: 3"
-msgstr ""
-
-#: View/Posts/admin_edit.php:17
-msgid "Contenu de l'article"
+#: View/Posts/admin_edit.php:16
+msgid "Titre de l'article (%s)"
 msgstr ""
 
 #: View/Posts/admin_edit.php:19
-msgid "Date "
+msgid "Catégorie de l'article"
 msgstr ""
 
 #: View/Posts/admin_edit.php:21
+msgid "Image (.jpg, .jpeg, .png) max: 3"
+msgstr ""
+
+#: View/Posts/admin_edit.php:24
+msgid "Contenu de l'article (%s)"
+msgstr ""
+
+#: View/Posts/admin_edit.php:27
+msgid "Date "
+msgstr ""
+
+#: View/Posts/admin_edit.php:29
 msgid "Publier maintenant"
 msgstr ""
 
-#: View/Posts/admin_index.php:10
+#: View/Posts/admin_index.php:14
 msgid "Publier un article"
 msgstr ""
 
-#: View/Posts/admin_index.php:17
-#: View/Users/admin_index.php:13
+#: View/Posts/admin_index.php:23
+#: View/Users/admin_index.php:17
 msgid "IDENTIFIANT"
 msgstr ""
 
-#: View/Posts/admin_index.php:20
+#: View/Posts/admin_index.php:26
 msgid "TITRE"
 msgstr ""
 
-#: View/Posts/admin_index.php:23
+#: View/Posts/admin_index.php:29
 msgid "CATEGORIE"
 msgstr ""
 
-#: View/Posts/admin_index.php:26
+#: View/Posts/admin_index.php:32
 msgid "DATE DE PUBLICATION"
 msgstr ""
 
-#: View/Posts/admin_index.php:29
+#: View/Posts/admin_index.php:35
 msgid "ACTIONS"
 msgstr ""
 
-#: View/Posts/voir.php:41
+#: View/Posts/articles.php:6
+msgid "Articles par catégories"
+msgstr ""
+
+#: View/Posts/articles.php:23
+msgid "Découvrez nos articles sur la "
+msgstr ""
+
+#: View/Posts/articles.php:29
+msgid "Parcourir les articles"
+msgstr ""
+
+#: View/Posts/articles.php:40
+msgid "Tous les articles publiés"
+msgstr ""
+
+#: View/Posts/voir.php:42
 msgid "Gallerie"
 msgstr ""
 
-#: View/Posts/voir.php:79
+#: View/Posts/voir.php:68
+msgid "Exporter au format PDF"
+msgstr ""
+
+#: View/Posts/voir.php:71
+msgid "Télécharger le PDF"
+msgstr ""
+
+#: View/Posts/voir.php:81
 msgid "Publiez un commentaire :"
 msgstr ""
 
-#: View/Posts/voir.php:109
+#: View/Posts/voir.php:113
 msgid "Supprimer ce commentaire"
 msgstr ""
 
-#: View/Posts/voir.php:110
+#: View/Posts/voir.php:114
 msgid "Voulez vous vraiment supprimer ?"
 msgstr ""
 
-#: View/Users/account.php:18
+#: View/Users/account.php:26
 msgid "Avatar (.jpg)"
 msgstr ""
 
-#: View/Users/account.php:20
-#: View/Users/admin_edit.php:11
-#: View/Users/login.php:9
-#: View/Users/signup.php:9
+#: View/Users/account.php:28
+#: View/Users/admin_edit.php:15
+#: View/Users/login.php:13
+#: View/Users/signup.php:13
 msgid "Nom d'utilisateur"
 msgstr ""
 
-#: View/Users/account.php:23
-#: View/Users/signup.php:15
+#: View/Users/account.php:33
+#: View/Users/signup.php:19
 msgid "Email"
 msgstr ""
 
-#: View/Users/account.php:25
+#: View/Users/account.php:35
 msgid "Modifier mes informations"
 msgstr ""
 
-#: View/Users/account.php:30
+#: View/Users/account.php:42
 msgid "Modifiez votre mot de passe"
 msgstr ""
 
-#: View/Users/account.php:32
-#: View/Users/password.php:11
-#: View/Users/signup.php:13
+#: View/Users/account.php:44
+#: View/Users/password.php:15
+#: View/Users/signup.php:17
 msgid "Confirmer Mot de passe"
 msgstr ""
 
-#: View/Users/account.php:34
+#: View/Users/account.php:46
 msgid "Modifier mon mot de passe"
 msgstr ""
 
-#: View/Users/admin_edit.php:5
+#: View/Users/admin_edit.php:7
 msgid "Gestion d'un utilisateur"
 msgstr ""
 
-#: View/Users/admin_edit.php:13
+#: View/Users/admin_edit.php:17
 msgid "Groupe de l'utilisateur"
 msgstr ""
 
-#: View/Users/admin_edit.php:15
+#: View/Users/admin_edit.php:19
 msgid "Fin d'abonnement : "
 msgstr ""
 
-#: View/Users/admin_edit.php:17
+#: View/Users/admin_edit.php:21
 msgid "Enregistrer"
 msgstr ""
 
-#: View/Users/admin_index.php:16
+#: View/Users/admin_index.php:20
 msgid "PSEUDO"
 msgstr ""
 
-#: View/Users/admin_index.php:19
+#: View/Users/admin_index.php:23
 msgid "MAIL"
 msgstr ""
 
-#: View/Users/admin_index.php:22
+#: View/Users/admin_index.php:26
 msgid "GROUPE"
 msgstr ""
 
-#: View/Users/admin_index.php:25
+#: View/Users/admin_index.php:29
 msgid "ACTION"
 msgstr ""
 
-#: View/Users/candidate.php:4
+#: View/Users/candidate.php:6
 msgid "Devenir bénévole"
 msgstr ""
 
-#: View/Users/candidate.php:8
+#: View/Users/candidate.php:12
 msgid "Vous vous sentez l'âme d'un rédacteur ?"
 msgstr ""
 
-#: View/Users/candidate.php:10
+#: View/Users/candidate.php:14
 msgid "Vous voulez aider nos utilisateurs à travers le tchat ?"
 msgstr ""
 
-#: View/Users/candidate.php:12
+#: View/Users/candidate.php:16
 msgid "Ou tout simplement prendre part à la vie de notre site collaboratif ?"
 msgstr ""
 
-#: View/Users/candidate.php:14
+#: View/Users/candidate.php:18
 msgid "Alors prenez le temps de nous envoyer un message montrant votre motivation !"
 msgstr ""
 
-#: View/Users/candidate.php:16
+#: View/Users/candidate.php:20
 msgid "Vous pourrez rejoindre notre grande famille en tant que rédacteur ou en tant que modérateur &hearts; !"
 msgstr ""
 
-#: View/Users/candidate.php:20
+#: View/Users/candidate.php:26
 msgid "Votre candidature"
 msgstr ""
 
-#: View/Users/candidate.php:22
+#: View/Users/candidate.php:28
 msgid "Votre CV (.pdf)"
 msgstr ""
 
-#: View/Users/candidate.php:24
+#: View/Users/candidate.php:30
 msgid "Postuler maintenant"
 msgstr ""
 
-#: View/Users/forgot.php:5
+#: View/Users/forgot.php:7
 msgid "Mot de passe oublié"
 msgstr ""
 
-#: View/Users/forgot.php:10
+#: View/Users/forgot.php:14
 msgid "Renvoyer un mot de passe"
 msgstr ""
 
-#: View/Users/login.php:11
-#: View/Users/password.php:9
-#: View/Users/signup.php:11
+#: View/Users/login.php:15
+#: View/Users/password.php:13
+#: View/Users/signup.php:15
 msgid "Mot de passe"
 msgstr ""
 
-#: View/Users/login.php:17
+#: View/Users/login.php:23
 msgid "Mot de passe oublié ?"
 msgstr ""
 
-#: View/Users/password.php:6
+#: View/Users/password.php:8
 msgid "Changer de mot de passe"
 msgstr ""
 
-#: View/Users/password.php:13
+#: View/Users/password.php:17
 msgid "Valider"
 msgstr ""
 
-#: View/Users/subscribe.php:4
+#: View/Users/subscribe.php:6
 msgid "S'abonner au site"
-msgstr ""
-
-#: Model/Newsletter.php:validation for field email
-#: Model/User.php:validation for field mail
-msgid "Cette adresse mail n'est pas valide"
-msgstr ""
-
-#: Model/Newsletter.php:validation for field email
-#: Model/User.php:validation for field mail
-msgid "Cette adresse mail est déjà utilisée"
-msgstr ""
-
-#: Model/User.php:validation for field username
-msgid "Votre nom d'utilisateur n'est pas valide"
-msgstr ""
-
-#: Model/User.php:validation for field username
-msgid "Ce pseudo est déjà utilisé"
-msgstr ""
-
-#: Model/User.php:validation for field password2
-msgid "Les champs ne correspondent pas"
-msgstr ""
-
-#: Model/User.php:validation for field avatarf
-msgid "Le format est invalide"
 msgstr ""
 
 #: View/Errors/error400.ctp:19

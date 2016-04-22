@@ -324,7 +324,6 @@
 		public function flux_rss() {
 			// création d'un flux rss avec les trois derniers articles du site
 			$posts = $this->Post->find('all', array(
-				'limit'=>3,
 				'order'=>'Post.date_post DESC'
 				)
 			);

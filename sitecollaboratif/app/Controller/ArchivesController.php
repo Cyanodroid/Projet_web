@@ -78,7 +78,7 @@
 				}
 
 				$row = $this->Archive->find('first', array(
-					'conditions' => array('users_id'=>$current_user)
+					'conditions' => array('answer'=>"", 'users_id'=>$current_user)
 					)
 				);
 

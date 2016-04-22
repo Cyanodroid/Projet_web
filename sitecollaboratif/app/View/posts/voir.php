@@ -62,13 +62,13 @@
         }
 
         //partie pdf (les utilisateurs premium peuvent télécharger le pdf de l'article)
-        if ($user != 2){
+        if ($user == 1 || $user == 3){
         	echo("<hr>");
             echo("<i class=\"fa fa-file-pdf-o\"></i>&nbsp;");
-            echo $this->Html->link('Exporter au format PDF', array('controller'=>'posts', 'action'=>'create_pdf', $a['Post']['id'], 'escape'=>false));
+            echo $this->Html->link(__('Exporter au format PDF'), array('controller'=>'posts', 'action'=>'create_pdf', $a['Post']['id'], 'escape'=>false));
             echo("<br/><br/>");
             echo("<i class=\"fa fa-download\"></i>&nbsp;");
-            echo $this->Html->link('Télécharger le PDF', array('controller'=>'posts', 'action'=>'show_pdf', $a['Post']['id']));
+            echo $this->Html->link(__('Télécharger le PDF'), array('controller'=>'posts', 'action'=>'show_pdf', $a['Post']['id']));
             echo("<hr>");
         }
         else{
@@ -84,7 +84,7 @@
     	            echo("<div class=\"form-group\">");
     					echo $this->Form->input('contenu', array('label'=>false));
     				echo("</div>");
-    				echo $this->Form->button('Envoyer', array('class'=>'btn btn-primary'));
+    				echo $this->Form->button(__('Envoyer'), array('class'=>'btn btn-primary'));
     			echo $this->Form->end();
         echo("</div>");
         echo("<hr>");
