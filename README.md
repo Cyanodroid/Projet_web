@@ -71,7 +71,7 @@ Le fichier __newsletter.php__ (ligne 27), qui se trouve dans le dossier __app/Vi
 echo("<div class=\"g-recaptcha\" data-sitekey=\"clé_du_site\"></div>");
 ```
 
-### Système de Contact
+#### Système de Contact
 
 Comme pour la Newsletter, le système de Contact implémente le recaptcha de Google.
 
